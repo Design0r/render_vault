@@ -1,9 +1,0 @@
-[2023-09-21 12:56:25,216][ApicWS06][INFO] starting Render Vault...
-[2023-09-21 12:56:25,261][ApicWS06][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
-[2023-09-21 12:56:38,084][ApicWS06][WARNING] can't create v-ray hdri, v-ray is not the active renderer
-[2023-09-21 12:56:56,716][ApicWS06][WARNING] can't create v-ray hdri, v-ray is not the active renderer
-[2023-09-21 12:57:34,613][ApicWS06][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SamplePart_Pipe.mb
-[2023-09-21 12:57:41,924][ApicWS06][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\Granulat_2.ma
-[2023-09-21 12:57:43,616][ApicWS06][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\Granulat.mb
-[2023-09-21 19:54:07,426][ApicWS06][INFO] updated settings manager values.
-[2023-09-21 19:54:07,429][ApicWS06][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
