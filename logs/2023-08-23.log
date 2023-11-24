@@ -1,0 +1,461 @@
+[2023-08-23 09:42:09,447][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 09:42:09,517][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 09:42:20,562][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 09:42:20,567][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 09:42:20,576][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 09:42:31,000][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 09:42:31,005][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 09:42:31,017][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 09:42:47,581][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 09:42:47,586][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 09:42:47,596][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 09:44:44,613][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 09:44:44,620][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 10:03:57,018][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 10:03:57,025][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 10:04:01,567][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 10:04:01,612][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 10:05:58,044][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 10:05:58,050][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 10:06:02,194][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 10:07:10,127][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 10:07:10,170][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 10:07:18,120][ApicWS10][INFO] {'pools': {'Test': 'C:/Users/TheApic/Desktop', 'Test2': 'C:/Users/TheApic/Desktop/Test'}, 'material_renderer': 1, 'render_scene': '\\\\APICNAS\\Produktion\\Ressources\\Library\\3D_Modelle\\_ShaderBall_Maya\\_DEV\\MaterialDev_REF_ACES.mb', 'render_object': 'ShaderBall', 'render_cam': 'Camera_01', 'render_resolution_x': 350, 'render_resolution_y': 350}
+[2023-08-23 10:08:17,496][ApicWS10][INFO] {'pools': {'Test': 'C:/Users/TheApic/Desktop', 'Test2': 'C:/Users/TheApic/Desktop/Test'}, 'material_renderer': 1, 'render_scene': '\\\\APICNAS\\Produktion\\Ressources\\Library\\3D_Modelle\\_ShaderBall_Maya\\_DEV\\MaterialDev_REF_ACES.mb', 'render_object': 'ShaderBall', 'render_cam': 'Camera_01', 'render_resolution_x': 350, 'render_resolution_y': 350}
+[2023-08-23 10:08:23,533][ApicWS10][INFO] {'pools': {'Test': 'C:/Users/TheApic/Desktop', 'Test2': 'C:/Users/TheApic/Desktop/Test'}, 'material_renderer': 1, 'render_scene': '\\\\APICNAS\\Produktion\\Ressources\\Library\\3D_Modelle\\_ShaderBall_Maya\\_DEV\\MaterialDev_REF_ACES.mb', 'render_object': 'ShaderBall', 'render_cam': 'Camera_01', 'render_resolution_x': 350, 'render_resolution_y': 350}
+[2023-08-23 10:10:51,139][ApicWS10][INFO] {'pools': {'Test': 'C:/Users/TheApic/Desktop', 'Test2': 'C:/Users/TheApic/Desktop/Test'}, 'material_renderer': 1, 'render_scene': '\\\\APICNAS\\Produktion\\Ressources\\Library\\3D_Modelle\\_ShaderBall_Maya\\_DEV\\MaterialDev_REF_ACES.mb', 'render_object': 'ShaderBall', 'render_cam': 'Camera_01', 'render_resolution_x': 350, 'render_resolution_y': 350}
+[2023-08-23 10:12:19,889][ApicWS10][INFO] {'pools': {'Test': 'C:/Users/TheApic/Desktop', 'Test2': 'C:/Users/TheApic/Desktop/Test'}, 'material_renderer': 1, 'render_scene': '\\\\APICNAS\\Produktion\\Ressources\\Library\\3D_Modelle\\_ShaderBall_Maya\\_DEV\\MaterialDev_REF_ACES.mb', 'render_object': 'ShaderBall', 'render_cam': 'Camera_01', 'render_resolution_x': 350, 'render_resolution_y': 350}
+[2023-08-23 10:13:27,212][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 10:13:27,219][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 10:14:13,017][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 10:14:13,059][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 10:16:10,536][ApicWS10][INFO] RM:{'pools':
+[2023-08-23 10:16:51,620][ApicWS10][INFO] RM:{'Test':
+[2023-08-23 10:19:54,934][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 10:19:54,942][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 10:19:57,373][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 10:19:57,412][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 10:20:32,520][ApicWS10][INFO] RM:{pools:
+[2023-08-23 10:24:53,697][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 10:24:53,703][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 10:24:56,365][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 10:25:36,734][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 10:25:36,780][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 10:25:44,343][ApicWS10][INFO] RM:'{pools:
+[2023-08-23 10:26:50,734][ApicWS10][INFO] RM:'{pools:
+[2023-08-23 10:28:01,899][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 10:28:01,906][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 10:28:03,913][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 10:28:03,956][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 10:28:08,670][ApicWS10][INFO] C:/Program Files/Autodesk/Maya2024/bin/mayapy.exe \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\controller\render_manager.py \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\logs\2023-08-23.log C:\Users\TheApic\Desktop\Test\MaterialPool\Materials\Abschatter_innen.mb True "{"pools": {"Test": "C:/Users/TheApic/Desktop", "Test2": "C:/Users/TheApic/Desktop/Test"}, "material_renderer": 1, "render_scene": "\\\\APICNAS\\Produktion\\Ressources\\Library\\3D_Modelle\\_ShaderBall_Maya\\_DEV\\MaterialDev_REF_ACES.mb", "render_object": "ShaderBall", "render_cam": "Camera_01", "render_resolution_x": 350, "render_resolution_y": 350}"
+[2023-08-23 10:28:10,320][ApicWS10][INFO] RM:{pools: {Test: C:/Users/TheApic/Desktop, Test2: C:/Users/TheApic/Desktop/Test}, material_renderer: 1, render_scene: \\\\APICNAS\\Produktion\\Ressources\\Library\\3D_Modelle\\_ShaderBall_Maya\\_DEV\\MaterialDev_REF_ACES.mb, render_object: ShaderBall, render_cam: Camera_01, render_resolution_x: 350, render_resolution_y: 350}
+[2023-08-23 10:31:15,395][ApicWS10][INFO] C:/Program Files/Autodesk/Maya2024/bin/mayapy.exe \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\controller\render_manager.py \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\logs\2023-08-23.log C:\Users\TheApic\Desktop\Test\MaterialPool\Materials\Abschatter_innen.mb True "{"pools": {"Test": "C:/Users/TheApic/Desktop", "Test2": "C:/Users/TheApic/Desktop/Test"}, "material_renderer": 1, "render_scene": "\\\\APICNAS\\Produktion\\Ressources\\Library\\3D_Modelle\\_ShaderBall_Maya\\_DEV\\MaterialDev_REF_ACES.mb", "render_object": "ShaderBall", "render_cam": "Camera_01", "render_resolution_x": 350, "render_resolution_y": 350}"
+[2023-08-23 10:31:17,105][ApicWS10][INFO] RM:{pools: {Test: C:/Users/TheApic/Desktop, Test2: C:/Users/TheApic/Desktop/Test}, material_renderer: 1, render_scene: \\\\APICNAS\\Produktion\\Ressources\\Library\\3D_Modelle\\_ShaderBall_Maya\\_DEV\\MaterialDev_REF_ACES.mb, render_object: ShaderBall, render_cam: Camera_01, render_resolution_x: 350, render_resolution_y: 350}
+[2023-08-23 10:31:59,983][ApicWS10][INFO] C:/Program Files/Autodesk/Maya2024/bin/mayapy.exe \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\controller\render_manager.py \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\logs\2023-08-23.log C:\Users\TheApic\Desktop\Test\MaterialPool\Materials\Abschatter_innen.mb True "{"pools": {"Test": "C:/Users/TheApic/Desktop", "Test2": "C:/Users/TheApic/Desktop/Test"}, "material_renderer": 1, "render_scene": "\\\\APICNAS\\Produktion\\Ressources\\Library\\3D_Modelle\\_ShaderBall_Maya\\_DEV\\MaterialDev_REF_ACES.mb", "render_object": "ShaderBall", "render_cam": "Camera_01", "render_resolution_x": 350, "render_resolution_y": 350}"
+[2023-08-23 10:32:27,532][ApicWS10][INFO] C:/Program Files/Autodesk/Maya2024/bin/mayapy.exe \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\controller\render_manager.py \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\logs\2023-08-23.log C:\Users\TheApic\Desktop\Test\MaterialPool\Materials\Abschatter_innen.mb True "{"pools": {"Test": "C:/Users/TheApic/Desktop", "Test2": "C:/Users/TheApic/Desktop/Test"}, "material_renderer": 1, "render_scene": "\\\\APICNAS\\Produktion\\Ressources\\Library\\3D_Modelle\\_ShaderBall_Maya\\_DEV\\MaterialDev_REF_ACES.mb", "render_object": "ShaderBall", "render_cam": "Camera_01", "render_resolution_x": 350, "render_resolution_y": 350}"
+[2023-08-23 10:32:33,713][ApicWS10][INFO] C:/Program Files/Autodesk/Maya2024/bin/mayapy.exe \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\controller\render_manager.py \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\logs\2023-08-23.log C:\Users\TheApic\Desktop\Test\MaterialPool\Materials\Abschatter_innen.mb True "{"pools": {"Test": "C:/Users/TheApic/Desktop", "Test2": "C:/Users/TheApic/Desktop/Test"}, "material_renderer": 1, "render_scene": "\\\\APICNAS\\Produktion\\Ressources\\Library\\3D_Modelle\\_ShaderBall_Maya\\_DEV\\MaterialDev_REF_ACES.mb", "render_object": "ShaderBall", "render_cam": "Camera_01", "render_resolution_x": 350, "render_resolution_y": 350}"
+[2023-08-23 10:32:38,462][ApicWS10][INFO] C:/Program Files/Autodesk/Maya2024/bin/mayapy.exe \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\controller\render_manager.py \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\logs\2023-08-23.log C:\Users\TheApic\Desktop\Test\MaterialPool\Materials\Abschatter_innen.mb True "{"pools": {"Test": "C:/Users/TheApic/Desktop", "Test2": "C:/Users/TheApic/Desktop/Test"}, "material_renderer": 1, "render_scene": "\\\\APICNAS\\Produktion\\Ressources\\Library\\3D_Modelle\\_ShaderBall_Maya\\_DEV\\MaterialDev_REF_ACES.mb", "render_object": "ShaderBall", "render_cam": "Camera_01", "render_resolution_x": 350, "render_resolution_y": 350}"
+[2023-08-23 10:32:43,060][ApicWS10][INFO] C:/Program Files/Autodesk/Maya2024/bin/mayapy.exe \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\controller\render_manager.py \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\logs\2023-08-23.log C:\Users\TheApic\Desktop\Test\MaterialPool\Materials\Abschatter_innen.mb True "{"pools": {"Test": "C:/Users/TheApic/Desktop", "Test2": "C:/Users/TheApic/Desktop/Test"}, "material_renderer": 1, "render_scene": "\\\\APICNAS\\Produktion\\Ressources\\Library\\3D_Modelle\\_ShaderBall_Maya\\_DEV\\MaterialDev_REF_ACES.mb", "render_object": "ShaderBall", "render_cam": "Camera_01", "render_resolution_x": 350, "render_resolution_y": 350}"
+[2023-08-23 10:33:56,822][ApicWS10][INFO] C:/Program Files/Autodesk/Maya2024/bin/mayapy.exe \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\controller\render_manager.py \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\logs\2023-08-23.log C:\Users\TheApic\Desktop\Test\MaterialPool\Materials\Abschatter_innen.mb True "{"pools": {"Test": "C:/Users/TheApic/Desktop", "Test2": "C:/Users/TheApic/Desktop/Test"}, "material_renderer": 1, "render_scene": "\\\\APICNAS\\Produktion\\Ressources\\Library\\3D_Modelle\\_ShaderBall_Maya\\_DEV\\MaterialDev_REF_ACES.mb", "render_object": "ShaderBall", "render_cam": "Camera_01", "render_resolution_x": 350, "render_resolution_y": 350}"
+[2023-08-23 10:33:58,517][ApicWS10][INFO] {pools: {Test: C:/Users/TheApic/Desktop, Test2: C:/Users/TheApic/Desktop/Test}, material_renderer: 1, render_scene: \\\\APICNAS\\Produktion\\Ressources\\Library\\3D_Modelle\\_ShaderBall_Maya\\_DEV\\MaterialDev_REF_ACES.mb, render_object: ShaderBall, render_cam: Camera_01, render_resolution_x: 350, render_resolution_y: 350}
+[2023-08-23 10:38:36,747][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 10:38:36,755][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 10:38:39,742][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 10:38:39,785][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 10:38:47,657][ApicWS10][INFO] '{pools:
+[2023-08-23 10:39:06,143][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 10:39:06,148][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 10:39:08,710][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 10:39:53,227][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 10:39:53,272][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 10:39:58,819][ApicWS10][INFO] {pools: {Test: C:/Users/TheApic/Desktop, Test2: C:/Users/TheApic/Desktop/Test}, material_renderer: 1, render_scene: \\\\APICNAS\\Produktion\\Ressources\\Library\\3D_Modelle\\_ShaderBall_Maya\\_DEV\\MaterialDev_REF_ACES.mb, render_object: ShaderBall, render_cam: Camera_01, render_resolution_x: 350, render_resolution_y: 350}
+[2023-08-23 10:43:47,291][ApicWS10][INFO] {pools: {Test: C:/Users/TheApic/Desktop, Test2: C:/Users/TheApic/Desktop/Test}, material_renderer: 1, render_scene: \\\\APICNAS\\Produktion\\Ressources\\Library\\3D_Modelle\\_ShaderBall_Maya\\_DEV\\MaterialDev_REF_ACES.mb, render_object: ShaderBall, render_cam: Camera_01, render_resolution_x: 350, render_resolution_y: 350}
+[2023-08-23 10:43:47,292][ApicWS10][INFO] '{pools: {Test: C:/Users/TheApic/Desktop, Test2: C:/Users/TheApic/Desktop/Test}, material_renderer: 1, render_scene: \\\\APICNAS\\Produktion\\Ressources\\Library\\3D_Modelle\\_ShaderBall_Maya\\_DEV\\MaterialDev_REF_ACES.mb, render_object: ShaderBall, render_cam: Camera_01, render_resolution_x: 350, render_resolution_y: 350}'
+[2023-08-23 10:45:00,327][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 10:45:00,336][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 10:45:23,162][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 10:45:23,206][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 10:45:30,506][ApicWS10][INFO] '{pools:
+[2023-08-23 10:45:30,506][ApicWS10][INFO] ''"'"'{pools:'
+[2023-08-23 10:46:56,173][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 10:46:56,182][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 10:46:58,503][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 10:46:58,547][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 10:47:07,858][ApicWS10][INFO] {"pools":
+[2023-08-23 10:47:07,859][ApicWS10][INFO] '{"pools":'
+[2023-08-23 10:47:19,756][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 10:47:19,764][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 10:50:35,615][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 10:50:35,658][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 10:50:41,364][ApicWS10][INFO] {"pools": {"Test": "C:/Users/TheApic/Desktop", "Test2": "C:/Users/TheApic/Desktop/Test"}, "material_renderer": 1, "render_scene": "\\\\APICNAS\\Produktion\\Ressources\\Library\\3D_Modelle\\_ShaderBall_Maya\\_DEV\\MaterialDev_REF_ACES.mb", "render_object": "ShaderBall", "render_cam": "Camera_01", "render_resolution_x": 350, "render_resolution_y": 350}
+[2023-08-23 10:50:41,364][ApicWS10][INFO] '{"pools": {"Test": "C:/Users/TheApic/Desktop", "Test2": "C:/Users/TheApic/Desktop/Test"}, "material_renderer": 1, "render_scene": "\\\\APICNAS\\Produktion\\Ressources\\Library\\3D_Modelle\\_ShaderBall_Maya\\_DEV\\MaterialDev_REF_ACES.mb", "render_object": "ShaderBall", "render_cam": "Camera_01", "render_resolution_x": 350, "render_resolution_y": 350}'
+[2023-08-23 10:51:13,636][ApicWS10][INFO] {"pools": {"Test": "C:/Users/TheApic/Desktop", "Test2": "C:/Users/TheApic/Desktop/Test"}, "material_renderer": 1, "render_scene": "\\\\APICNAS\\Produktion\\Ressources\\Library\\3D_Modelle\\_ShaderBall_Maya\\_DEV\\MaterialDev_REF_ACES.mb", "render_object": "ShaderBall", "render_cam": "Camera_01", "render_resolution_x": 350, "render_resolution_y": 350}
+[2023-08-23 10:51:13,637][ApicWS10][INFO] {'pools': {'Test': 'C:/Users/TheApic/Desktop', 'Test2': 'C:/Users/TheApic/Desktop/Test'}, 'material_renderer': 1, 'render_scene': '\\\\APICNAS\\Produktion\\Ressources\\Library\\3D_Modelle\\_ShaderBall_Maya\\_DEV\\MaterialDev_REF_ACES.mb', 'render_object': 'ShaderBall', 'render_cam': 'Camera_01', 'render_resolution_x': 350, 'render_resolution_y': 350}
+[2023-08-23 10:51:35,783][ApicWS10][INFO] {"pools": {"Test": "C:/Users/TheApic/Desktop", "Test2": "C:/Users/TheApic/Desktop/Test"}, "material_renderer": 1, "render_scene": "\\\\APICNAS\\Produktion\\Ressources\\Library\\3D_Modelle\\_ShaderBall_Maya\\_DEV\\MaterialDev_REF_ACES.mb", "render_object": "ShaderBall", "render_cam": "Camera_01", "render_resolution_x": 350, "render_resolution_y": 350}
+[2023-08-23 10:51:35,784][ApicWS10][INFO] {'pools': {'Test': 'C:/Users/TheApic/Desktop', 'Test2': 'C:/Users/TheApic/Desktop/Test'}, 'material_renderer': 1, 'render_scene': '\\\\APICNAS\\Produktion\\Ressources\\Library\\3D_Modelle\\_ShaderBall_Maya\\_DEV\\MaterialDev_REF_ACES.mb', 'render_object': 'ShaderBall', 'render_cam': 'Camera_01', 'render_resolution_x': 350, 'render_resolution_y': 350}
+[2023-08-23 10:51:35,784][ApicWS10][INFO] initializing maya standalone...
+[2023-08-23 10:51:50,054][ApicWS10][INFO] loaded render scene: \\APICNAS\Produktion\Ressources\Library\3D_Modelle\_ShaderBall_Maya\_DEV\MaterialDev_REF_ACES.mb
+[2023-08-23 10:51:51,558][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\Test\MaterialPool\Materials\Abschatter_innen.mb
+[2023-08-23 10:51:51,559][ApicWS10][INFO] set v-ray as active renderer
+[2023-08-23 10:51:51,560][ApicWS10][INFO] set v-ray render settings
+[2023-08-23 10:51:51,561][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\Test\MaterialPool\Thumbnails
+[2023-08-23 10:51:51,563][ApicWS10][INFO] assigned Abschatter_innen to ShaderBall
+[2023-08-23 10:52:00,758][ApicWS10][INFO] finished rendering Abschatter_innen
+[2023-08-23 10:52:00,759][ApicWS10][INFO] uninitializing maya standalone...
+[2023-08-23 10:52:16,754][ApicWS10][INFO] initializing maya standalone...
+[2023-08-23 10:52:30,136][ApicWS10][INFO] loaded render scene: \\APICNAS\Produktion\Ressources\Library\3D_Modelle\_ShaderBall_Maya\_DEV\MaterialDev_REF_ACES.mb
+[2023-08-23 10:52:30,523][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\Test\MaterialPool\Materials\Abschatter_innen.mb
+[2023-08-23 10:52:30,546][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\Test\MaterialPool\Materials\akku_sticker_BlendMtl.mb
+[2023-08-23 10:52:30,564][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\Test\MaterialPool\Materials\akku_sticker_mtl.mb
+[2023-08-23 10:52:30,582][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\Test\MaterialPool\Materials\Aluminium_matt_mtl.mb
+[2023-08-23 10:52:30,584][ApicWS10][INFO] set v-ray as active renderer
+[2023-08-23 10:52:30,584][ApicWS10][INFO] set v-ray render settings
+[2023-08-23 10:52:30,585][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\Test\MaterialPool\Thumbnails
+[2023-08-23 10:52:30,586][ApicWS10][INFO] assigned Abschatter_innen to ShaderBall
+[2023-08-23 10:52:38,274][ApicWS10][INFO] finished rendering Abschatter_innen
+[2023-08-23 10:52:38,275][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\Test\MaterialPool\Thumbnails
+[2023-08-23 10:52:38,276][ApicWS10][INFO] assigned Primer_schwarz to ShaderBall
+[2023-08-23 10:52:43,521][ApicWS10][INFO] finished rendering Primer_schwarz
+[2023-08-23 10:52:43,522][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\Test\MaterialPool\Thumbnails
+[2023-08-23 10:52:43,523][ApicWS10][INFO] assigned akku_sticker_mtl to ShaderBall
+[2023-08-23 10:52:51,369][ApicWS10][INFO] finished rendering akku_sticker_mtl
+[2023-08-23 10:52:51,370][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\Test\MaterialPool\Thumbnails
+[2023-08-23 10:52:51,371][ApicWS10][INFO] assigned akku_sticker_BlendMtl to ShaderBall
+[2023-08-23 10:52:59,513][ApicWS10][INFO] finished rendering akku_sticker_BlendMtl
+[2023-08-23 10:52:59,514][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\Test\MaterialPool\Thumbnails
+[2023-08-23 10:52:59,516][ApicWS10][INFO] assigned akku_sticker_mtl1 to ShaderBall
+[2023-08-23 10:53:07,463][ApicWS10][INFO] finished rendering akku_sticker_mtl1
+[2023-08-23 10:53:07,464][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\Test\MaterialPool\Thumbnails
+[2023-08-23 10:53:07,466][ApicWS10][INFO] assigned Aluminium_matt_mtl to ShaderBall
+[2023-08-23 10:53:13,904][ApicWS10][INFO] finished rendering Aluminium_matt_mtl
+[2023-08-23 10:53:13,906][ApicWS10][INFO] uninitializing maya standalone...
+[2023-08-23 10:55:11,606][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 10:55:11,613][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 10:55:11,622][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 10:55:20,714][ApicWS10][INFO] initializing maya standalone...
+[2023-08-23 10:55:34,152][ApicWS10][INFO] loaded render scene: \\APICNAS\Produktion\Ressources\Library\3D_Modelle\_ShaderBall_Maya\_DEV\MaterialDev_REF_ACES.mb
+[2023-08-23 10:55:34,520][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\Test\MaterialPool\Materials\Abschatter_innen.mb
+[2023-08-23 10:55:34,537][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\Test\MaterialPool\Materials\akku_sticker_BlendMtl.mb
+[2023-08-23 10:55:34,551][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\Test\MaterialPool\Materials\akku_sticker_mtl.mb
+[2023-08-23 10:55:34,563][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\Test\MaterialPool\Materials\Aluminium_matt_mtl.mb
+[2023-08-23 10:55:34,564][ApicWS10][INFO] set v-ray as active renderer
+[2023-08-23 10:55:34,564][ApicWS10][INFO] set v-ray render settings
+[2023-08-23 10:55:34,565][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\Test\MaterialPool\Thumbnails
+[2023-08-23 10:55:34,566][ApicWS10][INFO] assigned Abschatter_innen to ShaderBall
+[2023-08-23 10:55:45,142][ApicWS10][INFO] finished rendering Abschatter_innen
+[2023-08-23 10:55:45,144][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\Test\MaterialPool\Thumbnails
+[2023-08-23 10:55:45,145][ApicWS10][INFO] assigned Primer_schwarz to ShaderBall
+[2023-08-23 10:55:53,384][ApicWS10][INFO] finished rendering Primer_schwarz
+[2023-08-23 10:55:53,386][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\Test\MaterialPool\Thumbnails
+[2023-08-23 10:55:53,386][ApicWS10][INFO] assigned akku_sticker_mtl to ShaderBall
+[2023-08-23 10:56:06,109][ApicWS10][INFO] finished rendering akku_sticker_mtl
+[2023-08-23 10:56:06,110][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\Test\MaterialPool\Thumbnails
+[2023-08-23 10:56:06,111][ApicWS10][INFO] assigned akku_sticker_BlendMtl to ShaderBall
+[2023-08-23 10:56:19,098][ApicWS10][INFO] finished rendering akku_sticker_BlendMtl
+[2023-08-23 10:56:19,100][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\Test\MaterialPool\Thumbnails
+[2023-08-23 10:56:19,101][ApicWS10][INFO] assigned akku_sticker_mtl1 to ShaderBall
+[2023-08-23 10:56:32,052][ApicWS10][INFO] finished rendering akku_sticker_mtl1
+[2023-08-23 10:56:32,053][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\Test\MaterialPool\Thumbnails
+[2023-08-23 10:56:32,055][ApicWS10][INFO] assigned Aluminium_matt_mtl to ShaderBall
+[2023-08-23 10:56:42,919][ApicWS10][INFO] finished rendering Aluminium_matt_mtl
+[2023-08-23 10:56:42,920][ApicWS10][INFO] uninitializing maya standalone...
+[2023-08-23 10:56:59,853][ApicWS10][INFO] initializing maya standalone...
+[2023-08-23 10:57:44,573][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 10:57:44,580][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 10:57:44,589][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 10:58:21,166][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 10:58:21,173][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 12:53:52,831][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 12:53:52,888][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 14:44:13,551][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 14:44:13,554][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:02:48,613][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 15:02:48,663][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:04:33,083][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 15:04:33,090][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:04:44,425][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 15:06:01,518][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 15:06:01,561][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:07:44,309][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 15:07:44,314][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:07:47,129][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 15:07:47,173][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:09:03,202][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 15:09:03,207][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:09:06,917][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 15:24:33,895][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 15:24:33,920][ApicWS10][INFO] yup
+[2023-08-23 15:24:33,948][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:25:25,210][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 15:25:25,218][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:25:28,892][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 15:25:28,914][ApicWS10][INFO] yup
+[2023-08-23 15:25:28,938][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:25:42,639][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 15:25:42,644][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:26:37,641][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 15:26:37,663][ApicWS10][INFO] yup
+[2023-08-23 15:26:37,688][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:26:41,265][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 15:26:41,270][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:28:53,097][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 15:29:53,669][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 15:29:53,719][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:29:53,956][ApicWS10][INFO] yup
+[2023-08-23 15:30:19,851][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 15:30:19,858][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:30:22,739][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 15:30:22,782][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:30:23,013][ApicWS10][INFO] yup
+[2023-08-23 15:35:29,989][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 15:35:29,995][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:35:33,232][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 15:35:33,277][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:35:33,508][ApicWS10][INFO] yup
+[2023-08-23 15:37:43,882][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 15:37:43,932][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:37:44,166][ApicWS10][INFO] yup
+[2023-08-23 15:37:56,308][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 15:37:56,313][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:43:16,190][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 15:43:16,236][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:43:16,463][ApicWS10][INFO] yup
+[2023-08-23 15:43:16,862][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_01.jpg
+[2023-08-23 15:43:17,260][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_02.jpg
+[2023-08-23 15:43:17,661][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_03.jpg
+[2023-08-23 15:43:18,062][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_04.jpg
+[2023-08-23 15:43:18,496][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_05.jpg
+[2023-08-23 15:43:37,341][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 15:43:37,348][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:46:43,015][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 15:46:43,020][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:46:47,621][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 15:46:47,667][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:49:17,012][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 15:49:17,018][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:49:20,252][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 15:49:20,298][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:49:20,713][ApicWS10][INFO] yup
+[2023-08-23 15:49:35,286][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 15:49:35,293][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:49:51,587][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 15:49:51,592][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:49:54,318][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 15:49:54,356][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:49:54,776][ApicWS10][INFO] yup
+[2023-08-23 15:51:27,661][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 15:51:27,668][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:51:31,335][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 15:51:31,380][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:51:45,011][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 15:51:45,018][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:51:55,771][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 15:52:34,395][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 15:52:34,445][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:52:40,393][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 15:52:40,398][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:54:11,973][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 15:54:12,017][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:55:33,765][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 15:55:33,771][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:55:37,291][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 15:55:37,336][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:55:51,928][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 15:55:51,933][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:56:22,171][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 15:56:22,216][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 15:56:22,898][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_01.jpg
+[2023-08-23 15:56:23,287][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_02.jpg
+[2023-08-23 15:56:23,679][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_03.jpg
+[2023-08-23 15:56:24,083][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_04.jpg
+[2023-08-23 15:56:24,518][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_05.jpg
+[2023-08-23 15:56:53,808][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 15:56:53,811][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:01:38,938][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:01:38,992][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:08:29,261][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 16:08:29,267][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:08:32,596][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:08:32,642][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:08:38,970][ApicWS10][INFO] starting hdr worker operation
+[2023-08-23 16:08:38,972][ApicWS10][INFO] skipped hdr thumbail generation, C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_01.jpg already exists
+[2023-08-23 16:08:38,972][ApicWS10][INFO] skipped hdr thumbail generation, C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_02.jpg already exists
+[2023-08-23 16:08:38,973][ApicWS10][INFO] skipped hdr thumbail generation, C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_03.jpg already exists
+[2023-08-23 16:08:38,973][ApicWS10][INFO] skipped hdr thumbail generation, C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_04.jpg already exists
+[2023-08-23 16:08:38,974][ApicWS10][INFO] skipped hdr thumbail generation, C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_05.jpg already exists
+[2023-08-23 16:08:38,974][ApicWS10][INFO] finished hdr worker operation
+[2023-08-23 16:09:05,509][ApicWS10][INFO] starting hdr worker operation
+[2023-08-23 16:09:05,510][ApicWS10][INFO] skipped hdr thumbail generation, C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_01.jpg already exists
+[2023-08-23 16:09:05,511][ApicWS10][INFO] skipped hdr thumbail generation, C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_02.jpg already exists
+[2023-08-23 16:09:05,511][ApicWS10][INFO] skipped hdr thumbail generation, C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_03.jpg already exists
+[2023-08-23 16:09:05,511][ApicWS10][INFO] skipped hdr thumbail generation, C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_04.jpg already exists
+[2023-08-23 16:09:05,512][ApicWS10][INFO] skipped hdr thumbail generation, C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_05.jpg already exists
+[2023-08-23 16:09:05,512][ApicWS10][INFO] finished hdr worker operation
+[2023-08-23 16:09:20,038][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 16:09:20,044][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:14:34,416][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:14:34,463][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:16:59,845][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 16:16:59,852][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:17:01,773][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:17:01,820][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:17:45,019][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 16:17:45,026][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:17:48,264][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:17:48,312][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:19:10,784][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 16:19:10,790][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:19:13,039][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:19:53,665][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:19:53,717][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:20:02,368][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 16:20:02,375][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:20:55,660][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:20:55,706][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:22:51,626][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 16:22:51,631][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:22:54,655][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:22:54,698][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:26:37,288][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 16:26:37,294][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:26:41,009][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:26:41,056][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:26:44,209][ApicWS10][INFO] Loaded HDR image with dimensions: (1500, 3000) and type: float32
+[2023-08-23 16:26:44,213][ApicWS10][ERROR] Unexpected image dimensions or channels. Expected a 3-channel color image.
+[2023-08-23 16:26:44,569][ApicWS10][INFO] Loaded HDR image with dimensions: (1500, 3000) and type: float32
+[2023-08-23 16:26:44,572][ApicWS10][ERROR] Unexpected image dimensions or channels. Expected a 3-channel color image.
+[2023-08-23 16:26:44,934][ApicWS10][INFO] Loaded HDR image with dimensions: (1500, 3000) and type: float32
+[2023-08-23 16:26:44,937][ApicWS10][ERROR] Unexpected image dimensions or channels. Expected a 3-channel color image.
+[2023-08-23 16:26:45,299][ApicWS10][INFO] Loaded HDR image with dimensions: (1500, 3000) and type: float32
+[2023-08-23 16:26:45,302][ApicWS10][ERROR] Unexpected image dimensions or channels. Expected a 3-channel color image.
+[2023-08-23 16:26:45,696][ApicWS10][INFO] Loaded HDR image with dimensions: (1500, 3000) and type: float32
+[2023-08-23 16:26:45,699][ApicWS10][ERROR] Unexpected image dimensions or channels. Expected a 3-channel color image.
+[2023-08-23 16:28:32,358][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 16:28:32,364][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:28:37,573][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:28:37,618][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:28:40,467][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_01.jpg
+[2023-08-23 16:28:40,959][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_02.jpg
+[2023-08-23 16:28:41,456][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_03.jpg
+[2023-08-23 16:28:41,955][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_04.jpg
+[2023-08-23 16:28:42,479][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_05.jpg
+[2023-08-23 16:29:41,722][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\autumn_park_2k.jpg
+[2023-08-23 16:30:30,454][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 16:30:30,460][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:30:32,645][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:30:32,691][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:30:34,931][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\autumn_park_2k.jpg
+[2023-08-23 16:30:35,335][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_01.jpg
+[2023-08-23 16:30:35,727][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_02.jpg
+[2023-08-23 16:30:36,124][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_03.jpg
+[2023-08-23 16:30:36,523][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_04.jpg
+[2023-08-23 16:30:36,952][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_05.jpg
+[2023-08-23 16:32:21,619][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 16:32:21,625][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:32:23,895][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:33:09,871][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:33:09,925][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:33:13,083][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\autumn_park_2k.jpg
+[2023-08-23 16:33:19,547][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 16:33:19,555][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:33:49,177][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:33:49,222][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:36:18,936][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 16:36:18,942][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:36:21,339][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:36:21,386][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:36:23,642][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_01.jpg
+[2023-08-23 16:36:24,038][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_02.jpg
+[2023-08-23 16:36:24,427][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_03.jpg
+[2023-08-23 16:36:24,818][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_04.jpg
+[2023-08-23 16:36:25,240][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_05.jpg
+[2023-08-23 16:36:30,539][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 16:36:30,545][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:36:47,061][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 16:36:47,068][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:36:49,095][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:36:49,134][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:37:46,590][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:37:46,645][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:37:49,113][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\autumn_park_2k.jpg
+[2023-08-23 16:37:49,617][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_01.jpg
+[2023-08-23 16:37:50,104][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_02.jpg
+[2023-08-23 16:37:50,593][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_03.jpg
+[2023-08-23 16:37:51,087][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_04.jpg
+[2023-08-23 16:37:51,616][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_05.jpg
+[2023-08-23 16:37:55,032][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 16:37:55,039][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:39:59,986][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:40:00,034][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:40:02,147][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\autumn_park_2k.jpg
+[2023-08-23 16:40:02,585][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_01.jpg
+[2023-08-23 16:40:03,015][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_02.jpg
+[2023-08-23 16:40:03,450][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_03.jpg
+[2023-08-23 16:40:03,885][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_04.jpg
+[2023-08-23 16:40:04,346][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_05.jpg
+[2023-08-23 16:40:39,669][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 16:40:39,677][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:40:41,472][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:40:41,519][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:40:44,021][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\autumn_park_2k.jpg
+[2023-08-23 16:40:44,420][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_01.jpg
+[2023-08-23 16:40:44,811][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_02.jpg
+[2023-08-23 16:40:45,211][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_03.jpg
+[2023-08-23 16:40:45,601][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_04.jpg
+[2023-08-23 16:40:46,023][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_05.jpg
+[2023-08-23 16:40:52,115][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 16:40:52,122][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:41:27,020][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:41:27,069][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:41:29,321][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\autumn_park_2k.jpg
+[2023-08-23 16:41:29,724][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_01.jpg
+[2023-08-23 16:41:30,119][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_02.jpg
+[2023-08-23 16:41:30,521][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_03.jpg
+[2023-08-23 16:41:30,918][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_04.jpg
+[2023-08-23 16:41:31,354][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_05.jpg
+[2023-08-23 16:44:10,893][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 16:44:10,901][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:44:13,321][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:44:13,365][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:44:28,332][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 16:44:28,336][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:44:30,282][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:45:08,271][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:45:08,323][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:45:10,772][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\autumn_park_2k.jpg
+[2023-08-23 16:45:11,186][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_01.jpg
+[2023-08-23 16:45:11,581][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_02.jpg
+[2023-08-23 16:45:11,978][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_03.jpg
+[2023-08-23 16:45:12,386][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_04.jpg
+[2023-08-23 16:45:12,818][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\HDR_Light_Studio_Free_HDRI_Design_05.jpg
+[2023-08-23 16:45:22,535][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 16:45:22,541][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:48:12,939][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:48:12,984][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:48:15,132][ApicWS10][INFO] wrote sdr preview to: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails\autumn_park_2k.jpg
+[2023-08-23 16:48:52,707][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 16:48:52,715][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:48:55,746][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:48:55,793][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:49:16,187][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 16:49:16,192][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:49:48,981][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:49:49,027][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:50:34,359][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:50:34,404][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:50:41,543][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 16:50:41,549][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:51:17,022][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:51:17,068][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:51:23,070][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 16:51:23,076][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:51:43,907][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:51:43,952][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:55:17,121][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 16:55:17,129][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:55:20,107][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:55:20,153][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:57:15,561][ApicWS10][INFO] starting Render Vault...
+[2023-08-23 16:57:15,606][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-23 16:57:29,755][ApicWS10][INFO] updated settings manager values.
+[2023-08-23 16:57:29,762][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json

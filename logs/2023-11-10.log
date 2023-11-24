@@ -1,0 +1,44 @@
+[2023-11-10 09:19:44,975][ApicWS10][INFO] starting Render Vault...
+[2023-11-10 09:19:45,160][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-11-10 09:21:43,009][ApicWS10][INFO] created new model pool in //apicnas/Produktion/Projekte/_CLIENT_Lib/INDEX/3D_Pool
+[2023-11-10 09:23:01,470][ApicWS10][INFO] Saved Screenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\INDEX\3D_Pool\ModelPool\Thumbnails\Aufsatz_Scheibe.jpg
+[2023-11-10 09:23:15,302][ApicWS10][INFO] starting Render Vault...
+[2023-11-10 09:23:15,398][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-11-10 09:23:21,811][ApicWS10][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\INDEX\3D_Pool\ModelPool\Models\Aufsatz_Scheibe.mb
+[2023-11-10 09:30:56,367][ApicWS08][INFO] starting Render Vault...
+[2023-11-10 09:30:56,598][ApicWS08][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS08.json
+[2023-11-10 09:31:05,332][ApicWS08][ERROR] can't create v-ray dome light, v-ray is not the active renderer
+[2023-11-10 09:31:16,260][ApicWS08][ERROR] can't create v-ray dome light, v-ray is not the active renderer
+[2023-11-10 09:31:46,605][ApicWS08][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS08.json
+[2023-11-10 11:17:08,432][Apic-WS09][INFO] starting Render Vault...
+[2023-11-10 11:17:08,583][Apic-WS09][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-11-10 11:18:01,178][Apic-WS09][INFO] Saved Screenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\INDEX\3D_Pool\ModelPool\Thumbnails\Revolver_mit_Werkzeugen.jpg
+[2023-11-10 11:18:09,639][Apic-WS09][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-11-10 11:18:26,749][ApicWS10][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\INDEX\3D_Pool\ModelPool\Models\Revolver_mit_Werkzeugen.mb
+[2023-11-10 13:19:42,729][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-11-10 14:52:06,454][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-11-10 15:06:23,792][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-11-10 15:19:40,707][ApicWS10][INFO] starting Render Vault...
+[2023-11-10 15:19:40,826][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-11-10 15:20:00,795][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-11-10 17:12:31,732][ApicWS10][INFO] starting Render Vault...
+[2023-11-10 17:12:31,837][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-11-10 17:13:11,309][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-11-10 17:13:13,149][ApicWS10][INFO] starting Render Vault...
+[2023-11-10 17:13:13,240][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-11-10 17:13:51,508][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-11-10 17:13:52,910][ApicWS10][INFO] starting Render Vault...
+[2023-11-10 17:13:53,008][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-11-10 17:15:50,150][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-11-10 17:15:52,704][ApicWS10][INFO] starting Render Vault...
+[2023-11-10 17:15:52,797][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-11-10 17:16:15,297][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-11-10 17:16:17,411][ApicWS10][INFO] starting Render Vault...
+[2023-11-10 17:16:17,505][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-11-10 17:16:23,997][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-11-10 17:16:37,222][ApicWS10][INFO] starting Render Vault...
+[2023-11-10 17:16:37,327][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-11-10 17:16:44,140][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-11-10 17:17:03,308][ApicWS10][INFO] starting Render Vault...
+[2023-11-10 17:17:03,424][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-11-10 17:17:29,443][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json

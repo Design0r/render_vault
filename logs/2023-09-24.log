@@ -1,0 +1,7 @@
+[2023-09-24 23:52:24,587][ApicWS06][INFO] starting Render Vault...
+[2023-09-24 23:52:24,643][ApicWS06][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-25 10:06:08,015][ApicWS06][INFO] updated settings manager values.
+[2023-09-25 10:06:08,060][ApicWS06][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-26 10:22:34,934][ApicWS06][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\smooth_grains.mb
+[2023-09-26 16:32:07,635][ApicWS06][INFO] updated settings manager values.
+[2023-09-26 16:32:07,639][ApicWS06][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json

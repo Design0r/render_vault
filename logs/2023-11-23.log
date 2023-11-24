@@ -1,0 +1,4 @@
+[2023-11-23 16:01:39,280][ApicWS10][INFO] starting Render Vault...
+[2023-11-23 16:01:39,401][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-11-23 16:02:42,881][ApicWS10][INFO] imported HQ_GPU_1080x1920_16Bit_EXR render settings
+[2023-11-23 16:02:44,113][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json

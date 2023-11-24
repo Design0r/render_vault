@@ -1,0 +1,14 @@
+[2023-10-22 21:55:37,887][ApicWS10][INFO] starting Render Vault...
+[2023-10-22 21:55:37,996][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-22 21:58:59,824][ApicWS10][INFO] starting Render Vault...
+[2023-10-22 21:58:59,932][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-22 21:59:49,394][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-22 22:02:43,777][ApicWS10][INFO] starting Render Vault...
+[2023-10-22 22:02:43,880][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-22 22:02:59,627][ApicWS10][ERROR] can't create folder, path: C:\Users\TheApic\Desktop\HDRIPool already exists
+[2023-10-22 22:02:59,628][ApicWS10][ERROR] can't create folder, path: C:\Users\TheApic\Desktop\HDRIPool\HDRIs already exists
+[2023-10-22 22:02:59,628][ApicWS10][ERROR] can't create folder, path: C:\Users\TheApic\Desktop\HDRIPool\Thumbnails already exists
+[2023-10-22 22:02:59,685][ApicWS10][INFO] created new hdri pool in C:/Users/TheApic/Desktop
+[2023-10-22 22:03:56,536][ApicWS10][INFO] deleted current hdri model pool in C:/Users/TheApic/Desktop
+[2023-10-22 22:03:56,536][ApicWS10][INFO] deleting current pool test
+[2023-10-22 22:04:02,775][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json

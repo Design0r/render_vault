@@ -1,0 +1,24 @@
+[2023-10-30 09:58:41,206][ApicWS10][INFO] starting Render Vault...
+[2023-10-30 09:58:41,331][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-30 09:59:55,527][ApicWS10][ERROR] can't create v-ray hdri, v-ray is not the active renderer
+[2023-10-30 10:00:40,875][ApicWS10][INFO] imported HQ_GPU_1080x1920_16Bit_EXR render settings
+[2023-10-30 10:00:43,637][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-30 15:00:48,355][ApicWS10][INFO] starting Render Vault...
+[2023-10-30 15:00:48,469][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-30 15:07:38,796][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-30 15:10:39,549][ApicWS10][INFO] starting Render Vault...
+[2023-10-30 15:10:39,648][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-30 15:16:34,136][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-30 15:16:38,312][ApicWS10][INFO] starting Render Vault...
+[2023-10-30 15:16:38,409][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-30 15:16:44,052][ApicWS10][INFO] deleted \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Thumbnails\_Test.jpg
+[2023-10-30 15:16:44,071][ApicWS10][INFO] deleted \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Archive\_Test
+[2023-10-30 15:16:44,073][ApicWS10][INFO] deleted \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\_Test.mb
+[2023-10-30 15:17:03,704][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-30 15:18:45,806][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-30 15:18:51,529][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-30 15:21:12,408][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-30 15:21:13,913][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-30 15:21:15,271][ApicWS10][INFO] starting Render Vault...
+[2023-10-30 15:21:15,356][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-30 15:57:49,860][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json

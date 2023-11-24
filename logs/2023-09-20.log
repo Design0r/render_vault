@@ -1,0 +1,4 @@
+[2023-09-20 16:38:45,361][ApicWS08][INFO] starting Render Vault...
+[2023-09-20 16:38:45,420][ApicWS08][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-20 17:03:17,525][ApicWS08][INFO] updated settings manager values.
+[2023-09-20 17:03:17,528][ApicWS08][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json

@@ -1,0 +1,27 @@
+<RCC>
+  <qresource>
+    <file>icons/tabler-icon-archive.png</file>
+    <file>icons/tabler-icon-script.png</file>
+    <file>icons/tabler-icon-lamp.png</file>
+    <file>icons/tabler-icon-packages.png</file>
+    <file>icons/tabler-icon-live-photo.png</file>
+    <file>icons/tabler-icon-live-photo-off.png</file>
+    <file>icons/tabler-icon-photo.png</file>
+    <file>icons/tabler-icon-settings.png</file>
+    <file>icons/tabler-icon-player-play.png</file>
+    <file>icons/tabler-icon-package-import.png</file>
+    <file>icons/tabler-icon-package-export.png</file>
+    <file>icons/tabler-icon-info-circle.png</file>
+    <file>icons/tabler-icon-help.png</file>
+    <file>icons/tabler-icon-folder-plus.png</file>
+    <file>icons/tabler-icon-folder-open.png</file>
+    <file>icons/tabler-icon-folder-minus.png</file>
+    <file>icons/tabler-icon-file-import.png</file>
+    <file>icons/tabler-icon-file-export.png</file>
+    <file>icons/tabler-icon-crystal-ball.png</file>
+    <file>icons/tabler-icon-bulb.png</file>
+    <file>icons/tabler-icon-box.png</file>
+    <file>icons/tabler-icon-reload.png</file>
+    <file>icons/tabler-icon-route.png</file>
+  </qresource>
+</RCC>

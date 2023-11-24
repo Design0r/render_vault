@@ -1,0 +1,29 @@
+[2023-10-19 09:08:13,338][ApicWS10][INFO] starting Render Vault...
+[2023-10-19 09:08:13,449][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-19 09:10:54,275][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-19 09:10:57,694][ApicWS10][INFO] starting Render Vault...
+[2023-10-19 09:10:57,786][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-19 09:11:40,969][ApicWS10][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\TEKON\3D_Pool\ModelPool\Archive\TK_AKS_02_5_1\TK_AKS_02_5_1_001.mb
+[2023-10-19 09:30:42,589][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-19 10:05:33,419][ApicWS10][INFO] starting Render Vault...
+[2023-10-19 10:05:33,641][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-19 10:11:01,532][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-19 10:23:17,346][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-19 10:48:56,450][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-19 10:49:00,982][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-19 10:49:07,116][ApicWS10][INFO] imported MQ_GPU_1080x1920_16Bit_EXR render settings
+[2023-10-19 10:49:08,176][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-19 11:41:29,038][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-19 11:44:53,353][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-19 14:23:42,917][ApicWS10][INFO] starting Render Vault...
+[2023-10-19 14:23:43,040][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-19 14:23:53,254][ApicWS10][INFO] imported HQ_GPU_1080x1920_16Bit_EXR render settings
+[2023-10-19 14:23:58,759][ApicWS10][INFO] imported MQ_GPU_1080x1920_16Bit_EXR render settings
+[2023-10-19 14:24:00,830][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-19 14:24:08,995][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-19 14:24:14,941][ApicWS10][INFO] imported MQ_GPU_3840x2160_16Bit_EXR render settings
+[2023-10-19 14:24:18,305][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-19 15:30:38,043][Apic-WS09][INFO] starting Render Vault...
+[2023-10-19 15:30:38,289][Apic-WS09][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-19 15:30:41,142][Apic-WS09][INFO] imported HQ_GPU_1080x1920_16Bit_EXR render settings
+[2023-10-19 15:30:43,219][Apic-WS09][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json

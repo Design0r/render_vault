@@ -1,0 +1,372 @@
+[2023-10-12 09:14:12,360][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 09:14:54,530][ApicWS10][ERROR] HTTPConnectionPool(host='rr-arni', port=8000): Max retries exceeded with url: /all_pools (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000195BA36FF40>, 'Connection to rr-arni timed out. (connect timeout=None)'))
+Traceback (most recent call last):
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\urllib3\connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Ein Verbindungsversuch ist fehlgeschlagen, da die Gegenstelle nach einer bestimmten Zeitspanne nicht richtig reagiert hat, oder die hergestellte Verbindung war fehlerhaft, da der verbundene Host nicht reagiert hat
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\urllib3\connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\urllib3\connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\urllib3\connection.py", line 395, in request
+    self.endheaders()
+  File "C:\Program Files\Autodesk\Maya2024\Python\lib\http\client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Autodesk\Maya2024\Python\lib\http\client.py", line 1037, in _send_output
+    self.send(msg)
+  File "C:\Program Files\Autodesk\Maya2024\Python\lib\http\client.py", line 975, in send
+    self.connect()
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\urllib3\connection.py", line 243, in connect
+    self.sock = self._new_conn()
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\urllib3\connection.py", line 212, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x00000195BA36FF40>, 'Connection to rr-arni timed out. (connect timeout=None)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\urllib3\connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='rr-arni', port=8000): Max retries exceeded with url: /all_pools (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000195BA36FF40>, 'Connection to rr-arni timed out. (connect timeout=None)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\ui\main_window.py", line 179, in load_settings
+    materials, models, hdris, lightsets = api_handler.get_all_pools()
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\controller\api_handler.py", line 108, in get_all_pools
+    response = requests.get(url).json()
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\requests\adapters.py", line 507, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='rr-arni', port=8000): Max retries exceeded with url: /all_pools (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000195BA36FF40>, 'Connection to rr-arni timed out. (connect timeout=None)'))
+[2023-10-12 09:14:54,713][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:15:12,879][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 09:15:12,882][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:16:18,136][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 09:16:18,230][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:18:02,155][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 09:18:02,242][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:18:35,487][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 09:18:35,493][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:18:37,707][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 09:18:37,794][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:18:41,419][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 09:18:41,426][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:20:21,514][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 09:20:21,599][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:20:29,684][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 09:20:29,690][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:21:01,187][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 09:21:01,276][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:21:41,736][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 09:21:41,741][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:21:44,299][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 09:21:44,385][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:26:02,596][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 09:26:02,602][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:26:05,757][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 09:26:05,851][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:27:12,402][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 09:27:12,408][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:27:47,337][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 09:27:47,424][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:27:53,009][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 09:27:53,015][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:27:56,403][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 09:27:56,485][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:28:15,886][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 09:28:15,893][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:28:49,376][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 09:29:45,261][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 09:29:45,362][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:31:00,020][ApicWS10][INFO] Saved Screenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Thumbnails\test.jpg
+[2023-10-12 09:32:37,327][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 09:32:37,333][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:32:39,925][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 09:32:40,018][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:33:36,973][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 09:33:36,979][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:33:39,049][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 09:33:39,125][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:34:01,569][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 09:34:01,574][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:34:14,368][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 09:34:14,457][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:35:30,321][ApicWS10][INFO] Saved Screenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Thumbnails\test.jpg
+[2023-10-12 09:35:59,344][ApicWS10][INFO] deleted \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Thumbnails\test.jpg
+[2023-10-12 09:35:59,348][ApicWS10][INFO] deleted \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\test.mb
+[2023-10-12 09:50:36,701][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 09:50:36,706][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:50:53,037][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 09:50:53,136][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:51:34,120][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 09:51:34,125][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:51:58,514][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 09:51:58,584][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 09:52:07,572][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 09:52:07,576][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 10:49:38,800][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 10:49:38,901][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 10:50:36,055][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 10:50:36,059][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 11:11:35,470][Apic-WS09][INFO] starting Render Vault...
+[2023-10-12 11:11:35,672][Apic-WS09][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-12 11:16:10,165][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 11:16:10,171][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 11:16:12,819][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 11:16:12,913][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 11:18:03,270][Apic-WS09][INFO] exported Aluminium_01_mtl to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Materials
+[2023-10-12 11:18:03,349][Apic-WS09][INFO] exported Metal_red_mtl to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Materials
+[2023-10-12 11:18:03,428][Apic-WS09][INFO] exported Metal_dark_brushed_mtl to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Materials
+[2023-10-12 11:18:03,509][Apic-WS09][INFO] exported Brass_01_mtl to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Materials
+[2023-10-12 11:18:03,590][Apic-WS09][INFO] exported Steel_stainless_brushed_01_mtl to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Materials
+[2023-10-12 11:18:03,669][Apic-WS09][INFO] exported Rubber_mtl to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Materials
+[2023-10-12 11:18:03,749][Apic-WS09][INFO] exported Logo_mtl to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Materials
+[2023-10-12 11:18:03,828][Apic-WS09][INFO] exported Logo_background_mtl to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Materials
+[2023-10-12 11:18:03,907][Apic-WS09][INFO] exported Schrauben_Metal_mtl to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Materials
+[2023-10-12 11:19:53,229][Apic-WS09][INFO] updated settings manager values.
+[2023-10-12 11:19:53,232][Apic-WS09][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-12 11:19:55,136][Apic-WS09][INFO] starting Render Vault...
+[2023-10-12 11:19:55,233][Apic-WS09][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-12 11:20:07,160][Apic-WS09][INFO] initializing maya standalone...
+[2023-10-12 11:20:19,718][Apic-WS09][INFO] loaded render scene: \\APICNAS\Produktion\Ressources\Library\3D_Modelle\_ShaderBall_Maya\_DEV\MaterialDev_REF_ACES.mb
+[2023-10-12 11:20:19,879][Apic-WS09][INFO] imported \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Materials\Aluminium_01_mtl.mb
+[2023-10-12 11:20:19,923][Apic-WS09][INFO] imported \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Materials\Brass_01_mtl.mb
+[2023-10-12 11:20:19,959][Apic-WS09][INFO] imported \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Materials\Logo_background_mtl.mb
+[2023-10-12 11:20:19,996][Apic-WS09][INFO] imported \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Materials\Logo_mtl.mb
+[2023-10-12 11:20:20,039][Apic-WS09][INFO] imported \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Materials\Metal_dark_brushed_mtl.mb
+[2023-10-12 11:20:20,080][Apic-WS09][INFO] imported \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Materials\Metal_red_mtl.mb
+[2023-10-12 11:20:20,116][Apic-WS09][INFO] imported \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Materials\Rubber_mtl.mb
+[2023-10-12 11:20:20,158][Apic-WS09][INFO] imported \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Materials\Schrauben_Metal_mtl.mb
+[2023-10-12 11:20:20,200][Apic-WS09][INFO] imported \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Materials\Steel_stainless_brushed_01_mtl.mb
+[2023-10-12 11:20:20,201][Apic-WS09][INFO] set v-ray as active renderer
+[2023-10-12 11:20:20,202][Apic-WS09][INFO] set v-ray render settings
+[2023-10-12 11:20:20,204][Apic-WS09][INFO] set image output path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Thumbnails
+[2023-10-12 11:20:20,206][Apic-WS09][INFO] assigned Aluminium_01_mtl to ShaderBall
+[2023-10-12 11:20:45,705][Apic-WS09][INFO] finished rendering Aluminium_01_mtl
+[2023-10-12 11:20:45,708][Apic-WS09][INFO] set image output path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Thumbnails
+[2023-10-12 11:20:45,710][Apic-WS09][INFO] assigned Brass_01_mtl to ShaderBall
+[2023-10-12 11:21:04,329][Apic-WS09][INFO] finished rendering Brass_01_mtl
+[2023-10-12 11:21:04,331][Apic-WS09][INFO] set image output path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Thumbnails
+[2023-10-12 11:21:04,333][Apic-WS09][INFO] assigned Logo_background_mtl to ShaderBall
+[2023-10-12 11:21:13,974][Apic-WS09][INFO] finished rendering Logo_background_mtl
+[2023-10-12 11:21:13,976][Apic-WS09][INFO] set image output path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Thumbnails
+[2023-10-12 11:21:13,978][Apic-WS09][INFO] assigned Logo_mtl to ShaderBall
+[2023-10-12 11:21:25,569][Apic-WS09][INFO] finished rendering Logo_mtl
+[2023-10-12 11:21:25,571][Apic-WS09][INFO] set image output path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Thumbnails
+[2023-10-12 11:21:25,573][Apic-WS09][INFO] assigned Metal_dark_brushed_mtl to ShaderBall
+[2023-10-12 11:21:43,570][Apic-WS09][INFO] finished rendering Metal_dark_brushed_mtl
+[2023-10-12 11:21:43,572][Apic-WS09][INFO] set image output path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Thumbnails
+[2023-10-12 11:21:43,574][Apic-WS09][INFO] assigned Metal_red_mtl to ShaderBall
+[2023-10-12 11:21:54,046][Apic-WS09][INFO] finished rendering Metal_red_mtl
+[2023-10-12 11:21:54,048][Apic-WS09][INFO] set image output path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Thumbnails
+[2023-10-12 11:21:54,050][Apic-WS09][INFO] assigned Rubber_mtl to ShaderBall
+[2023-10-12 11:22:04,057][Apic-WS09][INFO] finished rendering Rubber_mtl
+[2023-10-12 11:22:04,059][Apic-WS09][INFO] set image output path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Thumbnails
+[2023-10-12 11:22:04,061][Apic-WS09][INFO] assigned Schrauben_Metal_mtl to ShaderBall
+[2023-10-12 11:22:20,650][Apic-WS09][INFO] finished rendering Schrauben_Metal_mtl
+[2023-10-12 11:22:20,652][Apic-WS09][INFO] set image output path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Thumbnails
+[2023-10-12 11:22:20,654][Apic-WS09][INFO] assigned Steel_stainless_brushed_01_mtl to ShaderBall
+[2023-10-12 11:22:46,960][Apic-WS09][INFO] finished rendering Steel_stainless_brushed_01_mtl
+[2023-10-12 11:22:46,961][Apic-WS09][INFO] uninitializing maya standalone...
+[2023-10-12 11:23:57,382][Apic-WS09][INFO] updated settings manager values.
+[2023-10-12 11:23:57,387][Apic-WS09][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-12 11:28:35,791][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 11:28:35,797][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 11:32:06,000][Apic-WS09][INFO] updated settings manager values.
+[2023-10-12 11:32:06,005][Apic-WS09][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-12 11:40:15,069][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 11:40:15,159][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 11:40:35,229][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 11:40:35,235][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 11:40:37,196][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 11:41:34,125][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 11:41:34,233][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 11:42:03,001][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 11:42:03,006][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 11:55:12,860][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 11:55:12,951][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 11:57:29,273][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 11:57:29,353][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 11:57:34,597][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 11:57:34,602][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 11:57:35,661][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 11:57:35,742][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 11:57:42,917][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 11:57:42,923][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 11:57:44,129][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 11:57:44,216][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:00:33,111][Apic-WS09][INFO] starting Render Vault...
+[2023-10-12 12:00:33,236][Apic-WS09][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-12 12:01:15,883][Apic-WS09][INFO] referenced material \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Materials\Aluminium_01_mtl.mb
+[2023-10-12 12:01:35,950][Apic-WS09][INFO] referenced material \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Materials\Metal_red_mtl.mb
+[2023-10-12 12:02:05,522][Apic-WS09][INFO] referenced material \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Materials\Schrauben_Metal_mtl.mb
+[2023-10-12 12:02:22,212][Apic-WS09][INFO] referenced model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\LightsetPool\LightsetPool\Lightsets\LS_s063.mb
+[2023-10-12 12:02:25,733][Apic-WS09][WARNING] can't create v-ray hdri, v-ray is not the active renderer
+[2023-10-12 12:02:34,587][Apic-WS09][WARNING] can't create v-ray hdri, v-ray is not the active renderer
+[2023-10-12 12:02:49,575][Apic-WS09][WARNING] can't create v-ray hdri, v-ray is not the active renderer
+[2023-10-12 12:06:28,879][Apic-WS09][INFO] referenced material \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool\Materials\Steel_stainless_brushed_01_mtl.mb
+[2023-10-12 12:08:30,163][Apic-WS09][INFO] material Steel_stainless_brushed_01_mtl already exists in scene, skipping reference.
+[2023-10-12 12:08:59,949][Apic-WS09][INFO] material Steel_stainless_brushed_01_mtl already exists in scene, skipping reference.
+[2023-10-12 12:12:45,233][Apic-WS09][INFO] imported material GSG_Metal_Vol1_Aluminum_Painted_01_metallic_1
+[2023-10-12 12:15:04,195][Apic-WS09][INFO] imported material GSG_Metal_Vol1_Aluminum_Painted_01_metallic_1
+[2023-10-12 12:15:22,398][Apic-WS09][INFO] imported material GSG_Metal_Vol1_Aluminum_Painted_01_metallic_1
+[2023-10-12 12:20:30,446][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 12:20:30,450][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:20:33,299][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 12:20:33,380][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:21:40,639][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 12:21:40,643][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:21:42,601][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 12:21:42,675][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:22:11,242][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 12:22:11,246][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:26:02,473][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 12:26:02,563][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:27:31,944][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 12:27:32,053][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:28:54,996][Apic-WS09][INFO] starting Render Vault...
+[2023-10-12 12:28:55,118][Apic-WS09][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-12 12:29:11,821][Apic-WS09][INFO] imported material Aluminium_01_mtl
+[2023-10-12 12:29:14,313][Apic-WS09][INFO] imported material GSG_Metal_Vol1_Aluminum_Painted_01_metallic_1
+[2023-10-12 12:29:42,302][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 12:29:42,390][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:29:48,978][Apic-WS09][INFO] imported material GSG_Metal_Vol1_Steel_Stainless_Clean_01_basecolor_1
+[2023-10-12 12:29:50,852][Apic-WS09][INFO] imported material GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy_1
+[2023-10-12 12:29:52,823][Apic-WS09][INFO] imported material Rubber_mtl
+[2023-10-12 12:29:54,312][Apic-WS09][INFO] imported material Brass_01_mtl
+[2023-10-12 12:29:55,836][Apic-WS09][INFO] imported material Logo_background_mtl
+[2023-10-12 12:29:57,486][Apic-WS09][INFO] imported material Logo_Screenshot_1
+[2023-10-12 12:29:59,704][Apic-WS09][INFO] imported material GSG_Metal_Vol1_Steel_Stainless_Brushed_01_basecolor_1
+[2023-10-12 12:31:37,040][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 12:31:37,128][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:32:16,639][Apic-WS09][INFO] updated settings manager values.
+[2023-10-12 12:32:16,641][Apic-WS09][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-12 12:32:23,107][Apic-WS09][INFO] updated settings manager values.
+[2023-10-12 12:32:23,111][Apic-WS09][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-12 12:33:26,986][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 12:33:27,069][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:33:36,179][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 12:33:36,185][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:33:38,507][Apic-WS09][INFO] imported material Rubber_mtl
+[2023-10-12 12:33:45,385][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 12:33:45,460][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:34:34,875][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 12:34:34,971][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:34:50,776][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 12:34:50,782][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:35:13,884][Apic-WS09][INFO] starting Render Vault...
+[2023-10-12 12:35:13,997][Apic-WS09][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-12 12:35:30,885][Apic-WS09][INFO] imported material Aluminium_01_mtl
+[2023-10-12 12:35:34,984][Apic-WS09][INFO] imported material Brass_01_mtl
+[2023-10-12 12:35:36,864][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 12:35:36,954][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:35:37,512][Apic-WS09][INFO] imported material Logo_background_mtl
+[2023-10-12 12:35:41,394][Apic-WS09][INFO] imported material Logo_Screenshot_1
+[2023-10-12 12:35:44,317][Apic-WS09][INFO] imported material GSG_Metal_Vol1_Steel_Stainless_Brushed_01_basecolor_1
+[2023-10-12 12:35:47,255][Apic-WS09][INFO] imported material GSG_Metal_Vol1_Aluminum_Painted_01_metallic_1
+[2023-10-12 12:35:49,813][Apic-WS09][INFO] imported material Rubber_mtl
+[2023-10-12 12:35:53,721][Apic-WS09][INFO] imported material GSG_Metal_Vol1_Steel_Stainless_Clean_01_basecolor_1
+[2023-10-12 12:35:58,180][Apic-WS09][INFO] imported material GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy_1
+[2023-10-12 12:35:59,653][Apic-WS09][INFO] updated settings manager values.
+[2023-10-12 12:35:59,656][Apic-WS09][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-12 12:36:37,086][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 12:36:37,189][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:37:25,201][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 12:37:25,304][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:38:42,795][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 12:38:42,800][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:39:02,738][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 12:39:02,828][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:39:07,579][Apic-WS09][INFO] imported material Rubber_mtl
+[2023-10-12 12:39:09,988][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 12:39:09,995][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:39:11,663][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 12:39:11,749][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:39:22,324][Apic-WS09][INFO] imported material Brass_01_mtl
+[2023-10-12 12:39:28,589][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 12:39:28,595][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:39:39,658][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 12:39:39,735][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:39:43,733][Apic-WS09][INFO] referenced model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\LightsetPool\LightsetPool\Lightsets\LS_s063.mb
+[2023-10-12 12:40:55,599][Apic-WS09][INFO] starting Render Vault...
+[2023-10-12 12:40:55,723][Apic-WS09][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-12 12:41:04,807][Apic-WS09][INFO] imported material Rubber_mtl
+[2023-10-12 12:41:33,129][Apic-WS09][INFO] imported material Brass_01_mtl
+[2023-10-12 12:41:54,748][Apic-WS09][INFO] referenced model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\LightsetPool\LightsetPool\Lightsets\LS_s063.mb
+[2023-10-12 12:41:55,882][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 12:41:55,887][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:41:57,817][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 12:41:57,903][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:42:24,390][Apic-WS09][WARNING] can't create v-ray hdri, v-ray is not the active renderer
+[2023-10-12 12:43:16,023][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 12:43:16,027][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:43:18,311][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 12:43:18,403][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:44:00,225][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 12:44:00,231][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:44:02,505][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 12:44:02,588][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 12:44:18,367][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 12:44:18,373][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 13:45:51,340][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 13:45:51,440][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 13:49:51,806][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 13:49:51,812][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 13:49:54,521][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 13:49:54,612][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 13:50:47,520][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 13:50:47,526][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 13:52:34,867][ApicWS10][INFO] referenced material \\apicnas\Produktion\Projekte\_CLIENT_Lib\KAERCHER\400_3D\440_shader\MaterialPool\Materials\Abschatter_innen.mb
+[2023-10-12 13:53:17,272][ApicWS10][INFO] imported material Abschatter_innen
+[2023-10-12 13:53:29,966][ApicWS10][INFO] imported material Primer_schwarz
+[2023-10-12 13:59:32,593][ApicWS10][INFO] starting Render Vault...
+[2023-10-12 13:59:32,693][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 13:59:37,589][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 13:59:37,597][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 13:59:48,327][ApicWS10][INFO] imported material akku_sticker_BlendMtl
+[2023-10-12 14:00:06,326][ApicWS10][INFO] imported material Metal_red_mtl
+[2023-10-12 14:00:43,215][ApicWS10][INFO] imported material Rubber_mtl
+[2023-10-12 14:02:07,785][ApicWS10][INFO] updated settings manager values.
+[2023-10-12 14:02:07,788][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-12 16:06:20,843][Apic-WS09][INFO] starting Render Vault...
+[2023-10-12 16:06:20,981][Apic-WS09][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-12 16:06:25,430][Apic-WS09][INFO] updated settings manager values.
+[2023-10-12 16:06:25,433][Apic-WS09][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-12 16:10:01,364][Apic-WS09][INFO] updated settings manager values.
+[2023-10-12 16:10:01,367][Apic-WS09][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-12 16:12:53,639][Apic-WS09][INFO] imported material Aluminium_01_mtl
+[2023-10-12 16:13:25,217][Apic-WS09][INFO] imported material Schrauben_Metal_mtl
+[2023-10-12 16:13:43,319][Apic-WS09][INFO] imported material Metal_red_mtl
+[2023-10-12 16:16:08,607][Apic-WS09][INFO] updated settings manager values.
+[2023-10-12 16:16:08,610][Apic-WS09][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-12 16:41:53,935][Apic-WS09][INFO] updated settings manager values.
+[2023-10-12 16:41:53,938][Apic-WS09][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-12 16:43:07,535][Apic-WS09][INFO] imported material Steel_stainless_brushed_01_mtl
+[2023-10-12 16:43:11,423][Apic-WS09][INFO] imported material Metal_dark_brushed_mtl
+[2023-10-12 16:43:17,548][Apic-WS09][INFO] updated settings manager values.
+[2023-10-12 16:43:17,551][Apic-WS09][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-12 16:46:39,240][Apic-WS09][INFO] imported material Brass_01_mtl
+[2023-10-12 16:46:49,362][Apic-WS09][INFO] imported material Rubber_mtl
+[2023-10-12 16:48:14,318][Apic-WS09][INFO] updated settings manager values.
+[2023-10-12 16:48:14,321][Apic-WS09][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json

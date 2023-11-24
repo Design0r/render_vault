@@ -1,0 +1,15 @@
+[2023-11-16 09:34:39,978][ApicWS10][INFO] starting Render Vault...
+[2023-11-16 09:34:40,098][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-11-16 09:35:11,989][ApicWS10][INFO] created new lightset pool in //apicnas/Produktion/Projekte/_CLIENT_Lib/INDEX/3D_Pool
+[2023-11-16 09:37:24,944][ApicWS10][INFO] Saved Screenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\INDEX\3D_Pool\LightsetPool\Thumbnails\Lightset_01.png
+[2023-11-16 09:37:46,622][ApicWS10][INFO] Saved Screenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\INDEX\3D_Pool\LightsetPool\Thumbnails\Lightset_01.png
+[2023-11-16 09:39:59,929][ApicWS10][INFO] Saved Screenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\INDEX\3D_Pool\LightsetPool\Thumbnails\renderCam_01.png
+[2023-11-16 09:48:16,655][ApicWS10][INFO] starting Render Vault...
+[2023-11-16 09:48:16,760][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-11-16 09:48:28,175][ApicWS10][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\INDEX\3D_Pool\LightsetPool\Lightsets\renderCam_01.mb
+[2023-11-16 10:04:43,307][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-11-16 15:42:49,512][ApicWS06][INFO] starting Render Vault...
+[2023-11-16 15:42:49,650][ApicWS06][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS06.json
+[2023-11-16 15:49:53,361][ApicWS06][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS06.json
+[2023-11-16 17:26:50,706][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-11-16 17:30:35,472][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json

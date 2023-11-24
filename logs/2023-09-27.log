@@ -1,0 +1,242 @@
+[2023-09-27 00:59:37,834][ApicWS06][INFO] starting Render Vault...
+[2023-09-27 00:59:37,892][ApicWS06][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-27 00:59:46,428][ApicWS06][INFO] imported material layered_print_offwhite_mtl
+[2023-09-27 09:31:10,256][ApicWS10][INFO] starting Render Vault...
+[2023-09-27 09:33:13,132][ApicWS10][INFO] starting Render Vault...
+[2023-09-27 09:34:27,565][ApicWS10][INFO] starting Render Vault...
+[2023-09-27 09:35:17,389][ApicWS10][INFO] starting Render Vault...
+[2023-09-27 10:45:56,880][ApicWS10][INFO] starting Render Vault...
+[2023-09-27 10:48:48,754][ApicWS10][INFO] starting Render Vault...
+[2023-09-27 10:48:48,830][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-27 10:49:30,968][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/KAERCHER/400_3D/440_shader\MaterialPool already exists
+[2023-09-27 10:49:30,972][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/KAERCHER/400_3D/440_shader\MaterialPool\Materials already exists
+[2023-09-27 10:49:30,973][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/KAERCHER/400_3D/440_shader\MaterialPool\Textures already exists
+[2023-09-27 10:49:30,974][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/KAERCHER/400_3D/440_shader\MaterialPool\Thumbnails already exists
+[2023-09-27 10:49:30,975][ApicWS10][INFO] created new material pool in //apicnas/Produktion/Projekte/_CLIENT_Lib/KAERCHER/400_3D/440_shader
+[2023-09-27 10:49:47,865][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/ERIMA/440_shader\MaterialPool already exists
+[2023-09-27 10:49:47,869][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/ERIMA/440_shader\MaterialPool\Materials already exists
+[2023-09-27 10:49:47,871][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/ERIMA/440_shader\MaterialPool\Textures already exists
+[2023-09-27 10:49:47,872][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/ERIMA/440_shader\MaterialPool\Thumbnails already exists
+[2023-09-27 10:49:47,873][ApicWS10][INFO] created new material pool in //apicnas/Produktion/Projekte/_CLIENT_Lib/ERIMA/440_shader
+[2023-09-27 10:49:59,203][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/RECARO/400_3D/440_shader\MaterialPool already exists
+[2023-09-27 10:49:59,208][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/RECARO/400_3D/440_shader\MaterialPool\Materials already exists
+[2023-09-27 10:49:59,209][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/RECARO/400_3D/440_shader\MaterialPool\Textures already exists
+[2023-09-27 10:49:59,210][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/RECARO/400_3D/440_shader\MaterialPool\Thumbnails already exists
+[2023-09-27 10:49:59,210][ApicWS10][INFO] created new material pool in //apicnas/Produktion/Projekte/_CLIENT_Lib/RECARO/400_3D/440_shader
+[2023-09-27 10:50:08,553][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/LEITZ/400_3D/440_shader\MaterialPool already exists
+[2023-09-27 10:50:08,558][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/LEITZ/400_3D/440_shader\MaterialPool\Materials already exists
+[2023-09-27 10:50:08,559][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/LEITZ/400_3D/440_shader\MaterialPool\Textures already exists
+[2023-09-27 10:50:08,561][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/LEITZ/400_3D/440_shader\MaterialPool\Thumbnails already exists
+[2023-09-27 10:50:08,561][ApicWS10][INFO] created new material pool in //apicnas/Produktion/Projekte/_CLIENT_Lib/LEITZ/400_3D/440_shader
+[2023-09-27 10:50:19,331][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/FORMINLINE/400_3D/440_shader\MaterialPool already exists
+[2023-09-27 10:50:19,337][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/FORMINLINE/400_3D/440_shader\MaterialPool\Materials already exists
+[2023-09-27 10:50:19,340][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/FORMINLINE/400_3D/440_shader\MaterialPool\Textures already exists
+[2023-09-27 10:50:19,341][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/FORMINLINE/400_3D/440_shader\MaterialPool\Thumbnails already exists
+[2023-09-27 10:50:19,342][ApicWS10][INFO] created new material pool in //apicnas/Produktion/Projekte/_CLIENT_Lib/FORMINLINE/400_3D/440_shader
+[2023-09-27 10:50:28,088][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/ARNO/3D/440_shader\MaterialPool already exists
+[2023-09-27 10:50:28,094][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/ARNO/3D/440_shader\MaterialPool\Materials already exists
+[2023-09-27 10:50:28,096][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/ARNO/3D/440_shader\MaterialPool\Textures already exists
+[2023-09-27 10:50:28,097][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/ARNO/3D/440_shader\MaterialPool\Thumbnails already exists
+[2023-09-27 10:50:28,098][ApicWS10][INFO] created new material pool in //apicnas/Produktion/Projekte/_CLIENT_Lib/ARNO/3D/440_shader
+[2023-09-27 10:50:43,074][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/BOSCH/400_3D/440_shader\MaterialPool already exists
+[2023-09-27 10:50:43,080][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/BOSCH/400_3D/440_shader\MaterialPool\Materials already exists
+[2023-09-27 10:50:43,082][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/BOSCH/400_3D/440_shader\MaterialPool\Textures already exists
+[2023-09-27 10:50:43,084][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/BOSCH/400_3D/440_shader\MaterialPool\Thumbnails already exists
+[2023-09-27 10:50:43,084][ApicWS10][INFO] created new material pool in //apicnas/Produktion/Projekte/_CLIENT_Lib/BOSCH/400_3D/440_shader
+[2023-09-27 10:50:56,566][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/BOSCH/400_3D/420_assets_references_data\ModelPool already exists
+[2023-09-27 10:50:56,573][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/BOSCH/400_3D/420_assets_references_data\ModelPool\Models already exists
+[2023-09-27 10:50:56,574][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/BOSCH/400_3D/420_assets_references_data\ModelPool\Textures already exists
+[2023-09-27 10:50:56,576][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/BOSCH/400_3D/420_assets_references_data\ModelPool\Thumbnails already exists
+[2023-09-27 10:50:56,577][ApicWS10][INFO] created new model pool in //apicnas/Produktion/Projekte/_CLIENT_Lib/BOSCH/400_3D/420_assets_references_data
+[2023-09-27 10:51:14,257][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/ERIMA/410_work_scenes/412_models\ModelPool already exists
+[2023-09-27 10:51:14,263][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/ERIMA/410_work_scenes/412_models\ModelPool\Models already exists
+[2023-09-27 10:51:14,265][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/ERIMA/410_work_scenes/412_models\ModelPool\Textures already exists
+[2023-09-27 10:51:14,267][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/ERIMA/410_work_scenes/412_models\ModelPool\Thumbnails already exists
+[2023-09-27 10:51:14,268][ApicWS10][INFO] created new model pool in //apicnas/Produktion/Projekte/_CLIENT_Lib/ERIMA/410_work_scenes/412_models
+[2023-09-27 10:51:29,625][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Ressources/Library/HDR_lib/Interieur\HDRIPool already exists
+[2023-09-27 10:51:29,632][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Ressources/Library/HDR_lib/Interieur\HDRIPool\HDRIs already exists
+[2023-09-27 10:51:29,634][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Ressources/Library/HDR_lib/Interieur\HDRIPool\Thumbnails already exists
+[2023-09-27 10:51:29,635][ApicWS10][INFO] created new hdri pool in //apicnas/Produktion/Ressources/Library/HDR_lib/Interieur
+[2023-09-27 10:51:42,439][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Ressources/Library/HDR_lib/Exterieur\HDRIPool already exists
+[2023-09-27 10:51:42,445][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Ressources/Library/HDR_lib/Exterieur\HDRIPool\HDRIs already exists
+[2023-09-27 10:51:42,447][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Ressources/Library/HDR_lib/Exterieur\HDRIPool\Thumbnails already exists
+[2023-09-27 10:51:42,447][ApicWS10][INFO] created new hdri pool in //apicnas/Produktion/Ressources/Library/HDR_lib/Exterieur
+[2023-09-27 10:52:02,771][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Ressources/Library/HDR_lib/area_light_textures\HDRIPool already exists
+[2023-09-27 10:52:02,777][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Ressources/Library/HDR_lib/area_light_textures\HDRIPool\HDRIs already exists
+[2023-09-27 10:52:02,779][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Ressources/Library/HDR_lib/area_light_textures\HDRIPool\Thumbnails already exists
+[2023-09-27 10:52:02,780][ApicWS10][INFO] created new hdri pool in //apicnas/Produktion/Ressources/Library/HDR_lib/area_light_textures
+[2023-09-27 10:52:06,481][ApicWS10][INFO] updated settings manager values.
+[2023-09-27 10:52:06,488][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-27 10:52:09,145][ApicWS10][INFO] starting Render Vault...
+[2023-09-27 10:52:09,213][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-27 10:53:11,554][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Ressources/Library/HDR_lib/gsg\HDRIPool already exists
+[2023-09-27 10:53:11,560][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Ressources/Library/HDR_lib/gsg\HDRIPool\HDRIs already exists
+[2023-09-27 10:53:11,561][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Ressources/Library/HDR_lib/gsg\HDRIPool\Thumbnails already exists
+[2023-09-27 10:53:11,562][ApicWS10][INFO] created new hdri pool in //apicnas/Produktion/Ressources/Library/HDR_lib/gsg
+[2023-09-27 10:53:33,655][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Ressources/Library/HDR_lib/studio_HDRs\HDRIPool already exists
+[2023-09-27 10:53:33,662][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Ressources/Library/HDR_lib/studio_HDRs\HDRIPool\HDRIs already exists
+[2023-09-27 10:53:33,663][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Ressources/Library/HDR_lib/studio_HDRs\HDRIPool\Thumbnails already exists
+[2023-09-27 10:53:33,663][ApicWS10][INFO] created new hdri pool in //apicnas/Produktion/Ressources/Library/HDR_lib/studio_HDRs
+[2023-09-27 10:53:52,841][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Ressources/Library/HDR_lib/marmoset_panos\HDRIPool already exists
+[2023-09-27 10:53:52,848][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Ressources/Library/HDR_lib/marmoset_panos\HDRIPool\HDRIs already exists
+[2023-09-27 10:53:52,849][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Ressources/Library/HDR_lib/marmoset_panos\HDRIPool\Thumbnails already exists
+[2023-09-27 10:53:52,850][ApicWS10][INFO] created new hdri pool in //apicnas/Produktion/Ressources/Library/HDR_lib/marmoset_panos
+[2023-09-27 10:54:06,884][ApicWS10][INFO] updated settings manager values.
+[2023-09-27 10:54:06,892][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-27 10:54:40,338][ApicWS10][INFO] starting Render Vault...
+[2023-09-27 10:54:40,369][ApicWS10][ERROR] settings path \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json does not exist
+[2023-09-27 10:54:55,187][ApicWS10][INFO] updated settings manager values.
+[2023-09-27 10:54:55,195][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-09-27 10:55:22,633][ApicWS10][INFO] starting Render Vault...
+[2023-09-27 10:55:22,744][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-09-27 10:55:50,783][ApicWS10][INFO] updated settings manager values.
+[2023-09-27 10:55:50,790][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-09-27 10:55:59,373][ApicWS10][INFO] starting Render Vault...
+[2023-09-27 10:55:59,443][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-09-27 10:56:06,448][ApicWS10][INFO] updated settings manager values.
+[2023-09-27 10:56:06,456][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-09-27 11:01:47,202][ApicWS10][INFO] updated settings manager values.
+[2023-09-27 11:01:47,205][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-09-27 11:01:47,276][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-09-27 11:04:08,391][ApicWS10][INFO] starting Render Vault...
+[2023-09-27 11:04:10,738][ApicWS10][ERROR] HTTPConnectionPool(host='none', port=80): Max retries exceeded with url: /materials (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000023F53E2E710>: Failed to resolve 'none' ([Errno 11001] getaddrinfo failed)"))
+Traceback (most recent call last):
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\urllib3\connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Program Files\Autodesk\Maya2024\Python\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\urllib3\connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\urllib3\connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\urllib3\connection.py", line 395, in request
+    self.endheaders()
+  File "C:\Program Files\Autodesk\Maya2024\Python\lib\http\client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Autodesk\Maya2024\Python\lib\http\client.py", line 1037, in _send_output
+    self.send(msg)
+  File "C:\Program Files\Autodesk\Maya2024\Python\lib\http\client.py", line 975, in send
+    self.connect()
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\urllib3\connection.py", line 243, in connect
+    self.sock = self._new_conn()
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\urllib3\connection.py", line 210, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPConnection object at 0x0000023F53E2E710>: Failed to resolve 'none' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\urllib3\connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='none', port=80): Max retries exceeded with url: /materials (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000023F53E2E710>: Failed to resolve 'none' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\ui\main_window.py", line 168, in load_settings
+    SettingsManager.material_settings.pools = fetch_data.get_materials()
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\controller\fetch_data.py", line 18, in get_materials
+    response = requests.get(url)
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='none', port=80): Max retries exceeded with url: /materials (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000023F53E2E710>: Failed to resolve 'none' ([Errno 11001] getaddrinfo failed)"))
+[2023-09-27 11:04:10,838][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-09-27 11:04:35,030][ApicWS10][INFO] updated settings manager values.
+[2023-09-27 11:04:35,036][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-09-27 11:06:13,371][ApicWS10][INFO] updated settings manager values.
+[2023-09-27 11:06:13,377][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-09-27 11:06:16,953][ApicWS10][INFO] starting Render Vault...
+[2023-09-27 11:06:17,032][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-09-27 11:06:24,509][ApicWS10][INFO] updated settings manager values.
+[2023-09-27 11:06:24,514][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-09-27 11:07:02,438][ApicWS10][INFO] starting Render Vault...
+[2023-09-27 11:07:02,520][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-09-27 11:07:40,556][ApicWS10][INFO] updated settings manager values.
+[2023-09-27 11:07:40,564][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-09-27 11:10:21,241][ApicWS08][INFO] starting Render Vault...
+[2023-09-27 11:10:21,288][ApicWS08][ERROR] settings path \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS08.json does not exist
+[2023-09-27 11:10:30,953][ApicWS08][INFO] updated settings manager values.
+[2023-09-27 11:10:30,956][ApicWS08][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS08.json
+[2023-09-27 11:10:47,100][ApicWS08][INFO] updated settings manager values.
+[2023-09-27 11:10:47,102][ApicWS08][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS08.json
+[2023-09-27 11:11:48,306][ApicWS08][INFO] starting Render Vault...
+[2023-09-27 11:11:48,449][ApicWS08][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS08.json
+[2023-09-27 11:12:02,813][ApicWS08][INFO] updated settings manager values.
+[2023-09-27 11:12:02,816][ApicWS08][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS08.json
+[2023-09-27 11:12:02,870][ApicWS08][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS08.json
+[2023-09-27 11:12:13,011][ApicWS08][INFO] updated settings manager values.
+[2023-09-27 11:12:13,014][ApicWS08][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS08.json
+[2023-09-27 11:12:13,070][ApicWS08][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS08.json
+[2023-09-27 11:12:24,410][ApicWS08][INFO] updated settings manager values.
+[2023-09-27 11:12:24,413][ApicWS08][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS08.json
+[2023-09-27 13:13:21,237][ApicWS10][INFO] updated settings manager values.
+[2023-09-27 13:13:21,239][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-09-27 13:25:42,104][ApicWS10][INFO] updated settings manager values.
+[2023-09-27 13:25:42,107][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-09-27 13:26:29,120][ApicWS10][INFO] starting Render Vault...
+[2023-09-27 13:26:29,297][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-09-27 13:27:22,744][ApicWS10][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\smooth_grains.mb
+[2023-09-27 13:27:33,441][ApicWS10][INFO] imported material layered_print_offwhite_mtl
+[2023-09-27 13:29:52,096][ApicWS10][INFO] exported layered_print_dark_mtl to //apicnas/Produktion/Projekte/_CLIENT_Lib/BOSCH/400_3D/440_shader\MaterialPool\Materials
+[2023-09-27 13:29:55,631][ApicWS10][INFO] initializing maya standalone...
+[2023-09-27 13:30:11,209][ApicWS10][INFO] loaded scene: \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\440_shader\MaterialPool\Materials\layered_print_dark_mtl.mb
+[2023-09-27 13:30:11,416][ApicWS10][INFO] copied //apicnas/Produktion/Projekte/_CLIENT_Lib/BOSCH/400_3D/420_assets_references_data/ModelPool/Textures/smooth_grains/GSG_SI_Copy_Machine_02.jpg to \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\440_shader\MaterialPool\Textures\layered_print_dark_mtl
+[2023-09-27 13:30:11,417][ApicWS10][INFO] set path of file node: file1 to \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\440_shader\MaterialPool\Textures\layered_print_dark_mtl\GSG_SI_Copy_Machine_02.jpg
+[2023-09-27 13:30:11,458][ApicWS10][INFO] saved scene \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\440_shader\MaterialPool\Materials\layered_print_dark_mtl.mb
+[2023-09-27 13:30:11,459][ApicWS10][WARNING] can't create folder, path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\440_shader\MaterialPool\Textures\layered_print_dark_mtl already exists
+[2023-09-27 13:30:11,503][ApicWS10][INFO] copied //apicnas/Produktion/Projekte/23467ROB_BOSCH_IAM/400_3D/430_textures/3d_print_lines/print_lines_bump.exr to \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\440_shader\MaterialPool\Textures\layered_print_dark_mtl
+[2023-09-27 13:30:11,504][ApicWS10][INFO] set path of file node: print_lines_bump_1 to \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\440_shader\MaterialPool\Textures\layered_print_dark_mtl\print_lines_bump.exr
+[2023-09-27 13:30:11,540][ApicWS10][INFO] saved scene \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\440_shader\MaterialPool\Materials\layered_print_dark_mtl.mb
+[2023-09-27 13:30:11,541][ApicWS10][INFO] uninitializing maya standalone...
+[2023-09-27 13:30:25,509][ApicWS10][INFO] initializing maya standalone...
+[2023-09-27 13:30:42,983][ApicWS10][INFO] loaded render scene: \\APICNAS\Produktion\Ressources\Library\3D_Modelle\_ShaderBall_Maya\_DEV\MaterialDev_REF_ACES.mb
+[2023-09-27 13:30:43,062][ApicWS10][INFO] imported \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\440_shader\MaterialPool\Materials\layered_print_dark_mtl.mb
+[2023-09-27 13:30:43,062][ApicWS10][INFO] set v-ray as active renderer
+[2023-09-27 13:30:43,064][ApicWS10][INFO] set v-ray render settings
+[2023-09-27 13:30:43,065][ApicWS10][INFO] set image output path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\440_shader\MaterialPool\Thumbnails
+[2023-09-27 13:30:43,066][ApicWS10][INFO] assigned layered_print_dark_mtl to ShaderBall
+[2023-09-27 13:30:54,942][ApicWS10][INFO] finished rendering layered_print_dark_mtl
+[2023-09-27 13:30:54,943][ApicWS10][INFO] uninitializing maya standalone...
+[2023-09-27 13:31:21,073][ApicWS10][INFO] updated settings manager values.
+[2023-09-27 13:31:21,075][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-09-27 13:31:49,488][ApicWS10][INFO] imported material layered_print_dark_mtl
+[2023-09-27 13:31:50,686][ApicWS10][INFO] updated settings manager values.
+[2023-09-27 13:31:50,689][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-09-27 13:56:40,504][ApicWS06][INFO] starting Render Vault...
+[2023-09-27 13:56:40,619][ApicWS06][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS06.json
+[2023-09-27 13:56:52,489][ApicWS06][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\smooth_grains.mb
+[2023-09-27 15:13:18,930][ApicWS10][INFO] starting Render Vault...
+[2023-09-27 15:13:19,034][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-09-27 15:13:32,286][ApicWS10][INFO] imported material metall_schrauben_mtl
+[2023-09-27 15:17:00,647][ApicWS06][INFO] updated settings manager values.
+[2023-09-27 15:17:00,664][ApicWS06][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS06.json
+[2023-09-27 15:46:27,379][ApicWS10][INFO] created new model pool in //apicnas/Produktion/Projekte/_CLIENT_Lib/LEITZ/400_3D/420_assets_references_data
+[2023-09-27 15:47:12,245][ApicWS10][INFO] Saved Scrrenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\LEITZ\400_3D\420_assets_references_data\ModelPool\Thumbnails\Screws.png
+[2023-09-27 15:51:47,312][ApicWS10][INFO] updated settings manager values.
+[2023-09-27 15:51:47,314][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-09-27 15:52:06,501][ApicWS10][INFO] starting Render Vault...
+[2023-09-27 15:52:06,608][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-09-27 15:52:58,826][ApicWS10][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\LEITZ\400_3D\420_assets_references_data\ModelPool\Models\Screws.mb
+[2023-09-27 19:33:11,035][ApicWS10][INFO] starting Render Vault...
+[2023-09-27 19:33:11,146][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-09-27 20:01:12,051][ApicWS10][INFO] starting Render Vault...
+[2023-09-27 20:01:12,165][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json

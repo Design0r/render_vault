@@ -1,0 +1,56 @@
+[2023-10-06 09:20:07,646][ApicWS10][INFO] starting Render Vault...
+[2023-10-06 09:22:29,049][ApicWS10][INFO] starting Render Vault...
+[2023-10-06 09:22:29,160][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-06 09:24:21,898][ApicWS10][INFO] updated settings manager values.
+[2023-10-06 09:24:21,907][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-06 09:24:24,921][ApicWS10][INFO] starting Render Vault...
+[2023-10-06 09:24:25,015][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-06 09:24:55,944][ApicWS10][ERROR] path: C:/Users/TheApic/Desktop\ModelPool does not exist
+[2023-10-06 09:24:55,945][ApicWS10][INFO] deleted current model pool in C:/Users/TheApic/Desktop\ModelPool
+[2023-10-06 09:24:55,946][ApicWS10][INFO] deleting current pool Test
+[2023-10-06 09:25:47,285][ApicWS10][INFO] updated settings manager values.
+[2023-10-06 09:25:47,294][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-06 09:53:25,999][ApicWS06][INFO] starting Render Vault...
+[2023-10-06 09:53:26,117][ApicWS06][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS06.json
+[2023-10-06 10:07:24,969][ApicWS06][INFO] created new lightset pool in //apicnas/Produktion/Projekte/_CLIENT_Lib/BOSCH/400_3D/420_assets_references_data/LightsetPool
+[2023-10-06 10:08:51,513][ApicWS06][INFO] Saved Scrrenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\LightsetPool\LightsetPool\Thumbnails\LS_s063.png
+[2023-10-06 10:48:15,113][ApicWS10][INFO] Saved Scrrenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\LEITZ\400_3D\420_assets_references_data\ModelPool\Thumbnails\P5 Schnipsel.png
+[2023-10-06 10:48:23,972][ApicWS10][INFO] updated settings manager values.
+[2023-10-06 10:48:23,975][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-06 10:52:15,620][ApicWS10][INFO] starting Render Vault...
+[2023-10-06 10:52:15,720][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-06 10:52:21,908][ApicWS10][INFO] deleted \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\Lightset.mb
+[2023-10-06 10:53:44,671][ApicWS10][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\LEITZ\400_3D\420_assets_references_data\ModelPool\Models\P5 Schnipsel.mb
+[2023-10-06 12:05:54,987][ApicWS10][INFO] updated settings manager values.
+[2023-10-06 12:05:54,989][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-06 15:27:15,332][ApicWS10][INFO] starting Render Vault...
+[2023-10-06 15:27:15,448][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-06 15:36:28,053][ApicWS10][INFO] updated settings manager values.
+[2023-10-06 15:36:28,056][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-06 15:36:37,552][ApicWS10][INFO] starting Render Vault...
+[2023-10-06 15:36:37,685][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-06 15:37:24,894][ApicWS10][INFO] updated settings manager values.
+[2023-10-06 15:37:24,903][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-06 15:37:28,098][ApicWS10][INFO] starting Render Vault...
+[2023-10-06 15:37:28,226][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-06 15:38:07,055][ApicWS10][INFO] updated settings manager values.
+[2023-10-06 15:38:07,063][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-06 15:39:55,564][ApicWS10][INFO] starting Render Vault...
+[2023-10-06 15:39:55,690][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-06 15:40:14,668][ApicWS10][INFO] updated settings manager values.
+[2023-10-06 15:40:14,672][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-06 15:40:14,733][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-06 15:40:21,196][ApicWS10][INFO] updated settings manager values.
+[2023-10-06 15:40:21,199][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-06 15:40:21,260][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-06 16:14:33,373][ApicWS06][INFO] updated settings manager values.
+[2023-10-06 16:14:33,375][ApicWS06][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS06.json
+[2023-10-06 16:17:37,387][ApicWS10][INFO] starting Render Vault...
+[2023-10-06 16:17:37,502][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-06 16:20:49,375][ApicWS10][INFO] starting Render Vault...
+[2023-10-06 16:20:49,463][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-06 16:21:49,319][ApicWS10][INFO] Saved Scrrenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Thumbnails\Trophy_Body.png
+[2023-10-06 16:23:46,347][ApicWS10][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\Trophy_Body.mb
+[2023-10-06 16:38:00,279][ApicWS10][INFO] imported material layered_print_dark_mtl
+[2023-10-06 16:42:49,815][ApicWS10][INFO] updated settings manager values.
+[2023-10-06 16:42:49,818][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json

@@ -1,0 +1,247 @@
+[2023-09-14 10:27:20,358][ApicWS10][INFO] starting Render Vault...
+[2023-09-14 10:27:20,409][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 10:27:55,198][ApicWS10][INFO] initializing maya standalone...
+[2023-09-14 10:28:12,796][ApicWS10][INFO] loaded render scene: \\APICNAS\Produktion\Ressources\Library\3D_Modelle\_ShaderBall_Maya\_DEV\MaterialDev_REF_ACES.mb
+[2023-09-14 10:28:13,161][ApicWS10][INFO] imported \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Materials\Fussball_Ball_innen_Textillayer_mtl.mb
+[2023-09-14 10:28:13,162][ApicWS10][INFO] set v-ray as active renderer
+[2023-09-14 10:28:13,163][ApicWS10][INFO] set v-ray render settings
+[2023-09-14 10:28:13,163][ApicWS10][INFO] set image output path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Thumbnails
+[2023-09-14 10:28:13,165][ApicWS10][INFO] assigned Fussball_Ball_innen_Textillayer_mtl to ShaderBall
+[2023-09-14 10:28:22,969][ApicWS10][INFO] finished rendering Fussball_Ball_innen_Textillayer_mtl
+[2023-09-14 10:28:22,970][ApicWS10][INFO] uninitializing maya standalone...
+[2023-09-14 10:28:51,191][ApicWS08][INFO] starting Render Vault...
+[2023-09-14 10:28:51,253][ApicWS08][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 10:29:28,281][ApicWS08][INFO] initializing maya standalone...
+[2023-09-14 10:29:55,279][ApicWS08][INFO] loaded render scene: \\APICNAS\Produktion\Ressources\Library\3D_Modelle\_ShaderBall_Maya\_DEV\MaterialDev_REF_ACES.mb
+[2023-09-14 10:30:01,118][ApicWS08][INFO] imported \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Materials\fussball_hybride_training_2_mtl.mb
+[2023-09-14 10:30:01,119][ApicWS08][INFO] set v-ray as active renderer
+[2023-09-14 10:30:01,121][ApicWS08][INFO] set v-ray render settings
+[2023-09-14 10:30:01,122][ApicWS08][INFO] set image output path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Thumbnails
+[2023-09-14 10:30:01,124][ApicWS08][INFO] assigned fussball_hybride_training_2_mtl to ShaderBall
+[2023-09-14 10:30:32,368][ApicWS08][INFO] finished rendering fussball_hybride_training_2_mtl
+[2023-09-14 10:30:32,369][ApicWS08][INFO] uninitializing maya standalone...
+[2023-09-14 10:34:26,484][ApicWS08][INFO] created new model pool in //apicnas/Produktion/Projekte/_CLIENT_Lib/ERIMA/410_work_scenes/412_models
+[2023-09-14 10:35:51,374][ApicWS08][INFO] Saved Scrrenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\410_work_scenes\412_models\ModelPool\Thumbnails\Fussball_Hybrid_Trainig_2.png
+[2023-09-14 10:38:11,495][ApicWS08][INFO] initializing maya standalone...
+[2023-09-14 10:38:18,680][ApicWS10][INFO] updated settings manager values.
+[2023-09-14 10:38:18,683][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 10:38:28,724][ApicWS08][INFO] loaded render scene: \\APICNAS\Produktion\Ressources\Library\3D_Modelle\_ShaderBall_Maya\_DEV\MaterialDev_REF_ACES.mb
+[2023-09-14 10:38:34,478][ApicWS08][INFO] imported \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Materials\fussball_hybride_training_ECO_mtl.mb
+[2023-09-14 10:38:34,480][ApicWS08][INFO] set v-ray as active renderer
+[2023-09-14 10:38:34,482][ApicWS08][INFO] set v-ray render settings
+[2023-09-14 10:38:34,486][ApicWS08][INFO] set image output path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Thumbnails
+[2023-09-14 10:38:34,489][ApicWS08][INFO] assigned fussball_hybride_training_ECO_mtl to ShaderBall
+[2023-09-14 10:39:08,032][ApicWS08][INFO] finished rendering fussball_hybride_training_ECO_mtl
+[2023-09-14 10:39:08,034][ApicWS08][INFO] uninitializing maya standalone...
+[2023-09-14 10:39:57,276][ApicWS08][INFO] initializing maya standalone...
+[2023-09-14 10:40:15,474][ApicWS08][INFO] loaded render scene: \\APICNAS\Produktion\Ressources\Library\3D_Modelle\_ShaderBall_Maya\_DEV\MaterialDev_REF_ACES.mb
+[2023-09-14 10:40:23,377][ApicWS08][INFO] imported \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Materials\Fussball_Hybride_Training_mtl.mb
+[2023-09-14 10:40:23,379][ApicWS08][INFO] set v-ray as active renderer
+[2023-09-14 10:40:23,382][ApicWS08][INFO] set v-ray render settings
+[2023-09-14 10:40:23,384][ApicWS08][INFO] set image output path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Thumbnails
+[2023-09-14 10:40:23,388][ApicWS08][INFO] assigned Fussball_Hybride_Training_mtl to ShaderBall
+[2023-09-14 10:40:44,028][ApicWS08][INFO] finished rendering Fussball_Hybride_Training_mtl
+[2023-09-14 10:40:44,033][ApicWS08][INFO] uninitializing maya standalone...
+[2023-09-14 10:41:40,469][ApicWS08][INFO] initializing maya standalone...
+[2023-09-14 10:41:57,938][ApicWS08][INFO] loaded render scene: \\APICNAS\Produktion\Ressources\Library\3D_Modelle\_ShaderBall_Maya\_DEV\MaterialDev_REF_ACES.mb
+[2023-09-14 10:42:01,422][ApicWS10][INFO] starting Render Vault...
+[2023-09-14 10:42:01,467][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 10:42:03,623][ApicWS08][INFO] imported \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Materials\schwamm_patch_beige.mb
+[2023-09-14 10:42:03,625][ApicWS08][INFO] set v-ray as active renderer
+[2023-09-14 10:42:03,627][ApicWS08][INFO] set v-ray render settings
+[2023-09-14 10:42:03,629][ApicWS08][INFO] set image output path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Thumbnails
+[2023-09-14 10:42:03,631][ApicWS08][INFO] assigned schwamm_patch_beige to ShaderBall
+[2023-09-14 10:42:22,963][ApicWS08][INFO] finished rendering schwamm_patch_beige
+[2023-09-14 10:42:22,964][ApicWS08][INFO] uninitializing maya standalone...
+[2023-09-14 10:43:37,019][ApicWS10][INFO] Saved Scrrenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Thumbnails\Granulat.png
+[2023-09-14 10:43:58,408][ApicWS10][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\Granulat.mb
+[2023-09-14 10:46:40,998][ApicWS10][INFO] updated settings manager values.
+[2023-09-14 10:46:41,001][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 10:48:22,403][ApicWS08][INFO] imported material Erima_Hybride_mtl
+[2023-09-14 10:52:35,330][ApicWS08][INFO] exported Erima_Hybride_mtl to //apicnas/Produktion/Projekte/_CLIENT_Lib/ERIMA/440_shader\MaterialPool\Materials
+[2023-09-14 10:52:39,503][ApicWS08][INFO] initializing maya standalone...
+[2023-09-14 10:52:46,596][ApicWS08][INFO] deleted \\APICNAS\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Thumbnails\erima_hybride_mtl.png
+[2023-09-14 10:52:46,598][ApicWS08][INFO] deleted \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Materials\erima_hybride_mtl.mb
+[2023-09-14 10:52:53,804][ApicWS08][ERROR] list index out of range
+Traceback (most recent call last):
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\controller\repath_manager.py", line 85, in materials_mode
+    scene_path = list(materials_path.glob(f"{mtl}.m[ab]"))[0]
+IndexError: list index out of range
+[2023-09-14 10:52:53,809][ApicWS08][INFO] uninitializing maya standalone...
+[2023-09-14 10:54:07,525][ApicWS08][INFO] exported Fussball_Hybride_mtl to //apicnas/Produktion/Projekte/_CLIENT_Lib/ERIMA/440_shader\MaterialPool\Materials
+[2023-09-14 10:54:12,119][ApicWS08][INFO] initializing maya standalone...
+[2023-09-14 10:54:32,791][ApicWS08][INFO] loaded scene: \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Materials\Fussball_Hybride_mtl.mb
+[2023-09-14 10:54:32,992][ApicWS08][INFO] copied //apicnas/Produktion/Projekte/_CLIENT_Lib/ERIMA/430_textures/Fussball/Hybrid_no5/Fussball_Hybrid_Diffuse.tga to \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Textures\Fussball_Hybride_mtl
+[2023-09-14 10:54:32,995][ApicWS08][INFO] set path of file node: pasted__file1 to \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Textures\Fussball_Hybride_mtl\Fussball_Hybrid_Diffuse.tga
+[2023-09-14 10:54:33,061][ApicWS08][INFO] saved scene \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Materials\Fussball_Hybride_mtl.mb
+[2023-09-14 10:54:33,062][ApicWS08][WARNING] can't create folder, path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Textures\Fussball_Hybride_mtl already exists
+[2023-09-14 10:54:33,254][ApicWS08][INFO] copied //apicnas/Produktion/Projekte/_CLIENT_Lib/ERIMA/430_textures/Fussball/Hybrid_no5/Fussball_Hybrid_Glos.tga to \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Textures\Fussball_Hybride_mtl
+[2023-09-14 10:54:33,256][ApicWS08][INFO] set path of file node: pasted__file2 to \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Textures\Fussball_Hybride_mtl\Fussball_Hybrid_Glos.tga
+[2023-09-14 10:54:33,294][ApicWS08][INFO] saved scene \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Materials\Fussball_Hybride_mtl.mb
+[2023-09-14 10:54:33,295][ApicWS08][WARNING] can't create folder, path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Textures\Fussball_Hybride_mtl already exists
+[2023-09-14 10:54:33,492][ApicWS08][INFO] copied //apicnas/Produktion/Projekte/_CLIENT_Lib/ERIMA/430_textures/Fussball/Hybrid_no5/Fussball_Hybrid_Bump.tga to \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Textures\Fussball_Hybride_mtl
+[2023-09-14 10:54:33,495][ApicWS08][INFO] set path of file node: pasted__file3 to \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Textures\Fussball_Hybride_mtl\Fussball_Hybrid_Bump.tga
+[2023-09-14 10:54:33,532][ApicWS08][INFO] saved scene \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Materials\Fussball_Hybride_mtl.mb
+[2023-09-14 10:54:33,533][ApicWS08][INFO] uninitializing maya standalone...
+[2023-09-14 10:55:12,579][ApicWS08][INFO] initializing maya standalone...
+[2023-09-14 10:55:29,718][ApicWS08][INFO] loaded render scene: \\APICNAS\Produktion\Ressources\Library\3D_Modelle\_ShaderBall_Maya\_DEV\MaterialDev_REF_ACES.mb
+[2023-09-14 10:55:35,361][ApicWS08][INFO] imported \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Materials\Fussball_Hybride_mtl.mb
+[2023-09-14 10:55:35,363][ApicWS08][INFO] set v-ray as active renderer
+[2023-09-14 10:55:35,368][ApicWS08][INFO] set v-ray render settings
+[2023-09-14 10:55:35,369][ApicWS08][INFO] set image output path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Thumbnails
+[2023-09-14 10:55:35,371][ApicWS08][INFO] assigned Fussball_Hybride_mtl to ShaderBall
+[2023-09-14 10:55:53,559][ApicWS08][INFO] finished rendering Fussball_Hybride_mtl
+[2023-09-14 10:55:53,560][ApicWS08][INFO] uninitializing maya standalone...
+[2023-09-14 10:56:03,106][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Ressources/Library/HDR_lib/gsg\HDRIPool already exists
+[2023-09-14 10:56:03,107][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Ressources/Library/HDR_lib/gsg\HDRIPool\HDRIs already exists
+[2023-09-14 10:56:03,108][ApicWS10][WARNING] can't create folder, path: //apicnas/Produktion/Ressources/Library/HDR_lib/gsg\HDRIPool\Thumbnails already exists
+[2023-09-14 10:56:03,109][ApicWS10][INFO] created new hdri pool in //apicnas/Produktion/Ressources/Library/HDR_lib/gsg
+[2023-09-14 10:56:44,626][ApicWS08][INFO] exported Fussball_Hybride_ORIGINAL_mtl to //apicnas/Produktion/Projekte/_CLIENT_Lib/ERIMA/440_shader\MaterialPool\Materials
+[2023-09-14 10:56:49,071][ApicWS08][INFO] initializing maya standalone...
+[2023-09-14 10:57:14,693][ApicWS08][INFO] loaded scene: \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Materials\Fussball_Hybride_ORIGINAL_mtl.mb
+[2023-09-14 10:57:14,765][ApicWS08][INFO] copied //apicnas/Produktion/Projekte/_CLIENT_Lib/ERIMA/430_textures/Fussball/Hybrid_no5/Fussball_HybridOriginal.png to \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Textures\Fussball_Hybride_ORIGINAL_mtl
+[2023-09-14 10:57:14,769][ApicWS08][INFO] set path of file node: pasted__file1 to \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Textures\Fussball_Hybride_ORIGINAL_mtl\Fussball_HybridOriginal.png
+[2023-09-14 10:57:14,817][ApicWS08][INFO] saved scene \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Materials\Fussball_Hybride_ORIGINAL_mtl.mb
+[2023-09-14 10:57:14,819][ApicWS08][WARNING] can't create folder, path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Textures\Fussball_Hybride_ORIGINAL_mtl already exists
+[2023-09-14 10:57:15,103][ApicWS08][INFO] copied //apicnas/Produktion/Projekte/_CLIENT_Lib/ERIMA/430_textures/Fussball/Hybrid_no5/Fussball_Hybrid_Glos.tga to \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Textures\Fussball_Hybride_ORIGINAL_mtl
+[2023-09-14 10:57:15,105][ApicWS08][INFO] set path of file node: pasted__file2 to \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Textures\Fussball_Hybride_ORIGINAL_mtl\Fussball_Hybrid_Glos.tga
+[2023-09-14 10:57:15,163][ApicWS08][INFO] saved scene \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Materials\Fussball_Hybride_ORIGINAL_mtl.mb
+[2023-09-14 10:57:15,164][ApicWS08][WARNING] can't create folder, path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Textures\Fussball_Hybride_ORIGINAL_mtl already exists
+[2023-09-14 10:57:15,503][ApicWS08][INFO] copied //apicnas/Produktion/Projekte/_CLIENT_Lib/ERIMA/430_textures/Fussball/Hybrid_no5/Fussball_Hybrid_Bump.tga to \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Textures\Fussball_Hybride_ORIGINAL_mtl
+[2023-09-14 10:57:15,506][ApicWS08][INFO] set path of file node: pasted__file3 to \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Textures\Fussball_Hybride_ORIGINAL_mtl\Fussball_Hybrid_Bump.tga
+[2023-09-14 10:57:15,550][ApicWS08][INFO] saved scene \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Materials\Fussball_Hybride_ORIGINAL_mtl.mb
+[2023-09-14 10:57:15,551][ApicWS08][INFO] uninitializing maya standalone...
+[2023-09-14 10:57:39,699][ApicWS08][INFO] initializing maya standalone...
+[2023-09-14 10:57:56,525][ApicWS08][INFO] loaded render scene: \\APICNAS\Produktion\Ressources\Library\3D_Modelle\_ShaderBall_Maya\_DEV\MaterialDev_REF_ACES.mb
+[2023-09-14 10:58:02,128][ApicWS08][INFO] imported \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Materials\Fussball_Hybride_ORIGINAL_mtl.mb
+[2023-09-14 10:58:02,130][ApicWS08][INFO] set v-ray as active renderer
+[2023-09-14 10:58:02,132][ApicWS08][INFO] set v-ray render settings
+[2023-09-14 10:58:02,133][ApicWS08][INFO] set image output path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Thumbnails
+[2023-09-14 10:58:02,136][ApicWS08][INFO] assigned Fussball_Hybride_ORIGINAL_mtl to ShaderBall
+[2023-09-14 10:58:21,019][ApicWS08][INFO] finished rendering Fussball_Hybride_ORIGINAL_mtl
+[2023-09-14 10:58:21,020][ApicWS08][INFO] uninitializing maya standalone...
+[2023-09-14 10:59:03,448][ApicWS08][INFO] referenced material \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Materials\Fussball_Hybride_ORIGINAL_mtl.mb
+[2023-09-14 11:01:17,820][ApicWS08][INFO] referenced material \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Materials\Fussball_Hybride_ORIGINAL_mtl.mb
+[2023-09-14 11:01:19,807][ApicWS08][INFO] updated settings manager values.
+[2023-09-14 11:01:19,810][ApicWS08][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 11:02:06,277][ApicWS08][INFO] referenced material \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\440_shader\MaterialPool\Materials\Fussball_Hybride_ORIGINAL_mtl.mb
+[2023-09-14 11:02:07,692][ApicWS08][INFO] updated settings manager values.
+[2023-09-14 11:02:07,695][ApicWS08][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 11:04:15,069][ApicWS08][INFO] Saved Scrrenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\410_work_scenes\412_models\ModelPool\Thumbnails\Fussball_Hybrid.png
+[2023-09-14 11:04:26,868][ApicWS08][INFO] updated settings manager values.
+[2023-09-14 11:04:26,871][ApicWS08][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 11:04:43,447][ApicWS08][INFO] imported material Fussball_Hybride_ORIGINAL_mtl
+[2023-09-14 11:04:44,876][ApicWS08][INFO] updated settings manager values.
+[2023-09-14 11:04:44,879][ApicWS08][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 11:15:12,283][ApicWS10][INFO] updated settings manager values.
+[2023-09-14 11:15:12,286][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 12:26:55,964][ApicWS08][INFO] imported material noise3
+[2023-09-14 12:26:57,405][ApicWS08][INFO] updated settings manager values.
+[2023-09-14 12:26:57,407][ApicWS08][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 12:56:37,225][ApicWS08][INFO] imported material faden_mtl
+[2023-09-14 12:56:39,315][ApicWS08][INFO] updated settings manager values.
+[2023-09-14 12:56:39,317][ApicWS08][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 12:57:03,290][ApicWS10][INFO] updated settings manager values.
+[2023-09-14 12:57:03,293][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 12:57:12,806][ApicWS10][INFO] starting Render Vault...
+[2023-09-14 12:57:12,881][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 12:57:16,824][ApicWS10][INFO] updated settings manager values.
+[2023-09-14 12:57:16,830][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 13:11:45,093][ApicWS08][INFO] starting Render Vault...
+[2023-09-14 13:11:45,150][ApicWS08][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 13:12:58,884][ApicWS08][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/ERIMA/410_work_scenes/412_models\ModelPool already exists
+[2023-09-14 13:12:58,885][ApicWS08][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/ERIMA/410_work_scenes/412_models\ModelPool\Models already exists
+[2023-09-14 13:12:58,886][ApicWS08][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/ERIMA/410_work_scenes/412_models\ModelPool\Textures already exists
+[2023-09-14 13:12:58,887][ApicWS08][WARNING] can't create folder, path: //apicnas/Produktion/Projekte/_CLIENT_Lib/ERIMA/410_work_scenes/412_models\ModelPool\Thumbnails already exists
+[2023-09-14 13:12:58,888][ApicWS08][INFO] created new model pool in //apicnas/Produktion/Projekte/_CLIENT_Lib/ERIMA/410_work_scenes/412_models
+[2023-09-14 13:13:22,729][ApicWS08][INFO] referenced model \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\410_work_scenes\412_models\ModelPool\Models\Fussball_Hybrid_Trainig_2.mb
+[2023-09-14 13:13:32,521][ApicWS08][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\ERIMA\410_work_scenes\412_models\ModelPool\Models\Fussball_Hybrid_Trainig_2.mb
+[2023-09-14 13:13:33,728][ApicWS08][INFO] updated settings manager values.
+[2023-09-14 13:13:33,730][ApicWS08][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 13:14:31,234][ApicWS08][INFO] imported material ballon_fiberglass_mtl
+[2023-09-14 13:14:32,004][ApicWS08][INFO] updated settings manager values.
+[2023-09-14 13:14:32,008][ApicWS08][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 13:20:14,171][ApicWS08][INFO] imported material ball_innen_mtl
+[2023-09-14 13:20:14,855][ApicWS08][INFO] updated settings manager values.
+[2023-09-14 13:20:14,858][ApicWS08][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 13:21:22,313][ApicWS08][WARNING] can't create v-ray hdri, v-ray is not the active renderer
+[2023-09-14 13:21:23,505][ApicWS08][INFO] updated settings manager values.
+[2023-09-14 13:21:23,508][ApicWS08][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 13:21:36,881][ApicWS08][WARNING] can't create v-ray hdri, v-ray is not the active renderer
+[2023-09-14 13:22:05,861][ApicWS08][INFO] updated settings manager values.
+[2023-09-14 13:22:05,864][ApicWS08][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 13:30:38,093][ApicWS08][INFO] updated settings manager values.
+[2023-09-14 13:30:38,096][ApicWS08][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 14:42:25,472][ApicWS08][INFO] updated settings manager values.
+[2023-09-14 14:42:25,475][ApicWS08][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 15:10:31,078][ApicWS08][INFO] updated settings manager values.
+[2023-09-14 15:10:31,081][ApicWS08][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 15:50:26,174][ApicWS10][INFO] starting Render Vault...
+[2023-09-14 15:50:26,223][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 15:50:49,718][ApicWS10][INFO] initializing maya standalone...
+[2023-09-14 15:51:06,214][ApicWS10][INFO] loaded scene: \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\Granulat_Aufbereitung.mb
+[2023-09-14 15:51:06,215][ApicWS10][INFO] ['GSG_TechProducts_Anodized_Space_Grey_basecolor_1', 'GSG_TechProducts_Anodized_Space_Grey_normal_1', 'GSG_TechProducts_Anodized_Space_Grey_roughness_1', '_Metal_Grey_01_diff_tex_0', '_Metal_Grey_01_nrm_tex_tex_2', '_Metal_Grey_01_rough_tex_mono_0', '_Metal_Scratched_Stained_26_100_diff_tex_0', '_Metal_Scratched_Stained_26_100_metal_tex_mono_1', '_Metal_Scratched_Stained_26_100_nrm_tex_tex_2', '_Metal_Scratched_Stained_26_100_rough_tex_mono_0']
+[2023-09-14 15:51:06,269][ApicWS10][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_techproducts_maps/GSG_TechProducts_Anodized_Space_Grey/GSG_TechProducts_Anodized_Space_Grey_basecolor.jpg to \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\Granulat_Aufbereitung
+[2023-09-14 15:51:06,271][ApicWS10][INFO] set path of file node: GSG_TechProducts_Anodized_Space_Grey_basecolor_1 to \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\Granulat_Aufbereitung\GSG_TechProducts_Anodized_Space_Grey_basecolor.jpg
+[2023-09-14 15:51:06,393][ApicWS10][INFO] saved scene \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\Granulat_Aufbereitung.mb
+[2023-09-14 15:51:06,395][ApicWS10][WARNING] can't create folder, path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\Granulat_Aufbereitung already exists
+[2023-09-14 15:51:06,702][ApicWS10][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_techproducts_maps/GSG_TechProducts_Anodized_Space_Grey/GSG_TechProducts_Anodized_Space_Grey_normal.tx to \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\Granulat_Aufbereitung
+[2023-09-14 15:51:06,703][ApicWS10][INFO] set path of file node: GSG_TechProducts_Anodized_Space_Grey_normal_1 to \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\Granulat_Aufbereitung\GSG_TechProducts_Anodized_Space_Grey_normal.tx
+[2023-09-14 15:51:06,812][ApicWS10][INFO] saved scene \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\Granulat_Aufbereitung.mb
+[2023-09-14 15:51:06,813][ApicWS10][WARNING] can't create folder, path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\Granulat_Aufbereitung already exists
+[2023-09-14 15:51:06,863][ApicWS10][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_techproducts_maps/GSG_TechProducts_Anodized_Space_Grey/GSG_TechProducts_Anodized_Space_Grey_roughness.tx to \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\Granulat_Aufbereitung
+[2023-09-14 15:51:06,864][ApicWS10][INFO] set path of file node: GSG_TechProducts_Anodized_Space_Grey_roughness_1 to \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\Granulat_Aufbereitung\GSG_TechProducts_Anodized_Space_Grey_roughness.tx
+[2023-09-14 15:51:06,973][ApicWS10][INFO] saved scene \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\Granulat_Aufbereitung.mb
+[2023-09-14 15:51:06,974][ApicWS10][WARNING] can't create folder, path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\Granulat_Aufbereitung already exists
+[2023-09-14 15:51:07,067][ApicWS10][INFO] copied //APICNAS/Produktion/Ressources/Library/chaos_cosmos/Packages/Materials/Metal/Metal_Grey_01_100cm_e7a6bdc5/e7a6bdc5_Refl_4k_srgb.tx to \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\Granulat_Aufbereitung
+[2023-09-14 15:51:07,068][ApicWS10][INFO] set path of file node: _Metal_Grey_01_diff_tex_0 to \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\Granulat_Aufbereitung\e7a6bdc5_Refl_4k_srgb.tx
+[2023-09-14 15:51:07,178][ApicWS10][INFO] saved scene \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\Granulat_Aufbereitung.mb
+[2023-09-14 15:51:07,179][ApicWS10][WARNING] can't create folder, path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\Granulat_Aufbereitung already exists
+[2023-09-14 15:51:07,300][ApicWS10][INFO] copied //APICNAS/Produktion/Ressources/Library/chaos_cosmos/Packages/Materials/Metal/Metal_Grey_01_100cm_e7a6bdc5/e7a6bdc5_Nrm_4k_raw.tx to \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\Granulat_Aufbereitung
+[2023-09-14 15:51:07,301][ApicWS10][INFO] set path of file node: _Metal_Grey_01_nrm_tex_tex_2 to \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\Granulat_Aufbereitung\e7a6bdc5_Nrm_4k_raw.tx
+[2023-09-14 15:51:07,412][ApicWS10][INFO] saved scene \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\Granulat_Aufbereitung.mb
+[2023-09-14 15:51:07,413][ApicWS10][WARNING] can't create folder, path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\Granulat_Aufbereitung already exists
+[2023-09-14 15:51:07,510][ApicWS10][INFO] copied //APICNAS/Produktion/Ressources/Library/chaos_cosmos/Packages/Materials/Metal/Metal_Grey_01_100cm_e7a6bdc5/e7a6bdc5_Rough_4k_raw.tx to \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\Granulat_Aufbereitung
+[2023-09-14 15:51:07,511][ApicWS10][INFO] set path of file node: _Metal_Grey_01_rough_tex_mono_0 to \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\Granulat_Aufbereitung\e7a6bdc5_Rough_4k_raw.tx
+[2023-09-14 15:51:07,620][ApicWS10][INFO] saved scene \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\Granulat_Aufbereitung.mb
+[2023-09-14 15:51:07,621][ApicWS10][WARNING] can't create folder, path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\Granulat_Aufbereitung already exists
+[2023-09-14 15:51:07,717][ApicWS10][INFO] copied //APICNAS/Produktion/Ressources/Library/chaos_cosmos/Packages/Materials/Metal/Metal_Scratched_Stained_26-100_100cm_3ec89cf1/3ec89cf1_Refl_4k_srgb.tx to \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\Granulat_Aufbereitung
+[2023-09-14 15:51:07,718][ApicWS10][INFO] set path of file node: _Metal_Scratched_Stained_26_100_diff_tex_0 to \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\Granulat_Aufbereitung\3ec89cf1_Refl_4k_srgb.tx
+[2023-09-14 15:51:07,830][ApicWS10][INFO] saved scene \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\Granulat_Aufbereitung.mb
+[2023-09-14 15:51:07,832][ApicWS10][WARNING] can't create folder, path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\Granulat_Aufbereitung already exists
+[2023-09-14 15:51:07,910][ApicWS10][INFO] copied //APICNAS/Produktion/Ressources/Library/chaos_cosmos/Packages/Materials/Metal/Metal_Scratched_Stained_26-100_100cm_3ec89cf1/3ec89cf1_Metal_4k_raw.tx to \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\Granulat_Aufbereitung
+[2023-09-14 15:51:07,911][ApicWS10][INFO] set path of file node: _Metal_Scratched_Stained_26_100_metal_tex_mono_1 to \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\Granulat_Aufbereitung\3ec89cf1_Metal_4k_raw.tx
+[2023-09-14 15:51:08,022][ApicWS10][INFO] saved scene \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\Granulat_Aufbereitung.mb
+[2023-09-14 15:51:08,024][ApicWS10][WARNING] can't create folder, path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\Granulat_Aufbereitung already exists
+[2023-09-14 15:51:08,140][ApicWS10][INFO] copied //APICNAS/Produktion/Ressources/Library/chaos_cosmos/Packages/Materials/Metal/Metal_Scratched_Stained_26-100_100cm_3ec89cf1/3ec89cf1_Nrm_4k_raw.tx to \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\Granulat_Aufbereitung
+[2023-09-14 15:51:08,141][ApicWS10][INFO] set path of file node: _Metal_Scratched_Stained_26_100_nrm_tex_tex_2 to \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\Granulat_Aufbereitung\3ec89cf1_Nrm_4k_raw.tx
+[2023-09-14 15:51:08,251][ApicWS10][INFO] saved scene \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\Granulat_Aufbereitung.mb
+[2023-09-14 15:51:08,252][ApicWS10][WARNING] can't create folder, path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\Granulat_Aufbereitung already exists
+[2023-09-14 15:51:08,344][ApicWS10][INFO] copied //APICNAS/Produktion/Ressources/Library/chaos_cosmos/Packages/Materials/Metal/Metal_Scratched_Stained_26-100_100cm_3ec89cf1/3ec89cf1_Rough_4k_raw.tx to \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\Granulat_Aufbereitung
+[2023-09-14 15:51:08,346][ApicWS10][INFO] set path of file node: _Metal_Scratched_Stained_26_100_rough_tex_mono_0 to \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\Granulat_Aufbereitung\3ec89cf1_Rough_4k_raw.tx
+[2023-09-14 15:51:08,455][ApicWS10][INFO] saved scene \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\Granulat_Aufbereitung.mb
+[2023-09-14 15:51:08,456][ApicWS10][INFO] uninitializing maya standalone...
+[2023-09-14 15:52:33,006][ApicWS10][INFO] Saved Scrrenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Thumbnails\Granulat_Aufbereitung.png
+[2023-09-14 16:01:23,030][ApicWS10][INFO] updated settings manager values.
+[2023-09-14 16:01:23,033][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 16:01:36,572][ApicWS10][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\Granulat_Aufbereitung.mb
+[2023-09-14 16:04:36,997][ApicWS10][INFO] updated settings manager values.
+[2023-09-14 16:04:36,999][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 16:25:04,840][ApicWS08][INFO] starting Render Vault...
+[2023-09-14 16:25:04,945][ApicWS08][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 16:25:40,276][ApicWS08][INFO] imported material faden_mtl
+[2023-09-14 16:25:42,164][ApicWS08][INFO] updated settings manager values.
+[2023-09-14 16:25:42,167][ApicWS08][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 16:42:10,309][ApicWS08][INFO] starting Render Vault...
+[2023-09-14 16:42:10,367][ApicWS08][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 16:42:20,359][ApicWS08][INFO] imported material faden_mtl
+[2023-09-14 16:42:21,511][ApicWS08][INFO] updated settings manager values.
+[2023-09-14 16:42:21,514][ApicWS08][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 17:19:37,511][ApicWS10][INFO] starting Render Vault...
+[2023-09-14 17:19:37,562][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 17:19:41,445][ApicWS10][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\Granulat_Aufbereitung.mb
+[2023-09-14 18:00:42,119][ApicWS06][INFO] starting Render Vault...
+[2023-09-14 18:00:42,175][ApicWS06][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-14 18:15:15,860][ApicWS06][INFO] Saved Scrrenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Thumbnails\Granulat_2.png
+[2023-09-14 18:18:14,345][ApicWS06][INFO] updated settings manager values.
+[2023-09-14 18:18:14,348][ApicWS06][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json

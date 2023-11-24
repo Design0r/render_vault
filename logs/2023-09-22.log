@@ -1,0 +1,90 @@
+[2023-09-22 10:40:33,827][ApicWS08][INFO] starting Render Vault...
+[2023-09-22 10:40:33,883][ApicWS08][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-22 10:42:47,577][ApicWS08][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\Granulat.mb
+[2023-09-22 10:43:02,014][ApicWS08][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\Granulat_2.ma
+[2023-09-22 10:45:05,946][ApicWS08][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SampleParts_Back_Up_Bauteil.mb
+[2023-09-22 10:45:07,979][ApicWS08][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SamplePart_Pipe.mb
+[2023-09-22 10:45:09,879][ApicWS08][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SamplePart_Robotarm.mb
+[2023-09-22 10:45:10,835][ApicWS08][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SamplePart_small_Application.mb
+[2023-09-22 10:50:07,261][ApicWS06][INFO] starting Render Vault...
+[2023-09-22 10:50:07,321][ApicWS06][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-22 10:51:15,914][ApicWS06][INFO] initializing maya standalone...
+[2023-09-22 10:51:54,904][ApicWS06][INFO] loaded scene: \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\smooth_grains.mb
+[2023-09-22 10:51:54,905][ApicWS06][INFO] ['file1']
+[2023-09-22 10:51:55,084][ApicWS06][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/textures/Surface Imperfections Copy Machine/Textures/GSG_SI_Copy_Machine_02.jpg to \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\smooth_grains
+[2023-09-22 10:51:55,086][ApicWS06][INFO] set path of file node: file1 to \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Textures\smooth_grains\GSG_SI_Copy_Machine_02.jpg
+[2023-09-22 10:51:55,126][ApicWS06][INFO] saved scene \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\smooth_grains.mb
+[2023-09-22 10:51:55,127][ApicWS06][INFO] uninitializing maya standalone...
+[2023-09-22 10:53:42,517][ApicWS06][INFO] Saved Scrrenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Thumbnails\smooth_grains.png
+[2023-09-22 11:02:11,269][ApicWS08][INFO] starting Render Vault...
+[2023-09-22 11:02:11,325][ApicWS08][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-22 11:02:14,995][ApicWS08][INFO] deleted \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SamplePart_12.mb
+[2023-09-22 11:02:17,838][ApicWS08][INFO] updated settings manager values.
+[2023-09-22 11:02:17,841][ApicWS08][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-22 11:04:32,932][ApicWS08][INFO] Saved Scrrenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Thumbnails\SamplePart_12.png
+[2023-09-22 11:04:36,754][ApicWS06][INFO] Saved Scrrenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Thumbnails\smooth_grains.png
+[2023-09-22 11:07:50,196][ApicWS08][INFO] Saved Scrrenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Thumbnails\SamplePart_11.png
+[2023-09-22 11:08:12,768][ApicWS08][INFO] Saved Scrrenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Thumbnails\SamplePart_12.png
+[2023-09-22 11:10:31,707][ApicWS08][INFO] Saved Scrrenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Thumbnails\SamplePart_10.png
+[2023-09-22 11:12:28,312][ApicWS08][INFO] Saved Scrrenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Thumbnails\SamplePart_09.png
+[2023-09-22 11:14:03,240][ApicWS08][INFO] Saved Scrrenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Thumbnails\SamplePart_08.png
+[2023-09-22 11:15:46,529][ApicWS08][INFO] Saved Scrrenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Thumbnails\SamplePart_07.png
+[2023-09-22 11:18:14,845][ApicWS08][INFO] Saved Scrrenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Thumbnails\SamplePart_06.png
+[2023-09-22 11:19:57,507][ApicWS08][INFO] Saved Scrrenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Thumbnails\SamplePart_05.png
+[2023-09-22 11:21:49,268][ApicWS08][INFO] deleted \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SamplePart_04.mb
+[2023-09-22 11:22:21,676][ApicWS08][INFO] Saved Scrrenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Thumbnails\SamplePart_04.png
+[2023-09-22 11:25:17,291][ApicWS08][INFO] Saved Scrrenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Thumbnails\SamplePart_03.png
+[2023-09-22 11:27:41,143][ApicWS08][INFO] Saved Scrrenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Thumbnails\SamplePart_02.png
+[2023-09-22 11:27:42,940][ApicWS06][INFO] starting Render Vault...
+[2023-09-22 11:27:42,989][ApicWS06][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-22 11:27:59,237][ApicWS06][INFO] referenced model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SamplePart_02.mb
+[2023-09-22 11:29:17,766][ApicWS08][INFO] Saved Scrrenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Thumbnails\SamplePart_01.png
+[2023-09-22 11:30:36,113][ApicWS08][INFO] Saved Scrrenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Thumbnails\SamplePart_13.png
+[2023-09-22 11:31:02,219][ApicWS08][INFO] deleted \\APICNAS\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Thumbnails\SamplePart_12.png
+[2023-09-22 11:31:02,221][ApicWS08][INFO] deleted \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SamplePart_12.mb
+[2023-09-22 11:31:25,441][ApicWS08][INFO] Saved Scrrenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Thumbnails\SamplePart_12.png
+[2023-09-22 11:32:44,384][ApicWS08][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SamplePart_01.mb
+[2023-09-22 11:32:45,721][ApicWS08][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SamplePart_02.mb
+[2023-09-22 11:32:46,884][ApicWS08][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SamplePart_03.mb
+[2023-09-22 11:32:47,894][ApicWS08][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SamplePart_04.mb
+[2023-09-22 11:32:48,960][ApicWS08][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SamplePart_05.mb
+[2023-09-22 11:32:50,119][ApicWS08][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SamplePart_06.mb
+[2023-09-22 11:32:51,128][ApicWS08][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SamplePart_07.mb
+[2023-09-22 11:32:53,109][ApicWS08][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SamplePart_08.mb
+[2023-09-22 11:32:54,422][ApicWS08][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SamplePart_09.mb
+[2023-09-22 11:32:55,692][ApicWS08][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SamplePart_10.mb
+[2023-09-22 11:32:56,784][ApicWS08][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SamplePart_11.mb
+[2023-09-22 11:32:57,944][ApicWS08][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SamplePart_12.mb
+[2023-09-22 11:32:58,944][ApicWS08][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SamplePart_13.mb
+[2023-09-22 11:33:02,942][ApicWS08][INFO] updated settings manager values.
+[2023-09-22 11:33:02,946][ApicWS08][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-22 11:45:27,068][ApicWS06][INFO] referenced model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SamplePart_02.mb
+[2023-09-22 11:47:12,078][ApicWS06][INFO] referenced model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SamplePart_06.mb
+[2023-09-22 11:47:15,147][ApicWS06][INFO] referenced model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SamplePart_08.mb
+[2023-09-22 11:54:05,428][ApicWS08][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\smooth_grains.mb
+[2023-09-22 11:59:10,527][ApicWS06][INFO] referenced model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SamplePart_08.mb
+[2023-09-22 12:03:58,018][ApicWS06][INFO] initializing maya standalone...
+[2023-09-22 12:04:24,815][ApicWS06][INFO] loaded render scene: \\APICNAS\Produktion\Ressources\Library\3D_Modelle\_ShaderBall_Maya\_DEV\MaterialDev_REF_ACES.mb
+[2023-09-22 12:04:24,916][ApicWS06][INFO] imported \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\440_shader\MaterialPool\Materials\layered_print_offwhite_mtl.mb
+[2023-09-22 12:04:24,916][ApicWS06][INFO] set v-ray as active renderer
+[2023-09-22 12:04:24,917][ApicWS06][INFO] set v-ray render settings
+[2023-09-22 12:04:24,918][ApicWS06][INFO] set image output path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\440_shader\MaterialPool\Thumbnails
+[2023-09-22 12:11:44,316][ApicWS06][INFO] referenced material \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\440_shader\MaterialPool\Materials\layered_print_offwhite_mtl.mb
+[2023-09-22 12:15:39,327][ApicWS06][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\smooth_grains.mb
+[2023-09-22 13:51:20,341][ApicWS06][INFO] referenced model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SamplePart_small_Application.mb
+[2023-09-22 13:51:23,221][ApicWS06][INFO] referenced model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SamplePart_Robotarm.mb
+[2023-09-22 13:51:28,055][ApicWS06][INFO] referenced model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SampleParts_Back_Up_Bauteil.mb
+[2023-09-22 13:51:31,146][ApicWS06][INFO] referenced model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\SamplePart_Pipe.mb
+[2023-09-22 14:34:44,434][ApicWS06][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\smooth_grains.mb
+[2023-09-22 14:40:44,384][ApicWS08][INFO] starting Render Vault...
+[2023-09-22 14:40:44,441][ApicWS08][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-22 14:46:53,671][ApicWS06][INFO] updated settings manager values.
+[2023-09-22 14:46:53,674][ApicWS06][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-22 15:10:28,104][ApicWS06][INFO] imported material layered_print_offwhite_mtl
+[2023-09-22 16:20:24,840][ApicWS08][INFO] starting Render Vault...
+[2023-09-22 16:20:24,901][ApicWS08][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-22 16:20:57,192][ApicWS08][INFO] imported material layered_print_offwhite_mtl
+[2023-09-22 16:20:58,460][ApicWS08][INFO] updated settings manager values.
+[2023-09-22 16:20:58,463][ApicWS08][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-09-22 18:00:38,267][ApicWS06][INFO] updated settings manager values.
+[2023-09-22 18:00:38,286][ApicWS06][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json

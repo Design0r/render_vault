@@ -1,0 +1,63 @@
+[2023-10-04 10:32:52,345][ApicWS07][INFO] starting Render Vault...
+[2023-10-04 10:32:52,479][ApicWS07][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS07.json
+[2023-10-04 10:33:01,462][ApicWS07][INFO] updated settings manager values.
+[2023-10-04 10:33:01,467][ApicWS07][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS07.json
+[2023-10-04 10:33:10,370][ApicWS07][INFO] updated settings manager values.
+[2023-10-04 10:33:10,375][ApicWS07][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS07.json
+[2023-10-04 10:33:10,438][ApicWS07][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS07.json
+[2023-10-04 10:36:02,436][ApicWS07][INFO] exported VRayBlendMtl1 to //apicnas/Produktion/Projekte/_CLIENT_Lib/ARNO/3D/440_shader\MaterialPool\Materials
+[2023-10-04 10:36:06,227][ApicWS07][INFO] initializing maya standalone...
+[2023-10-04 10:36:11,769][ApicWS07][INFO] loaded scene: \\apicnas\Produktion\Projekte\_CLIENT_Lib\ARNO\3D\440_shader\MaterialPool\Materials\VRayBlendMtl1.mb
+[2023-10-04 10:36:11,831][ApicWS07][INFO] copied //apicnas/Produktion/Projekte/23445INT_Anke_BA/400_3D/430_textures/arno/98_cam_a3.hdr to \\apicnas\Produktion\Projekte\_CLIENT_Lib\ARNO\3D\440_shader\MaterialPool\Textures\VRayBlendMtl1
+[2023-10-04 10:36:11,834][ApicWS07][INFO] set path of file node: file1 to \\apicnas\Produktion\Projekte\_CLIENT_Lib\ARNO\3D\440_shader\MaterialPool\Textures\VRayBlendMtl1\98_cam_a3.hdr
+[2023-10-04 10:36:11,883][ApicWS07][INFO] saved scene \\apicnas\Produktion\Projekte\_CLIENT_Lib\ARNO\3D\440_shader\MaterialPool\Materials\VRayBlendMtl1.mb
+[2023-10-04 10:36:11,884][ApicWS07][INFO] uninitializing maya standalone...
+[2023-10-04 10:36:31,211][ApicWS07][INFO] initializing maya standalone...
+[2023-10-04 10:36:40,070][ApicWS07][INFO] loaded render scene: \\APICNAS\Produktion\Ressources\Library\3D_Modelle\_ShaderBall_Maya\_DEV\MaterialDev_REF_ACES.mb
+[2023-10-04 10:36:40,129][ApicWS07][INFO] imported \\apicnas\Produktion\Projekte\_CLIENT_Lib\ARNO\3D\440_shader\MaterialPool\Materials\VRayBlendMtl1.mb
+[2023-10-04 10:36:40,130][ApicWS07][INFO] set v-ray as active renderer
+[2023-10-04 10:36:40,131][ApicWS07][INFO] set v-ray render settings
+[2023-10-04 10:36:40,132][ApicWS07][INFO] set image output path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\ARNO\3D\440_shader\MaterialPool\Thumbnails
+[2023-10-04 10:36:40,134][ApicWS07][INFO] assigned VRayBlendMtl1 to ShaderBall
+[2023-10-04 10:36:57,431][ApicWS07][INFO] finished rendering VRayBlendMtl1
+[2023-10-04 10:36:57,432][ApicWS07][INFO] uninitializing maya standalone...
+[2023-10-04 10:37:50,405][ApicWS07][INFO] imported material Beschriftung
+[2023-10-04 10:38:45,654][ApicWS07][INFO] deleted \\APICNAS\Produktion\Projekte\_CLIENT_Lib\ARNO\3D\440_shader\MaterialPool\Thumbnails\VRayBlendMtl1.png
+[2023-10-04 10:38:45,660][ApicWS07][INFO] deleted \\apicnas\Produktion\Projekte\_CLIENT_Lib\ARNO\3D\440_shader\MaterialPool\Materials\VRayBlendMtl1.mb
+[2023-10-04 10:39:32,043][ApicWS07][INFO] created new model pool in C:/Users/TheApic/Desktop
+[2023-10-04 10:40:10,966][ApicWS07][INFO] Saved Scrrenshot in C:\Users\TheApic\Desktop\ModelPool\Thumbnails\Sphere.png
+[2023-10-04 10:40:28,517][ApicWS07][INFO] imported model C:\Users\TheApic\Desktop\ModelPool\Models\Sphere.mb
+[2023-10-04 10:41:09,475][ApicWS07][WARNING] can't create v-ray hdri, v-ray is not the active renderer
+[2023-10-04 10:41:15,247][ApicWS07][WARNING] can't create v-ray hdri, v-ray is not the active renderer
+[2023-10-04 10:41:29,771][ApicWS07][WARNING] can't create v-ray hdri, v-ray is not the active renderer
+[2023-10-04 10:41:49,979][ApicWS07][WARNING] can't create v-ray hdri, v-ray is not the active renderer
+[2023-10-04 10:41:56,702][ApicWS07][INFO] updated settings manager values.
+[2023-10-04 10:41:56,710][ApicWS07][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS07.json
+[2023-10-04 10:43:38,095][ApicWS07][INFO] starting Render Vault...
+[2023-10-04 10:43:38,190][ApicWS07][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS07.json
+[2023-10-04 10:43:40,938][ApicWS07][WARNING] can't create v-ray hdri, v-ray is not the active renderer
+[2023-10-04 10:59:29,169][ApicWS07][INFO] updated settings manager values.
+[2023-10-04 10:59:29,172][ApicWS07][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS07.json
+[2023-10-04 11:31:59,998][ApicWS10][INFO] starting Render Vault...
+[2023-10-04 11:32:00,122][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-04 11:34:25,177][ApicWS10][INFO] starting Render Vault...
+[2023-10-04 11:34:25,268][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-04 12:08:13,822][ApicWS10][INFO] updated settings manager values.
+[2023-10-04 12:08:13,827][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-04 17:05:03,374][ApicWS10][INFO] starting Render Vault...
+[2023-10-04 17:05:03,504][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-04 17:05:29,551][ApicWS10][INFO] updated settings manager values.
+[2023-10-04 17:05:29,558][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-04 17:06:09,228][ApicWS10][INFO] starting Render Vault...
+[2023-10-04 17:06:09,313][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-04 17:19:55,775][ApicWS10][INFO] updated settings manager values.
+[2023-10-04 17:19:55,782][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-04 17:20:04,607][ApicWS10][INFO] starting Render Vault...
+[2023-10-04 17:20:04,700][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-04 17:20:21,922][ApicWS10][INFO] updated settings manager values.
+[2023-10-04 17:20:21,931][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-04 17:20:24,726][ApicWS10][INFO] starting Render Vault...
+[2023-10-04 17:20:24,873][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-04 17:21:58,746][ApicWS10][INFO] updated settings manager values.
+[2023-10-04 17:21:58,754][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-04 17:22:09,950][ApicWS10][INFO] starting Render Vault...

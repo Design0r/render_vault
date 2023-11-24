@@ -1,0 +1,211 @@
+[2023-08-10 11:34:04,483][ApicWS10][INFO] starting Render Vault...
+[2023-08-10 11:34:25,974][ApicWS10][INFO] initializing maya standalone...
+[2023-08-10 11:34:40,755][ApicWS10][INFO] loaded render scene: W:\Ressources\Library\3D_Modelle\_ShaderBall_Maya\_DEV\MaterialDev_REF_ACES.mb
+[2023-08-10 11:34:42,259][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Abschatter_innen.mb
+[2023-08-10 11:34:42,281][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\akku_sticker_BlendMtl.mb
+[2023-08-10 11:34:42,299][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\akku_sticker_mtl.mb
+[2023-08-10 11:34:42,317][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Aluminium_matt_mtl.mb
+[2023-08-10 11:34:42,336][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Blech_gelb_lackiert.mb
+[2023-08-10 11:34:42,352][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Chrom.mb
+[2023-08-10 11:34:42,368][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Glas.mb
+[2023-08-10 11:34:42,385][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Glas_blurry.mb
+[2023-08-10 11:34:42,400][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Gummi.mb
+[2023-08-10 11:34:42,419][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Kaercher_HERO_staubgrau_mtl.mb
+[2023-08-10 11:34:42,441][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Kaercher_Logo.mb
+[2023-08-10 11:34:42,458][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Kaercher_Plastik_basaltgrau_mtl.mb
+[2023-08-10 11:34:42,477][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Kaercher_Plastik_basaltgrau_Muster_mtl.mb
+[2023-08-10 11:34:42,494][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Kaercher_Plastik_gelb.mb
+[2023-08-10 11:34:42,514][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Kaercher_Plastik_gelb_Muster_mtl.mb
+[2023-08-10 11:34:42,538][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Kaercher_Plastik_staubgrau_hart_mtl.mb
+[2023-08-10 11:34:42,562][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Kaercher_Plastik_staubgrau_mtl.mb
+[2023-08-10 11:34:42,581][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Kaercher_Plastik_staubgrau_mtl1.mb
+[2023-08-10 11:34:42,598][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Kaercher_Plastik_staubgrau_Muster_mtl.mb
+[2023-08-10 11:34:42,637][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Kaercher_Plastik_verkehrsschwarz_mtl.mb
+[2023-08-10 11:34:42,654][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Kaercher_Plastik_verkehrsschwarz_Muster_mtl.mb
+[2023-08-10 11:34:42,675][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Metall_brushed_steel_mtl.mb
+[2023-08-10 11:34:42,694][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Metall_dunkel_Shdr.mb
+[2023-08-10 11:34:42,714][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Metall_grau_lackiert.mb
+[2023-08-10 11:34:42,731][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Metall_schwarz.mb
+[2023-08-10 11:34:42,748][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Metall_Shdr.mb
+[2023-08-10 11:34:42,769][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Metall_Staubgrau_mtl.mb
+[2023-08-10 11:34:42,784][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Metal_clean_Shdr.mb
+[2023-08-10 11:34:42,800][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\metal_matte_5_mtl.mb
+[2023-08-10 11:34:42,816][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\metal_matte_7_mtl.mb
+[2023-08-10 11:34:42,833][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Plastik_grau_glatt.mb
+[2023-08-10 11:34:42,848][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Plastik_schwarz.mb
+[2023-08-10 11:34:42,863][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Plastik_schwarz_glossy.mb
+[2023-08-10 11:34:42,880][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Plastik_schwarz_matt.mb
+[2023-08-10 11:34:42,897][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Plastik_schwarz_vrscan_mtl.mb
+[2023-08-10 11:34:42,913][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Plastik_weis.mb
+[2023-08-10 11:34:42,929][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Primer.mb
+[2023-08-10 11:34:42,944][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Primer_schwarz.mb
+[2023-08-10 11:34:42,959][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Reifen_dunkel_mtl.mb
+[2023-08-10 11:34:42,974][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Reifen_hellgrau.mb
+[2023-08-10 11:34:42,988][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Schrauben_Metal_Shdr.mb
+[2023-08-10 11:34:43,003][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Schrauben_schwarz_Shdr.mb
+[2023-08-10 11:34:43,019][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Screen.mb
+[2023-08-10 11:34:43,034][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Signet_schwarz.mb
+[2023-08-10 11:34:43,055][ApicWS10][INFO] imported C:\Users\TheApic\Desktop\MaterialPool\Materials\Signet_Silber.mb
+[2023-08-10 11:34:43,055][ApicWS10][INFO] set v-ray as active renderer
+[2023-08-10 11:34:43,056][ApicWS10][INFO] set v-ray render settings
+[2023-08-10 11:34:43,057][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:34:43,059][ApicWS10][INFO] assigned Abschatter_innen to ShaderBall
+[2023-08-10 11:34:51,867][ApicWS10][INFO] finished rendering Abschatter_innen
+[2023-08-10 11:34:51,868][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:34:51,870][ApicWS10][INFO] assigned Primer_schwarz to ShaderBall
+[2023-08-10 11:34:57,785][ApicWS10][INFO] finished rendering Primer_schwarz
+[2023-08-10 11:34:57,786][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:34:57,787][ApicWS10][INFO] assigned akku_sticker_mtl to ShaderBall
+[2023-08-10 11:35:06,281][ApicWS10][INFO] finished rendering akku_sticker_mtl
+[2023-08-10 11:35:06,283][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:35:06,285][ApicWS10][INFO] assigned akku_sticker_BlendMtl to ShaderBall
+[2023-08-10 11:35:14,963][ApicWS10][INFO] finished rendering akku_sticker_BlendMtl
+[2023-08-10 11:35:14,965][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:35:14,966][ApicWS10][INFO] assigned akku_sticker_mtl1 to ShaderBall
+[2023-08-10 11:35:23,716][ApicWS10][INFO] finished rendering akku_sticker_mtl1
+[2023-08-10 11:35:23,718][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:35:23,719][ApicWS10][INFO] assigned Aluminium_matt_mtl to ShaderBall
+[2023-08-10 11:35:30,876][ApicWS10][INFO] finished rendering Aluminium_matt_mtl
+[2023-08-10 11:35:30,877][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:35:30,878][ApicWS10][INFO] assigned Blech_gelb_lackiert to ShaderBall
+[2023-08-10 11:35:39,181][ApicWS10][INFO] finished rendering Blech_gelb_lackiert
+[2023-08-10 11:35:39,182][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:35:39,184][ApicWS10][INFO] assigned Chrom to ShaderBall
+[2023-08-10 11:35:47,249][ApicWS10][INFO] finished rendering Chrom
+[2023-08-10 11:35:47,251][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:35:47,253][ApicWS10][INFO] assigned Glas to ShaderBall
+[2023-08-10 11:35:57,969][ApicWS10][INFO] finished rendering Glas
+[2023-08-10 11:35:57,971][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:35:57,973][ApicWS10][INFO] assigned Glas_blurry to ShaderBall
+[2023-08-10 11:36:16,060][ApicWS10][INFO] finished rendering Glas_blurry
+[2023-08-10 11:36:16,061][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:36:16,063][ApicWS10][INFO] assigned Gummi to ShaderBall
+[2023-08-10 11:36:22,125][ApicWS10][INFO] finished rendering Gummi
+[2023-08-10 11:36:22,126][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:36:22,127][ApicWS10][INFO] assigned Kaercher_HERO_staubgrau_mtl to ShaderBall
+[2023-08-10 11:36:29,508][ApicWS10][INFO] finished rendering Kaercher_HERO_staubgrau_mtl
+[2023-08-10 11:36:29,509][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:36:29,511][ApicWS10][INFO] assigned Kaercher_Logo to ShaderBall
+[2023-08-10 11:36:38,107][ApicWS10][INFO] finished rendering Kaercher_Logo
+[2023-08-10 11:36:38,108][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:36:38,110][ApicWS10][INFO] assigned Kaercher_Plastik_basaltgrau_mtl to ShaderBall
+[2023-08-10 11:36:44,748][ApicWS10][INFO] finished rendering Kaercher_Plastik_basaltgrau_mtl
+[2023-08-10 11:36:44,749][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:36:44,751][ApicWS10][INFO] assigned Kaercher_Plastik_basaltgrau_Muster_mtl to ShaderBall
+[2023-08-10 11:36:51,600][ApicWS10][INFO] finished rendering Kaercher_Plastik_basaltgrau_Muster_mtl
+[2023-08-10 11:36:51,601][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:36:51,602][ApicWS10][INFO] assigned Kaercher_Plastik_gelb to ShaderBall
+[2023-08-10 11:36:59,445][ApicWS10][INFO] finished rendering Kaercher_Plastik_gelb
+[2023-08-10 11:36:59,446][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:36:59,448][ApicWS10][INFO] assigned Kaercher_Plastik_gelb_Muster_mtl to ShaderBall
+[2023-08-10 11:37:07,484][ApicWS10][INFO] finished rendering Kaercher_Plastik_gelb_Muster_mtl
+[2023-08-10 11:37:07,485][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:37:07,487][ApicWS10][INFO] assigned Kaercher_Plastik_staubgrau_hart_mtl to ShaderBall
+[2023-08-10 11:37:13,976][ApicWS10][INFO] finished rendering Kaercher_Plastik_staubgrau_hart_mtl
+[2023-08-10 11:37:13,978][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:37:13,979][ApicWS10][INFO] assigned Kaercher_Plastik_staubgrau_mtl to ShaderBall
+[2023-08-10 11:37:21,546][ApicWS10][INFO] finished rendering Kaercher_Plastik_staubgrau_mtl
+[2023-08-10 11:37:21,547][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:37:21,549][ApicWS10][INFO] assigned Kaercher_Plastik_staubgrau_mtl1 to ShaderBall
+[2023-08-10 11:37:28,909][ApicWS10][INFO] finished rendering Kaercher_Plastik_staubgrau_mtl1
+[2023-08-10 11:37:28,910][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:37:28,912][ApicWS10][INFO] assigned Kaercher_Plastik_staubgrau_Muster_mtl to ShaderBall
+[2023-08-10 11:37:35,739][ApicWS10][INFO] finished rendering Kaercher_Plastik_staubgrau_Muster_mtl
+[2023-08-10 11:37:35,741][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:37:35,742][ApicWS10][INFO] assigned Kaercher_Plastik_verkehrsschwarz_mtl to ShaderBall
+[2023-08-10 11:37:42,132][ApicWS10][INFO] finished rendering Kaercher_Plastik_verkehrsschwarz_mtl
+[2023-08-10 11:37:42,133][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:37:42,153][ApicWS10][INFO] assigned Kaercher_Plastik_verkehrsschwarz_Muster_mtl to ShaderBall
+[2023-08-10 11:37:48,706][ApicWS10][INFO] finished rendering Kaercher_Plastik_verkehrsschwarz_Muster_mtl
+[2023-08-10 11:37:48,707][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:37:48,709][ApicWS10][INFO] assigned Metall_brushed_steel_mtl to ShaderBall
+[2023-08-10 11:37:58,091][ApicWS10][INFO] finished rendering Metall_brushed_steel_mtl
+[2023-08-10 11:37:58,092][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:37:58,094][ApicWS10][INFO] assigned Metall_dunkel_Shdr to ShaderBall
+[2023-08-10 11:38:05,153][ApicWS10][INFO] finished rendering Metall_dunkel_Shdr
+[2023-08-10 11:38:05,154][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:38:05,155][ApicWS10][INFO] assigned Metall_grau_lackiert to ShaderBall
+[2023-08-10 11:38:14,407][ApicWS10][INFO] finished rendering Metall_grau_lackiert
+[2023-08-10 11:38:14,408][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:38:14,409][ApicWS10][INFO] assigned Metall_schwarz to ShaderBall
+[2023-08-10 11:38:20,537][ApicWS10][INFO] finished rendering Metall_schwarz
+[2023-08-10 11:38:20,538][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:38:20,539][ApicWS10][INFO] assigned Metall_Shdr to ShaderBall
+[2023-08-10 11:38:27,762][ApicWS10][INFO] finished rendering Metall_Shdr
+[2023-08-10 11:38:27,763][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:38:27,764][ApicWS10][INFO] assigned Metall_Staubgrau_mtl to ShaderBall
+[2023-08-10 11:38:36,715][ApicWS10][INFO] finished rendering Metall_Staubgrau_mtl
+[2023-08-10 11:38:36,716][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:38:36,718][ApicWS10][INFO] assigned Metal_clean_Shdr to ShaderBall
+[2023-08-10 11:38:43,849][ApicWS10][INFO] finished rendering Metal_clean_Shdr
+[2023-08-10 11:38:43,850][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:38:43,852][ApicWS10][INFO] assigned metal_matte_5_mtl to ShaderBall
+[2023-08-10 11:38:59,184][ApicWS10][INFO] finished rendering metal_matte_5_mtl
+[2023-08-10 11:38:59,185][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:38:59,187][ApicWS10][INFO] assigned metal_matte_7_mtl to ShaderBall
+[2023-08-10 11:39:11,004][ApicWS10][INFO] finished rendering metal_matte_7_mtl
+[2023-08-10 11:39:11,006][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:39:11,007][ApicWS10][INFO] assigned Plastik_grau_glatt to ShaderBall
+[2023-08-10 11:39:17,641][ApicWS10][INFO] finished rendering Plastik_grau_glatt
+[2023-08-10 11:39:17,642][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:39:17,643][ApicWS10][INFO] assigned Plastik_schwarz to ShaderBall
+[2023-08-10 11:39:23,643][ApicWS10][INFO] finished rendering Plastik_schwarz
+[2023-08-10 11:39:23,644][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:39:23,645][ApicWS10][INFO] assigned Plastik_schwarz_glossy to ShaderBall
+[2023-08-10 11:39:29,721][ApicWS10][INFO] finished rendering Plastik_schwarz_glossy
+[2023-08-10 11:39:29,722][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:39:29,724][ApicWS10][INFO] assigned Plastik_schwarz_matt to ShaderBall
+[2023-08-10 11:39:35,932][ApicWS10][INFO] finished rendering Plastik_schwarz_matt
+[2023-08-10 11:39:35,933][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:39:35,934][ApicWS10][INFO] assigned Plastik_schwarz_vrscan_mtl to ShaderBall
+[2023-08-10 11:39:47,047][ApicWS10][INFO] finished rendering Plastik_schwarz_vrscan_mtl
+[2023-08-10 11:39:47,048][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:39:47,049][ApicWS10][INFO] assigned Plastik_weis to ShaderBall
+[2023-08-10 11:39:53,718][ApicWS10][INFO] finished rendering Plastik_weis
+[2023-08-10 11:39:53,719][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:39:53,722][ApicWS10][INFO] assigned Primer to ShaderBall
+[2023-08-10 11:40:00,585][ApicWS10][INFO] finished rendering Primer
+[2023-08-10 11:40:00,594][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:40:00,603][ApicWS10][INFO] assigned Primer_schwarz1 to ShaderBall
+[2023-08-10 11:40:06,636][ApicWS10][INFO] finished rendering Primer_schwarz1
+[2023-08-10 11:40:06,637][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:40:06,638][ApicWS10][INFO] assigned Reifen_dunkel_mtl to ShaderBall
+[2023-08-10 11:40:12,683][ApicWS10][INFO] finished rendering Reifen_dunkel_mtl
+[2023-08-10 11:40:12,684][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:40:12,685][ApicWS10][INFO] assigned Reifen_hellgrau to ShaderBall
+[2023-08-10 11:40:18,844][ApicWS10][INFO] finished rendering Reifen_hellgrau
+[2023-08-10 11:40:18,845][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:40:18,846][ApicWS10][INFO] assigned Schrauben_Metal_Shdr to ShaderBall
+[2023-08-10 11:40:26,028][ApicWS10][INFO] finished rendering Schrauben_Metal_Shdr
+[2023-08-10 11:40:26,029][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:40:26,031][ApicWS10][INFO] assigned Schrauben_schwarz_Shdr to ShaderBall
+[2023-08-10 11:40:32,048][ApicWS10][INFO] finished rendering Schrauben_schwarz_Shdr
+[2023-08-10 11:40:32,050][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:40:32,051][ApicWS10][INFO] assigned Screen to ShaderBall
+[2023-08-10 11:40:38,137][ApicWS10][INFO] finished rendering Screen
+[2023-08-10 11:40:38,140][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:40:38,142][ApicWS10][INFO] assigned Signet_schwarz to ShaderBall
+[2023-08-10 11:40:44,163][ApicWS10][INFO] finished rendering Signet_schwarz
+[2023-08-10 11:40:44,163][ApicWS10][INFO] set image output path: C:\Users\TheApic\Desktop\MaterialPool\Thumbnails
+[2023-08-10 11:40:44,165][ApicWS10][INFO] assigned Signet_Silber to ShaderBall
+[2023-08-10 11:40:54,207][ApicWS10][INFO] finished rendering Signet_Silber
+[2023-08-10 11:40:54,207][ApicWS10][INFO] uninitializing maya standalone...
+[2023-08-10 11:42:42,919][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-10 15:07:58,297][ApicWS10][INFO] starting Render Vault...
+[2023-08-10 15:08:11,944][ApicWS10][INFO] deleted C:\Users\TheApic\Desktop\ModelPool\Thumbnails\Motor.png
+[2023-08-10 15:08:11,948][ApicWS10][INFO] deleted C:\Users\TheApic\Desktop\ModelPool\Models\Motor.mb
+[2023-08-10 15:08:13,954][ApicWS10][INFO] deleted C:\Users\TheApic\Desktop\ModelPool\Thumbnails\Motorhülle.png
+[2023-08-10 15:08:13,963][ApicWS10][INFO] deleted C:\Users\TheApic\Desktop\ModelPool\Models\Motorhülle.mb
+[2023-08-10 15:09:12,345][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-10 15:09:29,010][ApicWS10][INFO] starting Render Vault...
+[2023-08-10 15:09:33,292][ApicWS10][INFO] imported model C:\Users\TheApic\Desktop\ModelPool\Models\Gehäuse.mb
+[2023-08-10 15:19:16,928][ApicWS10][INFO] imported model C:\Users\TheApic\Desktop\ModelPool\Models\motor_clipper.mb
+[2023-08-10 15:19:37,541][ApicWS10][INFO] deleted C:\Users\TheApic\Desktop\ModelPool\Models\motor_clipper.mb
+[2023-08-10 15:19:48,567][ApicWS10][INFO] starting Render Vault...
+[2023-08-10 15:19:58,814][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-10 15:21:22,898][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-10 15:21:23,403][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json
+[2023-08-10 15:21:56,741][ApicWS10][INFO] imported model C:\Users\TheApic\Desktop\ModelPool\Models\motor_Clipper.mb
+[2023-08-10 15:25:30,078][ApicWS10][INFO] Saved Scrrenshot in C:\Users\TheApic\Desktop\ModelPool\Thumbnails\Gehäuse.png
+[2023-08-10 15:26:12,268][ApicWS10][INFO] Saved Scrrenshot in C:\Users\TheApic\Desktop\ModelPool\Thumbnails\motor_Clipper.png
+[2023-08-10 15:31:26,818][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config.json

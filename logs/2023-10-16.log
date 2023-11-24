@@ -1,0 +1,1048 @@
+[2023-10-16 09:26:30,924][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 09:26:31,034][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 09:26:31,505][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 09:27:29,881][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 09:27:29,884][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 09:27:33,600][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 09:27:33,696][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 09:27:34,044][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 09:27:40,523][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 09:27:40,529][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 09:28:28,418][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 09:28:28,510][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 09:28:28,838][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 09:28:35,692][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 09:28:35,702][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 09:32:43,733][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 09:33:19,087][ApicWS10][INFO] imported model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\LightsetPool\LightsetPool\Lightsets\LS_s063.mb
+[2023-10-16 09:46:23,998][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 09:46:24,001][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 11:02:52,276][Apic-WS09][INFO] starting Render Vault...
+[2023-10-16 11:02:52,449][Apic-WS09][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-16 11:02:53,141][Apic-WS09][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-16 11:03:38,578][Apic-WS09][INFO] initializing maya standalone...
+[2023-10-16 11:03:48,641][Apic-WS09][INFO] loaded scene: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:03:48,704][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Aluminum_Painted_01/GSG_Metal_Vol1_Aluminum_Painted_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:03:48,706][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Aluminum_Painted_01_metallic_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Aluminum_Painted_01_metallic.jpg
+[2023-10-16 11:03:48,795][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:03:48,797][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:03:48,894][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Aluminum_Painted_01/GSG_Metal_Vol1_Aluminum_Painted_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:03:48,896][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Aluminum_Painted_01_normal_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Aluminum_Painted_01_normal.jpg
+[2023-10-16 11:03:48,972][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:03:48,974][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:03:49,120][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Aluminum_Painted_01/GSG_Metal_Vol1_Aluminum_Painted_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:03:49,121][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Aluminum_Painted_01_roughness_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Aluminum_Painted_01_roughness.jpg
+[2023-10-16 11:03:49,202][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:03:49,203][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:03:49,342][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Brass_01/GSG_Metal_Vol1_Brass_01_basecolor.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:03:49,343][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Brass_01_basecolor_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Brass_01_basecolor.jpg
+[2023-10-16 11:03:49,417][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:03:49,418][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:03:49,593][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Brass_01/GSG_Metal_Vol1_Brass_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:03:49,594][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Brass_01_metallic_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Brass_01_metallic.jpg
+[2023-10-16 11:03:49,669][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:03:49,671][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:03:49,972][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Brass_01/GSG_Metal_Vol1_Brass_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:03:49,973][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Brass_01_normal_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Brass_01_normal.jpg
+[2023-10-16 11:03:50,048][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:03:50,049][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:03:50,175][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Brass_01/GSG_Metal_Vol1_Brass_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:03:50,177][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Brass_01_roughness_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Brass_01_roughness.jpg
+[2023-10-16 11:03:50,253][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:03:50,254][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:03:50,400][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:03:50,401][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy_2 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy.jpg
+[2023-10-16 11:03:50,477][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:03:50,478][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:03:50,678][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:03:50,680][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic_3 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg
+[2023-10-16 11:03:50,757][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:03:50,758][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:03:51,204][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:03:51,206][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal_3 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg
+[2023-10-16 11:03:51,282][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:03:51,283][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:03:51,424][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:03:51,426][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness_3 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg
+[2023-10-16 11:03:51,500][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:03:51,501][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:03:51,655][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Clean_01/GSG_Metal_Vol1_Steel_Stainless_Clean_01_basecolor.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:03:51,656][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Clean_01_basecolor_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Steel_Stainless_Clean_01_basecolor.jpg
+[2023-10-16 11:03:51,730][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:03:51,732][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:03:51,887][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Clean_01/GSG_Metal_Vol1_Steel_Stainless_Clean_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:03:51,888][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Clean_01_metallic_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Steel_Stainless_Clean_01_metallic.jpg
+[2023-10-16 11:03:51,963][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:03:51,964][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:03:52,100][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Clean_01/GSG_Metal_Vol1_Steel_Stainless_Clean_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:03:52,101][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Clean_01_normal_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Steel_Stainless_Clean_01_normal.jpg
+[2023-10-16 11:03:52,175][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:03:52,176][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:03:52,347][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Clean_01/GSG_Metal_Vol1_Steel_Stainless_Clean_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:03:52,349][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Clean_01_roughness_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Steel_Stainless_Clean_01_roughness.jpg
+[2023-10-16 11:03:52,423][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:03:52,424][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:03:52,448][Apic-WS09][INFO] copied //apicnas/Produktion/Projekte/TEKON/_3D_Pool/Textures/Logo_TL-AKS-02-5-1.PNG to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:03:52,450][Apic-WS09][INFO] set path of file node: Logo_Screenshot_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\Logo_TL-AKS-02-5-1.PNG
+[2023-10-16 11:03:52,523][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:03:52,524][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:03:52,548][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:03:52,549][Apic-WS09][INFO] set path of file node: Steel_stainless_brushed_01_mtl_GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy.jpg
+[2023-10-16 11:03:52,624][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:03:52,625][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:03:52,645][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:03:52,647][Apic-WS09][INFO] set path of file node: Steel_stainless_brushed_01_mtl_GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic_2 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg
+[2023-10-16 11:03:52,723][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:03:52,724][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:03:52,745][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:03:52,747][Apic-WS09][INFO] set path of file node: Steel_stainless_brushed_01_mtl_GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal_2 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg
+[2023-10-16 11:03:52,822][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:03:52,823][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:03:52,845][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:03:52,847][Apic-WS09][INFO] set path of file node: Steel_stainless_brushed_01_mtl_GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness_2 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg
+[2023-10-16 11:03:52,921][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:03:52,922][Apic-WS09][INFO] uninitializing maya standalone...
+[2023-10-16 11:07:06,399][Apic-WS09][INFO] starting Render Vault...
+[2023-10-16 11:07:06,554][Apic-WS09][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-16 11:07:07,236][Apic-WS09][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-16 11:08:25,227][Apic-WS09][INFO] updated settings manager values.
+[2023-10-16 11:08:25,230][Apic-WS09][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-16 11:23:40,208][Apic-WS09][INFO] starting Render Vault...
+[2023-10-16 11:23:40,321][Apic-WS09][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-16 11:23:40,699][Apic-WS09][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-16 11:24:06,671][Apic-WS09][INFO] initializing maya standalone...
+[2023-10-16 11:24:16,378][Apic-WS09][INFO] loaded scene: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:24:16,433][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Brass_01/GSG_Metal_Vol1_Brass_01_basecolor.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:24:16,435][Apic-WS09][INFO] set path of file node: Brass_01_mtl_GSG_Metal_Vol1_Brass_01_basecolor_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Brass_01_basecolor.jpg
+[2023-10-16 11:24:16,574][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:24:16,576][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:24:16,624][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Brass_01/GSG_Metal_Vol1_Brass_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:24:16,626][Apic-WS09][INFO] set path of file node: Brass_01_mtl_GSG_Metal_Vol1_Brass_01_metallic_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Brass_01_metallic.jpg
+[2023-10-16 11:24:16,752][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:24:16,753][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:24:16,816][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Brass_01/GSG_Metal_Vol1_Brass_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:24:16,817][Apic-WS09][INFO] set path of file node: Brass_01_mtl_GSG_Metal_Vol1_Brass_01_normal_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Brass_01_normal.jpg
+[2023-10-16 11:24:16,942][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:24:16,944][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:24:17,016][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Brass_01/GSG_Metal_Vol1_Brass_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:24:17,017][Apic-WS09][INFO] set path of file node: Brass_01_mtl_GSG_Metal_Vol1_Brass_01_roughness_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Brass_01_roughness.jpg
+[2023-10-16 11:24:17,150][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:24:17,152][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:24:17,213][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:24:17,216][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy_2 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy.jpg
+[2023-10-16 11:24:17,344][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:24:17,345][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:24:17,415][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:24:17,416][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic_3 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg
+[2023-10-16 11:24:17,544][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:24:17,546][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:24:17,626][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:24:17,627][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal_3 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg
+[2023-10-16 11:24:17,752][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:24:17,753][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:24:17,831][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:24:17,833][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness_3 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg
+[2023-10-16 11:24:17,959][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:24:17,961][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:24:17,999][Apic-WS09][INFO] copied //apicnas/Produktion/Projekte/TEKON/_3D_Pool/Textures/Logo_TL-AKS-08-16-6.PNG to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:24:18,000][Apic-WS09][INFO] set path of file node: Logo_Screenshot_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\Logo_TL-AKS-08-16-6.PNG
+[2023-10-16 11:24:18,126][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:24:18,127][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:24:18,147][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Aluminum_Painted_01/GSG_Metal_Vol1_Aluminum_Painted_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:24:18,148][Apic-WS09][INFO] set path of file node: Metal_red_mtl_GSG_Metal_Vol1_Aluminum_Painted_01_metallic_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Aluminum_Painted_01_metallic.jpg
+[2023-10-16 11:24:18,282][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:24:18,283][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:24:18,350][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Aluminum_Painted_01/GSG_Metal_Vol1_Aluminum_Painted_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:24:18,351][Apic-WS09][INFO] set path of file node: Metal_red_mtl_GSG_Metal_Vol1_Aluminum_Painted_01_normal_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Aluminum_Painted_01_normal.jpg
+[2023-10-16 11:24:18,492][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:24:18,493][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:24:18,564][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Aluminum_Painted_01/GSG_Metal_Vol1_Aluminum_Painted_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:24:18,566][Apic-WS09][INFO] set path of file node: Metal_red_mtl_GSG_Metal_Vol1_Aluminum_Painted_01_roughness_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Aluminum_Painted_01_roughness.jpg
+[2023-10-16 11:24:18,695][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:24:18,696][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:24:18,763][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Clean_01/GSG_Metal_Vol1_Steel_Stainless_Clean_01_basecolor.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:24:18,765][Apic-WS09][INFO] set path of file node: Schrauben_Metal_mtl_GSG_Metal_Vol1_Steel_Stainless_Clean_01_basecolor_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Steel_Stainless_Clean_01_basecolor.jpg
+[2023-10-16 11:24:18,894][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:24:18,895][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:24:18,964][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Clean_01/GSG_Metal_Vol1_Steel_Stainless_Clean_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:24:18,966][Apic-WS09][INFO] set path of file node: Schrauben_Metal_mtl_GSG_Metal_Vol1_Steel_Stainless_Clean_01_metallic_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Steel_Stainless_Clean_01_metallic.jpg
+[2023-10-16 11:24:19,101][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:24:19,103][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:24:19,195][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Clean_01/GSG_Metal_Vol1_Steel_Stainless_Clean_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:24:19,196][Apic-WS09][INFO] set path of file node: Schrauben_Metal_mtl_GSG_Metal_Vol1_Steel_Stainless_Clean_01_normal_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Steel_Stainless_Clean_01_normal.jpg
+[2023-10-16 11:24:19,322][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:24:19,323][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:24:19,398][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Clean_01/GSG_Metal_Vol1_Steel_Stainless_Clean_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:24:19,400][Apic-WS09][INFO] set path of file node: Schrauben_Metal_mtl_GSG_Metal_Vol1_Steel_Stainless_Clean_01_roughness_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Steel_Stainless_Clean_01_roughness.jpg
+[2023-10-16 11:24:19,541][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:24:19,542][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:24:19,565][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:24:19,567][Apic-WS09][INFO] set path of file node: Steel_stainless_brushed_01_mtl_GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy.jpg
+[2023-10-16 11:24:19,691][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:24:19,692][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:24:19,711][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:24:19,712][Apic-WS09][INFO] set path of file node: Steel_stainless_brushed_01_mtl_GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic_2 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg
+[2023-10-16 11:24:19,839][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:24:19,840][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:24:19,864][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:24:19,865][Apic-WS09][INFO] set path of file node: Steel_stainless_brushed_01_mtl_GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal_2 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg
+[2023-10-16 11:24:19,994][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:24:19,995][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:24:20,019][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:24:20,021][Apic-WS09][INFO] set path of file node: Steel_stainless_brushed_01_mtl_GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness_2 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg
+[2023-10-16 11:24:20,147][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:24:20,148][Apic-WS09][INFO] uninitializing maya standalone...
+[2023-10-16 11:24:56,938][Apic-WS09][INFO] initializing maya standalone...
+[2023-10-16 11:25:06,435][Apic-WS09][INFO] loaded scene: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:25:06,482][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Brass_01/GSG_Metal_Vol1_Brass_01_basecolor.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:25:06,484][Apic-WS09][INFO] set path of file node: Brass_01_mtl_GSG_Metal_Vol1_Brass_01_basecolor_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Brass_01_basecolor.jpg
+[2023-10-16 11:25:06,627][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:25:06,628][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:25:06,661][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Brass_01/GSG_Metal_Vol1_Brass_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:25:06,662][Apic-WS09][INFO] set path of file node: Brass_01_mtl_GSG_Metal_Vol1_Brass_01_metallic_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Brass_01_metallic.jpg
+[2023-10-16 11:25:06,788][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:25:06,789][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:25:06,833][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Brass_01/GSG_Metal_Vol1_Brass_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:25:06,835][Apic-WS09][INFO] set path of file node: Brass_01_mtl_GSG_Metal_Vol1_Brass_01_normal_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Brass_01_normal.jpg
+[2023-10-16 11:25:06,960][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:25:06,961][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:25:07,006][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Brass_01/GSG_Metal_Vol1_Brass_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:25:07,008][Apic-WS09][INFO] set path of file node: Brass_01_mtl_GSG_Metal_Vol1_Brass_01_roughness_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Brass_01_roughness.jpg
+[2023-10-16 11:25:07,141][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:25:07,142][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:25:07,200][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:25:07,202][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy_2 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy.jpg
+[2023-10-16 11:25:07,331][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:25:07,333][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:25:07,383][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:25:07,385][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic_3 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg
+[2023-10-16 11:25:07,510][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:25:07,511][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:25:07,562][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:25:07,564][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal_3 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg
+[2023-10-16 11:25:07,692][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:25:07,693][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:25:07,737][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:25:07,739][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness_3 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg
+[2023-10-16 11:25:07,865][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:25:07,866][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:25:07,883][Apic-WS09][INFO] copied //apicnas/Produktion/Projekte/TEKON/_3D_Pool/Textures/Logo_TL-AKS-08-16-6.PNG to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:25:07,885][Apic-WS09][INFO] set path of file node: Logo_Screenshot_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\Logo_TL-AKS-08-16-6.PNG
+[2023-10-16 11:25:08,016][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:25:08,017][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:25:08,036][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Aluminum_Painted_01/GSG_Metal_Vol1_Aluminum_Painted_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:25:08,037][Apic-WS09][INFO] set path of file node: Metal_red_mtl_GSG_Metal_Vol1_Aluminum_Painted_01_metallic_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Aluminum_Painted_01_metallic.jpg
+[2023-10-16 11:25:08,163][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:25:08,165][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:25:08,210][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Aluminum_Painted_01/GSG_Metal_Vol1_Aluminum_Painted_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:25:08,212][Apic-WS09][INFO] set path of file node: Metal_red_mtl_GSG_Metal_Vol1_Aluminum_Painted_01_normal_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Aluminum_Painted_01_normal.jpg
+[2023-10-16 11:25:08,336][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:25:08,337][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:25:08,395][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Aluminum_Painted_01/GSG_Metal_Vol1_Aluminum_Painted_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:25:08,397][Apic-WS09][INFO] set path of file node: Metal_red_mtl_GSG_Metal_Vol1_Aluminum_Painted_01_roughness_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Aluminum_Painted_01_roughness.jpg
+[2023-10-16 11:25:08,524][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:25:08,525][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:25:08,577][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Clean_01/GSG_Metal_Vol1_Steel_Stainless_Clean_01_basecolor.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:25:08,579][Apic-WS09][INFO] set path of file node: Schrauben_Metal_mtl_GSG_Metal_Vol1_Steel_Stainless_Clean_01_basecolor_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Steel_Stainless_Clean_01_basecolor.jpg
+[2023-10-16 11:25:08,705][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:25:08,707][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:25:08,748][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Clean_01/GSG_Metal_Vol1_Steel_Stainless_Clean_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:25:08,750][Apic-WS09][INFO] set path of file node: Schrauben_Metal_mtl_GSG_Metal_Vol1_Steel_Stainless_Clean_01_metallic_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Steel_Stainless_Clean_01_metallic.jpg
+[2023-10-16 11:25:08,877][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:25:08,879][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:25:08,944][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Clean_01/GSG_Metal_Vol1_Steel_Stainless_Clean_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:25:08,944][Apic-WS09][INFO] set path of file node: Schrauben_Metal_mtl_GSG_Metal_Vol1_Steel_Stainless_Clean_01_normal_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Steel_Stainless_Clean_01_normal.jpg
+[2023-10-16 11:25:09,070][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:25:09,072][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:25:09,130][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Clean_01/GSG_Metal_Vol1_Steel_Stainless_Clean_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:25:09,132][Apic-WS09][INFO] set path of file node: Schrauben_Metal_mtl_GSG_Metal_Vol1_Steel_Stainless_Clean_01_roughness_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Steel_Stainless_Clean_01_roughness.jpg
+[2023-10-16 11:25:09,260][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:25:09,261][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:25:09,285][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:25:09,286][Apic-WS09][INFO] set path of file node: Steel_stainless_brushed_01_mtl_GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy.jpg
+[2023-10-16 11:25:09,413][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:25:09,415][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:25:09,433][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:25:09,435][Apic-WS09][INFO] set path of file node: Steel_stainless_brushed_01_mtl_GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic_2 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg
+[2023-10-16 11:25:09,562][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:25:09,563][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:25:09,585][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:25:09,587][Apic-WS09][INFO] set path of file node: Steel_stainless_brushed_01_mtl_GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal_2 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg
+[2023-10-16 11:25:09,713][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:25:09,714][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:25:09,737][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:25:09,739][Apic-WS09][INFO] set path of file node: Steel_stainless_brushed_01_mtl_GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness_2 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg
+[2023-10-16 11:25:09,866][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:25:09,867][Apic-WS09][INFO] uninitializing maya standalone...
+[2023-10-16 11:25:49,038][Apic-WS09][INFO] updated settings manager values.
+[2023-10-16 11:25:49,041][Apic-WS09][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-16 11:31:34,868][Apic-WS09][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-16 11:31:44,177][Apic-WS09][INFO] deleted \\APICNAS\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:31:44,179][Apic-WS09][INFO] deleted \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:32:22,527][Apic-WS09][INFO] initializing maya standalone...
+[2023-10-16 11:32:32,093][Apic-WS09][INFO] loaded scene: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:32:32,095][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:32:32,142][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Brass_01/GSG_Metal_Vol1_Brass_01_basecolor.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:32:32,143][Apic-WS09][INFO] set path of file node: Brass_01_mtl_GSG_Metal_Vol1_Brass_01_basecolor_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Brass_01_basecolor.jpg
+[2023-10-16 11:32:32,283][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:32:32,284][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:32:32,327][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Brass_01/GSG_Metal_Vol1_Brass_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:32:32,329][Apic-WS09][INFO] set path of file node: Brass_01_mtl_GSG_Metal_Vol1_Brass_01_metallic_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Brass_01_metallic.jpg
+[2023-10-16 11:32:32,454][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:32:32,456][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:32:32,518][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Brass_01/GSG_Metal_Vol1_Brass_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:32:32,520][Apic-WS09][INFO] set path of file node: Brass_01_mtl_GSG_Metal_Vol1_Brass_01_normal_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Brass_01_normal.jpg
+[2023-10-16 11:32:32,643][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:32:32,645][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:32:32,686][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Brass_01/GSG_Metal_Vol1_Brass_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:32:32,687][Apic-WS09][INFO] set path of file node: Brass_01_mtl_GSG_Metal_Vol1_Brass_01_roughness_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Brass_01_roughness.jpg
+[2023-10-16 11:32:32,811][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:32:32,812][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:32:32,876][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:32:32,878][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy_2 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy.jpg
+[2023-10-16 11:32:33,012][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:32:33,013][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:32:33,071][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:32:33,073][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic_3 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg
+[2023-10-16 11:32:33,199][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:32:33,200][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:32:33,259][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:32:33,261][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal_3 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg
+[2023-10-16 11:32:33,388][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:32:33,389][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:32:33,460][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:32:33,461][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness_3 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg
+[2023-10-16 11:32:33,588][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:32:33,589][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:32:33,606][Apic-WS09][INFO] copied //apicnas/Produktion/Projekte/TEKON/_3D_Pool/Textures/Logo_TL-AKS-08-16-6.PNG to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:32:33,607][Apic-WS09][INFO] set path of file node: Logo_Screenshot_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\Logo_TL-AKS-08-16-6.PNG
+[2023-10-16 11:32:33,734][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:32:33,736][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:32:33,756][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Aluminum_Painted_01/GSG_Metal_Vol1_Aluminum_Painted_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:32:33,757][Apic-WS09][INFO] set path of file node: Metal_red_mtl_GSG_Metal_Vol1_Aluminum_Painted_01_metallic_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Aluminum_Painted_01_metallic.jpg
+[2023-10-16 11:32:33,883][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:32:33,884][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:32:33,945][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Aluminum_Painted_01/GSG_Metal_Vol1_Aluminum_Painted_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:32:33,946][Apic-WS09][INFO] set path of file node: Metal_red_mtl_GSG_Metal_Vol1_Aluminum_Painted_01_normal_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Aluminum_Painted_01_normal.jpg
+[2023-10-16 11:32:34,070][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:32:34,071][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:32:34,166][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Aluminum_Painted_01/GSG_Metal_Vol1_Aluminum_Painted_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:32:34,168][Apic-WS09][INFO] set path of file node: Metal_red_mtl_GSG_Metal_Vol1_Aluminum_Painted_01_roughness_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Aluminum_Painted_01_roughness.jpg
+[2023-10-16 11:32:34,294][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:32:34,295][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:32:34,364][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Clean_01/GSG_Metal_Vol1_Steel_Stainless_Clean_01_basecolor.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:32:34,366][Apic-WS09][INFO] set path of file node: Schrauben_Metal_mtl_GSG_Metal_Vol1_Steel_Stainless_Clean_01_basecolor_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Steel_Stainless_Clean_01_basecolor.jpg
+[2023-10-16 11:32:34,492][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:32:34,493][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:32:34,557][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Clean_01/GSG_Metal_Vol1_Steel_Stainless_Clean_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:32:34,559][Apic-WS09][INFO] set path of file node: Schrauben_Metal_mtl_GSG_Metal_Vol1_Steel_Stainless_Clean_01_metallic_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Steel_Stainless_Clean_01_metallic.jpg
+[2023-10-16 11:32:34,686][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:32:34,687][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:32:34,755][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Clean_01/GSG_Metal_Vol1_Steel_Stainless_Clean_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:32:34,756][Apic-WS09][INFO] set path of file node: Schrauben_Metal_mtl_GSG_Metal_Vol1_Steel_Stainless_Clean_01_normal_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Steel_Stainless_Clean_01_normal.jpg
+[2023-10-16 11:32:34,882][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:32:34,883][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:32:34,949][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Clean_01/GSG_Metal_Vol1_Steel_Stainless_Clean_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:32:34,950][Apic-WS09][INFO] set path of file node: Schrauben_Metal_mtl_GSG_Metal_Vol1_Steel_Stainless_Clean_01_roughness_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Steel_Stainless_Clean_01_roughness.jpg
+[2023-10-16 11:32:35,076][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:32:35,077][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:32:35,101][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:32:35,103][Apic-WS09][INFO] set path of file node: Steel_stainless_brushed_01_mtl_GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy.jpg
+[2023-10-16 11:32:35,229][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:32:35,230][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:32:35,249][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:32:35,251][Apic-WS09][INFO] set path of file node: Steel_stainless_brushed_01_mtl_GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic_2 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg
+[2023-10-16 11:32:35,377][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:32:35,378][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:32:35,401][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:32:35,402][Apic-WS09][INFO] set path of file node: Steel_stainless_brushed_01_mtl_GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal_2 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg
+[2023-10-16 11:32:35,528][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:32:35,529][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6 already exists
+[2023-10-16 11:32:35,551][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6
+[2023-10-16 11:32:35,552][Apic-WS09][INFO] set path of file node: Steel_stainless_brushed_01_mtl_GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness_2 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg
+[2023-10-16 11:32:35,677][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6.mb
+[2023-10-16 11:32:35,678][Apic-WS09][INFO] uninitializing maya standalone...
+[2023-10-16 11:33:16,116][Apic-WS09][INFO] initializing maya standalone...
+[2023-10-16 11:33:25,506][Apic-WS09][INFO] loaded scene: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:33:25,542][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Brass_01/GSG_Metal_Vol1_Brass_01_basecolor.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:33:25,543][Apic-WS09][INFO] set path of file node: Brass_01_mtl_GSG_Metal_Vol1_Brass_01_basecolor_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Brass_01_basecolor.jpg
+[2023-10-16 11:33:25,687][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:33:25,688][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:33:25,721][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Brass_01/GSG_Metal_Vol1_Brass_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:33:25,723][Apic-WS09][INFO] set path of file node: Brass_01_mtl_GSG_Metal_Vol1_Brass_01_metallic_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Brass_01_metallic.jpg
+[2023-10-16 11:33:25,851][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:33:25,853][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:33:25,920][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Brass_01/GSG_Metal_Vol1_Brass_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:33:25,921][Apic-WS09][INFO] set path of file node: Brass_01_mtl_GSG_Metal_Vol1_Brass_01_normal_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Brass_01_normal.jpg
+[2023-10-16 11:33:26,050][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:33:26,052][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:33:26,106][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Brass_01/GSG_Metal_Vol1_Brass_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:33:26,107][Apic-WS09][INFO] set path of file node: Brass_01_mtl_GSG_Metal_Vol1_Brass_01_roughness_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Brass_01_roughness.jpg
+[2023-10-16 11:33:26,238][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:33:26,239][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:33:26,282][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:33:26,283][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy_2 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy.jpg
+[2023-10-16 11:33:26,416][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:33:26,418][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:33:26,457][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:33:26,459][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic_3 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg
+[2023-10-16 11:33:26,583][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:33:26,585][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:33:26,646][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:33:26,648][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal_3 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg
+[2023-10-16 11:33:26,772][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:33:26,796][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:33:26,868][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:33:26,870][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness_3 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg
+[2023-10-16 11:33:26,995][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:33:26,997][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:33:27,013][Apic-WS09][INFO] copied //apicnas/Produktion/Projekte/TEKON/_3D_Pool/Textures/Logo_TL-AKS-08-16-6.PNG to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:33:27,015][Apic-WS09][INFO] set path of file node: Logo_Screenshot_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\Logo_TL-AKS-08-16-6.PNG
+[2023-10-16 11:33:27,142][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:33:27,144][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:33:27,162][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Aluminum_Painted_01/GSG_Metal_Vol1_Aluminum_Painted_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:33:27,164][Apic-WS09][INFO] set path of file node: Metal_red_mtl_GSG_Metal_Vol1_Aluminum_Painted_01_metallic_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Aluminum_Painted_01_metallic.jpg
+[2023-10-16 11:33:27,292][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:33:27,294][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:33:27,336][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Aluminum_Painted_01/GSG_Metal_Vol1_Aluminum_Painted_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:33:27,337][Apic-WS09][INFO] set path of file node: Metal_red_mtl_GSG_Metal_Vol1_Aluminum_Painted_01_normal_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Aluminum_Painted_01_normal.jpg
+[2023-10-16 11:33:27,464][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:33:27,466][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:33:27,542][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Aluminum_Painted_01/GSG_Metal_Vol1_Aluminum_Painted_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:33:27,544][Apic-WS09][INFO] set path of file node: Metal_red_mtl_GSG_Metal_Vol1_Aluminum_Painted_01_roughness_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Aluminum_Painted_01_roughness.jpg
+[2023-10-16 11:33:27,672][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:33:27,674][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:33:27,726][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Clean_01/GSG_Metal_Vol1_Steel_Stainless_Clean_01_basecolor.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:33:27,727][Apic-WS09][INFO] set path of file node: Schrauben_Metal_mtl_GSG_Metal_Vol1_Steel_Stainless_Clean_01_basecolor_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Steel_Stainless_Clean_01_basecolor.jpg
+[2023-10-16 11:33:27,853][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:33:27,854][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:33:27,890][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Clean_01/GSG_Metal_Vol1_Steel_Stainless_Clean_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:33:27,890][Apic-WS09][INFO] set path of file node: Schrauben_Metal_mtl_GSG_Metal_Vol1_Steel_Stainless_Clean_01_metallic_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Steel_Stainless_Clean_01_metallic.jpg
+[2023-10-16 11:33:28,028][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:33:28,030][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:33:28,082][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Clean_01/GSG_Metal_Vol1_Steel_Stainless_Clean_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:33:28,084][Apic-WS09][INFO] set path of file node: Schrauben_Metal_mtl_GSG_Metal_Vol1_Steel_Stainless_Clean_01_normal_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Steel_Stainless_Clean_01_normal.jpg
+[2023-10-16 11:33:28,209][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:33:28,210][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:33:28,265][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Clean_01/GSG_Metal_Vol1_Steel_Stainless_Clean_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:33:28,267][Apic-WS09][INFO] set path of file node: Schrauben_Metal_mtl_GSG_Metal_Vol1_Steel_Stainless_Clean_01_roughness_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Steel_Stainless_Clean_01_roughness.jpg
+[2023-10-16 11:33:28,391][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:33:28,393][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:33:28,416][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:33:28,418][Apic-WS09][INFO] set path of file node: Steel_stainless_brushed_01_mtl_GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy.jpg
+[2023-10-16 11:33:28,545][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:33:28,546][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:33:28,565][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:33:28,567][Apic-WS09][INFO] set path of file node: Steel_stainless_brushed_01_mtl_GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic_2 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg
+[2023-10-16 11:33:28,692][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:33:28,693][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:33:28,715][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:33:28,718][Apic-WS09][INFO] set path of file node: Steel_stainless_brushed_01_mtl_GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal_2 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg
+[2023-10-16 11:33:28,840][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:33:28,842][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu already exists
+[2023-10-16 11:33:28,865][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu
+[2023-10-16 11:33:28,867][Apic-WS09][INFO] set path of file node: Steel_stainless_brushed_01_mtl_GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness_2 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_16_6_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg
+[2023-10-16 11:33:28,994][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 11:33:28,994][Apic-WS09][INFO] uninitializing maya standalone...
+[2023-10-16 11:34:27,907][Apic-WS09][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-16 11:34:33,737][Apic-WS09][INFO] deleted \\APICNAS\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:34:33,739][Apic-WS09][INFO] deleted \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:34:55,413][Apic-WS09][INFO] initializing maya standalone...
+[2023-10-16 11:35:04,612][Apic-WS09][INFO] loaded scene: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:35:04,636][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Aluminum_Painted_01/GSG_Metal_Vol1_Aluminum_Painted_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:35:04,638][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Aluminum_Painted_01_metallic_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Aluminum_Painted_01_metallic.jpg
+[2023-10-16 11:35:04,720][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:35:04,722][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:35:04,781][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Aluminum_Painted_01/GSG_Metal_Vol1_Aluminum_Painted_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:35:04,783][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Aluminum_Painted_01_normal_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Aluminum_Painted_01_normal.jpg
+[2023-10-16 11:35:04,857][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:35:04,858][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:35:04,917][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Aluminum_Painted_01/GSG_Metal_Vol1_Aluminum_Painted_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:35:04,919][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Aluminum_Painted_01_roughness_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Aluminum_Painted_01_roughness.jpg
+[2023-10-16 11:35:04,992][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:35:04,994][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:35:05,054][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Brass_01/GSG_Metal_Vol1_Brass_01_basecolor.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:35:05,055][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Brass_01_basecolor_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Brass_01_basecolor.jpg
+[2023-10-16 11:35:05,131][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:35:05,133][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:35:05,209][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Brass_01/GSG_Metal_Vol1_Brass_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:35:05,211][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Brass_01_metallic_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Brass_01_metallic.jpg
+[2023-10-16 11:35:05,292][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:35:05,293][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:35:05,370][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Brass_01/GSG_Metal_Vol1_Brass_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:35:05,372][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Brass_01_normal_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Brass_01_normal.jpg
+[2023-10-16 11:35:05,447][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:35:05,449][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:35:05,521][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Brass_01/GSG_Metal_Vol1_Brass_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:35:05,522][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Brass_01_roughness_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Brass_01_roughness.jpg
+[2023-10-16 11:35:05,604][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:35:05,605][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:35:05,664][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:35:05,665][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy_2 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy.jpg
+[2023-10-16 11:35:05,741][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:35:05,743][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:35:05,811][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:35:05,813][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic_3 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg
+[2023-10-16 11:35:05,887][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:35:05,889][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:35:05,965][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:35:05,967][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal_3 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg
+[2023-10-16 11:35:06,040][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:35:06,042][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:35:06,104][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:35:06,106][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness_3 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg
+[2023-10-16 11:35:06,180][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:35:06,182][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:35:06,260][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Clean_01/GSG_Metal_Vol1_Steel_Stainless_Clean_01_basecolor.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:35:06,263][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Clean_01_basecolor_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Steel_Stainless_Clean_01_basecolor.jpg
+[2023-10-16 11:35:06,338][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:35:06,339][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:35:06,394][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Clean_01/GSG_Metal_Vol1_Steel_Stainless_Clean_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:35:06,396][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Clean_01_metallic_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Steel_Stainless_Clean_01_metallic.jpg
+[2023-10-16 11:35:06,470][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:35:06,472][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:35:06,571][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Clean_01/GSG_Metal_Vol1_Steel_Stainless_Clean_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:35:06,572][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Clean_01_normal_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Steel_Stainless_Clean_01_normal.jpg
+[2023-10-16 11:35:06,647][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:35:06,648][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:35:06,711][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Clean_01/GSG_Metal_Vol1_Steel_Stainless_Clean_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:35:06,712][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Clean_01_roughness_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Steel_Stainless_Clean_01_roughness.jpg
+[2023-10-16 11:35:06,786][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:35:06,787][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:35:06,804][Apic-WS09][INFO] copied //apicnas/Produktion/Projekte/TEKON/_3D_Pool/Textures/Logo_TL-AKS-02-5-1.PNG to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:35:06,805][Apic-WS09][INFO] set path of file node: Logo_Screenshot_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\Logo_TL-AKS-02-5-1.PNG
+[2023-10-16 11:35:06,881][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:35:06,883][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:35:06,905][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:35:06,907][Apic-WS09][INFO] set path of file node: Steel_stainless_brushed_01_mtl_GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy.jpg
+[2023-10-16 11:35:06,985][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:35:06,987][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:35:07,333][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:35:07,335][Apic-WS09][INFO] set path of file node: Steel_stainless_brushed_01_mtl_GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic_2 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg
+[2023-10-16 11:35:07,409][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:35:07,411][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:35:07,437][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:35:07,438][Apic-WS09][INFO] set path of file node: Steel_stainless_brushed_01_mtl_GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal_2 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg
+[2023-10-16 11:35:07,511][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:35:07,513][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu already exists
+[2023-10-16 11:35:07,536][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu
+[2023-10-16 11:35:07,538][Apic-WS09][INFO] set path of file node: Steel_stainless_brushed_01_mtl_GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness_2 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_02_5_1_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg
+[2023-10-16 11:35:07,612][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 11:35:07,613][Apic-WS09][INFO] uninitializing maya standalone...
+[2023-10-16 11:35:22,665][Apic-WS09][INFO] updated settings manager values.
+[2023-10-16 11:35:22,668][Apic-WS09][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-16 11:35:38,975][Apic-WS09][INFO] updated settings manager values.
+[2023-10-16 11:35:38,978][Apic-WS09][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-16 11:53:09,398][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 11:53:09,524][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 11:53:09,639][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 11:53:35,528][ApicWS10][INFO] Saved Screenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Thumbnails\Test.jpg
+[2023-10-16 11:53:51,691][ApicWS10][INFO] Saved Screenshot in \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Thumbnails\Test.jpg
+[2023-10-16 11:55:08,935][Apic-WS09][INFO] starting Render Vault...
+[2023-10-16 11:55:09,057][Apic-WS09][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-16 11:55:09,500][Apic-WS09][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-16 11:55:35,407][Apic-WS09][INFO] initializing maya standalone...
+[2023-10-16 11:55:45,231][Apic-WS09][INFO] loaded scene: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_28_2_neu.mb
+[2023-10-16 11:55:45,284][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Brass_01/GSG_Metal_Vol1_Brass_01_basecolor.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu
+[2023-10-16 11:55:45,286][Apic-WS09][INFO] set path of file node: Brass_01_mtl_GSG_Metal_Vol1_Brass_01_basecolor_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu\GSG_Metal_Vol1_Brass_01_basecolor.jpg
+[2023-10-16 11:55:45,483][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_28_2_neu.mb
+[2023-10-16 11:55:45,484][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu already exists
+[2023-10-16 11:55:45,552][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Brass_01/GSG_Metal_Vol1_Brass_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu
+[2023-10-16 11:55:45,553][Apic-WS09][INFO] set path of file node: Brass_01_mtl_GSG_Metal_Vol1_Brass_01_metallic_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu\GSG_Metal_Vol1_Brass_01_metallic.jpg
+[2023-10-16 11:55:45,732][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_28_2_neu.mb
+[2023-10-16 11:55:45,734][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu already exists
+[2023-10-16 11:55:45,820][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Brass_01/GSG_Metal_Vol1_Brass_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu
+[2023-10-16 11:55:45,822][Apic-WS09][INFO] set path of file node: Brass_01_mtl_GSG_Metal_Vol1_Brass_01_normal_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu\GSG_Metal_Vol1_Brass_01_normal.jpg
+[2023-10-16 11:55:45,994][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_28_2_neu.mb
+[2023-10-16 11:55:45,996][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu already exists
+[2023-10-16 11:55:46,067][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Brass_01/GSG_Metal_Vol1_Brass_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu
+[2023-10-16 11:55:46,068][Apic-WS09][INFO] set path of file node: Brass_01_mtl_GSG_Metal_Vol1_Brass_01_roughness_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu\GSG_Metal_Vol1_Brass_01_roughness.jpg
+[2023-10-16 11:55:46,238][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_28_2_neu.mb
+[2023-10-16 11:55:46,240][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu already exists
+[2023-10-16 11:55:46,333][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu
+[2023-10-16 11:55:46,335][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy_2 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy.jpg
+[2023-10-16 11:55:46,512][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_28_2_neu.mb
+[2023-10-16 11:55:46,513][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu already exists
+[2023-10-16 11:55:46,663][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_basecolor.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu
+[2023-10-16 11:55:46,665][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_basecolor_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_basecolor.jpg
+[2023-10-16 11:55:46,836][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_28_2_neu.mb
+[2023-10-16 11:55:46,838][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu already exists
+[2023-10-16 11:55:46,903][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu
+[2023-10-16 11:55:46,905][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg
+[2023-10-16 11:55:47,091][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_28_2_neu.mb
+[2023-10-16 11:55:47,092][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu already exists
+[2023-10-16 11:55:47,111][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu
+[2023-10-16 11:55:47,113][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic_3 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg
+[2023-10-16 11:55:47,284][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_28_2_neu.mb
+[2023-10-16 11:55:47,285][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu already exists
+[2023-10-16 11:55:47,368][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu
+[2023-10-16 11:55:47,370][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg
+[2023-10-16 11:55:47,546][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_28_2_neu.mb
+[2023-10-16 11:55:47,548][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu already exists
+[2023-10-16 11:55:47,571][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu
+[2023-10-16 11:55:47,573][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal_3 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg
+[2023-10-16 11:55:47,745][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_28_2_neu.mb
+[2023-10-16 11:55:47,745][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu already exists
+[2023-10-16 11:55:47,843][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu
+[2023-10-16 11:55:47,846][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg
+[2023-10-16 11:55:48,027][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_28_2_neu.mb
+[2023-10-16 11:55:48,028][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu already exists
+[2023-10-16 11:55:48,051][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu
+[2023-10-16 11:55:48,053][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness_3 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg
+[2023-10-16 11:55:48,225][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_28_2_neu.mb
+[2023-10-16 11:55:48,227][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu already exists
+[2023-10-16 11:55:48,311][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Clean_01/GSG_Metal_Vol1_Steel_Stainless_Clean_01_basecolor.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu
+[2023-10-16 11:55:48,313][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Clean_01_basecolor_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu\GSG_Metal_Vol1_Steel_Stainless_Clean_01_basecolor.jpg
+[2023-10-16 11:55:48,490][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_28_2_neu.mb
+[2023-10-16 11:55:48,492][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu already exists
+[2023-10-16 11:55:48,564][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Clean_01/GSG_Metal_Vol1_Steel_Stainless_Clean_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu
+[2023-10-16 11:55:48,566][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Clean_01_metallic_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu\GSG_Metal_Vol1_Steel_Stainless_Clean_01_metallic.jpg
+[2023-10-16 11:55:48,766][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_28_2_neu.mb
+[2023-10-16 11:55:48,768][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu already exists
+[2023-10-16 11:55:48,855][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Clean_01/GSG_Metal_Vol1_Steel_Stainless_Clean_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu
+[2023-10-16 11:55:48,857][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Clean_01_normal_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu\GSG_Metal_Vol1_Steel_Stainless_Clean_01_normal.jpg
+[2023-10-16 11:55:49,027][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_28_2_neu.mb
+[2023-10-16 11:55:49,028][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu already exists
+[2023-10-16 11:55:49,084][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Clean_01/GSG_Metal_Vol1_Steel_Stainless_Clean_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu
+[2023-10-16 11:55:49,086][Apic-WS09][INFO] set path of file node: GSG_Metal_Vol1_Steel_Stainless_Clean_01_roughness_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu\GSG_Metal_Vol1_Steel_Stainless_Clean_01_roughness.jpg
+[2023-10-16 11:55:49,255][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_28_2_neu.mb
+[2023-10-16 11:55:49,257][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu already exists
+[2023-10-16 11:55:49,288][Apic-WS09][INFO] copied //apicnas/Produktion/Projekte/TEKON/_3D_Pool/Textures/Logo_TL-AKS-08-28-2.PNG to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu
+[2023-10-16 11:55:49,289][Apic-WS09][INFO] set path of file node: Logo_mtl_Logo_Screenshot_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu\Logo_TL-AKS-08-28-2.PNG
+[2023-10-16 11:55:49,459][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_28_2_neu.mb
+[2023-10-16 11:55:49,460][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu already exists
+[2023-10-16 11:55:49,481][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Aluminum_Painted_01/GSG_Metal_Vol1_Aluminum_Painted_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu
+[2023-10-16 11:55:49,483][Apic-WS09][INFO] set path of file node: Metal_red_mtl_GSG_Metal_Vol1_Aluminum_Painted_01_metallic_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu\GSG_Metal_Vol1_Aluminum_Painted_01_metallic.jpg
+[2023-10-16 11:55:49,654][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_28_2_neu.mb
+[2023-10-16 11:55:49,656][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu already exists
+[2023-10-16 11:55:49,731][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Aluminum_Painted_01/GSG_Metal_Vol1_Aluminum_Painted_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu
+[2023-10-16 11:55:49,733][Apic-WS09][INFO] set path of file node: Metal_red_mtl_GSG_Metal_Vol1_Aluminum_Painted_01_normal_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu\GSG_Metal_Vol1_Aluminum_Painted_01_normal.jpg
+[2023-10-16 11:55:49,903][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_28_2_neu.mb
+[2023-10-16 11:55:49,905][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu already exists
+[2023-10-16 11:55:49,995][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Aluminum_Painted_01/GSG_Metal_Vol1_Aluminum_Painted_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu
+[2023-10-16 11:55:49,997][Apic-WS09][INFO] set path of file node: Metal_red_mtl_GSG_Metal_Vol1_Aluminum_Painted_01_roughness_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu\GSG_Metal_Vol1_Aluminum_Painted_01_roughness.jpg
+[2023-10-16 11:55:50,168][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_28_2_neu.mb
+[2023-10-16 11:55:50,169][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu already exists
+[2023-10-16 11:55:50,193][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu
+[2023-10-16 11:55:50,195][Apic-WS09][INFO] set path of file node: Steel_stainless_brushed_01_mtl_GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy_1 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_anisotropy.jpg
+[2023-10-16 11:55:50,366][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_28_2_neu.mb
+[2023-10-16 11:55:50,368][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu already exists
+[2023-10-16 11:55:50,386][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu
+[2023-10-16 11:55:50,388][Apic-WS09][INFO] set path of file node: Steel_stainless_brushed_01_mtl_GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic_2 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_metallic.jpg
+[2023-10-16 11:55:50,563][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_28_2_neu.mb
+[2023-10-16 11:55:50,565][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu already exists
+[2023-10-16 11:55:50,588][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu
+[2023-10-16 11:55:50,590][Apic-WS09][INFO] set path of file node: Steel_stainless_brushed_01_mtl_GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal_2 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_normal.jpg
+[2023-10-16 11:55:50,760][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_28_2_neu.mb
+[2023-10-16 11:55:50,761][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu already exists
+[2023-10-16 11:55:50,784][Apic-WS09][INFO] copied //apicnas/Produktion/Ressources/Library/GSG_lib/materials/gsg_metal_vol1_maps/GSG_Metal_Vol1_Steel_Stainless_Brushed_01/GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu
+[2023-10-16 11:55:50,786][Apic-WS09][INFO] set path of file node: Steel_stainless_brushed_01_mtl_GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness_2 to \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Textures\TK_AKS_08_28_2_neu\GSG_Metal_Vol1_Steel_Stainless_Brushed_01_roughness.jpg
+[2023-10-16 11:55:50,956][Apic-WS09][INFO] saved scene \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_28_2_neu.mb
+[2023-10-16 11:55:50,956][Apic-WS09][INFO] uninitializing maya standalone...
+[2023-10-16 11:56:16,395][Apic-WS09][INFO] Saved Screenshot in \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Thumbnails\TK_AKS_08_28_2_neu.jpg
+[2023-10-16 11:56:20,931][Apic-WS09][INFO] updated settings manager values.
+[2023-10-16 11:56:20,934][Apic-WS09][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-16 11:57:23,228][Apic-WS09][INFO] starting Render Vault...
+[2023-10-16 11:57:23,337][Apic-WS09][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-16 11:57:23,762][Apic-WS09][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-16 11:57:43,080][Apic-WS09][INFO] referenced model \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_28_2_neu.mb
+[2023-10-16 11:57:48,487][Apic-WS09][INFO] referenced model \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_28_2_neu.mb
+[2023-10-16 11:57:51,962][Apic-WS09][INFO] referenced model \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_28_2_neu.mb
+[2023-10-16 11:57:54,160][Apic-WS09][INFO] updated settings manager values.
+[2023-10-16 11:57:54,163][Apic-WS09][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-16 12:47:58,844][ApicWS10][INFO] deleted \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Thumbnails\Test.jpg
+[2023-10-16 12:47:58,850][ApicWS10][INFO] deleted \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\ModelPool\Models\Test.mb
+[2023-10-16 12:48:00,258][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 12:48:00,264][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 12:54:29,192][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 12:54:45,304][ApicWS10][INFO] material layered_print_dark_mtl already exists in scene, skipping import.
+[2023-10-16 12:54:54,421][ApicWS10][INFO] imported material layered_print_dark_mtl
+[2023-10-16 14:09:13,862][Apic-WS09][INFO] starting Render Vault...
+[2023-10-16 14:09:13,997][Apic-WS09][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-16 14:09:14,464][Apic-WS09][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-16 14:09:26,090][Apic-WS09][INFO] imported model \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\backdrop.mb
+[2023-10-16 14:09:52,798][Apic-WS09][INFO] referenced model \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_02_5_1_neu.mb
+[2023-10-16 14:09:59,371][Apic-WS09][INFO] referenced model \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool\Models\TK_AKS_08_16_6_neu.mb
+[2023-10-16 14:12:03,817][Apic-WS09][INFO] referenced model \\apicnas\Produktion\Projekte\_CLIENT_Lib\BOSCH\400_3D\420_assets_references_data\LightsetPool\LightsetPool\Lightsets\LS_s063.mb
+[2023-10-16 14:16:05,033][Apic-WS09][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-16 14:23:15,402][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 14:23:15,406][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 14:23:21,774][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 14:23:21,903][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 14:23:22,512][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 14:23:57,388][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 14:23:57,400][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 14:23:59,959][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 14:24:00,056][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 14:24:00,650][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 14:24:29,697][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 14:24:29,706][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 14:24:32,053][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 14:24:32,157][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 14:24:32,770][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 14:25:43,614][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 14:25:43,621][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 14:25:45,986][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 14:25:46,089][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 14:25:46,695][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 14:27:04,907][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 14:27:04,914][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 14:28:53,838][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 14:28:53,956][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 14:28:54,586][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 14:29:02,770][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 14:29:02,896][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 14:35:08,920][Apic-WS09][WARNING] can't create v-ray hdri, v-ray is not the active renderer
+[2023-10-16 14:35:30,102][Apic-WS09][INFO] updated settings manager values.
+[2023-10-16 14:35:30,105][Apic-WS09][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-16 15:04:25,212][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 15:04:25,313][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:04:25,383][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:04:34,718][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:04:34,724][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:04:36,667][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:04:41,141][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:04:41,148][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:04:42,063][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:04:44,736][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:04:44,743][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:06:04,970][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 15:06:05,065][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:06:05,648][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:06:08,912][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:06:08,917][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:06:10,144][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:06:11,554][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:06:11,560][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:06:12,700][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:06:19,317][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:06:19,323][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:06:19,922][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:06:22,564][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:06:22,571][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:06:23,408][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:06:25,406][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:06:25,413][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:06:26,060][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:06:32,486][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:06:32,494][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:07:25,296][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 15:07:25,393][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:07:25,969][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:07:29,005][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:07:29,011][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:07:29,727][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:07:30,664][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:07:30,670][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:07:31,101][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:07:32,010][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:07:32,017][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:07:32,635][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:07:53,640][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:07:53,647][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:07:57,548][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:08:00,014][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:08:00,022][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:08:02,069][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:08:03,171][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:08:03,186][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:10:30,051][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 15:10:30,146][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:10:30,733][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:10:32,565][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:10:32,572][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:10:33,344][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:10:34,703][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:10:34,709][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:10:35,226][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:10:36,413][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:10:36,420][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:10:36,962][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:13:05,190][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 15:13:05,301][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:13:05,910][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:13:11,951][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:13:11,956][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:13:13,127][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:13:20,511][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:13:20,515][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:13:21,521][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:13:24,453][Apic-WS09][INFO] updated settings manager values.
+[2023-10-16 15:13:24,456][Apic-WS09][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-16 15:13:27,442][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:13:27,446][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:13:28,647][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:13:29,763][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:13:29,767][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:13:30,784][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:13:31,916][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:13:31,920][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:13:32,780][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:13:50,792][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:13:50,796][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:14:56,972][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 15:14:57,065][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:14:57,649][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:15:09,832][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:15:09,836][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:16:10,732][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 15:16:10,819][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:16:11,426][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:16:13,344][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:16:13,347][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:16:41,132][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 15:16:41,213][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:16:41,751][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:16:44,871][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:16:49,901][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:17:07,903][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 15:17:07,987][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:17:08,532][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:17:11,864][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:17:11,871][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:17:13,035][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:17:14,267][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:17:14,274][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:17:15,204][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:17:16,177][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:17:16,184][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:17:17,251][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:49:10,093][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:49:10,102][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:50:13,763][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 15:50:44,338][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 15:50:44,436][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:50:44,513][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:50:54,047][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:50:55,366][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:50:56,622][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:52:04,045][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 15:52:04,147][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:52:38,057][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 15:52:38,139][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:52:38,762][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:52:49,530][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:52:50,575][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:52:55,518][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:52:56,763][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:55:15,548][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:55:17,233][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 15:55:17,314][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:55:17,853][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:55:20,814][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:55:20,829][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:55:21,692][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:55:26,606][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:55:26,778][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:57:30,866][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 15:57:30,967][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:57:31,584][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:57:35,552][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:57:35,564][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:57:36,423][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 15:57:44,738][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 15:57:44,749][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:07:54,787][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:07:56,853][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:07:56,861][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:09:26,930][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 16:09:27,029][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:09:27,543][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:09:30,171][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:09:30,236][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:09:31,065][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:09:50,576][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:09:50,588][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:09:51,866][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:09:51,878][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:09:52,692][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:09:52,704][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:09:58,954][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:09:58,966][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:09:59,799][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:10:00,728][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:10:00,740][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:10:01,422][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:10:02,302][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:10:02,314][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:10:02,998][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:10:07,067][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:10:07,078][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:11:30,260][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 16:11:30,347][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:11:30,416][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:11:35,404][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:11:35,411][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:11:36,174][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:11:38,447][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:11:38,455][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:11:39,180][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:11:41,137][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:11:41,146][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:11:42,370][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:13:30,097][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:13:30,104][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:13:32,282][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:13:32,292][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:13:32,666][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:13:32,674][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:13:33,082][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:13:33,090][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:13:33,603][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:13:33,611][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:13:34,103][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:13:34,111][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:13:34,602][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:13:34,610][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:13:35,164][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:13:35,172][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:13:35,658][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:13:35,666][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:13:44,374][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:13:44,383][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:13:46,394][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:13:46,403][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:13:47,483][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:13:47,491][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:13:48,832][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:13:48,841][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:13:49,844][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:13:49,852][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:13:50,638][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:13:50,647][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:14:34,760][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:14:34,769][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:14:37,812][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 16:14:37,891][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:14:37,961][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:14:41,877][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:14:41,885][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:14:41,933][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:14:44,086][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:14:44,095][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:14:44,143][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:14:45,108][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:14:45,116][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:14:45,164][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:14:46,893][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:14:46,902][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:14:46,950][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:14:50,365][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:14:50,375][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:14:51,377][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:14:52,694][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:14:52,703][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:14:53,797][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:14:55,853][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:14:55,863][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:19:57,151][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 16:19:57,243][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:19:57,318][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:20:00,018][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:20:00,026][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:20:02,146][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:20:02,155][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:20:02,653][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:20:02,661][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:20:12,202][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:20:12,211][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:22:16,984][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:22:16,993][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:27:09,557][Apic-WS09][INFO] starting Render Vault...
+[2023-10-16 16:27:09,691][Apic-WS09][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-16 16:27:10,171][Apic-WS09][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-16 16:27:17,953][Apic-WS09][ERROR] can't delete folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Models\ModelPool does not exist
+[2023-10-16 16:27:17,986][Apic-WS09][INFO] deleted current model pool in //apicnas/Produktion/Projekte/TEKON/_3D_Pool/Models
+[2023-10-16 16:27:17,987][Apic-WS09][INFO] deleting current pool Tekon
+[2023-10-16 16:27:43,152][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\TEKON\400_3D\420_assets_references_data\Models\ModelPool already exists
+[2023-10-16 16:27:43,153][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\TEKON\400_3D\420_assets_references_data\Models\ModelPool\Models already exists
+[2023-10-16 16:27:43,154][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\TEKON\400_3D\420_assets_references_data\Models\ModelPool\Textures already exists
+[2023-10-16 16:27:43,154][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\TEKON\400_3D\420_assets_references_data\Models\ModelPool\Thumbnails already exists
+[2023-10-16 16:27:43,194][Apic-WS09][INFO] created new model pool in //apicnas/Produktion/Projekte/_CLIENT_Lib/TEKON/400_3D/420_assets_references_data/Models
+[2023-10-16 16:28:00,440][Apic-WS09][ERROR] can't delete folder, path: \\apicnas\Produktion\Projekte\TEKON\_3D_Pool\Materials\MaterialPool does not exist
+[2023-10-16 16:28:00,475][Apic-WS09][INFO] deleted current material pool in //apicnas/Produktion/Projekte/TEKON/_3D_Pool/Materials
+[2023-10-16 16:28:00,476][Apic-WS09][INFO] deleting current pool Tekon
+[2023-10-16 16:28:16,879][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\TEKON\400_3D\440_shader\Materials\MaterialPool already exists
+[2023-10-16 16:28:16,880][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\TEKON\400_3D\440_shader\Materials\MaterialPool\Materials already exists
+[2023-10-16 16:28:16,881][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\TEKON\400_3D\440_shader\Materials\MaterialPool\Textures already exists
+[2023-10-16 16:28:16,882][Apic-WS09][ERROR] can't create folder, path: \\apicnas\Produktion\Projekte\_CLIENT_Lib\TEKON\400_3D\440_shader\Materials\MaterialPool\Thumbnails already exists
+[2023-10-16 16:28:16,924][Apic-WS09][INFO] created new material pool in //apicnas/Produktion/Projekte/_CLIENT_Lib/TEKON/400_3D/440_shader/Materials
+[2023-10-16 16:28:27,099][Apic-WS09][INFO] updated settings manager values.
+[2023-10-16 16:28:27,103][Apic-WS09][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-16 16:31:56,538][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 16:31:56,633][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:31:57,167][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:31:58,857][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:31:58,864][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:32:24,304][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 16:32:24,385][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:32:24,906][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:32:26,242][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:32:26,249][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:34:39,369][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 16:34:39,462][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:34:39,980][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:34:44,013][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:34:44,019][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:36:00,292][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 16:36:00,292][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 16:37:08,293][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 16:37:08,397][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:37:08,956][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:37:30,803][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:37:30,824][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:37:35,600][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:37:40,195][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:37:40,202][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:38:19,411][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 16:38:19,508][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:38:20,044][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:40:19,189][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:40:19,202][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:40:21,953][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 16:40:22,064][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:40:22,590][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:40:33,261][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:40:33,269][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:41:57,634][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 16:41:57,744][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:41:58,308][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:42:01,557][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:42:01,609][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:42:21,490][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 16:42:21,595][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:42:23,908][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:42:23,915][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:43:03,848][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 16:43:03,947][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:43:10,315][ApicWS10][INFO] starting Render Vault...
+[2023-10-16 16:43:10,400][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:43:13,068][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:43:13,098][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:43:14,922][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:43:20,240][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:43:20,250][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:43:22,312][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:43:25,698][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:43:25,707][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:43:26,451][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:43:29,143][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:43:29,153][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:43:29,800][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:43:30,920][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:43:30,931][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:43:31,714][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 16:43:33,604][ApicWS10][INFO] updated settings manager values.
+[2023-10-16 16:43:33,615][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-16 17:45:44,187][Apic-WS09][INFO] starting Render Vault...
+[2023-10-16 17:45:44,329][Apic-WS09][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-Apic-WS09.json
+[2023-10-17 10:26:35,301][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-17 10:26:42,555][ApicWS10][INFO] updated settings manager values.
+[2023-10-17 10:26:42,558][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-17 10:26:43,590][ApicWS10][INFO] loading settings from \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-17 10:26:47,369][ApicWS10][INFO] updated settings manager values.
+[2023-10-17 10:26:47,372][ApicWS10][INFO] saving settings to \\apicnas\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-17 10:26:55,421][ApicWS10][INFO] starting Render Vault...
+[2023-10-17 10:26:55,679][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-10-17 10:30:05,097][ApicWS10][INFO] updated settings manager values.
+[2023-10-17 10:30:05,112][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json

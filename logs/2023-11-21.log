@@ -1,0 +1,69 @@
+[2023-11-21 15:04:23,532][ApicWS06][INFO] starting Render Vault...
+[2023-11-21 15:04:44,670][ApicWS06][ERROR] HTTPConnectionPool(host='rr-arni', port=8000): Max retries exceeded with url: /all_pools (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E7A3982FD0>: Failed to establish a new connection: [WinError 10060] Ein Verbindungsversuch ist fehlgeschlagen, da die Gegenstelle nach einer bestimmten Zeitspanne nicht richtig reagiert hat, oder die hergestellte Verbindung war fehlerhaft, da der verbundene Host nicht reagiert hat'))
+Traceback (most recent call last):
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\Maya_2023\urllib3\connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\Maya_2023\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\Maya_2023\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Ein Verbindungsversuch ist fehlgeschlagen, da die Gegenstelle nach einer bestimmten Zeitspanne nicht richtig reagiert hat, oder die hergestellte Verbindung war fehlerhaft, da der verbundene Host nicht reagiert hat
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\Maya_2023\urllib3\connectionpool.py", line 791, in urlopen
+    response = self._make_request(
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\Maya_2023\urllib3\connectionpool.py", line 497, in _make_request
+    conn.request(
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\Maya_2023\urllib3\connection.py", line 395, in request
+    self.endheaders()
+  File "C:\Program Files\Autodesk\Maya2023\Python\lib\http\client.py", line 1274, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Autodesk\Maya2023\Python\lib\http\client.py", line 1034, in _send_output
+    self.send(msg)
+  File "C:\Program Files\Autodesk\Maya2023\Python\lib\http\client.py", line 974, in send
+    self.connect()
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\Maya_2023\urllib3\connection.py", line 243, in connect
+    self.sock = self._new_conn()
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\Maya_2023\urllib3\connection.py", line 218, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000001E7A3982FD0>: Failed to establish a new connection: [WinError 10060] Ein Verbindungsversuch ist fehlgeschlagen, da die Gegenstelle nach einer bestimmten Zeitspanne nicht richtig reagiert hat, oder die hergestellte Verbindung war fehlerhaft, da der verbundene Host nicht reagiert hat
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\Maya_2023\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\Maya_2023\urllib3\connectionpool.py", line 845, in urlopen
+    retries = retries.increment(
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\Maya_2023\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='rr-arni', port=8000): Max retries exceeded with url: /all_pools (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E7A3982FD0>: Failed to establish a new connection: [WinError 10060] Ein Verbindungsversuch ist fehlgeschlagen, da die Gegenstelle nach einer bestimmten Zeitspanne nicht richtig reagiert hat, oder die hergestellte Verbindung war fehlerhaft, da der verbundene Host nicht reagiert hat'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\controller\settings.py", line 94, in load_settings
+    materials, models, hdris, lightsets = api_handler.get_all_pools()
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\controller\api_handler.py", line 110, in get_all_pools
+    response = requests.get(url).json()
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\Maya_2023\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\Maya_2023\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\Maya_2023\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\Maya_2023\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "\\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Dependencies\Maya_2023\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='rr-arni', port=8000): Max retries exceeded with url: /all_pools (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E7A3982FD0>: Failed to establish a new connection: [WinError 10060] Ein Verbindungsversuch ist fehlgeschlagen, da die Gegenstelle nach einer bestimmten Zeitspanne nicht richtig reagiert hat, oder die hergestellte Verbindung war fehlerhaft, da der verbundene Host nicht reagiert hat'))
+[2023-11-21 15:04:44,776][ApicWS06][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS06.json
+[2023-11-21 15:05:34,833][ApicWS06][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS06.json
+[2023-11-21 15:06:04,525][ApicWS06][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS06.json
+[2023-11-21 15:06:42,969][ApicWS06][INFO] imported material layered_print_offwhite_mtl
+[2023-11-21 15:08:24,446][ApicWS06][ERROR] can't create v-ray dome light, v-ray is not the active renderer
+[2023-11-21 15:16:16,481][ApicWS10][INFO] starting Render Vault...
+[2023-11-21 15:16:16,604][ApicWS10][INFO] loading settings from \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
+[2023-11-21 15:19:36,391][ApicWS10][INFO] saving settings to \\APICNAS\Produktion\Pipeline\Apic_Maya_Pipeline\Python\render_vault\settings\config-ApicWS10.json
