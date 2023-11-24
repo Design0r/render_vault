@@ -5,7 +5,7 @@
 
 ### Description
 
-Description text here!
+Render Vault is A Maya Asset Browser for Materials, Models, Ligtsets, HDRIs and more.
 
 ### Requirements
 
@@ -24,7 +24,7 @@ set mayapy_path="C:\Program Files\Autodesk\Maya2024\bin\mayapy.exe"
 ```
 4. Run the install.bat file
 
-5. Open Maya and run following python snippet in the Maya Script Editor 
+5. Open Maya and run following Python snippet in the Maya Script Editor 
 ```shell
 import render_vault
 render_vault.main()
