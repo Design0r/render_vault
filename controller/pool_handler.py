@@ -48,6 +48,7 @@ class MaterialPoolHandler:
         core.create_folder(root_path / "Materials")
         core.create_folder(root_path / "Textures")
         core.create_folder(root_path / "Thumbnails")
+        core.create_folder(root_path / "Metadata")
 
         self._api_handler.create(name, path)
 
@@ -117,6 +118,8 @@ class MaterialPoolHandler:
         thumbnails_path = path.parent.parent / "Thumbnails"
         textures_path = path.parent.parent / "Textures"
         archive_path = path.parent.parent / "Archive"
+        metadata_path = path.parent.parent / "Metadata"
+
         asset_name = path.stem
 
         thumbnails_to_delete = [
@@ -133,6 +136,12 @@ class MaterialPoolHandler:
             archive_path / i for i in archive_path.iterdir() if i.stem == asset_name
         ]
 
+        metadata_to_delete = (
+            [metadata_path / i for i in metadata_path.iterdir() if i.stem == asset_name]
+            if metadata_path.exists()
+            else []
+        )
+
         try:
             for thumb in thumbnails_to_delete:
                 thumb.unlink()
@@ -145,6 +154,10 @@ class MaterialPoolHandler:
             for archive in archive_to_delete:
                 core.remove_folder(archive)
                 logger.Logger.info(f"deleted {archive}")
+
+            for metadata in metadata_to_delete:
+                metadata.unlink()
+                logger.Logger.info(f"deleted {metadata}")
 
             path.unlink()
             logger.Logger.info(f"deleted {path}")
@@ -188,6 +201,7 @@ class ModelPoolHandler:
         core.create_folder(root_path / "Textures")
         core.create_folder(root_path / "Thumbnails")
         core.create_folder(root_path / "Archive")
+        core.create_folder(root_path / "Metadata")
 
         self._api_handler.create(name, path)
 
@@ -257,6 +271,7 @@ class ModelPoolHandler:
         thumbnails_path = path.parent.parent / "Thumbnails"
         textures_path = path.parent.parent / "Textures"
         archive_path = path.parent.parent / "Archive"
+        metadata_path = path.parent.parent / "Metadata"
         asset_name = path.stem
 
         thumbnails_to_delete = [
@@ -273,6 +288,12 @@ class ModelPoolHandler:
             archive_path / i for i in archive_path.iterdir() if i.stem == asset_name
         ]
 
+        metadata_to_delete = (
+            [metadata_path / i for i in metadata_path.iterdir() if i.stem == asset_name]
+            if metadata_path.exists()
+            else []
+        )
+
         try:
             for thumb in thumbnails_to_delete:
                 thumb.unlink()
@@ -285,6 +306,10 @@ class ModelPoolHandler:
             for archive in archive_to_delete:
                 core.remove_folder(archive)
                 logger.Logger.info(f"deleted {archive}")
+
+            for metadata in metadata_to_delete:
+                metadata.unlink()
+                logger.Logger.info(f"deleted {metadata}")
 
             path.unlink()
             logger.Logger.info(f"deleted {path}")
@@ -327,6 +352,7 @@ class HDRIPoolHandler:
         core.create_folder(root_path)
         core.create_folder(root_path / "HDRIs")
         core.create_folder(root_path / "Thumbnails")
+        core.create_folder(root_path / "Metadata")
 
         self._api_handler.create(name, path)
 
@@ -394,6 +420,7 @@ class HDRIPoolHandler:
             return
 
         thumbnails_path = path.parent.parent.resolve() / "Thumbnails"
+        metadata_path = path.parent.parent / "Metadata"
         asset_name = path.stem
 
         thumbnails_to_delete = [
@@ -402,10 +429,20 @@ class HDRIPoolHandler:
             if i.stem == asset_name
         ]
 
+        metadata_to_delete = (
+            [metadata_path / i for i in metadata_path.iterdir() if i.stem == asset_name]
+            if metadata_path.exists()
+            else []
+        )
+
         try:
             for thumb in thumbnails_to_delete:
                 thumb.unlink()
                 logger.Logger.info(f"deleted {thumb}")
+
+            for metadata in metadata_to_delete:
+                metadata.unlink()
+                logger.Logger.info(f"deleted {metadata}")
 
             path.unlink()
             logger.Logger.info(f"deleted {path}")
@@ -425,6 +462,7 @@ class LightsetPoolHandler:
         core.create_folder(root_path / "Lightsets")
         core.create_folder(root_path / "Textures")
         core.create_folder(root_path / "Thumbnails")
+        core.create_folder(root_path / "Metadata")
 
         self._api_handler.create(name, path)
 
@@ -493,6 +531,7 @@ class LightsetPoolHandler:
 
         thumbnails_path = path.parent.parent / "Thumbnails"
         archive_path = path.parent.parent / "Archive"
+        metadata_path = path.parent.parent / "Metadata"
         asset_name = path.stem
 
         thumbnails_to_delete = [
@@ -505,6 +544,12 @@ class LightsetPoolHandler:
             archive_path / i for i in archive_path.iterdir() if i.stem == asset_name
         ]
 
+        metadata_to_delete = (
+            [metadata_path / i for i in metadata_path.iterdir() if i.stem == asset_name]
+            if metadata_path.exists()
+            else []
+        )
+
         try:
             for thumb in thumbnails_to_delete:
                 thumb.unlink()
@@ -513,6 +558,10 @@ class LightsetPoolHandler:
             for archive in archive_to_delete:
                 core.remove_folder(archive)
                 logger.Logger.info(f"deleted {archive}")
+
+            for metadata in metadata_to_delete:
+                metadata.unlink()
+                logger.Logger.info(f"deleted {metadata}")
 
             path.unlink()
             logger.Logger.info(f"deleted {path}")

@@ -8,7 +8,7 @@ from maya import OpenMayaUI
 from shiboken2 import wrapInstance
 from PySide2.QtCore import Qt
 
-from .ui_components import Sidebar
+from .ui_components import Sidebar, AttributeEditor
 from .viewport_container import ViewportContainer, ViewportMode
 from ..controller import Logger, SettingsManager
 from .version import get_version
@@ -58,7 +58,8 @@ class MainWindow(QWidget):
 
     def init_widgets(self):
         self.sidebar = Sidebar()
-        self.vp_container = ViewportContainer(self.settings)
+        self.attribute = AttributeEditor()
+        self.vp_container = ViewportContainer(self.settings, self.attribute)
 
     def init_layouts(self):
         self.main_layout = QHBoxLayout(self)
@@ -67,6 +68,7 @@ class MainWindow(QWidget):
 
         self.main_layout.addWidget(self.sidebar)
         self.main_layout.addWidget(self.vp_container)
+        self.main_layout.addWidget(self.attribute)
 
     def init_signals(self):
         self.sidebar.materials.clicked.connect(
@@ -124,6 +126,7 @@ class MainWindow(QWidget):
         self.move(x, y)
 
         self.vp_container.read_from_settings_manager()
+        self.attribute.update_size(self.settings.window_settings.attribute_width)
 
         current_vp = self.settings.window_settings.current_viewport
         self.sidebar.highlight_modes(current_vp)

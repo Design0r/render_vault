@@ -1,8 +1,10 @@
 from functools import partial
 from pathlib import Path
-
+import json
 from PySide2.QtCore import Qt, QThread
-from PySide2.QtWidgets import QAction, QLineEdit, QMenu
+from PySide2.QtWidgets import QAction, QLineEdit, QMenu, QPushButton
+
+from ..attribute_editor import AttributeEditor
 
 from ....controller import (
     DCCHandler,
@@ -21,14 +23,17 @@ class MaterialsViewport(AssetViewport):
     def __init__(
         self,
         settings: SettingsManager,
+        attribute: AttributeEditor,
         pool_handler: PoolHandler,
         dcc_handler: DCCHandler,
         parent=None,
     ):
-        super().__init__(parent)
         self.settings = settings
+        self.attribute = attribute
         self.pool_handler = pool_handler
         self.dcc_handler = dcc_handler
+        self.tag_cache = {}
+        super().__init__(parent)
 
     def init_widgets(self):
         super().init_widgets()
@@ -87,9 +92,39 @@ class MaterialsViewport(AssetViewport):
         self.repath.clicked.connect(self.repath_material_textures)
         self.search_bar.textChanged.connect(self.search)
 
+        self.attribute.tag_selected.connect(self.filter_tags)
+
+    def filter_tags(self, clicked_tag: QPushButton):
+        text, checked = clicked_tag.text(), clicked_tag.isChecked()
+        if not checked:
+            self.draw_objects()
+            return
+
+        _, path = self.get_current_project()
+        path = Path(path)
+        metadata_path = path / "MaterialPool" / "Metadata"
+        if not metadata_path.exists():
+            metadata_path.mkdir()
+
+        tags = (file for file in metadata_path.iterdir() if file.suffix == ".json")
+
+        self.clear_layout()
+
+        for file in tags:
+            with open(file, "r") as f:
+                data = json.load(f)
+                tags = data.get("tags", [])
+                file_path = Path(data.get("path", ""))
+
+                if text in tags:
+                    self.flow_layout.addWidget(self._button_cache[file_path])
+
     def load_pools(self):
         self.pools = self.settings.material_settings.pools
         super().load_pools()
+        current_pool = self.settings.material_settings.current_pool
+        if current_pool:
+            self.pool_box.setCurrentText(current_pool)
 
     def open_export_materials_dialog(self):
         _, path = self.get_current_project()
@@ -145,8 +180,12 @@ class MaterialsViewport(AssetViewport):
             btn.customContextMenuRequested.connect(
                 partial(self.on_context_menu, btn, mtl_path)
             )
+            btn.icon.clicked.connect(partial(self.attribute.display_asset, mtl_path))
             self.flow_layout.addWidget(btn)
             self._button_cache[mtl_path] = btn
+
+        if not self.attribute.current_asset:
+            self.attribute.display_asset(next(iter(self._button_cache)))
 
         super().draw_objects(force=force)
 

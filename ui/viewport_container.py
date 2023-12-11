@@ -13,8 +13,8 @@ class ViewportMode(Enum):
     Base = 0
     Materials = 1
     Models = 2
-    Hdri = 3
-    Lightsets = 4
+    Lightsets = 3
+    Hdri = 4
     Utility = 5
     Help = 6
     About = 7
@@ -22,10 +22,11 @@ class ViewportMode(Enum):
 
 
 class ViewportContainer(QStackedWidget):
-    def __init__(self, settings, parent=None):
+    def __init__(self, settings, attribute, parent=None):
         super().__init__(parent)
         self.viewport_mode = ViewportMode.Materials
         self.settings = settings
+        self.attribute = attribute
         self.init_widgets()
         self.init_layouts()
 
@@ -35,21 +36,25 @@ class ViewportContainer(QStackedWidget):
         material_api = api.MaterialAPIHandler()
         material_pool = pool.MaterialPoolHandler(material_api)
         self.material_vp = vp.MaterialsViewport(
-            self.settings, material_pool, maya_handler
+            self.settings, self.attribute, material_pool, maya_handler
         )
 
         model_api = api.ModelAPIHandler()
         model_pool = pool.ModelPoolHandler(model_api)
-        self.model_vp = vp.ModelsViewport(self.settings, model_pool, maya_handler)
+        self.model_vp = vp.ModelsViewport(
+            self.settings, self.attribute, model_pool, maya_handler
+        )
 
         hdri_api = api.HDRIAPIHandler()
         hdri_pool = pool.HDRIPoolHandler(hdri_api)
-        self.hdri_vp = vp.HdriViewport(self.settings, hdri_pool, maya_handler)
+        self.hdri_vp = vp.HdriViewport(
+            self.settings, self.attribute, hdri_pool, maya_handler
+        )
 
         lightsets_api = api.LightsetAPIHandler()
         lightsets_pool = pool.LightsetPoolHandler(lightsets_api)
         self.lightsets_vp = vp.LightsetsViewport(
-            self.settings, lightsets_pool, maya_handler
+            self.settings, self.attribute, lightsets_pool, maya_handler
         )
 
         util_pool = pool.UtilityPoolHandler()
@@ -73,6 +78,15 @@ class ViewportContainer(QStackedWidget):
     def write_to_settings_manager(self):
         self.settings.window_settings.current_viewport = self.viewport_mode.value
 
+        mat_name, _ = self.material_vp.get_current_project()
+        self.settings.material_settings.current_pool = mat_name
+        model_name, _ = self.model_vp.get_current_project()
+        self.settings.model_settings.current_pool = model_name
+        hdri_name, _ = self.hdri_vp.get_current_project()
+        self.settings.hdri_settings.current_pool = hdri_name
+        lightset_name, _ = self.lightsets_vp.get_current_project()
+
+        self.settings.lightset_settings.current_pool = lightset_name
         self.settings_vp.write_to_settings_manager()
         Logger.debug("updated settings manager values.")
 

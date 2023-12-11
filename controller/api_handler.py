@@ -111,9 +111,15 @@ def get_all_pools() -> tuple[dict, dict, dict, dict]:
     materials = {
         pool.get("name"): pool.get("path") for pool in response.get("materials")
     }
+
     models = {pool.get("name"): pool.get("path") for pool in response.get("models")}
     hdris = {pool.get("name"): pool.get("path") for pool in response.get("hdris")}
     lightsets = {
         pool.get("name"): pool.get("path") for pool in response.get("lightsets")
     }
-    return materials, models, hdris, lightsets
+    return (
+        dict(sorted(materials.items())),
+        dict(sorted(models.items())),
+        dict(sorted(hdris.items())),
+        dict(sorted(lightsets.items())),
+    )

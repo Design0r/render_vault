@@ -1,5 +1,5 @@
 from pathlib import Path
-
+import json
 from PySide2.QtCore import Qt, Signal
 from PySide2.QtWidgets import (
     QAbstractItemView,
@@ -383,3 +383,89 @@ class ArchiveViewerDialog(QDialog):
         parent_name = selected.parent().text(0)
         import_path = self.archive_path / parent_name / item_name
         return import_path
+
+
+class CreateTagDialog(QDialog):
+    tag_created = Signal(str)
+
+    def __init__(self, pool_path: Path, parent=None):
+        super().__init__(parent)
+        self.pool_path = pool_path
+        self.setWindowTitle("Add new Tag")
+
+        self._button_cache = {}
+
+        self.init_widgets()
+        self.init_layouts()
+        self.init_signals()
+
+        self.add_tags(self.load_tags())
+
+    def init_widgets(self):
+        self.name_edit = QLineEdit("")
+        self.name_edit.setFixedHeight(30)
+
+        self.scroll_widget = QWidget()
+        self.scroll_area = QScrollArea()
+        self.scroll_area.setFocusPolicy(Qt.NoFocus)
+        self.scroll_area.setWidgetResizable(True)
+        self.scroll_area.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOn)
+        self.scroll_area.setWidget(self.scroll_widget)
+
+        buttons = QDialogButtonBox.Ok | QDialogButtonBox.Cancel
+        self.button_box = QDialogButtonBox(buttons)
+
+    def init_layouts(self):
+        self.tag_layout = QVBoxLayout()
+        self.main_layout = QVBoxLayout(self)
+        self.form_layout = QFormLayout()
+
+        self.form_layout.addRow(QLabel("Tag Name"), self.name_edit)
+
+        self.scroll_widget.setLayout(self.tag_layout)
+
+        self.main_layout.addWidget(self.scroll_area)
+        self.main_layout.addLayout(self.form_layout)
+        self.main_layout.addWidget(self.button_box)
+
+    def init_signals(self):
+        self.button_box.accepted.connect(self.accept)
+        self.button_box.rejected.connect(self.reject)
+
+    def accept(self) -> None:
+        for tag, btn in self._button_cache.items():
+            if not btn.isChecked():
+                continue
+            self.tag_created.emit(tag)
+
+        if (t := self.name_edit.text()) and t not in self._button_cache.keys():
+            self.tag_created.emit(self.name_edit.text())
+        super().accept()
+
+    def load_tags(self) -> set[str]:
+        metadata_path = self.pool_path / "Metadata"
+        print(metadata_path)
+        if not metadata_path.exists():
+            return
+
+        metadata_files = (
+            file for file in metadata_path.iterdir() if file.suffix == ".json"
+        )
+
+        pool_tags = set()
+
+        for file in metadata_files:
+            with open(file, "r") as f:
+                data = json.load(f)
+                tags = data.get("tags", [])
+                for i in tags:
+                    pool_tags.add(i)
+
+        return pool_tags
+
+    def add_tags(self, tags: set[str]):
+        for tag in tags:
+            btn = QPushButton(tag)
+            btn.setCheckable(True)
+            self._button_cache[tag] = btn
+            self.tag_layout.addWidget(btn)

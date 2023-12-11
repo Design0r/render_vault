@@ -1,27 +1,30 @@
 from functools import partial
 from pathlib import Path
-
+import json
 from PySide2.QtCore import QCoreApplication, Qt, QThread
-from PySide2.QtWidgets import QAction, QLabel, QLineEdit, QMenu
+from PySide2.QtWidgets import QAction, QLabel, QLineEdit, QMenu, QPushButton
 
 from ....controller import DCCHandler, HdrThreadWorker, PoolHandler, SettingsManager
 from ..buttons import IconButton, ViewportButton
 from ..separator import VLine
 from .base_viewport import AssetViewport
+from ..attribute_editor import AttributeEditor
 
 
 class HdriViewport(AssetViewport):
     def __init__(
         self,
         settings: SettingsManager,
+        attribute: AttributeEditor,
         pool_handler: PoolHandler,
         dcc_handler: DCCHandler,
         parent=None,
     ):
-        super().__init__(parent)
         self.settings = settings
+        self.attribute = attribute
         self.dcc_handler = dcc_handler
         self.pool_handler = pool_handler
+        super().__init__(parent)
 
         self.live_mode = False
         self.thread_running = False
@@ -75,10 +78,39 @@ class HdriViewport(AssetViewport):
         self.reload.clicked.connect(lambda: self.draw_objects(force=True))
         self.render_thumbnail.clicked.connect(self.create_hdr_thumbnails)
         self.search_bar.textChanged.connect(self.search)
+        self.attribute.tag_selected.connect(self.filter_tags)
+
+    def filter_tags(self, clicked_tag: QPushButton):
+        text, checked = clicked_tag.text(), clicked_tag.isChecked()
+        if not checked:
+            self.draw_objects()
+            return
+
+        _, path = self.get_current_project()
+        path = Path(path)
+        metadata_path = path / "HDRIPool" / "Metadata"
+        if not metadata_path.exists():
+            metadata_path.mkdir()
+
+        tags = (file for file in metadata_path.iterdir() if file.suffix == ".json")
+
+        self.clear_layout()
+
+        for file in tags:
+            with open(file, "r") as f:
+                data = json.load(f)
+                tags = data.get("tags", [])
+                file_path = Path(data.get("path", ""))
+
+                if text in tags:
+                    self.flow_layout.addWidget(self._button_cache[file_path])
 
     def load_pools(self):
         self.pools = self.settings.hdri_settings.pools
         super().load_pools()
+        current_pool = self.settings.hdri_settings.current_pool
+        if current_pool:
+            self.pool_box.setCurrentText(current_pool)
 
     def draw_objects(self, force=False):
         _, path = self.get_current_project()
@@ -103,6 +135,7 @@ class HdriViewport(AssetViewport):
                 thumb or ":icons/tabler-icon-photo.png",
                 (width - 20, (width // 2)),
             )
+            btn.icon.clicked.connect(partial(self.attribute.display_asset, hdr_path))
 
             btn.setContextMenuPolicy(Qt.CustomContextMenu)
             btn.customContextMenuRequested.connect(
@@ -111,6 +144,9 @@ class HdriViewport(AssetViewport):
 
             self.flow_layout.addWidget(btn)
             self._button_cache[hdr_path] = btn
+
+        if not self.attribute.current_asset:
+            self.attribute.display_asset(next(iter(self._button_cache)))
 
         super().draw_objects(force=force)
         if force:

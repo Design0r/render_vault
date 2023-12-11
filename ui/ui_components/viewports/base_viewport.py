@@ -175,7 +175,6 @@ class AssetViewport(QWidget):
             self.pool_box.addItem(name)
 
         self.pool_box.blockSignals(False)
-        # self.pool_box.setCurrentIndex(0)
 
     def delete_asset(self, path: Path, btn: ViewportButton):
         btn.deleteLater()

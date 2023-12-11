@@ -1,6 +1,13 @@
 from PySide2.QtCore import QSize, Qt, Signal
 from PySide2.QtGui import QIcon
-from PySide2.QtWidgets import QHBoxLayout, QLabel, QPushButton, QVBoxLayout, QWidget
+from PySide2.QtWidgets import (
+    QHBoxLayout,
+    QLabel,
+    QPushButton,
+    QVBoxLayout,
+    QWidget,
+    QApplication,
+)
 
 from ..qss import viewport_button_style
 
@@ -8,27 +15,52 @@ from ..qss import viewport_button_style
 class IconButton(QPushButton):
     activated = Signal(tuple)
 
-    def __init__(
-        self, button_size: tuple[int, int], checkable=False, parent=None
-    ) -> None:
+    def __init__(self, size: tuple[int, int], checkable=False, parent=None):
         super().__init__(parent)
-        self.setFixedSize(*button_size)
         self.setCheckable(checkable)
+        self.setFixedSize(*size)
+        self.clicked.connect(self.handle_shift)
 
+    def set_icon(self, icon_path: str, icon_size: tuple[int, int]) -> None:
+        width, height = icon_size
+        self.icon_path = icon_path
+        icon = QIcon(icon_path)
+        available_sizes = icon.availableSizes()
+        if available_sizes and available_sizes[0].width() < width:
+            pixmap = icon.pixmap(available_sizes[0])
+            scaled_pixmap = pixmap.scaled(
+                width, height, Qt.KeepAspectRatio, Qt.FastTransformation
+            )
+            icon = QIcon(scaled_pixmap)
+
+        self.setIcon(icon)
+        self.setIconSize(QSize(width, height))
+
+    def set_tooltip(self, text: str) -> None:
+        self.setToolTip(text)
+
+    def handle_shift(self):
+        modifiers = QApplication.keyboardModifiers()
+        if modifiers == Qt.ShiftModifier and self.isCheckable():
+            self.setChecked(True)
+            self.activated.emit(self)
+
+        else:
+            self.setChecked(False)
+
+
+class SidebarButton(QPushButton):
+    activated = Signal(tuple)
+
+    def __init__(self, size: tuple[int, int], parent=None):
+        super().__init__(parent)
+        self.setCheckable(True)
+        self.setFixedSize(*size)
         self.clicked.connect(lambda: self.activated.emit(self))
 
     def set_icon(self, icon_path: str, icon_size: tuple[int, int]) -> None:
         width, height = icon_size
         icon = QIcon(icon_path)
-
-        # available_sizes = icon.availableSizes()
-        # if available_sizes and available_sizes[0].width() < width:
-        #     pixmap = icon.pixmap(available_sizes[0])
-        #     scaled_pixmap = pixmap.scaled(
-        #         width, height, Qt.KeepAspectRatio, Qt.FastTransformation
-        #     )
-        #     icon = QIcon(scaled_pixmap)
-
         self.setIcon(icon)
         self.setIconSize(QSize(width, height))
 
@@ -63,7 +95,7 @@ class ViewportButton(QWidget):
         self.init_signals()
 
     def init_widgets(self):
-        self.icon = IconButton(self.button_size, checkable=self.checkable)
+        self.icon = IconButton(self.button_size, self.checkable)
         self.label = QLabel(self.name)
         self.label.setAlignment(Qt.AlignCenter)
         self.label.setContentsMargins(0, 3, 0, 5)

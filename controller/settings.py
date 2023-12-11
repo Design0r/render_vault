@@ -34,6 +34,7 @@ class Settings:
 class MaterialSettings(Settings):
     def __init__(self):
         self.pools = {}
+        self.current_pool = ""
         self.material_renderer = Renderer.VRAY.value
         self.render_scene = "Path/to/render/scene"
         self.render_object = "shaderball_object"
@@ -45,12 +46,14 @@ class MaterialSettings(Settings):
 class ModelSettings(Settings):
     def __init__(self):
         self.pools = {}
+        self.current_pool = ""
         self.screenshot_opacity = 0.30
 
 
 class HdriSettings(Settings):
     def __init__(self):
         self.pools = {}
+        self.current_pool = ""
         self.hdri_renderer = Renderer.VRAY.value
         self.auto_generate_thumbnails = True
 
@@ -58,6 +61,7 @@ class HdriSettings(Settings):
 class LightsetSettings(Settings):
     def __init__(self):
         self.pools = {}
+        self.current_pool = ""
 
 
 class WindowSettings(Settings):
@@ -65,6 +69,7 @@ class WindowSettings(Settings):
         self.window_geometry = [100, 100, 1000, 700]
         self.current_viewport = ViewportMode.Materials.value
         self.asset_button_size = 350
+        self.attribute_width = 300
 
 
 class SettingsManager:

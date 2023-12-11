@@ -5,7 +5,7 @@ from PySide2.QtCore import Qt
 from PySide2.QtWidgets import QHBoxLayout, QVBoxLayout, QWidget
 
 from ..qss import sidebar_style
-from .buttons import IconButton
+from .buttons import SidebarButton
 
 
 class ToolbarDirection(Enum):
@@ -71,42 +71,42 @@ class Sidebar(Toolbar):
         btn_size = (50, 50)
         icon_size = (50, 50)
 
-        self.materials = IconButton(btn_size, checkable=True)
+        self.materials = SidebarButton(btn_size)
         self.materials.set_icon(":icons/tabler-icon-crystal-ball.png", icon_size)
         self.materials.set_tooltip("Materials")
         self.materials.activated.connect(self.highlight_modes)
 
-        self.models = IconButton(btn_size, checkable=True)
+        self.models = SidebarButton(btn_size)
         self.models.set_icon(":icons/tabler-icon-box.png", icon_size)
         self.models.set_tooltip("Models")
         self.models.activated.connect(self.highlight_modes)
 
-        self.lightsets = IconButton(btn_size, checkable=True)
+        self.lightsets = SidebarButton(btn_size)
         self.lightsets.set_icon(":icons/tabler-icon-lamp.png", icon_size)
         self.lightsets.set_tooltip("Lightsets")
         self.lightsets.activated.connect(self.highlight_modes)
 
-        self.hdris = IconButton(btn_size, checkable=True)
+        self.hdris = SidebarButton(btn_size)
         self.hdris.set_icon(":icons/tabler-icon-bulb.png", icon_size)
         self.hdris.set_tooltip("HDRIs")
         self.hdris.activated.connect(self.highlight_modes)
 
-        self.utilities = IconButton(btn_size, checkable=True)
+        self.utilities = SidebarButton(btn_size)
         self.utilities.set_icon(":icons/tabler-icon-script.png", icon_size)
         self.utilities.set_tooltip("Utilities")
         self.utilities.activated.connect(self.highlight_modes)
 
-        self.help = IconButton(btn_size, checkable=True)
+        self.help = SidebarButton(btn_size)
         self.help.set_icon(":icons/tabler-icon-help.png", icon_size)
         self.help.set_tooltip("Help")
         self.help.activated.connect(self.highlight_modes)
 
-        self.about = IconButton(btn_size, checkable=True)
+        self.about = SidebarButton(btn_size)
         self.about.set_icon(":icons/tabler-icon-info-circle.png", icon_size)
         self.about.set_tooltip("About Render Vault")
         self.about.activated.connect(self.highlight_modes)
 
-        self.settings = IconButton(btn_size, checkable=True)
+        self.settings = SidebarButton(btn_size)
         self.settings.set_icon(":icons/tabler-icon-settings.png", icon_size)
         self.settings.set_tooltip("Settings")
         self.settings.activated.connect(self.highlight_modes)
@@ -125,11 +125,11 @@ class Sidebar(Toolbar):
         self.main_layout.addWidget(self.about)
         self.main_layout.addWidget(self.settings)
 
-    def highlight_modes(self, button: Union[IconButton, int]):
+    def highlight_modes(self, button: Union[SidebarButton, int]):
         for btn in self.buttons:
             btn.setChecked(False)
 
-        if isinstance(button, IconButton):
+        if isinstance(button, SidebarButton):
             button.setChecked(True)
         else:
             self.buttons[button - 1].setChecked(True)

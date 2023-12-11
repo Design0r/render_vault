@@ -1,9 +1,9 @@
 import time
 from functools import partial
 from pathlib import Path
-
+import json
 from PySide2.QtCore import QCoreApplication, Qt, QThread
-from PySide2.QtWidgets import QAction, QLineEdit, QMenu
+from PySide2.QtWidgets import QAction, QLineEdit, QMenu, QPushButton
 
 from ....controller import (
     DCCHandler,
@@ -14,6 +14,7 @@ from ....controller import (
     core,
 )
 from ..buttons import IconButton, ViewportButton
+from ..attribute_editor import AttributeEditor
 from ..dialogs import ArchiveViewerDialog, ExportModelDialog
 from ..screenshot import ScreenshotFrame
 from ..separator import VLine
@@ -24,14 +25,16 @@ class ModelsViewport(AssetViewport):
     def __init__(
         self,
         settings: SettingsManager,
+        attribute: AttributeEditor,
         pool_handler: ModelPoolHandler,
         dcc_handler: DCCHandler,
         parent=None,
     ):
-        super().__init__(parent)
         self.settings = settings
+        self.attribute = attribute
         self.pool_handler = pool_handler
         self.dcc_handler = dcc_handler
+        super().__init__(parent)
 
     def init_widgets(self):
         super().init_widgets()
@@ -71,10 +74,39 @@ class ModelsViewport(AssetViewport):
         self.reload.clicked.connect(lambda: self.draw_objects(force=True))
         self.archive_viewer.clicked.connect(self.open_archive_viewer)
         self.search_bar.textChanged.connect(self.search)
+        self.attribute.tag_selected.connect(self.filter_tags)
+
+    def filter_tags(self, clicked_tag: QPushButton):
+        text, checked = clicked_tag.text(), clicked_tag.isChecked()
+        if not checked:
+            self.draw_objects()
+            return
+
+        _, path = self.get_current_project()
+        path = Path(path)
+        metadata_path = path / "ModelPool" / "Metadata"
+        if not metadata_path.exists():
+            metadata_path.mkdir()
+
+        tags = (file for file in metadata_path.iterdir() if file.suffix == ".json")
+
+        self.clear_layout()
+
+        for file in tags:
+            with open(file, "r") as f:
+                data = json.load(f)
+                tags = data.get("tags", [])
+                file_path = Path(data.get("path", ""))
+
+                if text in tags:
+                    self.flow_layout.addWidget(self._button_cache[file_path])
 
     def load_pools(self):
         self.pools = self.settings.model_settings.pools
         super().load_pools()
+        current_pool = self.settings.model_settings.current_pool
+        if current_pool:
+            self.pool_box.setCurrentText(current_pool)
 
     def open_export_model_dialog(self):
         _, path = self.get_current_project()
@@ -124,13 +156,17 @@ class ModelsViewport(AssetViewport):
             btn.icon.set_icon(
                 thumb or ":icons/tabler-icon-photo.png", (width - 20, width - 20)
             )
+            btn.icon.clicked.connect(partial(self.attribute.display_asset, model_path))
+
             btn.setContextMenuPolicy(Qt.CustomContextMenu)
             btn.customContextMenuRequested.connect(
                 partial(self.on_context_menu, btn, model_path)
             )
             self.flow_layout.addWidget(btn)
-
             self._button_cache[model_path] = btn
+
+        if not self.attribute.current_asset:
+            self.attribute.display_asset(next(iter(self._button_cache)))
 
         super().draw_objects(force=force)
 
