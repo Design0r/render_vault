@@ -17,25 +17,27 @@ class MayaThreadWorker(QObject):
         self.command = command
 
     def run(self):
-        if not self.running:
-            self.running = True
-            self.operation_started.emit()
+        if self.running:
+            return
 
-            if sys.platform == "darwin":
-                with Popen(self.command, stdout=PIPE, stderr=PIPE) as process:
-                    out, err = process.communicate()
-                    Logger.info(out.decode())
-                    Logger.info(err.decode())
-                    process.wait()
-            elif sys.platform == "win32":
-                with Popen(self.command) as process:
-                    # out, err = process.communicate()
-                    # Logger.info(out.decode())
-                    # Logger.info(err.decode())
-                    process.wait()
+        self.running = True
+        self.operation_started.emit()
 
-            self.running = False
-            self.operation_ended.emit()
+        if sys.platform == "darwin":
+            with Popen(self.command, stdout=PIPE, stderr=PIPE) as process:
+                # out, err = process.communicate()
+                # Logger.info(out.decode())
+                # Logger.info(err.decode())
+                process.wait()
+        elif sys.platform == "win32":
+            with Popen(self.command) as process:
+                # out, err = process.communicate()
+                # Logger.info(out.decode())
+                # Logger.info(err.decode())
+                process.wait()
+
+        self.running = False
+        self.operation_ended.emit()
 
     def cancel(self):
         if self.running:
@@ -62,35 +64,31 @@ class HdrThreadWorker(QObject):
         self.size = size
 
     def run(self):
-        if not self.running:
-            self.running = True
-            self.operation_started.emit()
+        if self.running:
+            return
+        self.running = True
+        self.operation_started.emit()
 
-            Logger.debug("starting hdr worker operation")
-            start_time = perf_counter()
-            assets = self.pool_handler.get_assets_and_thumbnails(self.hdr_path)
+        Logger.debug("starting hdr worker operation")
+        start_time = perf_counter()
+        assets = self.pool_handler.get_assets_and_thumbnails(self.hdr_path)
 
-            for hdr_name, hdr_path, thumb, _ in assets:
-                if thumb:
-                    # Logger.debug(
-                    #    f"skipped hdr thumbail generation, {thumb} already exists"
-                    # )
-                    continue
+        for hdr_name, hdr_path, thumb, _ in assets:
+            if thumb:
+                continue
 
-                thumbnail_path = (
-                    hdr_path.parent.parent
-                    / "Thumbnails"
-                    / f"{pathlib.Path(hdr_name).stem}.jpg"
-                )
-
-                core.create_sdr_preview(hdr_path, thumbnail_path, self.size)
-                self.refresh_thumb.emit((hdr_path, thumbnail_path))
-
-            Logger.debug(
-                f"finished hdr worker operation {perf_counter()-start_time:.2f}s"
+            thumbnail_path = (
+                hdr_path.parent.parent
+                / "Thumbnails"
+                / f"{pathlib.Path(hdr_name).stem}.jpg"
             )
-            self.running = False
-            self.operation_ended.emit()
+
+            core.create_sdr_preview(hdr_path, thumbnail_path, self.size)
+            self.refresh_thumb.emit((hdr_path, thumbnail_path))
+
+        Logger.debug(f"finished hdr worker operation {perf_counter()-start_time:.2f}s")
+        self.running = False
+        self.operation_ended.emit()
 
     def cancel(self):
         if self.running:

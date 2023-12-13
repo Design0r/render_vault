@@ -18,16 +18,27 @@ from . import IconButton
 from .tags import TagCollection
 
 
-@dataclass
 class Asset:
-    _path: Path
-    asset_name: str = ""
-    ext: str = ""
-    size: str = ""
-    renderer: str = ""
-    tags: tuple = ("",)
-    notes: str = ""
-    icon: str = ":icons/tabler-icon-photo.png"
+    __slots__ = (
+        "_path",
+        "asset_name",
+        "ext",
+        "size",
+        "renderer",
+        "tags",
+        "notes",
+        "icon",
+    )
+
+    def __init__(self, path: Path):
+        self._path = path
+        self.asset_name: str = ""
+        self.ext: str = ""
+        self.size: str = ""
+        self.renderer: str = ""
+        self.tags: tuple = ("",)
+        self.notes: str = ""
+        self.icon: str = ":icons/tabler-icon-photo.png"
 
     @property
     def path(self):
@@ -63,7 +74,7 @@ class Asset:
 
     def _load_metadata(self):
         try:
-            self._path.parent.parent / "Metadata".mkdir(exist_ok=True)
+            (self._path.parent.parent / "Metadata").mkdir(exist_ok=True)
         except:
             pass
 

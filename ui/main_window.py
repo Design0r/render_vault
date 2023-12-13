@@ -40,7 +40,7 @@ class MainWindow(QWidget):
         self.init_layouts()
         self.init_signals()
 
-        self.load_settings()
+        self.load_settings(initial=True)
 
     @classmethod
     def show_window(cls) -> MainWindow:
@@ -51,8 +51,8 @@ class MainWindow(QWidget):
             cls.win_instance.show()
             cls.win_instance.load_settings()
         else:
-            cls.win_instance.raise_()
-            cls.win_instance.activateWindow()
+            cls.win_instance.showNormal()
+            cls.win_instance.load_settings()
 
         return cls.win_instance
 
@@ -71,41 +71,26 @@ class MainWindow(QWidget):
         self.main_layout.addWidget(self.attribute)
 
     def init_signals(self):
-        self.sidebar.materials.clicked.connect(
-            lambda: self.vp_container.set_mode(ViewportMode.Materials)
-        )
-        self.sidebar.models.clicked.connect(
-            lambda: self.vp_container.set_mode(ViewportMode.Models)
-        )
-        self.sidebar.hdris.clicked.connect(
-            lambda: self.vp_container.set_mode(ViewportMode.Hdri)
-        )
-        self.sidebar.lightsets.clicked.connect(
-            lambda: self.vp_container.set_mode(ViewportMode.Lightsets)
-        )
-        self.sidebar.utilities.clicked.connect(
-            lambda: self.vp_container.set_mode(ViewportMode.Utility)
-        )
-        self.sidebar.help.clicked.connect(
-            lambda: self.vp_container.set_mode(ViewportMode.Help)
-        )
-        self.sidebar.about.clicked.connect(
-            lambda: self.vp_container.set_mode(ViewportMode.About)
-        )
-        self.sidebar.settings.clicked.connect(
-            lambda: self.vp_container.set_mode(ViewportMode.Settings)
-        )
+        s = self.sidebar
+        c = self.vp_container
 
-        self.vp_container.settings_vp.save.clicked.connect(
-            self.save_and_update_settings
-        )
+        s.materials.clicked.connect(lambda: c.set_mode(ViewportMode.Materials))
+        s.models.clicked.connect(lambda: c.set_mode(ViewportMode.Models))
+        s.hdris.clicked.connect(lambda: c.set_mode(ViewportMode.Hdri))
+        s.lightsets.clicked.connect(lambda: c.set_mode(ViewportMode.Lightsets))
+        s.utilities.clicked.connect(lambda: c.set_mode(ViewportMode.Utility))
+        s.help.clicked.connect(lambda: c.set_mode(ViewportMode.Help))
+        s.about.clicked.connect(lambda: c.set_mode(ViewportMode.About))
+        s.settings.clicked.connect(lambda: c.set_mode(ViewportMode.Settings))
+
+        c.settings_vp.save.clicked.connect(self.save_and_update_settings)
 
     def closeEvent(self, event):
         self.save_settings()
 
-    def load_settings(self):
+    def load_settings(self, initial=False):
         self.settings.load_settings()
-        self.read_from_settings_manager()
+        self.read_from_settings_manager(initial=initial)
 
     def save_settings(self):
         self.write_to_settings_manager()
@@ -120,12 +105,12 @@ class MainWindow(QWidget):
         ]
         self.vp_container.write_to_settings_manager()
 
-    def read_from_settings_manager(self):
+    def read_from_settings_manager(self, initial=False):
         x, y, w, h = tuple(self.settings.window_settings.window_geometry)
         self.resize(w, h)
         self.move(x, y)
 
-        self.vp_container.read_from_settings_manager()
+        self.vp_container.read_from_settings_manager(initial=initial)
         self.attribute.update_size(self.settings.window_settings.attribute_width)
 
         current_vp = self.settings.window_settings.current_viewport

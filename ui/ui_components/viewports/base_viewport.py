@@ -169,12 +169,12 @@ class AssetViewport(QWidget):
         if not self.pools:
             return
 
-        self.pool_box.blockSignals(True)
+        # self.pool_box.blockSignals(True)
         self.pool_box.clear()
         for name, _ in self.pools.items():
             self.pool_box.addItem(name)
 
-        self.pool_box.blockSignals(False)
+        # self.pool_box.blockSignals(False)
 
     def delete_asset(self, path: Path, btn: ViewportButton):
         btn.deleteLater()

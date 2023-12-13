@@ -106,11 +106,13 @@ class HdriViewport(AssetViewport):
                     self.flow_layout.addWidget(self._button_cache[file_path])
 
     def load_pools(self):
+        self.pool_box.blockSignals(True)
         self.pools = self.settings.hdri_settings.pools
         super().load_pools()
         current_pool = self.settings.hdri_settings.current_pool
         if current_pool:
             self.pool_box.setCurrentText(current_pool)
+        self.pool_box.blockSignals(False)
 
     def draw_objects(self, force=False):
         _, path = self.get_current_project()

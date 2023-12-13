@@ -95,11 +95,13 @@ class LightsetsViewport(AssetViewport):
                     self.flow_layout.addWidget(self._button_cache[file_path])
 
     def load_pools(self):
+        self.pool_box.blockSignals(True)
         self.pools = self.settings.lightset_settings.pools
         super().load_pools()
         current_pool = self.settings.lightset_settings.current_pool
         if current_pool:
             self.pool_box.setCurrentText(current_pool)
+        self.pool_box.blockSignals(False)
 
     def open_export_model_dialog(self):
         _, path = self.get_current_project()

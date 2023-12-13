@@ -18,7 +18,7 @@ class MetadataHandler:
     def load_metadata(cls, path: Path) -> dict:
         if not path.exists():
             cls.save_metadata(path, cls.default_metadata)
-            return {}
+            return cls.load_metadata(path)
 
         with open(path, "r") as f:
             return json.load(f)

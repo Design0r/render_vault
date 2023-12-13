@@ -1,5 +1,5 @@
 import json
-import socket
+from socket import gethostname
 from enum import Enum
 from pathlib import Path
 
@@ -73,9 +73,7 @@ class WindowSettings(Settings):
 
 
 class SettingsManager:
-    CONFIG_PATH = (
-        Path(__file__).parent.parent / f"settings/config-{socket.gethostname()}.json"
-    )
+    CONFIG_PATH = Path(__file__).parent.parent / f"settings/config-{gethostname()}.json"
 
     window_settings = WindowSettings()
     material_settings = MaterialSettings()
@@ -113,7 +111,7 @@ class SettingsManager:
 
         with open(self.CONFIG_PATH, "w", encoding="utf-8") as file:
             data = self.get_all_settings()
-            json.dump(data, file)
+            json.dump(data, file, indent=4)
 
         Logger.info(f"saving settings to {self.CONFIG_PATH}")
 
@@ -130,8 +128,8 @@ class SettingsManager:
         if not data:
             return
 
-        self.window_settings.from_dict(data.get("window_settings"))
-        self.material_settings.from_dict(data.get("material_settings"))
-        self.model_settings.from_dict(data.get("model_settings"))
-        self.hdri_settings.from_dict(data.get("hdri_settings"))
-        self.lightset_settings.from_dict(data.get("lightset_settings"))
+        self.window_settings.from_dict(data.get("window_settings", {}))
+        self.material_settings.from_dict(data.get("material_settings", {}))
+        self.model_settings.from_dict(data.get("model_settings", {}))
+        self.hdri_settings.from_dict(data.get("hdri_settings", {}))
+        self.lightset_settings.from_dict(data.get("lightset_settings", {}))

@@ -63,7 +63,7 @@ class ViewportContainer(QStackedWidget):
         self.about_vp = vp.AboutViewport()
         self.settings_vp = vp.SettingsViewport(self.settings)
 
-        self.setCurrentWidget(self.material_vp)
+        # self.setCurrentWidget(self.material_vp)
 
     def init_layouts(self):
         self.addWidget(self.material_vp)
@@ -90,7 +90,7 @@ class ViewportContainer(QStackedWidget):
         self.settings_vp.write_to_settings_manager()
         Logger.debug("updated settings manager values.")
 
-    def read_from_settings_manager(self):
+    def read_from_settings_manager(self, initial=False):
         self.settings_vp.read_from_settings_manager()
 
         self.material_vp.load_pools()
@@ -99,24 +99,43 @@ class ViewportContainer(QStackedWidget):
         self.lightsets_vp.load_pools()
 
         current_vp = self.settings.window_settings.current_viewport
-        self.set_mode(ViewportMode(current_vp))
+        self.set_mode(ViewportMode(current_vp), initial=initial)
 
-    def set_mode(self, mode: ViewportMode):
+    def set_mode(self, mode: ViewportMode, initial=False):
+        curr = self.currentWidget()
         if mode == ViewportMode.Materials:
+            if initial:
+                self.material_vp.draw_objects()
+                return
+            if curr == self.material_vp:
+                return
             self.setCurrentWidget(self.material_vp)
             self.material_vp.draw_objects()
+
         elif mode == ViewportMode.Models:
+            if curr == self.model_vp:
+                return
             self.setCurrentWidget(self.model_vp)
             self.model_vp.draw_objects()
+
         elif mode == ViewportMode.Hdri:
+            if curr == self.hdri_vp:
+                return
             self.setCurrentWidget(self.hdri_vp)
             self.hdri_vp.draw_objects()
+
         elif mode == ViewportMode.Lightsets:
+            if curr == self.lightsets_vp:
+                return
             self.setCurrentWidget(self.lightsets_vp)
             self.lightsets_vp.draw_objects()
+
         elif mode == ViewportMode.Utility:
+            if curr == self.utility_vp:
+                return
             self.setCurrentWidget(self.utility_vp)
             self.utility_vp.draw_objects()
+
         elif mode == ViewportMode.Help:
             self.setCurrentWidget(self.help_vp)
         elif mode == ViewportMode.About:
