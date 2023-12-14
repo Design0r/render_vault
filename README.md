@@ -9,8 +9,8 @@ Render Vault is A Maya Asset Browser for Materials, Models, Ligtsets, HDRIs and 
 
 ### Requirements
 
-- Render Vault currently only supports Maya 2023 and 2024. Other Versions may work but are not tested. 
-- Python 3.12 installed on the Machine the hosts the [Render Vault Server](https://github.com/Design0r/render_vault_server) (Can be your local PC or a Server connected to your Network)
+- Render Vault currently only supports Maya 2023 and 2024 on Windows and MacOS. Other Maya Versions and Operating Systems may work but are not tested. 
+- Python 3.12 installed on the Machine that hosts the [Render Vault Server](https://github.com/Design0r/render_vault_server) (Can be your local PC or a Server connected to your Network)
 
 ### Installation
 
