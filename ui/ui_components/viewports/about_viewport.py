@@ -31,7 +31,7 @@ class AboutViewport(DataViewport):
         self.name = QLabel("Render Vault")
         self.version = QLabel(get_version())
         self.repository = HyperlinkLabel(
-            "Render Vault GitHub", "https://github.com/Design0r/Apic_Maya_Pipeline"
+            "Render Vault GitHub", "https://github.com/Design0r/render_vault"
         )
         self.author = QLabel("Alexander Mors")
         self.email = QLabel("alex.mors@gmx.de")
@@ -42,11 +42,11 @@ class AboutViewport(DataViewport):
         self.toolbar.main_layout.addWidget(self.label)
 
         self.form_layout = QFormLayout()
-        self.form_layout.addRow(QLabel("Name: "), self.name)
-        self.form_layout.addRow(QLabel("Version: "), self.version)
-        self.form_layout.addRow(QLabel("Repository: "), self.repository)
-        self.form_layout.addRow(QLabel("Author: "), self.author)
-        self.form_layout.addRow(QLabel("E-Mail: "), self.email)
+        self.form_layout.addRow("Name: ", self.name)
+        self.form_layout.addRow("Version: ", self.version)
+        self.form_layout.addRow("Repository: ", self.repository)
+        self.form_layout.addRow("Author: ", self.author)
+        self.form_layout.addRow("E-Mail: ", self.email)
 
         self.form_layout.setAlignment(Qt.AlignCenter)
         self.settings_groups_layout.addLayout(self.form_layout)
