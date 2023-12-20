@@ -1,4 +1,3 @@
-from dataclasses import dataclass
 from pathlib import Path
 from functools import partial
 from PySide2.QtCore import Qt, Signal
@@ -16,22 +15,12 @@ from PySide2.QtWidgets import (
 from ...controller import MetadataHandler
 from . import IconButton
 from .tags import TagCollection
+from ...controller import Logger
 
 
 class Asset:
-    __slots__ = (
-        "_path",
-        "asset_name",
-        "ext",
-        "size",
-        "renderer",
-        "tags",
-        "notes",
-        "icon",
-    )
-
-    def __init__(self, path: Path):
-        self._path = path
+    def __init__(self):
+        self._path: Path = Path("")
         self.asset_name: str = ""
         self.ext: str = ""
         self.size: str = ""
@@ -48,18 +37,23 @@ class Asset:
     def path(self, value: Path):
         self._path = value
 
-    def load(self):
-        self._path = self._path
-        self.asset_name = self._path.name
-        self.ext = self._path.suffix
-        self.size = self.format_filesize()
-        self.icon = str(
-            self._path.parent.parent / "Thumbnails" / f"{self._path.stem}.jpg"
+    def load(self, asset_path: Path):
+        self._path = asset_path
+        self.asset_name = asset_path.name
+        self.ext = asset_path.suffix
+        self.size = self.format_filesize(asset_path)
+        icon_search = (asset_path.parent.parent / "Thumbnails").glob(
+            f"{asset_path.stem}.*"
         )
+        try:
+            self.icon = str(next(icon_search)) or ""
+        except Exception:
+            pass
+
         self._load_metadata()
 
     def save(self):
-        metadata = {
+        asset = {
             "name": self.asset_name,
             "extension": self.ext,
             "size": self.size,
@@ -68,26 +62,27 @@ class Asset:
             "tags": self.tags,
             "notes": self.notes,
         }
-        MetadataHandler.save_metadata(
-            self._path.parent.parent / "Metadata" / f"{self._path.stem}.json", metadata
-        )
+        path = self._path.parent.parent / "Metadata" / f"{self._path.stem}.json"
+        MetadataHandler.save(path, asset)
 
     def _load_metadata(self):
-        try:
-            (self._path.parent.parent / "Metadata").mkdir(exist_ok=True)
-        except:
-            pass
+        metadata_path = self._path.parent.parent / "Metadata"
+        if not metadata_path.exists():
+            try:
+                metadata_path.mkdir()
+                Logger.debug(f"Created Metadata Directory: {metadata_path}")
+            except Exception as e:
+                Logger.exception(e)
 
-        metadata = MetadataHandler.load_metadata(
-            self._path.parent.parent / "Metadata" / f"{self._path.stem}.json"
-        )
+        metadata = MetadataHandler.load(metadata_path / f"{self._path.stem}.json")
         self.renderer = metadata.get("renderer", "")
         self.tags = metadata.get("tags", "")
         self.notes = metadata.get("notes", "")
 
-    def format_filesize(self) -> str:
+    @staticmethod
+    def format_filesize(path: Path) -> str:
         # bytes
-        filesize = self._path.stat().st_size
+        filesize = path.stat().st_size
         formatted_size = f"{filesize / 1_000:.3f}KB"
         if filesize >= 100_000_000:
             formatted_size = f"{filesize / 1_000_000_000:.3f}GB"
@@ -103,7 +98,7 @@ class AttributeEditor(QWidget):
     def __init__(self, parent=None):
         super().__init__(parent)
 
-        self.current_asset: Asset = Asset(Path(""))
+        self.current_asset = Asset()
 
         self.icon_size = (300 - 20, 300 - 20)
 
@@ -200,8 +195,7 @@ class AttributeEditor(QWidget):
             self.current_asset.save()
 
     def display_asset(self, asset_path: Path):
-        self.current_asset._path = asset_path
-        self.current_asset.load()
+        self.current_asset.load(asset_path)
 
         self.icon.set_icon(self.current_asset.icon, self.icon_size)
         self.asset_name.setText(self.current_asset.asset_name)
