@@ -122,22 +122,22 @@ class MaterialPoolHandler:
 
         asset_name = path.stem
 
-        thumbnails_to_delete = [
+        thumbnails_to_delete = (
             thumbnails_path / i
             for i in thumbnails_path.iterdir()
             if i.stem == asset_name
-        ]
+        )
 
-        textures_to_delete = [
+        textures_to_delete = (
             textures_path / i for i in textures_path.iterdir() if i.stem == asset_name
-        ]
+        )
 
-        archive_to_delete = [
+        archive_to_delete = (
             archive_path / i for i in archive_path.iterdir() if i.stem == asset_name
-        ]
+        )
 
         metadata_to_delete = (
-            [metadata_path / i for i in metadata_path.iterdir() if i.stem == asset_name]
+            (metadata_path / i for i in metadata_path.iterdir() if i.stem == asset_name)
             if metadata_path.exists()
             else []
         )
@@ -172,7 +172,7 @@ class MaterialPoolHandler:
 
     @staticmethod
     def _get_newest_archive_version(archive_path: Path) -> str:
-        numbers = [int(str(i.stem).split("_")[-1]) for i in archive_path.iterdir()]
+        numbers = (int(str(i.stem).split("_")[-1]) for i in archive_path.iterdir())
         version = max(numbers) + 1 if numbers else 1
         return str(version).zfill(3)
 
@@ -274,22 +274,22 @@ class ModelPoolHandler:
         metadata_path = path.parent.parent / "Metadata"
         asset_name = path.stem
 
-        thumbnails_to_delete = [
+        thumbnails_to_delete = (
             thumbnails_path / i
             for i in thumbnails_path.iterdir()
             if i.stem == asset_name
-        ]
+        )
 
-        textures_to_delete = [
+        textures_to_delete = (
             textures_path / i for i in textures_path.iterdir() if i.stem == asset_name
-        ]
+        )
 
-        archive_to_delete = [
+        archive_to_delete = (
             archive_path / i for i in archive_path.iterdir() if i.stem == asset_name
-        ]
+        )
 
         metadata_to_delete = (
-            [metadata_path / i for i in metadata_path.iterdir() if i.stem == asset_name]
+            (metadata_path / i for i in metadata_path.iterdir() if i.stem == asset_name)
             if metadata_path.exists()
             else []
         )

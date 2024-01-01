@@ -45,7 +45,6 @@ QLineEdit{
     font-size: 10pt;
     border-radius: 5px;
     border: 1px solid black;
-    margin-right: 10px;
 
 }
 

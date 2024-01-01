@@ -34,7 +34,7 @@ class HdriViewport(AssetViewport):
         self.label = QLabel("HDRIs")
         self.label.setContentsMargins(10, 0, 0, 0)
 
-        size = (40, 40)
+        size = self.toolbar_btn_size
 
         self.open_folder = IconButton(size)
         self.open_folder.set_icon(":icons/tabler-icon-folder-open.png", size)
@@ -59,7 +59,7 @@ class HdriViewport(AssetViewport):
         self.reload.set_tooltip("Reload the current Pool")
 
         self.search_bar = QLineEdit(placeholderText="Search")
-        self.search_bar.setFixedSize(250, 40)
+        self.search_bar.setFixedHeight(20 * self.ui_scale)
 
     def init_layouts(self):
         super().init_layouts()

@@ -70,6 +70,7 @@ class WindowSettings(Settings):
         self.current_viewport = ViewportMode.Materials.value
         self.asset_button_size = 350
         self.attribute_width = 300
+        self.ui_scale = 1
 
 
 class SettingsManager:

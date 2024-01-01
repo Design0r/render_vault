@@ -27,7 +27,7 @@ class UtilityVieport(AssetViewport):
         super().init_widgets()
         self.label.setText("Utilities")
 
-        size = (40, 40)
+        size = self.toolbar_btn_size
 
         self.reload = IconButton(size)
         self.reload.set_icon(":icons/tabler-icon-reload.png", size)

@@ -41,7 +41,7 @@ class ModelsViewport(AssetViewport):
 
         self.label.setText("Models")
 
-        size = (40, 40)
+        size = self.toolbar_btn_size
 
         self.export_selected = IconButton(size)
         self.export_selected.set_icon(":icons/tabler-icon-package-export.png", size)
@@ -56,7 +56,7 @@ class ModelsViewport(AssetViewport):
         self.reload.set_tooltip("Reload the current Pool")
 
         self.search_bar = QLineEdit(placeholderText="Search")
-        self.search_bar.setFixedSize(250, 40)
+        self.search_bar.setFixedHeight(20 * self.ui_scale)
 
     def init_layouts(self):
         super().init_layouts()

@@ -3,9 +3,9 @@ from pathlib import Path
 import json
 from PySide2.QtCore import Qt, QThread
 from PySide2.QtWidgets import QAction, QLineEdit, QMenu, QPushButton
-
+from typing import Callable
 from ..attribute_editor import AttributeEditor
-
+import time
 from ....controller import (
     DCCHandler,
     Logger,
@@ -17,6 +17,16 @@ from ..buttons import IconButton, ViewportButton
 from ..dialogs import ExportMaterialsDialog, ArchiveViewerDialog
 from ..separator import VLine
 from .base_viewport import AssetViewport
+
+
+def benchmark(func: Callable) -> Callable:
+    def wrapper(*args, **kwargs) -> None:
+        start = time.perf_counter()
+        func(*args, **kwargs)
+        stop = time.perf_counter()
+        print(f"executed {func.__qualname__} in {stop-start:.3f}s")
+
+    return wrapper
 
 
 class MaterialsViewport(AssetViewport):
@@ -43,7 +53,7 @@ class MaterialsViewport(AssetViewport):
         self.remove_project.setToolTip("Delete current Material Pool")
         self.open_folder.setToolTip("Open current Material Pool in the File Explorer")
 
-        size = (40, 40)
+        size = self.toolbar_btn_size
 
         self.export_selected = IconButton(size)
         self.export_selected.set_icon(":icons/tabler-icon-file-export.png", size)
@@ -68,7 +78,7 @@ class MaterialsViewport(AssetViewport):
         self.reload.set_tooltip("Reload the current Pool")
 
         self.search_bar = QLineEdit(placeholderText="Search")
-        self.search_bar.setFixedSize(250, 40)
+        self.search_bar.setFixedHeight(20 * self.ui_scale)
 
     def init_layouts(self):
         super().init_layouts()
@@ -157,6 +167,7 @@ class MaterialsViewport(AssetViewport):
         viewer = ArchiveViewerDialog(self.pool_handler, self.dcc_handler, path)
         viewer.exec_()
 
+    @benchmark
     def draw_objects(self, force=False):
         _, path = self.get_current_project()
         if not path:

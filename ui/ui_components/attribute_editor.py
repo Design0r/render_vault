@@ -10,9 +10,10 @@ from PySide2.QtWidgets import (
     QTextEdit,
     QVBoxLayout,
     QWidget,
+    QScrollArea,
 )
 
-from ...controller import MetadataHandler
+from ...controller import MetadataHandler, SettingsManager
 from . import IconButton
 from .tags import TagCollection
 from ...controller import Logger
@@ -99,23 +100,31 @@ class AttributeEditor(QWidget):
         super().__init__(parent)
 
         self.current_asset = Asset()
-
-        self.icon_size = (300 - 20, 300 - 20)
+        self.ui_scale = SettingsManager.window_settings.ui_scale
+        s = (150 - 10) * self.ui_scale
+        self.icon_size = (s, s)
 
         self.init_widgets()
         self.init_layouts()
         self.init_signals()
 
     def init_widgets(self):
+        self.scroll_widget = QWidget()
+        self.scroll_area = QScrollArea()
+        self.scroll_area.setFocusPolicy(Qt.NoFocus)
+        self.scroll_area.setWidgetResizable(True)
+        self.scroll_area.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOn)
+        self.scroll_area.setWidget(self.scroll_widget)
+
         self.banner = QWidget()
-        self.banner.setFixedHeight(52)
+        self.banner.setFixedHeight(25 * self.ui_scale)
 
         self.label = QLabel("Metadata")
-        self.label.setFixedHeight(52)
+        self.label.setFixedHeight(25 * self.ui_scale)
         self.label.setStyleSheet(
             "background-color: rgb(50,50,50);font-size: 16pt; color: white;"
         )
-        self.label.setContentsMargins(10, 0, 0, 0)
+        self.label.setContentsMargins(0, 0, 0, 0)
 
         self.icon = IconButton(self.icon_size)
         self.icon.set_icon(":icons/tabler-icon-photo.png", self.icon_size)
@@ -136,11 +145,11 @@ class AttributeEditor(QWidget):
         self.save_btn.setFixedWidth(self.icon_size[1] // 2)
 
     def update_size(self, size: int):
-        margin_size = size - 20
+        margin_size = (size * self.ui_scale) - (20 * self.ui_scale)
         self.icon_size = (margin_size, margin_size)
         self.icon.setFixedSize(*self.icon_size)
         self.icon.set_icon(self.icon.icon_path, self.icon_size)
-        self.setFixedWidth(size)
+        self.setFixedWidth(size * self.ui_scale)
 
     def init_layouts(self):
         self.another_layout = QVBoxLayout()
@@ -162,18 +171,23 @@ class AttributeEditor(QWidget):
         self.button_layout.addStretch()
         self.button_layout.addWidget(self.save_btn)
 
-        self.another_layout.addLayout(self.banner_layout)
-        self.another_layout.addLayout(self.main_layout)
-        self.another_layout.setMargin(0)
-
         self.main_layout.setAlignment(Qt.AlignHCenter)
         self.main_layout.setMargin(0)
-        self.main_layout.setContentsMargins(10, 0, 10, 10)
+        self.main_layout.setContentsMargins(0, 0, 0, 0)
 
         self.main_layout.addLayout(self.banner_layout)
-        self.main_layout.addWidget(self.icon)
+        self.main_layout.addWidget(self.icon, alignment=Qt.AlignCenter)
         self.main_layout.addLayout(self.form_layout)
         self.main_layout.addLayout(self.button_layout)
+        self.main_layout.setMargin(0)
+
+        self.scroll_layout = QVBoxLayout(self.scroll_widget)
+        self.scroll_layout.addLayout(self.banner_layout)
+        self.scroll_layout.addLayout(self.main_layout)
+        self.scroll_layout.setMargin(0)
+
+        self.another_layout.addWidget(self.scroll_area)
+        self.another_layout.setMargin(0)
 
         self.setLayout(self.another_layout)
 

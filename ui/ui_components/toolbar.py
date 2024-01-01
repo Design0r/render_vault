@@ -50,11 +50,13 @@ class Toolbar(QWidget):
 
 
 class Sidebar(Toolbar):
-    def __init__(self, parent=None):
-        self.thickness = 60
+    def __init__(self, settings, parent=None):
+        self.settings = settings
+        self.ui_scale = settings.window_settings.ui_scale
+        self.thickness = 30 * self.ui_scale
         super().__init__(ToolbarDirection.Vertical, self.thickness, parent)
         self.setStyleSheet(sidebar_style)
-        self.buttons = [
+        self.buttons = (
             self.materials,
             self.models,
             self.lightsets,
@@ -63,13 +65,14 @@ class Sidebar(Toolbar):
             self.help,
             self.about,
             self.settings,
-        ]
+        )
 
     def init_widgets(self):
         super().init_widgets()
 
-        btn_size = (50, 50)
-        icon_size = (50, 50)
+        size = 25 * self.ui_scale
+        btn_size = (size, size)
+        icon_size = btn_size
 
         self.materials = SidebarButton(btn_size)
         self.materials.set_icon(":icons/tabler-icon-crystal-ball.png", icon_size)

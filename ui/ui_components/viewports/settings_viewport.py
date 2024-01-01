@@ -37,6 +37,10 @@ class SettingsViewport(DataViewport):
         self.attribute_width.setRange(0, 5000)
         self.attribute_width.setButtonSymbols(QAbstractSpinBox.NoButtons)
 
+        self.ui_scale = QDoubleSpinBox()
+        self.ui_scale.setRange(0, 5000)
+        self.ui_scale.setButtonSymbols(QAbstractSpinBox.NoButtons)
+
         self.material_settings = QGroupBox("Material Settings")
         self.material_renderer = QComboBox()
         self.material_renderer.addItems(("Default", "V-Ray", "Arnold", "Redshift"))
@@ -77,7 +81,7 @@ class SettingsViewport(DataViewport):
         self.general_settings_layout.addRow(
             "Attribute Editor Width (px)", self.attribute_width
         )
-
+        self.general_settings_layout.addRow("UI Scale", self.ui_scale)
         self.render_scene_layout = QHBoxLayout()
         self.render_scene_layout.addWidget(self.render_scene)
         self.render_scene_layout.addWidget(self.browse_render_scene)
@@ -136,6 +140,7 @@ class SettingsViewport(DataViewport):
     def read_from_settings_manager(self):
         self.button_resolution.setValue(self.settings.window_settings.asset_button_size)
         self.attribute_width.setValue(self.settings.window_settings.attribute_width)
+        self.ui_scale.setValue(self.settings.window_settings.ui_scale)
 
         self.material_renderer.setCurrentIndex(
             self.settings.material_settings.material_renderer
@@ -161,6 +166,7 @@ class SettingsViewport(DataViewport):
     def write_to_settings_manager(self):
         self.settings.window_settings.asset_button_size = self.button_resolution.value()
         self.settings.window_settings.attribute_width = self.attribute_width.value()
+        self.settings.window_settings.ui_scale = self.ui_scale.value()
 
         self.settings.material_settings.render_resolution_x = (
             self.render_resolution_x.value()

@@ -57,7 +57,7 @@ class MainWindow(QWidget):
         return cls.win_instance
 
     def init_widgets(self):
-        self.sidebar = Sidebar()
+        self.sidebar = Sidebar(self.settings)
         self.attribute = AttributeEditor()
         self.vp_container = ViewportContainer(self.settings, self.attribute)
 

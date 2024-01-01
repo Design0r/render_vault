@@ -3,7 +3,7 @@ from pathlib import Path
 from PySide2.QtCore import Qt
 from PySide2.QtWidgets import QComboBox, QLabel, QScrollArea, QVBoxLayout, QWidget
 
-from ....controller import DCCHandler, Logger, PoolHandler
+from ....controller import DCCHandler, Logger, PoolHandler, SettingsManager
 from ...qss import toolbar_style
 from ...ui_components import (
     FlowLayout,
@@ -20,6 +20,8 @@ class AssetViewport(QWidget):
     def __init__(self, parent=None):
         super().__init__(parent)
 
+        self.ui_scale = SettingsManager.window_settings.ui_scale
+        self.toolbar_btn_size = (20 * self.ui_scale, 20 * self.ui_scale)
         self.dcc_handler: DCCHandler
         self.pool_handler: PoolHandler
         self.pools = {}
@@ -30,24 +32,28 @@ class AssetViewport(QWidget):
         self.init_signals()
 
     def init_widgets(self):
-        self.toolbar = Toolbar(ToolbarDirection.Horizontal, 50)
+        self.toolbar = Toolbar(ToolbarDirection.Horizontal, 25 * self.ui_scale)
         self.toolbar.setStyleSheet(toolbar_style)
 
         self.label = QLabel("Base Label")
-        self.label.setContentsMargins(10, 0, 0, 0)
-
-        size = (40, 40)
+        self.label.setContentsMargins(0, 0, 0, 0)
 
         self.pool_box = QComboBox()
-        self.pool_box.setFixedWidth(250)
-        self.pool_box.setFixedHeight(size[0])
+        # self.pool_box.setFixedWidth(125 * self.ui_scale)
+        self.pool_box.setFixedHeight(self.toolbar_btn_size[0])
 
-        self.add_project = IconButton(size)
-        self.add_project.set_icon(":icons/tabler-icon-folder-plus.png", size)
-        self.remove_project = IconButton(size)
-        self.remove_project.set_icon(":icons/tabler-icon-folder-minus.png", size)
-        self.open_folder = IconButton(size)
-        self.open_folder.set_icon(":icons/tabler-icon-folder-open.png", size)
+        self.add_project = IconButton(self.toolbar_btn_size)
+        self.add_project.set_icon(
+            ":icons/tabler-icon-folder-plus.png", self.toolbar_btn_size
+        )
+        self.remove_project = IconButton(self.toolbar_btn_size)
+        self.remove_project.set_icon(
+            ":icons/tabler-icon-folder-minus.png", self.toolbar_btn_size
+        )
+        self.open_folder = IconButton(self.toolbar_btn_size)
+        self.open_folder.set_icon(
+            ":icons/tabler-icon-folder-open.png", self.toolbar_btn_size
+        )
 
         self.grid_widget = QWidget()
         self.grid_widget.setContentsMargins(5, 5, 5, 5)
@@ -185,6 +191,7 @@ class AssetViewport(QWidget):
 class DataViewport(QWidget):
     def __init__(self, parent=None):
         super().__init__(parent)
+        self.ui_scale = SettingsManager.window_settings.ui_scale
         self.setFocusPolicy(Qt.NoFocus)
 
         self.init_widgets()
@@ -192,7 +199,7 @@ class DataViewport(QWidget):
         self.init_signals()
 
     def init_widgets(self):
-        self.toolbar = Toolbar(ToolbarDirection.Horizontal, 50)
+        self.toolbar = Toolbar(ToolbarDirection.Horizontal, 25 * self.ui_scale)
         self.toolbar.setStyleSheet(toolbar_style)
         self.settings_widget = QWidget()
 
