@@ -36,6 +36,7 @@ class MainWindow(QWidget):
         Logger.set_propagate(False)
         Logger.info("starting Render Vault...")
 
+        self.settings.load_settings()
         self.init_widgets()
         self.init_layouts()
         self.init_signals()
@@ -89,7 +90,8 @@ class MainWindow(QWidget):
         self.save_settings()
 
     def load_settings(self, initial=False):
-        self.settings.load_settings()
+        if not initial:
+            self.settings.load_settings()
         self.read_from_settings_manager(initial=initial)
 
     def save_settings(self):
