@@ -26,6 +26,7 @@ class UtilityVieport(AssetViewport):
     def init_widgets(self):
         super().init_widgets()
         self.label.setText("Utilities")
+        self.label.setContentsMargins(10, 0, 0, 0)
 
         size = self.toolbar_btn_size
 

@@ -7,7 +7,7 @@ from PySide2.QtWidgets import QAction, QLabel, QLineEdit, QMenu, QPushButton
 from ....controller import DCCHandler, HdrThreadWorker, PoolHandler, SettingsManager
 from ..buttons import IconButton, ViewportButton
 from ..separator import VLine
-from .base_viewport import AssetViewport
+from .base_viewport import AssetViewport, benchmark
 from ..attribute_editor import AttributeEditor
 
 
@@ -114,6 +114,7 @@ class HdriViewport(AssetViewport):
             self.pool_box.setCurrentText(current_pool)
         self.pool_box.blockSignals(False)
 
+    @benchmark
     def draw_objects(self, force=False):
         _, path = self.get_current_project()
         if not path:

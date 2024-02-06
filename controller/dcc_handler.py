@@ -1,4 +1,4 @@
-from typing import Iterable, Protocol, Union
+from typing import Generator, Protocol, Union
 from datetime import datetime
 from pathlib import Path
 import sys
@@ -31,7 +31,7 @@ class DCCHandler(Protocol):
         ...
 
     @staticmethod
-    def get_non_default_materials() -> Iterable:
+    def get_non_default_materials() -> Generator:
         ...
 
     @staticmethod
@@ -136,7 +136,7 @@ class MayaHandler:
         mc.export_materials(path, materials=materials)
 
     @staticmethod
-    def get_non_default_materials() -> Iterable[str]:
+    def get_non_default_materials() -> Generator[str, None, None]:
         return mc.get_non_default_materials()
 
     @staticmethod

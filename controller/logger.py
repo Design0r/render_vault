@@ -98,7 +98,7 @@ class Logger:
         file_handler.setLevel(level)
 
         hostname = socket.gethostname()
-        fmt = logging.Formatter(f"[%(asctime)s][{hostname}][%(levelname)s] %(message)s")
+        fmt = logging.Formatter(fmt=f"[%(asctime)s][{hostname}][%(levelname)s] %(message)s", datefmt='%Y-%m-%d %H:%M')
         file_handler.setFormatter(fmt)
         lg.addHandler(file_handler)
 

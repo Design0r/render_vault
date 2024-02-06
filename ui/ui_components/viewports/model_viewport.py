@@ -18,7 +18,7 @@ from ..attribute_editor import AttributeEditor
 from ..dialogs import ArchiveViewerDialog, ExportModelDialog
 from ..screenshot import ScreenshotFrame
 from ..separator import VLine
-from .base_viewport import AssetViewport
+from .base_viewport import AssetViewport, benchmark
 
 
 class ModelsViewport(AssetViewport):
@@ -40,6 +40,7 @@ class ModelsViewport(AssetViewport):
         super().init_widgets()
 
         self.label.setText("Models")
+        self.label.setContentsMargins(10, 0, 0, 0)
 
         size = self.toolbar_btn_size
 
@@ -138,6 +139,7 @@ class ModelsViewport(AssetViewport):
         viewer = ArchiveViewerDialog(self.pool_handler, self.dcc_handler, path)
         viewer.exec_()
 
+    @benchmark
     def draw_objects(self, force=False):
         _, path = self.get_current_project()
         if not path:

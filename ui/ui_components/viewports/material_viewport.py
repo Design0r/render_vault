@@ -3,7 +3,6 @@ from pathlib import Path
 import json
 from PySide2.QtCore import Qt, QThread
 from PySide2.QtWidgets import QAction, QLineEdit, QMenu, QPushButton
-from typing import Callable
 from ..attribute_editor import AttributeEditor
 import time
 from ....controller import (
@@ -16,17 +15,7 @@ from ....controller import (
 from ..buttons import IconButton, ViewportButton
 from ..dialogs import ExportMaterialsDialog, ArchiveViewerDialog
 from ..separator import VLine
-from .base_viewport import AssetViewport
-
-
-def benchmark(func: Callable) -> Callable:
-    def wrapper(*args, **kwargs) -> None:
-        start = time.perf_counter()
-        func(*args, **kwargs)
-        stop = time.perf_counter()
-        print(f"executed {func.__qualname__} in {stop-start:.3f}s")
-
-    return wrapper
+from .base_viewport import AssetViewport, benchmark
 
 
 class MaterialsViewport(AssetViewport):
@@ -48,6 +37,7 @@ class MaterialsViewport(AssetViewport):
     def init_widgets(self):
         super().init_widgets()
         self.label.setText("Materials")
+        self.label.setContentsMargins(10, 0, 0, 0)
 
         self.add_project.setToolTip("Create new Material Pool")
         self.remove_project.setToolTip("Delete current Material Pool")

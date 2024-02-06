@@ -2,7 +2,7 @@ import os
 import sys
 from enum import Enum
 from pathlib import Path
-from typing import Iterator, Optional, Union
+from typing import Iterator, Optional, Union, Generator
 
 from maya import cmds
 
@@ -24,9 +24,10 @@ def save_scene_as(path: Path) -> None:
     cmds.file(save=True, force=True, type="mayaBinary")
 
 
-def get_non_default_materials() -> Iterator[str]:
+def get_non_default_materials() -> Generator[str, None, None]:
     default_materials = {"lambert1", "standardSurface1", "particleCloud1"}
-    materials = filter(lambda x: x not in default_materials, cmds.ls(materials=True))
+    # materials = filter(lambda x: x not in default_materials, cmds.ls(materials=True))
+    materials = (x for x in cmds.ls(materials=True) if x not in default_materials)
 
     return materials
 

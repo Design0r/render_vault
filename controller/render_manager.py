@@ -1,6 +1,7 @@
 from __future__ import annotations
 import sys
-import pathlib
+from pathlib import Path
+from typing import Generator
 from maya import cmds
 import maya.standalone
 import ast
@@ -83,24 +84,23 @@ class RenderManager:
             Logger.exception(e)
 
     @classmethod
-    def get_renderable_materials(cls):
+    def get_renderable_materials(cls) -> Generator[str, None, None]:
         default_mtls = cmds.ls(materials=True)
 
         if cls.single_mode:
             material_path = cls.material_pool_path
             cls.import_material(material_path)
         else:
-            material_path = (
-                pathlib.Path(cls.material_pool_path) / "MaterialPool" / "Materials"
-            )
+            material_path = Path(cls.material_pool_path) / "MaterialPool" / "Materials"
             items = material_path.glob("*.m[ab]")
 
-            for mtl in list(items):
+            for mtl in items:
                 cls.import_material(mtl)
 
         new_mtls = cmds.ls(materials=True)
-        filtered = filter(lambda x: x not in default_mtls, new_mtls)
-        return list(filtered)
+        # filtered = filter(lambda x: x not in default_mtls, new_mtls)
+        filtered = (x for x in new_mtls if x not in default_mtls)
+        return filtered
 
 
 if __name__ == "__main__":

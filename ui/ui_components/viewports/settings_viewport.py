@@ -33,12 +33,8 @@ class SettingsViewport(DataViewport):
         self.button_resolution.setRange(0, 5000)
         self.button_resolution.setButtonSymbols(QAbstractSpinBox.NoButtons)
 
-        self.attribute_width = QSpinBox()
-        self.attribute_width.setRange(0, 5000)
-        self.attribute_width.setButtonSymbols(QAbstractSpinBox.NoButtons)
-
         self.ui_scale = QDoubleSpinBox()
-        self.ui_scale.setRange(0, 5000)
+        self.ui_scale.setRange(0, 10)
         self.ui_scale.setButtonSymbols(QAbstractSpinBox.NoButtons)
 
         self.material_settings = QGroupBox("Material Settings")
@@ -77,9 +73,6 @@ class SettingsViewport(DataViewport):
         self.general_settings_layout = QFormLayout(self.general_settings)
         self.general_settings_layout.addRow(
             "Asset Button Size (px)", self.button_resolution
-        )
-        self.general_settings_layout.addRow(
-            "Attribute Editor Width (px)", self.attribute_width
         )
         self.general_settings_layout.addRow("UI Scale", self.ui_scale)
         self.render_scene_layout = QHBoxLayout()
@@ -129,7 +122,7 @@ class SettingsViewport(DataViewport):
         self.browse_render_scene.clicked.connect(self.open_render_scene)
 
     def open_render_scene(self):
-        file, filter = QFileDialog().getOpenFileName(
+        file, _ = QFileDialog().getOpenFileName(
             self, "Browse Render Scene", filter="Maya Files (*.ma *.mb)"
         )
         if not file:
@@ -139,7 +132,6 @@ class SettingsViewport(DataViewport):
 
     def read_from_settings_manager(self):
         self.button_resolution.setValue(self.settings.window_settings.asset_button_size)
-        self.attribute_width.setValue(self.settings.window_settings.attribute_width)
         self.ui_scale.setValue(self.settings.window_settings.ui_scale)
 
         self.material_renderer.setCurrentIndex(
@@ -165,7 +157,6 @@ class SettingsViewport(DataViewport):
 
     def write_to_settings_manager(self):
         self.settings.window_settings.asset_button_size = self.button_resolution.value()
-        self.settings.window_settings.attribute_width = self.attribute_width.value()
         self.settings.window_settings.ui_scale = self.ui_scale.value()
 
         self.settings.material_settings.render_resolution_x = (

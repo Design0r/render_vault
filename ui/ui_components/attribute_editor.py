@@ -117,14 +117,13 @@ class AttributeEditor(QWidget):
         self.scroll_area.setWidget(self.scroll_widget)
 
         self.banner = QWidget()
-        self.banner.setFixedHeight(25 * self.ui_scale)
 
         self.label = QLabel("Metadata")
         self.label.setFixedHeight(25 * self.ui_scale)
         self.label.setStyleSheet(
             "background-color: rgb(50,50,50);font-size: 16pt; color: white;"
         )
-        self.label.setContentsMargins(0, 0, 0, 0)
+        self.label.setContentsMargins(10, 0, 0, 0)
 
         self.icon = IconButton(self.icon_size)
         self.icon.set_icon(":icons/tabler-icon-photo.png", self.icon_size)
@@ -143,13 +142,6 @@ class AttributeEditor(QWidget):
 
         self.save_btn = QPushButton("Save")
         self.save_btn.setFixedWidth(self.icon_size[1] // 2)
-
-    def update_size(self, size: int):
-        margin_size = (size * self.ui_scale) - (20 * self.ui_scale)
-        self.icon_size = (margin_size, margin_size)
-        self.icon.setFixedSize(*self.icon_size)
-        self.icon.set_icon(self.icon.icon_path, self.icon_size)
-        self.setFixedWidth(size * self.ui_scale)
 
     def init_layouts(self):
         self.another_layout = QVBoxLayout()

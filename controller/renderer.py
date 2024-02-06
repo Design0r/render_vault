@@ -3,6 +3,7 @@ import pathlib
 from maya import mel, cmds
 from abc import ABC, abstractmethod
 from render_vault.controller.logger import Logger
+from typing import Generator
 
 
 class Renderer(ABC):
@@ -41,7 +42,7 @@ class Renderer(ABC):
         ...
 
     @abstractmethod
-    def render(self, materials: list[str] | None):
+    def render(self, materials: Generator[str, None, None] | None):
         ...
 
 
@@ -107,7 +108,7 @@ class Arnold(Renderer):
         # cmds.workspace(fileRule=["images", out_path])
         Logger.info(f"set image output path: {out_path}")
 
-    def render(self, materials: list[str] | None):
+    def render(self, materials: Generator[str, None, None] | None):
         if not materials:
             Logger.error(f"can't render, no materials: {materials}")
             return
@@ -196,7 +197,7 @@ class VRay(Renderer):
         cmds.workspace(fileRule=("images", out_path))
         Logger.info(f"set image output path: {out_path}")
 
-    def render(self, materials: list[str] | None):
+    def render(self, materials: Generator[str, None, None] | None):
         if not materials:
             Logger.error(f"can't render, no materials: {materials}")
             return

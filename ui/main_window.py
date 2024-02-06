@@ -2,9 +2,10 @@ from __future__ import annotations
 from pathlib import Path
 from datetime import datetime
 
-from PySide2.QtWidgets import QMainWindow, QHBoxLayout, QWidget
+from PySide2.QtWidgets import QMainWindow, QHBoxLayout, QSplitter, QWidget
 from PySide2.QtGui import QIcon
 from maya import OpenMayaUI
+from maya.app.general.mayaMixin import MayaQWidgetDockableMixin
 from shiboken2 import wrapInstance
 from PySide2.QtCore import Qt
 
@@ -19,11 +20,12 @@ def get_maya_main_window():
     return wrapInstance(int(main_window_ptr), QMainWindow)
 
 
-class MainWindow(QWidget):
+class MainWindow(MayaQWidgetDockableMixin, QWidget):
     win_instance = None
 
     ROOT_PATH = Path(__file__).parent.parent
-    LOGGING_PATH = str(ROOT_PATH / f"logs/{datetime.now().date()}.log")
+    LOGS = ROOT_PATH / "logs"
+    LOGGING_PATH = LOGS / f"{datetime.now().date()}.log"
 
     def __init__(self, parent=None):
         super().__init__(parent)
@@ -31,7 +33,8 @@ class MainWindow(QWidget):
         self.setWindowTitle(f"Render Vault - {get_version()}")
         self.setWindowIcon(QIcon(":icons/tabler-icon-packages.png"))
         self.setWindowFlag(Qt.WindowType.Window)
-        # self.setWindowFlag(Qt.WindowStaysOnTopHint, True)
+
+        MainWindow.LOGS.mkdir(exist_ok=True)
         Logger.write_to_file(MainWindow.LOGGING_PATH)
         Logger.set_propagate(False)
         Logger.info("starting Render Vault...")
@@ -47,9 +50,9 @@ class MainWindow(QWidget):
     def show_window(cls) -> MainWindow:
         if not cls.win_instance:
             cls.win_instance = MainWindow(parent=get_maya_main_window())
-            cls.win_instance.show()
+            cls.win_instance.show(dockable=True)
         elif cls.win_instance.isHidden():
-            cls.win_instance.show()
+            cls.win_instance.show(dockable=True)
             cls.win_instance.load_settings()
         else:
             cls.win_instance.showNormal()
@@ -62,14 +65,17 @@ class MainWindow(QWidget):
         self.attribute = AttributeEditor()
         self.vp_container = ViewportContainer(self.settings, self.attribute)
 
+        self.splitter = QSplitter(Qt.Horizontal)
+        self.splitter.addWidget(self.vp_container)
+        self.splitter.addWidget(self.attribute)
+
     def init_layouts(self):
         self.main_layout = QHBoxLayout(self)
         self.main_layout.setContentsMargins(0, 0, 0, 0)
         self.main_layout.setSpacing(0)
 
         self.main_layout.addWidget(self.sidebar)
-        self.main_layout.addWidget(self.vp_container)
-        self.main_layout.addWidget(self.attribute)
+        self.main_layout.addWidget(self.splitter)
 
     def init_signals(self):
         s = self.sidebar
@@ -108,12 +114,11 @@ class MainWindow(QWidget):
         self.vp_container.write_to_settings_manager()
 
     def read_from_settings_manager(self, initial=False):
-        x, y, w, h = tuple(self.settings.window_settings.window_geometry)
+        x, y, w, h = self.settings.window_settings.window_geometry
         self.resize(w, h)
         self.move(x, y)
 
         self.vp_container.read_from_settings_manager(initial=initial)
-        self.attribute.update_size(self.settings.window_settings.attribute_width)
 
         current_vp = self.settings.window_settings.current_viewport
         self.sidebar.highlight_modes(current_vp)

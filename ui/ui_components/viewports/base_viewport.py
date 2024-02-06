@@ -2,6 +2,7 @@ from pathlib import Path
 
 from PySide2.QtCore import Qt
 from PySide2.QtWidgets import QComboBox, QLabel, QScrollArea, QVBoxLayout, QWidget
+import time
 
 from ....controller import DCCHandler, Logger, PoolHandler, SettingsManager
 from ...qss import toolbar_style
@@ -12,8 +13,20 @@ from ...ui_components import (
     ToolbarDirection,
     ViewportButton,
 )
+from typing import Callable
+
 from ..dialogs import CreatePoolDialog, DeletePoolDialog
 from ..separator import VLine
+
+
+def benchmark(func: Callable) -> Callable:
+    def wrapper(*args, **kwargs) -> None:
+        start = time.perf_counter()
+        func(*args, **kwargs)
+        stop = time.perf_counter()
+        Logger.debug(f"executed {func.__qualname__} in {stop-start:.3f}s")
+
+    return wrapper
 
 
 class AssetViewport(QWidget):

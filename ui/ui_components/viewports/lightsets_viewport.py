@@ -9,7 +9,7 @@ from ..buttons import IconButton, ViewportButton
 from ..dialogs import ExportModelDialog, ArchiveViewerDialog
 from ..screenshot import ScreenshotFrame
 from ..separator import VLine
-from .base_viewport import AssetViewport
+from .base_viewport import AssetViewport, benchmark
 from ..attribute_editor import AttributeEditor
 
 
@@ -32,6 +32,7 @@ class LightsetsViewport(AssetViewport):
         super().init_widgets()
 
         self.label.setText("Lightsets")
+        self.label.setContentsMargins(10, 0, 0, 0)
 
         size = self.toolbar_btn_size
 
@@ -130,6 +131,7 @@ class LightsetsViewport(AssetViewport):
         viewer = ArchiveViewerDialog(self.pool_handler, self.dcc_handler, path)
         viewer.exec_()
 
+    @benchmark
     def draw_objects(self, force=False):
         _, path = self.get_current_project()
         if not path:
