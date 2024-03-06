@@ -95,12 +95,16 @@ class MainWindow(MayaQWidgetDockableMixin, QWidget):
     def closeEvent(self, event):
         self.save_settings()
 
+    def hideEvent(self, event):
+        self.save_settings()
+
     def load_settings(self, initial=False):
         if not initial:
             self.settings.load_settings()
         self.read_from_settings_manager(initial=initial)
 
     def save_settings(self):
+        print("kjhekrjh")
         self.write_to_settings_manager()
         self.settings.save_settings()
 

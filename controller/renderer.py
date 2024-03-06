@@ -152,6 +152,8 @@ class VRay(Renderer):
         cmds.setAttr("vraySettings.samplerType", 4)
         cmds.setAttr("vraySettings.dmcMaxSubdivs", 8)
         cmds.setAttr("vraySettings.sys_regsgen_xc", 32)
+        cmds.setAttr("vraySettings.dmcThreshold", 0.01)
+        cmds.setAttr("vraySettings.productionEngine", 0)
         mel.eval("vray vfbControl -testresolutionenabled 0")
         Logger.info("set v-ray render settings")
 
