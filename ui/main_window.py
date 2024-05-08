@@ -104,7 +104,6 @@ class MainWindow(QWidget):
         self.read_from_settings_manager(initial=initial)
 
     def save_settings(self):
-        print("kjhekrjh")
         self.write_to_settings_manager()
         self.settings.save_settings()
 
