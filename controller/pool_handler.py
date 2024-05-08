@@ -15,25 +15,20 @@ UTILITY_EXTENSTIONS = ("*.mb", "*.mb", "*.py", "*.json")
 
 
 class PoolHandler(Protocol):
-    def create_pool(self, name: str, path: str) -> None:
-        ...
+    def create_pool(self, name: str, path: str) -> None: ...
 
-    def delete_pool(self, name: str, path: str) -> None:
-        ...
+    def delete_pool(self, name: str, path: str) -> None: ...
 
     @staticmethod
-    def open_pool_dir(path: str) -> None:
-        ...
+    def open_pool_dir(path: str) -> None: ...
 
     @staticmethod
     def get_assets_and_thumbnails(
         path: str,
-    ) -> Generator[tuple[str, Path, Optional[str], int], None, None]:
-        ...
+    ) -> Generator[tuple[str, Path, Optional[str], int], None, None]: ...
 
     @staticmethod
-    def delete_asset(path: Path) -> None:
-        ...
+    def delete_asset(path: Path) -> None: ...
 
 
 class MaterialPoolHandler:
@@ -52,7 +47,7 @@ class MaterialPoolHandler:
 
         self._api_handler.create(name, path)
 
-        logger.Logger.info(f"created new material pool in {path}")
+        logger.Logger.info(f'created new material pool "{name}" in {path}')
 
     def delete_pool(self, name: str, path: str):
         root_path = Path(path, "MaterialPool")
@@ -171,7 +166,7 @@ class MaterialPoolHandler:
         return files
 
     @staticmethod
-    def _get_newest_archive_version(archive_path: Path) -> str:
+    def _get_latest_archive_version(archive_path: Path) -> str:
         numbers = (int(str(i.stem).split("_")[-1]) for i in archive_path.iterdir())
         version = max(numbers) + 1 if numbers else 1
         return str(version).zfill(3)
@@ -180,7 +175,7 @@ class MaterialPoolHandler:
         name = path.stem
         archive_folder = path.parent.parent / "Archive" / name
         archive_folder.mkdir(parents=True, exist_ok=True)
-        archive_version = self._get_newest_archive_version(archive_folder)
+        archive_version = self._get_latest_archive_version(archive_folder)
         archive = archive_folder / f"{name}_{archive_version}{path.suffix}"
 
         shutil.copy2(path, archive)
@@ -205,7 +200,7 @@ class ModelPoolHandler:
 
         self._api_handler.create(name, path)
 
-        logger.Logger.info(f"created new model pool in {path}")
+        logger.Logger.info(f'created new model pool "{name}" in {path}')
 
     def delete_pool(self, name: str, path: str):
         root_path = Path(path, "ModelPool")
@@ -213,7 +208,7 @@ class ModelPoolHandler:
 
         self._api_handler.delete(name, path)
 
-        logger.Logger.info(f"deleted current model pool in {path}")
+        logger.Logger.info(f'deleted current model pool "{name}" in {path}')
 
     @staticmethod
     def open_pool_dir(path: str):
@@ -323,7 +318,7 @@ class ModelPoolHandler:
         return files
 
     @staticmethod
-    def _get_newest_archive_version(archive_path: Path) -> str:
+    def _get_latest_archive_version(archive_path: Path) -> str:
         numbers = [int(str(i.stem).split("_")[-1]) for i in archive_path.iterdir()]
         version = max(numbers) + 1 if numbers else 1
         logger.Logger.debug(f"{version=}")
@@ -333,7 +328,7 @@ class ModelPoolHandler:
         name = path.stem
         archive_folder = path.parent.parent / "Archive" / name
         archive_folder.mkdir(parents=True, exist_ok=True)
-        archive_version = self._get_newest_archive_version(archive_folder)
+        archive_version = self._get_latest_archive_version(archive_folder)
         archive = archive_folder / f"{name}_{archive_version}{path.suffix}"
 
         shutil.copy2(path, archive)
@@ -575,7 +570,7 @@ class LightsetPoolHandler:
         return files
 
     @staticmethod
-    def _get_newest_archive_version(archive_path: Path) -> str:
+    def _get_latest_archive_version(archive_path: Path) -> str:
         numbers = [int(str(i.stem).split("_")[-1]) for i in archive_path.iterdir()]
         version = max(numbers) + 1 if numbers else 1
         logger.Logger.debug(f"{version=}")
@@ -585,7 +580,7 @@ class LightsetPoolHandler:
         name = path.stem
         archive_folder = path.parent.parent / "Archive" / name
         archive_folder.mkdir(parents=True, exist_ok=True)
-        archive_version = self._get_newest_archive_version(archive_folder)
+        archive_version = self._get_latest_archive_version(archive_folder)
         archive = archive_folder / f"{name}_{archive_version}{path.suffix}"
 
         shutil.copy2(path, archive)

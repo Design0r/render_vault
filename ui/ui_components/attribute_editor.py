@@ -47,9 +47,9 @@ class Asset:
             f"{asset_path.stem}.*"
         )
         try:
-            self.icon = str(next(icon_search)) or ""
+            self.icon = str(next(icon_search))
         except Exception:
-            pass
+            self.icon = ":icons/tabler-icon-photo.png"
 
         self._load_metadata()
 

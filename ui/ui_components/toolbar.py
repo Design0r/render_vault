@@ -64,7 +64,7 @@ class Sidebar(Toolbar):
             self.utilities,
             self.help,
             self.about,
-            self.settings,
+            self.settings_btn,
         )
 
     def init_widgets(self):
@@ -109,10 +109,10 @@ class Sidebar(Toolbar):
         self.about.set_tooltip("About Render Vault")
         self.about.activated.connect(self.highlight_modes)
 
-        self.settings = SidebarButton(btn_size)
-        self.settings.set_icon(":icons/tabler-icon-settings.png", icon_size)
-        self.settings.set_tooltip("Settings")
-        self.settings.activated.connect(self.highlight_modes)
+        self.settings_btn = SidebarButton(btn_size)
+        self.settings_btn.set_icon(":icons/tabler-icon-settings.png", icon_size)
+        self.settings_btn.set_tooltip("Settings")
+        self.settings_btn.activated.connect(self.highlight_modes)
 
     def init_layouts(self) -> None:
         super().init_layouts()
@@ -126,7 +126,7 @@ class Sidebar(Toolbar):
         self.main_layout.addStretch()
         self.main_layout.addWidget(self.help)
         self.main_layout.addWidget(self.about)
-        self.main_layout.addWidget(self.settings)
+        self.main_layout.addWidget(self.settings_btn)
 
     def highlight_modes(self, button: Union[SidebarButton, int]):
         for btn in self.buttons:

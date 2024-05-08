@@ -1,7 +1,13 @@
 from pathlib import Path
 
 from PySide2.QtCore import Qt
-from PySide2.QtWidgets import QComboBox, QLabel, QScrollArea, QVBoxLayout, QWidget
+from PySide2.QtWidgets import (
+    QComboBox,
+    QLabel,
+    QScrollArea,
+    QVBoxLayout,
+    QWidget,
+)
 import time
 
 from ....controller import DCCHandler, Logger, PoolHandler, SettingsManager
@@ -110,9 +116,8 @@ class AssetViewport(QWidget):
             widget.setParent(None)
 
     def draw_objects(self, force=False):
-        Logger.debug(
-            f"{'force ' if force else ''}reloaded {self.label.text()} pool: {self.pool_box.currentText()}"
-        )
+        text = f"{'force ' if force else ''}reloaded {self.label.text()} pool: {self.pool_box.currentText()}"
+        Logger.info(text)
 
     def search(self, input):
         if not input:
@@ -122,7 +127,7 @@ class AssetViewport(QWidget):
         path = str(Path(path))
 
         for k, v in self._button_cache.items():
-            if not path in str(k):
+            if path not in str(k):
                 continue
             if input.lower() in k.stem.lower():
                 if not v.parent():
@@ -193,6 +198,13 @@ class AssetViewport(QWidget):
         for name, _ in self.pools.items():
             self.pool_box.addItem(name)
 
+        max_item_width = max(
+            self.pool_box.fontMetrics().width(item)
+            for item in [
+                self.pool_box.itemText(i) for i in range(self.pool_box.count())
+            ]
+        )
+        self.pool_box.setMinimumWidth(max_item_width + 50)
         # self.pool_box.blockSignals(False)
 
     def delete_asset(self, path: Path, btn: ViewportButton):

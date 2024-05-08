@@ -4,7 +4,6 @@ import json
 from PySide2.QtCore import Qt, QThread
 from PySide2.QtWidgets import QAction, QLineEdit, QMenu, QPushButton
 from ..attribute_editor import AttributeEditor
-import time
 from ....controller import (
     DCCHandler,
     Logger,

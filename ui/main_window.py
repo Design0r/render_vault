@@ -5,7 +5,6 @@ from datetime import datetime
 from PySide2.QtWidgets import QMainWindow, QHBoxLayout, QSplitter, QWidget
 from PySide2.QtGui import QIcon
 from maya import OpenMayaUI
-from maya.app.general.mayaMixin import MayaQWidgetDockableMixin
 from shiboken2 import wrapInstance
 from PySide2.QtCore import Qt
 
@@ -20,7 +19,7 @@ def get_maya_main_window():
     return wrapInstance(int(main_window_ptr), QMainWindow)
 
 
-class MainWindow(MayaQWidgetDockableMixin, QWidget):
+class MainWindow(QWidget):
     win_instance = None
 
     ROOT_PATH = Path(__file__).parent.parent
@@ -50,9 +49,9 @@ class MainWindow(MayaQWidgetDockableMixin, QWidget):
     def show_window(cls) -> MainWindow:
         if not cls.win_instance:
             cls.win_instance = MainWindow(parent=get_maya_main_window())
-            cls.win_instance.show(dockable=True)
+            cls.win_instance.show()
         elif cls.win_instance.isHidden():
-            cls.win_instance.show(dockable=True)
+            cls.win_instance.show()
             cls.win_instance.load_settings()
         else:
             cls.win_instance.showNormal()
@@ -66,6 +65,7 @@ class MainWindow(MayaQWidgetDockableMixin, QWidget):
         self.vp_container = ViewportContainer(self.settings, self.attribute)
 
         self.splitter = QSplitter(Qt.Horizontal)
+        self.splitter.setOpaqueResize(True)
         self.splitter.addWidget(self.vp_container)
         self.splitter.addWidget(self.attribute)
 
@@ -88,7 +88,7 @@ class MainWindow(MayaQWidgetDockableMixin, QWidget):
         s.utilities.clicked.connect(lambda: c.set_mode(ViewportMode.Utility))
         s.help.clicked.connect(lambda: c.set_mode(ViewportMode.Help))
         s.about.clicked.connect(lambda: c.set_mode(ViewportMode.About))
-        s.settings.clicked.connect(lambda: c.set_mode(ViewportMode.Settings))
+        s.settings_btn.clicked.connect(lambda: c.set_mode(ViewportMode.Settings))
 
         c.settings_vp.save.clicked.connect(self.save_and_update_settings)
 
@@ -110,8 +110,8 @@ class MainWindow(MayaQWidgetDockableMixin, QWidget):
 
     def write_to_settings_manager(self):
         self.settings.window_settings.window_geometry = [
-            self.geometry().x(),
-            self.geometry().y(),
+            self.x(),
+            self.y(),
             self.width(),
             self.height(),
         ]

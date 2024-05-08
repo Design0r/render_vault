@@ -128,6 +128,9 @@ class ExportModelDialog(QDialog):
     model_exported = Signal()
     repath = Signal(tuple)
 
+    SAVE = "Save current Scene"
+    EXPORT = "Export selected"
+
     def __init__(self, dcc_handler: DCCHandler, path: Path, parent=None):
         super().__init__(parent)
         self.dcc_handler = dcc_handler
@@ -145,6 +148,9 @@ class ExportModelDialog(QDialog):
         self.name_edit = QLineEdit("")
         self.name_edit.setFixedHeight(30)
 
+        self.export_options = QComboBox()
+        self.export_options.addItems([self.EXPORT, self.SAVE])
+
         self.file_ext_box = QComboBox()
         self.file_ext_box.addItems(["mb", "ma"])
 
@@ -157,11 +163,10 @@ class ExportModelDialog(QDialog):
         self.main_layout = QVBoxLayout(self)
         self.form_layout = QFormLayout()
 
-        self.form_layout.addRow(QLabel("Model Name"), self.name_edit)
-        self.form_layout.addRow(QLabel("File Extension"), self.file_ext_box)
-        self.form_layout.addRow(
-            QLabel("Copy Textures and Repath"), self.copy_textues_check
-        )
+        self.form_layout.addRow("Model Name", self.name_edit)
+        self.form_layout.addRow("Export Options", self.export_options)
+        self.form_layout.addRow("File Extension", self.file_ext_box)
+        self.form_layout.addRow("Copy Textures and Repath", self.copy_textues_check)
 
         self.main_layout.addLayout(self.form_layout)
         self.main_layout.addWidget(self.button_box)
@@ -172,8 +177,14 @@ class ExportModelDialog(QDialog):
 
     def accept(self) -> None:
         super().accept()
+        opt = self.export_options.currentText()
         name, ext = (self.name_edit.text(), self.file_ext_box.currentText())
-        self.dcc_handler.export_model(self.path, name, ext)
+
+        if opt == self.SAVE:
+            self.dcc_handler.save_scene_as(self.path / f"{name}.{ext}")
+        elif opt == self.EXPORT:
+            self.dcc_handler.export_model(self.path, name, ext)
+
         self.model_exported.emit()
         if self.copy_textues_check.isChecked():
             self.repath.emit((name, ext))
@@ -246,6 +257,7 @@ class ExportMaterialsDialog(QDialog):
         layout.setSpacing(10)
         layout.addWidget(checkbox)
         layout.addWidget(label, 0, Qt.AlignLeft)
+        layout.addStretch()
 
         self.materials.append((checkbox, label))
         return layout

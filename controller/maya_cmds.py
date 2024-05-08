@@ -2,7 +2,7 @@ import os
 import sys
 from enum import Enum
 from pathlib import Path
-from typing import Iterator, Optional, Union, Generator
+from typing import Optional, Union, Generator
 
 from maya import cmds
 
@@ -22,6 +22,7 @@ def open_scene(path: str) -> None:
 def save_scene_as(path: Path) -> None:
     cmds.file(rename=path)
     cmds.file(save=True, force=True, type="mayaBinary")
+    Logger.info(f"Saving scene {path}")
 
 
 def get_non_default_materials() -> Generator[str, None, None]:
@@ -263,6 +264,7 @@ def import_as_dome_light(path: Path):
 
     cmds.connectAttr(file_node + ".outColor", dome_light + ".domeTex", force=True)
     dome_light = cmds.rename(dome_light, path.stem)
+    Logger.info(f"Creating Domelight with HDRI {path}")
 
 
 def import_as_area_light(path: Path):
@@ -289,6 +291,7 @@ def import_as_area_light(path: Path):
 
     cmds.connectAttr(file_node + ".outColor", area_light + ".rectTex", force=True)
     area_light = cmds.rename(area_light, path.stem)
+    Logger.info(f"Creating Arealight with HDRI {path}")
 
 
 def import_as_file_node(path: Path):
@@ -305,6 +308,7 @@ def import_as_file_node(path: Path):
     )
 
     file_node = cmds.rename(file_node, path.stem)
+    Logger.info(f"Creating File Node with HDRI {path}")
 
 
 def export_selected(path: Path, name: str, file_extension: str) -> None:

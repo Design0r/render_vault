@@ -46,7 +46,7 @@ class ModelsViewport(AssetViewport):
 
         self.export_selected = IconButton(size)
         self.export_selected.set_icon(":icons/tabler-icon-package-export.png", size)
-        self.export_selected.set_tooltip("Export selected Model from Maya")
+        self.export_selected.set_tooltip("Export Maya")
 
         self.archive_viewer = IconButton(size)
         self.archive_viewer.set_icon(":icons/tabler-icon-archive.png", size)

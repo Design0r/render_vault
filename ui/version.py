@@ -1,4 +1,4 @@
-__VERSION__ = (0, 7, 8)
+__VERSION__ = (0, 7, 9)
 
 
 def get_version() -> str:
