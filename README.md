@@ -5,7 +5,7 @@
 
 ### Description
 
-Render Vault is A Maya Asset Browser for Materials, Models, Ligtsets, HDRIs and more.
+Render Vault is A Maya Asset Browser for Materials, Models, Lightsets, HDRIs and more.
 
 ### Requirements
 
