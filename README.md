@@ -1,5 +1,5 @@
 # Render Vault
-## A Maya Asset Browser for Materials, Models, Ligtsets, HDRIs and more.
+## A Maya Asset Browser for Materials, Models, Lightsets, HDRIs and more.
 
 ![Screenshot](docs/Render_Vault_Materials.png)
 
