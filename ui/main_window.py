@@ -1,6 +1,5 @@
 from __future__ import annotations
-from pathlib import Path
-from datetime import datetime
+
 
 from PySide2.QtWidgets import QMainWindow, QHBoxLayout, QSplitter, QWidget
 from PySide2.QtGui import QIcon
@@ -22,10 +21,6 @@ def get_maya_main_window():
 class MainWindow(QWidget):
     win_instance = None
 
-    ROOT_PATH = Path(__file__).parent.parent
-    LOGS = ROOT_PATH / "logs"
-    LOGGING_PATH = LOGS / f"{datetime.now().date()}.log"
-
     def __init__(self, parent=None):
         super().__init__(parent)
         self.settings = SettingsManager()
@@ -33,8 +28,8 @@ class MainWindow(QWidget):
         self.setWindowIcon(QIcon(":icons/tabler-icon-packages.png"))
         self.setWindowFlag(Qt.WindowType.Window)
 
-        MainWindow.LOGS.mkdir(exist_ok=True)
-        Logger.write_to_file(MainWindow.LOGGING_PATH)
+        self.settings.LOGS.mkdir(exist_ok=True)
+        Logger.write_to_file(self.settings.LOGGING_PATH)
         Logger.set_propagate(False)
         Logger.info("starting Render Vault...")
 
@@ -93,9 +88,6 @@ class MainWindow(QWidget):
         c.settings_vp.save.clicked.connect(self.save_and_update_settings)
 
     def closeEvent(self, event):
-        self.save_settings()
-
-    def hideEvent(self, event):
         self.save_settings()
 
     def load_settings(self, initial=False):

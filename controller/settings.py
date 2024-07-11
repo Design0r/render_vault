@@ -2,10 +2,12 @@ import json
 from socket import gethostname
 from enum import Enum
 from pathlib import Path
+from datetime import datetime
 
 from ..controller import api_handler
-from ..ui.viewport_container import ViewportMode
+import render_vault.ui.viewport_mode as vp_mode
 from .logger import Logger
+from . import db
 
 
 class Renderer(Enum):
@@ -67,19 +69,37 @@ class LightsetSettings(Settings):
 class WindowSettings(Settings):
     def __init__(self) -> None:
         self.window_geometry = [100, 100, 1000, 700]
-        self.current_viewport = ViewportMode.Materials.value
+        self.current_viewport = vp_mode.ViewportMode.Materials.value
         self.asset_button_size = 350
         self.ui_scale = 1
 
 
 class SettingsManager:
-    CONFIG_PATH = Path(__file__).parent.parent / f"settings/config-{gethostname()}.json"
+    _instance = None
+
+    ROOT_PATH = Path(__file__).parent.parent
+    CONFIG_PATH = ROOT_PATH / f"settings/config-{gethostname()}.json"
+    DB_PATH = ROOT_PATH / "db" / "render_vault.db"
+    LOGS = ROOT_PATH / "logs"
+    LOGGING_PATH = LOGS / f"{datetime.now().date()}.log"
 
     window_settings = WindowSettings()
     material_settings = MaterialSettings()
     model_settings = ModelSettings()
     hdri_settings = HdriSettings()
     lightset_settings = LightsetSettings()
+
+    def __new__(cls, *args, **kwargs):
+        if cls._instance is None:
+            cls._instance = super(SettingsManager, cls).__new__(cls)
+            cls._instance._initialized = False
+        return cls._instance
+
+    def __init__(self, *args, **kwargs):
+        if not self._initialized:
+            super().__init__(*args, **kwargs)
+            db.init_db()
+            self._initialized = True
 
     def load_settings(self):
         if not self.CONFIG_PATH.exists():

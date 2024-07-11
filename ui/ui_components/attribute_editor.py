@@ -31,7 +31,7 @@ class Asset:
         self.icon: str = ":icons/tabler-icon-photo.png"
 
     @property
-    def path(self):
+    def path(self) -> str:
         return str(self._path)
 
     @path.setter
@@ -158,20 +158,20 @@ class AttributeEditor(QWidget):
         self.form_layout.addRow("Renderer", self.asset_renderer)
         self.form_layout.addRow("Tags", self.asset_tags)
         self.form_layout.addRow("Notes", self.asset_notes)
+        self.form_layout.setContentsMargins(20, 0, 10, 0)
 
         self.button_layout = QHBoxLayout()
         self.button_layout.addStretch()
         self.button_layout.addWidget(self.save_btn)
+        self.button_layout.setContentsMargins(20, 0, 10, 0)
 
         self.main_layout.setAlignment(Qt.AlignHCenter)
-        self.main_layout.setMargin(0)
         self.main_layout.setContentsMargins(0, 0, 0, 0)
 
         self.main_layout.addLayout(self.banner_layout)
         self.main_layout.addWidget(self.icon, alignment=Qt.AlignCenter)
         self.main_layout.addLayout(self.form_layout)
         self.main_layout.addLayout(self.button_layout)
-        self.main_layout.setMargin(0)
 
         self.scroll_layout = QVBoxLayout(self.scroll_widget)
         self.scroll_layout.addLayout(self.banner_layout)

@@ -7,3 +7,4 @@ from .pool_handler import *
 from .settings import *
 from .thread_worker import *
 from .metadata_handler import *
+from .db import *

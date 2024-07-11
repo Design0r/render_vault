@@ -1,5 +1,3 @@
-from enum import Enum
-
 from PySide2.QtWidgets import QStackedWidget
 
 from ..controller import Logger
@@ -7,18 +5,7 @@ from ..controller import api_handler as api
 from ..controller import dcc_handler as dcc
 from ..controller import pool_handler as pool
 from .ui_components import viewports as vp
-
-
-class ViewportMode(Enum):
-    Base = 0
-    Materials = 1
-    Models = 2
-    Lightsets = 3
-    Hdri = 4
-    Utility = 5
-    Help = 6
-    About = 7
-    Settings = 8
+from .viewport_mode import ViewportMode
 
 
 class ViewportContainer(QStackedWidget):
