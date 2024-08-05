@@ -1,48 +1,34 @@
 from pathlib import Path
 
-from PySide2.QtCore import Qt
-from PySide2.QtWidgets import (
+from Qt.QtCore import Qt
+from Qt.QtWidgets import (
     QComboBox,
     QLabel,
     QScrollArea,
     QVBoxLayout,
     QWidget,
 )
-import time
 
-from ....controller import DCCHandler, Logger, PoolHandler, SettingsManager
-from ...qss import toolbar_style
-from ...ui_components import (
+from ...controller.settings import SettingsManager
+from ...core import Logger
+from ..qss import toolbar_style
+from ..ui_components import (
     FlowLayout,
     IconButton,
     Toolbar,
     ToolbarDirection,
     ViewportButton,
 )
-from typing import Callable
-
-from ..dialogs import CreatePoolDialog, DeletePoolDialog
-from ..separator import VLine
-
-
-def benchmark(func: Callable) -> Callable:
-    def wrapper(*args, **kwargs) -> None:
-        start = time.perf_counter()
-        func(*args, **kwargs)
-        stop = time.perf_counter()
-        Logger.debug(f"executed {func.__qualname__} in {stop-start:.3f}s")
-
-    return wrapper
+from ..ui_components.dialogs import CreatePoolDialog, DeletePoolDialog
+from ..ui_components.separator import VLine
 
 
 class AssetViewport(QWidget):
     def __init__(self, parent=None):
         super().__init__(parent)
 
-        self.ui_scale = SettingsManager.window_settings.ui_scale
+        self.ui_scale = SettingsManager().window_settings.ui_scale
         self.toolbar_btn_size = (20 * self.ui_scale, 20 * self.ui_scale)
-        self.dcc_handler: DCCHandler
-        self.pool_handler: PoolHandler
         self.pools = {}
         self._button_cache: dict[Path, ViewportButton] = {}
 
@@ -199,7 +185,7 @@ class AssetViewport(QWidget):
             self.pool_box.addItem(name)
 
         max_item_width = max(
-            self.pool_box.fontMetrics().width(item)
+            self.pool_box.fontMetrics().horizontalAdvance(item)
             for item in [
                 self.pool_box.itemText(i) for i in range(self.pool_box.count())
             ]

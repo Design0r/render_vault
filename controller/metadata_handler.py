@@ -1,6 +1,7 @@
 import json
 from pathlib import Path
-from ..controller import Logger
+
+from ..core import Logger
 
 
 class MetadataHandler:

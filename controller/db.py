@@ -1,10 +1,12 @@
 from __future__ import annotations
+
+import sqlite3
 from enum import Enum, auto
 from pathlib import Path
-import sqlite3
 from typing import NamedTuple
-import render_vault.controller.logger as logger
-import render_vault.controller.settings as settings
+
+from ..core import Logger
+from .settings import SettingsManager
 
 
 class DBSchema(NamedTuple):
@@ -12,7 +14,7 @@ class DBSchema(NamedTuple):
     path: Path
 
     @classmethod
-    def fields(cls):
+    def fields(cls) -> str:
         return f"({','.join([f.upper() for f in cls._fields])})"
 
     @classmethod
@@ -31,75 +33,88 @@ class Tables(Enum):
         return tuple(cls.__members__)
 
 
-def insert(table: Tables, data: DBSchema):
+def create_connection() -> sqlite3.Connection:
+    path = SettingsManager.DB_PATH
+
+    conn = sqlite3.connect(path)
+
+    conn.executescript("""
+        PRAGMA synchronous = NORMAL;
+        PRAGMA journal_mode = WAL;
+        PRAGMA temp_store = MEMORY;
+        PRAGMA cache_size = 10000;
+    """)
+
+    return conn
+
+
+def close_connection(conn: sqlite3.Connection) -> None:
+    conn.execute("PRAGMA optimize;")
+    conn.close()
+
+
+def insert(table: Tables, data: DBSchema) -> None:
     if not isinstance(data, DBSchema):
-        logger.Logger.error(
-            f"invalid db schema. expected: {DBSchema}, got {type(data)}"
-        )
+        Logger.error(f"invalid db schema. expected: {DBSchema}, got {type(data)}")
         return
 
-    path = settings.SettingsManager.DB_PATH
+    conn = create_connection()
     try:
-        conn = sqlite3.connect(path)
         conn.execute(
             f"INSERT INTO {table.name}{data.fields()} VALUES (?, ?);",
             (data.name, str(data.path)),
         )
         conn.commit()
     except Exception as e:
-        logger.Logger.exception(e)
+        Logger.exception(e)
     finally:
-        conn.close()
+        close_connection(conn)
 
 
-def select(table: Tables) -> dict:
-    path = settings.SettingsManager.DB_PATH
+def select(table: Tables) -> dict[str, str]:
     data = {}
+    conn = create_connection()
     try:
-        conn = sqlite3.connect(path)
         cursor = conn.execute(f"SELECT name, path FROM {table.name};")
         p = {name: path for name, path in cursor.fetchall()}
         data = dict(sorted(p.items()))
     except Exception as e:
-        logger.Logger.exception(e)
+        Logger.exception(e)
     finally:
-        conn.close()
+        close_connection(conn)
 
     return data
 
 
-def delete(table: Tables, data: DBSchema):
-    path = settings.SettingsManager.DB_PATH
+def delete(table: Tables, data: DBSchema) -> None:
+    conn = create_connection()
     try:
-        conn = sqlite3.connect(path)
-        print(table, data)
         conn.execute(f"DELETE FROM {table.name} WHERE NAME = '{data.name}';")
         conn.commit()
     except Exception as e:
-        logger.Logger.exception(e)
+        Logger.exception(e)
     finally:
-        conn.close()
+        close_connection(conn)
 
 
 def select_all() -> tuple[dict, dict, dict, dict]:
-    path = settings.SettingsManager.DB_PATH
     data = []
+    conn = create_connection()
     try:
-        conn = sqlite3.connect(path)
         for table in Tables.members():
             cursor = conn.execute(f"SELECT name, path FROM {table}")
             p = {name: path for name, path in cursor.fetchall()}
             data.append(dict(sorted(p.items())))
 
     except Exception as e:
-        logger.Logger.exception(e)
+        Logger.exception(e)
     finally:
-        conn.close()
+        close_connection(conn)
 
     return tuple(data)
 
 
-def run_migration(data: dict[str, dict[str, str]]):
+def run_migration(data: dict[str, dict[str, str]]) -> None:
     for pool, entrys in data.items():
         for name, path in entrys.items():
             schema = DBSchema(name, Path(path))
@@ -107,18 +122,19 @@ def run_migration(data: dict[str, dict[str, str]]):
 
 
 def init_db():
-    path = settings.SettingsManager.DB_PATH
-    if path.exists:
-        logger.Logger.debug("DB already exists.")
+    path = SettingsManager.DB_PATH
+    if path.exists():
+        Logger.debug("DB already exists.")
         return
 
-    try:
-        conn = sqlite3.connect(path)
+    path.parent.mkdir(exist_ok=True)
 
+    conn = create_connection()
+    try:
         tables = Tables.members()
         for table in tables:
             conn.execute(
-                f"""CREATE TABLE {table}
+                f"""CREATE TABLE IF NOT EXISTS {table}
                 (ID INTEGER PRIMARY KEY AUTOINCREMENT,
                 NAME CHAR(128) NOT NULL,
                 PATH TEXT NOT NULL);"""
@@ -126,11 +142,11 @@ def init_db():
 
         conn.commit()
 
-        logger.Logger.debug(f"Created DB {path.stem}")
+        Logger.debug(f"Created DB {path.stem}")
     except Exception as e:
-        logger.Logger.exception(e)
+        Logger.exception(e)
     finally:
-        conn.close()
+        close_connection(conn)
 
     """
     with open(Path(__file__).parent / "sql.json") as file:

@@ -1,12 +1,13 @@
 import json
-from socket import gethostname
+from datetime import datetime
 from enum import Enum
 from pathlib import Path
-from datetime import datetime
+from socket import gethostname
+
+import render_vault.ui.viewports.viewport_mode as vp_mode
 
 from ..controller import api_handler
-import render_vault.ui.viewport_mode as vp_mode
-from .logger import Logger
+from ..core import Logger
 from . import db
 
 
@@ -30,6 +31,8 @@ class Settings:
             return
 
         for key, default in self.__dict__.items():
+            if not hasattr(self, key):
+                continue
             setattr(self, key, data.get(key, default))
 
 

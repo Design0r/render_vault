@@ -1,11 +1,10 @@
-from typing import Generator, Optional, Protocol
-from subprocess import Popen
-import sys
-from pathlib import Path
 import shutil
-import render_vault.controller.core as core
-import render_vault.controller.logger as logger
-import render_vault.controller.api_handler as api
+from pathlib import Path
+from typing import Generator, Optional, Protocol
+
+from ..core import Logger, fs
+from . import db
+from .api_handler import APIHandler
 
 THUMBNAIL_EXTENSTIONS = ("*.png", "*.jpg", "*.jpeg")
 MODEL_EXTENSIONS = ("*.mb", "*.ma", "*.fbx", "*.obj")
@@ -34,47 +33,37 @@ class PoolHandler(Protocol):
 class MaterialPoolHandler:
     __slots__ = "_api_handler"
 
-    def __init__(self, api_handler: api.APIHandler):
-        self._api_handler = api_handler
+    def __init__(self):
+        self._api_handler = APIHandler()
 
     def create_pool(self, name: str, path: str):
         root_path = Path(path, "MaterialPool")
-        core.create_folder(root_path)
-        core.create_folder(root_path / "Materials")
-        core.create_folder(root_path / "Textures")
-        core.create_folder(root_path / "Thumbnails")
-        core.create_folder(root_path / "Metadata")
+        fs.create_folder(root_path)
+        fs.create_folder(root_path / "Materials")
+        fs.create_folder(root_path / "Textures")
+        fs.create_folder(root_path / "Thumbnails")
+        fs.create_folder(root_path / "Metadata")
 
-        self._api_handler.create(name, path)
+        self._api_handler.create(name, path, db.Tables.MATERIALS)
 
-        logger.Logger.info(f'created new material pool "{name}" in {path}')
+        Logger.info(f'created new material pool "{name}" in {path}')
 
     def delete_pool(self, name: str, path: str):
         root_path = Path(path, "MaterialPool")
-        core.remove_folder(root_path)
+        fs.remove_folder(root_path)
 
-        self._api_handler.delete(name, path)
+        self._api_handler.delete(name, path, db.Tables.MATERIALS)
 
-        logger.Logger.info(f"deleted current material pool in {path}")
+        Logger.info(f"deleted current material pool in {path}")
 
     @staticmethod
     def open_pool_dir(path: str):
         if not path:
-            logger.Logger.error(f"can't open folder, path: {path} is invalid")
+            Logger.error(f"can't open folder, path: {path} is invalid")
             return
 
         pool_path = Path(path, "MaterialPool")
-
-        if not pool_path.exists():
-            logger.Logger.error(f"can't open folder, path: {path} does not exist")
-            return
-
-        if sys.platform == "darwin":
-            with Popen(["open", path]):
-                pass
-        elif sys.platform == "win32":
-            with Popen(f"explorer {pool_path}"):
-                pass
+        fs.open_dir(pool_path)
 
     @staticmethod
     def get_assets_and_thumbnails(
@@ -103,11 +92,11 @@ class MaterialPoolHandler:
     @staticmethod
     def delete_asset(path: Path):
         if not path:
-            logger.Logger.debug(f"can't delete asset, path is: {path}")
+            Logger.debug(f"can't delete asset, path is: {path}")
             return
 
         if not path.exists():
-            logger.Logger.error(f"can't delete asset, path does not exist: {path}")
+            Logger.error(f"can't delete asset, path does not exist: {path}")
             return
 
         thumbnails_path = path.parent.parent / "Thumbnails"
@@ -140,24 +129,24 @@ class MaterialPoolHandler:
         try:
             for thumb in thumbnails_to_delete:
                 thumb.unlink()
-                logger.Logger.info(f"deleted {thumb}")
+                Logger.info(f"deleted {thumb}")
 
             for tex in textures_to_delete:
-                core.remove_folder(tex)
-                logger.Logger.info(f"deleted {tex}")
+                fs.remove_folder(tex)
+                Logger.info(f"deleted {tex}")
 
             for archive in archive_to_delete:
-                core.remove_folder(archive)
-                logger.Logger.info(f"deleted {archive}")
+                fs.remove_folder(archive)
+                Logger.info(f"deleted {archive}")
 
             for metadata in metadata_to_delete:
                 metadata.unlink()
-                logger.Logger.info(f"deleted {metadata}")
+                Logger.info(f"deleted {metadata}")
 
             path.unlink()
-            logger.Logger.info(f"deleted {path}")
+            Logger.info(f"deleted {path}")
         except Exception as e:
-            logger.Logger.exception(e)
+            Logger.exception(e)
 
     @staticmethod
     def get_archived_versions(material_path: Path) -> dict[str, Path]:
@@ -180,54 +169,44 @@ class MaterialPoolHandler:
 
         shutil.copy2(path, archive)
 
-        logger.Logger.info(f"archived {name} to {archive}")
+        Logger.info(f"archived {name} to {archive}")
 
 
 class ModelPoolHandler:
     __slots__ = "_api_handler"
 
-    def __init__(self, api_handler: api.APIHandler):
-        self._api_handler = api_handler
+    def __init__(self):
+        self._api_handler = APIHandler()
 
     def create_pool(self, name: str, path: str):
         root_path = Path(path, "ModelPool")
-        core.create_folder(root_path)
-        core.create_folder(root_path / "Models")
-        core.create_folder(root_path / "Textures")
-        core.create_folder(root_path / "Thumbnails")
-        core.create_folder(root_path / "Archive")
-        core.create_folder(root_path / "Metadata")
+        fs.create_folder(root_path)
+        fs.create_folder(root_path / "Models")
+        fs.create_folder(root_path / "Textures")
+        fs.create_folder(root_path / "Thumbnails")
+        fs.create_folder(root_path / "Archive")
+        fs.create_folder(root_path / "Metadata")
 
-        self._api_handler.create(name, path)
+        self._api_handler.create(name, path, db.Tables.MODELS)
 
-        logger.Logger.info(f'created new model pool "{name}" in {path}')
+        Logger.info(f'created new model pool "{name}" in {path}')
 
     def delete_pool(self, name: str, path: str):
         root_path = Path(path, "ModelPool")
-        core.remove_folder(root_path)
+        fs.remove_folder(root_path)
 
-        self._api_handler.delete(name, path)
+        self._api_handler.delete(name, path, db.Tables.MODELS)
 
-        logger.Logger.info(f'deleted current model pool "{name}" in {path}')
+        Logger.info(f'deleted current model pool "{name}" in {path}')
 
     @staticmethod
     def open_pool_dir(path: str):
         if not path:
-            logger.Logger.error(f"can't open folder, path: {path} is invalid")
+            Logger.error(f"can't open folder, path: {path} is invalid")
             return
 
         pool_path = Path(path, "ModelPool")
-
-        if not pool_path.exists():
-            logger.Logger.error(f"can't open folder, path: {path} does not exist")
-            return
-
-        if sys.platform == "darwin":
-            with Popen(["open", path]):
-                pass
-        elif sys.platform == "win32":
-            with Popen(f"explorer {pool_path}"):
-                pass
+        fs.open_dir(pool_path)
 
     @staticmethod
     def get_assets_and_thumbnails(
@@ -256,11 +235,11 @@ class ModelPoolHandler:
     @staticmethod
     def delete_asset(path: Path):
         if not path:
-            logger.Logger.debug(f"can't delete asset, path is: {path}")
+            Logger.debug(f"can't delete asset, path is: {path}")
             return
 
         if not path.exists():
-            logger.Logger.error(f"can't delete asset, path does not exist: {path}")
+            Logger.error(f"can't delete asset, path does not exist: {path}")
             return
 
         thumbnails_path = path.parent.parent / "Thumbnails"
@@ -292,24 +271,24 @@ class ModelPoolHandler:
         try:
             for thumb in thumbnails_to_delete:
                 thumb.unlink()
-                logger.Logger.info(f"deleted {thumb}")
+                Logger.info(f"deleted {thumb}")
 
             for tex in textures_to_delete:
-                core.remove_folder(tex)
-                logger.Logger.info(f"deleted {tex}")
+                fs.remove_folder(tex)
+                Logger.info(f"deleted {tex}")
 
             for archive in archive_to_delete:
-                core.remove_folder(archive)
-                logger.Logger.info(f"deleted {archive}")
+                fs.remove_folder(archive)
+                Logger.info(f"deleted {archive}")
 
             for metadata in metadata_to_delete:
                 metadata.unlink()
-                logger.Logger.info(f"deleted {metadata}")
+                Logger.info(f"deleted {metadata}")
 
             path.unlink()
-            logger.Logger.info(f"deleted {path}")
+            Logger.info(f"deleted {path}")
         except Exception as e:
-            logger.Logger.exception(e)
+            Logger.exception(e)
 
     @staticmethod
     def get_archived_versions(model_path: Path) -> dict[str, Path]:
@@ -321,7 +300,7 @@ class ModelPoolHandler:
     def _get_latest_archive_version(archive_path: Path) -> str:
         numbers = [int(str(i.stem).split("_")[-1]) for i in archive_path.iterdir()]
         version = max(numbers) + 1 if numbers else 1
-        logger.Logger.debug(f"{version=}")
+        Logger.debug(f"{version=}")
         return str(version).zfill(3)
 
     def archive_asset(self, path: Path):
@@ -333,52 +312,42 @@ class ModelPoolHandler:
 
         shutil.copy2(path, archive)
 
-        logger.Logger.info(f"archived {name} to {archive}")
+        Logger.info(f"archived {name} to {archive}")
 
 
 class HDRIPoolHandler:
     __slots__ = "_api_handler"
 
-    def __init__(self, api_handler: api.APIHandler):
-        self._api_handler = api_handler
+    def __init__(self):
+        self._api_handler = APIHandler()
 
     def create_pool(self, name: str, path: str):
         root_path = Path(path, "HDRIPool")
-        core.create_folder(root_path)
-        core.create_folder(root_path / "HDRIs")
-        core.create_folder(root_path / "Thumbnails")
-        core.create_folder(root_path / "Metadata")
+        fs.create_folder(root_path)
+        fs.create_folder(root_path / "HDRIs")
+        fs.create_folder(root_path / "Thumbnails")
+        fs.create_folder(root_path / "Metadata")
 
-        self._api_handler.create(name, path)
+        self._api_handler.create(name, path, db.Tables.HDRIS)
 
-        logger.Logger.info(f"created new hdri pool in {path}")
+        Logger.info(f"created new hdri pool in {path}")
 
     def delete_pool(self, name: str, path: str):
         root_path = Path(path, "HDRIPool")
-        core.remove_folder(root_path)
+        fs.remove_folder(root_path)
 
-        self._api_handler.delete(name, path)
+        self._api_handler.delete(name, path, db.Tables.HDRIS)
 
-        logger.Logger.info(f"deleted current hdri model pool in {path}")
+        Logger.info(f"deleted current hdri model pool in {path}")
 
     @staticmethod
     def open_pool_dir(path: str):
         if not path:
-            logger.Logger.error(f"can't open folder, path: {path} is invalid")
+            Logger.error(f"can't open folder, path: {path} is invalid")
             return
 
         pool_path = Path(path, "HDRIPool")
-
-        if not pool_path.exists():
-            logger.Logger.error(f"can't open folder, path: {path} does not exist")
-            return
-
-        if sys.platform == "darwin":
-            with Popen(["open", path]):
-                pass
-        elif sys.platform == "win32":
-            with Popen(f"explorer {pool_path}"):
-                pass
+        fs.open_dir(pool_path)
 
     @staticmethod
     def get_assets_and_thumbnails(
@@ -407,11 +376,11 @@ class HDRIPoolHandler:
     @staticmethod
     def delete_asset(path: Path):
         if not path:
-            logger.Logger.debug(f"can't delete asset, path is: {path}")
+            Logger.debug(f"can't delete asset, path is: {path}")
             return
 
         if not path.exists():
-            logger.Logger.error(f"can't delete asset, path does not exist: {path}")
+            Logger.error(f"can't delete asset, path does not exist: {path}")
             return
 
         thumbnails_path = path.parent.parent.resolve() / "Thumbnails"
@@ -433,62 +402,52 @@ class HDRIPoolHandler:
         try:
             for thumb in thumbnails_to_delete:
                 thumb.unlink()
-                logger.Logger.info(f"deleted {thumb}")
+                Logger.info(f"deleted {thumb}")
 
             for metadata in metadata_to_delete:
                 metadata.unlink()
-                logger.Logger.info(f"deleted {metadata}")
+                Logger.info(f"deleted {metadata}")
 
             path.unlink()
-            logger.Logger.info(f"deleted {path}")
+            Logger.info(f"deleted {path}")
         except Exception as e:
-            logger.Logger.exception(e)
+            Logger.exception(e)
 
 
 class LightsetPoolHandler:
     __slots__ = "_api_handler"
 
-    def __init__(self, api_handler: api.APIHandler):
-        self._api_handler = api_handler
+    def __init__(self):
+        self._api_handler = APIHandler()
 
     def create_pool(self, name: str, path: str):
         root_path = Path(path, "LightsetPool")
-        core.create_folder(root_path)
-        core.create_folder(root_path / "Lightsets")
-        core.create_folder(root_path / "Textures")
-        core.create_folder(root_path / "Thumbnails")
-        core.create_folder(root_path / "Metadata")
+        fs.create_folder(root_path)
+        fs.create_folder(root_path / "Lightsets")
+        fs.create_folder(root_path / "Textures")
+        fs.create_folder(root_path / "Thumbnails")
+        fs.create_folder(root_path / "Metadata")
 
-        self._api_handler.create(name, path)
+        self._api_handler.create(name, path, db.Tables.LIGHTSETS)
 
-        logger.Logger.info(f"created new lightset pool in {path}")
+        Logger.info(f"created new lightset pool in {path}")
 
     def delete_pool(self, name: str, path: str):
         root_path = Path(path, "LightsetPool")
-        core.remove_folder(root_path)
+        fs.remove_folder(root_path)
 
-        self._api_handler.delete(name, path)
+        self._api_handler.delete(name, path, db.Tables.LIGHTSETS)
 
-        logger.Logger.info(f"deleted current lightset model pool in {path}")
+        Logger.info(f"deleted current lightset model pool in {path}")
 
     @staticmethod
     def open_pool_dir(path: str):
         if not path:
-            logger.Logger.error(f"can't open folder, path: {path} is invalid")
+            Logger.error(f"can't open folder, path: {path} is invalid")
             return
 
         pool_path = Path(path, "LightsetPool")
-
-        if not pool_path.exists():
-            logger.Logger.error(f"can't open folder, path: {path} does not exist")
-            return
-
-        if sys.platform == "darwin":
-            with Popen(["open", path]):
-                pass
-        elif sys.platform == "win32":
-            with Popen(f"explorer {pool_path}"):
-                pass
+        fs.open_dir(pool_path)
 
     @staticmethod
     def get_assets_and_thumbnails(
@@ -517,11 +476,11 @@ class LightsetPoolHandler:
     @staticmethod
     def delete_asset(path: Path):
         if not path:
-            logger.Logger.debug(f"can't delete asset, path is: {path}")
+            Logger.debug(f"can't delete asset, path is: {path}")
             return
 
         if not path.exists():
-            logger.Logger.error(f"can't delete asset, path does not exist: {path}")
+            Logger.error(f"can't delete asset, path does not exist: {path}")
             return
 
         thumbnails_path = path.parent.parent / "Thumbnails"
@@ -548,20 +507,20 @@ class LightsetPoolHandler:
         try:
             for thumb in thumbnails_to_delete:
                 thumb.unlink()
-                logger.Logger.info(f"deleted {thumb}")
+                Logger.info(f"deleted {thumb}")
 
             for archive in archive_to_delete:
-                core.remove_folder(archive)
-                logger.Logger.info(f"deleted {archive}")
+                fs.remove_folder(archive)
+                Logger.info(f"deleted {archive}")
 
             for metadata in metadata_to_delete:
                 metadata.unlink()
-                logger.Logger.info(f"deleted {metadata}")
+                Logger.info(f"deleted {metadata}")
 
             path.unlink()
-            logger.Logger.info(f"deleted {path}")
+            Logger.info(f"deleted {path}")
         except Exception as e:
-            logger.Logger.exception(e)
+            Logger.exception(e)
 
     @staticmethod
     def get_archived_versions(model_path: Path) -> dict[str, Path]:
@@ -573,7 +532,7 @@ class LightsetPoolHandler:
     def _get_latest_archive_version(archive_path: Path) -> str:
         numbers = [int(str(i.stem).split("_")[-1]) for i in archive_path.iterdir()]
         version = max(numbers) + 1 if numbers else 1
-        logger.Logger.debug(f"{version=}")
+        Logger.debug(f"{version=}")
         return str(version).zfill(3)
 
     def archive_asset(self, path: Path):
@@ -585,7 +544,7 @@ class LightsetPoolHandler:
 
         shutil.copy2(path, archive)
 
-        logger.Logger.info(f"archived {name} to {archive}")
+        Logger.info(f"archived {name} to {archive}")
 
 
 class UtilityPoolHandler:
@@ -598,21 +557,11 @@ class UtilityPoolHandler:
     @staticmethod
     def open_pool_dir(path: str):
         if not path:
-            logger.Logger.error(f"can't open folder, path: {path} is invalid")
+            Logger.error(f"can't open folder, path: {path} is invalid")
             return
 
         pool_path = Path(path, "UtilityPool")
-
-        if not pool_path.exists():
-            logger.Logger.error(f"can't open folder, path: {path} does not exist")
-            return
-
-        if sys.platform == "darwin":
-            with Popen(["open", path]):
-                pass
-        elif sys.platform == "win32":
-            with Popen(f"explorer {path}"):
-                pass
+        fs.open_dir(pool_path)
 
     @staticmethod
     def get_assets_and_thumbnails(

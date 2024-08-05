@@ -1,9 +1,12 @@
 import pathlib
-from PySide2.QtCore import QObject, QThread, Signal
 import sys
+from subprocess import PIPE, Popen
 from time import perf_counter
-from subprocess import Popen, PIPE
-from ..controller import core, Logger
+
+from Qt.QtCore import QObject, QThread, Signal
+
+from ..controller import Logger
+from ..core import img
 from .pool_handler import PoolHandler
 
 
@@ -25,9 +28,9 @@ class MayaThreadWorker(QObject):
 
         if sys.platform == "darwin":
             with Popen(self.command, stdout=PIPE, stderr=PIPE) as process:
-                # out, err = process.communicate()
-                # Logger.info(out.decode())
-                # Logger.info(err.decode())
+                out, err = process.communicate()
+                Logger.info(out.decode())
+                Logger.info(err.decode())
                 process.wait()
         elif sys.platform == "win32":
             with Popen(self.command) as process:
@@ -83,7 +86,7 @@ class HdrThreadWorker(QObject):
                 / f"{pathlib.Path(hdr_name).stem}.jpg"
             )
 
-            core.create_sdr_preview(hdr_path, thumbnail_path, self.size)
+            img.create_sdr_preview(hdr_path, thumbnail_path, self.size)
             self.refresh_thumb.emit((hdr_path, thumbnail_path))
 
         Logger.debug(f"finished hdr worker operation {perf_counter()-start_time:.2f}s")

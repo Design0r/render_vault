@@ -1,5 +1,5 @@
-from PySide2.QtCore import QPoint, QRect, QSize, Qt
-from PySide2.QtWidgets import QLayout, QSizePolicy
+from Qt.QtCore import QPoint, QRect, QSize, Qt
+from Qt.QtWidgets import QLayout, QSizePolicy
 
 
 class FlowLayout(QLayout):

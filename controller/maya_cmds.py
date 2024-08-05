@@ -2,11 +2,11 @@ import os
 import sys
 from enum import Enum
 from pathlib import Path
-from typing import Optional, Union, Generator
+from typing import Generator, Optional, Union
 
 from maya import cmds
 
-from .logger import Logger
+from ..core import Logger
 
 
 class ColorManagementMode(Enum):
@@ -16,7 +16,34 @@ class ColorManagementMode(Enum):
 
 
 def open_scene(path: str) -> None:
-    cmds.file(path, open=True, force=True, ignoreVersion=True)
+    if not cmds.file(query=True, modified=True):
+        cmds.file(path, open=True, ignoreVersion=True)
+        Logger.info(f"Opening scene {path}")
+        return
+
+    response = cmds.confirmDialog(
+        title="Save Changes?",
+        message="The scene has unsaved changes. Save now?",
+        button=["Yes", "No", "Cancel"],
+        defaultButton="Yes",
+        cancelButton="Cancel",
+        dismissString="No",
+    )
+
+    if response == "Yes":
+        scene_name = cmds.file(q=True, sn=True, ignoreVersion=True)
+        if not scene_name:
+            Logger.warning("The scene has not been saved yet.")
+            return
+
+        cmds.file(save=True, ignoreVersion=True)
+        Logger.info(f"The scene has been saved as: {scene_name}")
+        cmds.file(path, open=True, ignoreVersion=True)
+        Logger.info(f"Opening scene {path}")
+
+    elif response == "No":
+        cmds.file(path, open=True, force=True, ignoreVersion=True)
+        Logger.info(f"Opening scene {path}")
 
 
 def save_scene_as(path: Path) -> None:

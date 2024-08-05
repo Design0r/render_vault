@@ -1,5 +1,5 @@
-from PySide2.QtGui import QIcon
-from PySide2.QtWidgets import (
+from Qt.QtGui import QIcon
+from Qt.QtWidgets import (
     QAbstractSpinBox,
     QCheckBox,
     QComboBox,
@@ -14,14 +14,14 @@ from PySide2.QtWidgets import (
     QSpinBox,
 )
 
-from ....controller import SettingsManager
+from ...controller import SettingsManager
 from .base_viewport import DataViewport
 
 
 class SettingsViewport(DataViewport):
-    def __init__(self, settings: SettingsManager, parent=None):
+    def __init__(self, parent=None):
         super().__init__(parent)
-        self.settings = settings
+        self.settings = SettingsManager()
 
     def init_widgets(self):
         super().init_widgets()

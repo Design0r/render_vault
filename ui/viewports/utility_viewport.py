@@ -1,27 +1,24 @@
 from functools import partial
 from pathlib import Path
 
-from PySide2.QtCore import Qt
-from PySide2.QtWidgets import QAction, QMenu
+from Qt.QtCore import Qt
+from Qt.QtWidgets import QAction, QMenu
 
-from ....controller import DCCHandler, PoolHandler, SettingsManager
-from ..buttons import IconButton, ViewportButton
-from ..separator import VLine
+from ...controller import MayaHandler, SettingsManager, UtilityPoolHandler
+from ..ui_components.buttons import IconButton, ViewportButton
+from ..ui_components.separator import VLine
 from .base_viewport import AssetViewport
 
 
 class UtilityVieport(AssetViewport):
     def __init__(
         self,
-        pool_handler: PoolHandler,
-        dcc_handler: DCCHandler,
-        settings: SettingsManager,
         parent=None,
     ):
         super().__init__(parent)
-        self.settings = settings
-        self.pool_handler = pool_handler
-        self.dcc_handler = dcc_handler
+        self.settings = SettingsManager()
+        self.pool_handler = UtilityPoolHandler()
+        self.dcc_handler = MayaHandler()
 
     def init_widgets(self):
         super().init_widgets()

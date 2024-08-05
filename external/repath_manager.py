@@ -1,12 +1,13 @@
-from typing import Union
-from maya import cmds
+import ast
 import shutil
 import sys
 from pathlib import Path
-import ast
-import maya.standalone
+from typing import Union
 
-from render_vault.controller import Logger, core, maya_cmds
+import maya.standalone
+from maya import cmds
+from render_vault.controller import maya_cmds
+from render_vault.core import Logger, fs
 
 
 class TextureManager:
@@ -96,7 +97,7 @@ class TextureManager:
             if not file_path:
                 continue
 
-            core.create_folder(texture_path)
+            fs.create_folder(texture_path)
             new_path = cls.copy_texture(file_path, texture_path)
             if not new_path:
                 return

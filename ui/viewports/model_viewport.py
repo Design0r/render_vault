@@ -1,39 +1,36 @@
+import json
 import time
 from functools import partial
 from pathlib import Path
-import json
-from PySide2.QtCore import QCoreApplication, Qt, QThread
-from PySide2.QtWidgets import QAction, QLineEdit, QMenu, QPushButton
 
-from ....controller import (
-    DCCHandler,
-    Logger,
+from Qt.QtCore import QCoreApplication, Qt, QThread
+from Qt.QtWidgets import QAction, QLineEdit, QMenu, QPushButton
+
+from ...controller import (
+    MayaHandler,
     MayaThreadWorker,
     ModelPoolHandler,
     SettingsManager,
-    core,
 )
-from ..buttons import IconButton, ViewportButton
-from ..attribute_editor import AttributeEditor
-from ..dialogs import ArchiveViewerDialog, ExportModelDialog
-from ..screenshot import ScreenshotFrame
-from ..separator import VLine
-from .base_viewport import AssetViewport, benchmark
+from ...core import Logger, img, utils
+from ..ui_components.attribute_editor import AttributeEditor
+from ..ui_components.buttons import IconButton, ViewportButton
+from ..ui_components.dialogs import ArchiveViewerDialog, ExportModelDialog
+from ..ui_components.screenshot import ScreenshotFrame
+from ..ui_components.separator import VLine
+from .base_viewport import AssetViewport
 
 
 class ModelsViewport(AssetViewport):
     def __init__(
         self,
-        settings: SettingsManager,
         attribute: AttributeEditor,
-        pool_handler: ModelPoolHandler,
-        dcc_handler: DCCHandler,
         parent=None,
     ):
-        self.settings = settings
+        self.settings = SettingsManager()
         self.attribute = attribute
-        self.pool_handler = pool_handler
-        self.dcc_handler = dcc_handler
+        self.pool_handler = ModelPoolHandler()
+        self.dcc_handler = MayaHandler()
         super().__init__(parent)
 
     def init_widgets(self):
@@ -89,7 +86,7 @@ class ModelsViewport(AssetViewport):
         if not metadata_path.exists():
             metadata_path.mkdir()
 
-        tags = (file for file in metadata_path.iterdir() if file.suffix == ".json")
+        tags = metadata_path.glob("*.json")
 
         self.clear_layout()
 
@@ -139,7 +136,7 @@ class ModelsViewport(AssetViewport):
         viewer = ArchiveViewerDialog(self.pool_handler, self.dcc_handler, path)
         viewer.exec_()
 
-    @benchmark
+    @utils.benchmark
     def draw_objects(self, force=False):
         _, path = self.get_current_project()
         if not path:
@@ -228,7 +225,7 @@ class ModelsViewport(AssetViewport):
         time.sleep(0.2)
         screen_path = Path(path, "ModelPool", "Thumbnails", f"{model_name}.jpg")
 
-        core.take_screenshot(screen_path, geometry)
+        img.take_screenshot(screen_path, geometry)
         self.refresh_thumbnail(str(screen_path), model_path)
 
     def refresh_thumbnail(self, screen_path: str, model_path: str):

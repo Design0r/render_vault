@@ -1,29 +1,33 @@
+import json
 from functools import partial
 from pathlib import Path
-import json
-from PySide2.QtCore import QCoreApplication, Qt, QThread
-from PySide2.QtWidgets import QAction, QLabel, QLineEdit, QMenu, QPushButton
 
-from ....controller import DCCHandler, HdrThreadWorker, PoolHandler, SettingsManager
-from ..buttons import IconButton, ViewportButton
-from ..separator import VLine
-from .base_viewport import AssetViewport, benchmark
-from ..attribute_editor import AttributeEditor
+from Qt.QtCore import QCoreApplication, Qt, QThread
+from Qt.QtWidgets import QAction, QLabel, QLineEdit, QMenu, QPushButton
+
+from ...controller import (
+    HDRIPoolHandler,
+    HdrThreadWorker,
+    MayaHandler,
+    SettingsManager,
+)
+from ...core import utils
+from ..ui_components.attribute_editor import AttributeEditor
+from ..ui_components.buttons import IconButton, ViewportButton
+from ..ui_components.separator import VLine
+from .base_viewport import AssetViewport
 
 
 class HdriViewport(AssetViewport):
     def __init__(
         self,
-        settings: SettingsManager,
         attribute: AttributeEditor,
-        pool_handler: PoolHandler,
-        dcc_handler: DCCHandler,
         parent=None,
     ):
-        self.settings = settings
+        self.settings = SettingsManager()
         self.attribute = attribute
-        self.dcc_handler = dcc_handler
-        self.pool_handler = pool_handler
+        self.dcc_handler = MayaHandler()
+        self.pool_handler = HDRIPoolHandler()
         super().__init__(parent)
 
         self.live_mode = False
@@ -92,7 +96,7 @@ class HdriViewport(AssetViewport):
         if not metadata_path.exists():
             metadata_path.mkdir()
 
-        tags = (file for file in metadata_path.iterdir() if file.suffix == ".json")
+        tags = metadata_path.glob("*.json")
 
         self.clear_layout()
 
@@ -114,7 +118,7 @@ class HdriViewport(AssetViewport):
             self.pool_box.setCurrentText(current_pool)
         self.pool_box.blockSignals(False)
 
-    @benchmark
+    @utils.benchmark
     def draw_objects(self, force=False):
         _, path = self.get_current_project()
         if not path:

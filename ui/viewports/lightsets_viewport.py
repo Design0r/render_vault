@@ -1,31 +1,30 @@
+import json
 from functools import partial
 from pathlib import Path
-import json
-from PySide2.QtCore import Qt
-from PySide2.QtWidgets import QAction, QLineEdit, QMenu, QPushButton
 
-from ....controller import DCCHandler, Logger, PoolHandler, SettingsManager, core
-from ..buttons import IconButton, ViewportButton
-from ..dialogs import ExportModelDialog, ArchiveViewerDialog
-from ..screenshot import ScreenshotFrame
-from ..separator import VLine
-from .base_viewport import AssetViewport, benchmark
-from ..attribute_editor import AttributeEditor
+from Qt.QtCore import Qt
+from Qt.QtWidgets import QAction, QLineEdit, QMenu, QPushButton
+
+from ...controller import LightsetPoolHandler, MayaHandler, SettingsManager
+from ...core import Logger, img, utils
+from ..ui_components.attribute_editor import AttributeEditor
+from ..ui_components.buttons import IconButton, ViewportButton
+from ..ui_components.dialogs import ArchiveViewerDialog, ExportModelDialog
+from ..ui_components.screenshot import ScreenshotFrame
+from ..ui_components.separator import VLine
+from .base_viewport import AssetViewport
 
 
 class LightsetsViewport(AssetViewport):
     def __init__(
         self,
-        settings: SettingsManager,
         attribute: AttributeEditor,
-        pool_handler: PoolHandler,
-        dcc_handler: DCCHandler,
         parent=None,
     ):
-        self.settings = settings
+        self.settings = SettingsManager()
         self.attribute = attribute
-        self.dcc_handler = dcc_handler
-        self.pool_handler = pool_handler
+        self.dcc_handler = MayaHandler()
+        self.pool_handler = LightsetPoolHandler()
         super().__init__(parent)
 
     def init_widgets(self):
@@ -82,7 +81,7 @@ class LightsetsViewport(AssetViewport):
         if not metadata_path.exists():
             metadata_path.mkdir()
 
-        tags = (file for file in metadata_path.iterdir() if file.suffix == ".json")
+        tags = metadata_path.glob("*.json")
 
         self.clear_layout()
 
@@ -131,7 +130,7 @@ class LightsetsViewport(AssetViewport):
         viewer = ArchiveViewerDialog(self.pool_handler, self.dcc_handler, path)
         viewer.exec_()
 
-    @benchmark
+    @utils.benchmark
     def draw_objects(self, force=False):
         _, path = self.get_current_project()
         if not path:
@@ -217,7 +216,7 @@ class LightsetsViewport(AssetViewport):
         screenshot_path = str(
             Path(path, "LightsetPool", "Thumbnails", f"{asset_name}.png")
         )
-        core.take_screenshot(
+        img.take_screenshot(
             screenshot_path,
             geometry,
         )

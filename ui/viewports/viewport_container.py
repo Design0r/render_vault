@@ -1,56 +1,38 @@
-from PySide2.QtWidgets import QStackedWidget
+from Qt.QtWidgets import QStackedWidget
 
-from ..controller import Logger
-from ..controller import api_handler as api
-from ..controller import dcc_handler as dcc
-from ..controller import pool_handler as pool
-from .ui_components import viewports as vp
+from ...controller import SettingsManager
+from ...core import Logger
+from ..ui_components import AttributeEditor
+from .about_viewport import AboutViewport
+from .hdri_viewport import HdriViewport
+from .help_viewport import HelpViewport
+from .lightsets_viewport import LightsetsViewport
+from .material_viewport import MaterialsViewport
+from .model_viewport import ModelsViewport
+from .settings_viewport import SettingsViewport
+from .utility_viewport import UtilityVieport
 from .viewport_mode import ViewportMode
 
 
 class ViewportContainer(QStackedWidget):
-    def __init__(self, settings, attribute, parent=None):
+    def __init__(self, attribute: AttributeEditor, parent=None):
         super().__init__(parent)
         self.viewport_mode = ViewportMode.Materials
-        self.settings = settings
+        self.settings = SettingsManager()
         self.attribute = attribute
         self.init_widgets()
         self.init_layouts()
 
     def init_widgets(self):
-        maya_handler = dcc.MayaHandler()
+        self.material_vp = MaterialsViewport(self.attribute)
+        self.model_vp = ModelsViewport(self.attribute)
+        self.hdri_vp = HdriViewport(self.attribute)
+        self.lightsets_vp = LightsetsViewport(self.attribute)
 
-        material_api = api.MaterialAPIHandler()
-        material_pool = pool.MaterialPoolHandler(material_api)
-        self.material_vp = vp.MaterialsViewport(
-            self.settings, self.attribute, material_pool, maya_handler
-        )
-
-        model_api = api.ModelAPIHandler()
-        model_pool = pool.ModelPoolHandler(model_api)
-        self.model_vp = vp.ModelsViewport(
-            self.settings, self.attribute, model_pool, maya_handler
-        )
-
-        hdri_api = api.HDRIAPIHandler()
-        hdri_pool = pool.HDRIPoolHandler(hdri_api)
-        self.hdri_vp = vp.HdriViewport(
-            self.settings, self.attribute, hdri_pool, maya_handler
-        )
-
-        lightsets_api = api.LightsetAPIHandler()
-        lightsets_pool = pool.LightsetPoolHandler(lightsets_api)
-        self.lightsets_vp = vp.LightsetsViewport(
-            self.settings, self.attribute, lightsets_pool, maya_handler
-        )
-
-        util_pool = pool.UtilityPoolHandler()
-        self.utility_vp = vp.UtilityVieport(util_pool, maya_handler, self.settings)
-        self.help_vp = vp.HelpViewport()
-        self.about_vp = vp.AboutViewport()
-        self.settings_vp = vp.SettingsViewport(self.settings)
-
-        # self.setCurrentWidget(self.material_vp)
+        self.utility_vp = UtilityVieport()
+        self.help_vp = HelpViewport()
+        self.about_vp = AboutViewport()
+        self.settings_vp = SettingsViewport()
 
     def init_layouts(self):
         self.addWidget(self.material_vp)

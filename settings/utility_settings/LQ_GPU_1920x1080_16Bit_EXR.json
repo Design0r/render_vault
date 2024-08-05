@@ -1,8 +1,6 @@
 {
   "vray": {
     "defaultNodes": {
-      "defaultRenderGlobals.animation": false,
-      "defaultRenderGlobals.animationRange": 1,
       "defaultRenderGlobals.applyFogInPost": false,
       "defaultRenderGlobals.binMembership": "",
       "defaultRenderGlobals.bitDepth": 0,
@@ -218,52 +216,28 @@
       "vraySettings.cam_dofSides": false,
       "vraySettings.cam_dofSidesNum": 5,
       "vraySettings.cam_dofSubdivs": 8,
-      "vraySettings.cam_environmentVolume": [
-        0.0,
-        0.0,
-        0.0
-      ],
+      "vraySettings.cam_environmentVolume": [0.0, 0.0, 0.0],
       "vraySettings.cam_environmentVolumeB": 0.0,
       "vraySettings.cam_environmentVolumeG": 0.0,
       "vraySettings.cam_environmentVolumeOn": false,
       "vraySettings.cam_environmentVolumeR": 0.0,
-      "vraySettings.cam_envtexBg": [
-        0.0,
-        0.0,
-        0.0
-      ],
+      "vraySettings.cam_envtexBg": [0.0, 0.0, 0.0],
       "vraySettings.cam_envtexBgB": 0.0,
       "vraySettings.cam_envtexBgG": 0.0,
       "vraySettings.cam_envtexBgR": 0.0,
-      "vraySettings.cam_envtexGi": [
-        0.800000011920929,
-        0.8999999761581421,
-        1.0
-      ],
+      "vraySettings.cam_envtexGi": [0.800000011920929, 0.8999999761581421, 1.0],
       "vraySettings.cam_envtexGiB": 1.0,
       "vraySettings.cam_envtexGiG": 0.8999999761581421,
       "vraySettings.cam_envtexGiR": 0.800000011920929,
-      "vraySettings.cam_envtexReflect": [
-        0.0,
-        0.0,
-        0.0
-      ],
+      "vraySettings.cam_envtexReflect": [0.0, 0.0, 0.0],
       "vraySettings.cam_envtexReflectB": 0.0,
       "vraySettings.cam_envtexReflectG": 0.0,
       "vraySettings.cam_envtexReflectR": 0.0,
-      "vraySettings.cam_envtexRefract": [
-        0.0,
-        0.0,
-        0.0
-      ],
+      "vraySettings.cam_envtexRefract": [0.0, 0.0, 0.0],
       "vraySettings.cam_envtexRefractB": 0.0,
       "vraySettings.cam_envtexRefractG": 0.0,
       "vraySettings.cam_envtexRefractR": 0.0,
-      "vraySettings.cam_envtexSecondaryMatte": [
-        0.0,
-        0.0,
-        0.0
-      ],
+      "vraySettings.cam_envtexSecondaryMatte": [0.0, 0.0, 0.0],
       "vraySettings.cam_envtexSecondaryMatteB": 0.0,
       "vraySettings.cam_envtexSecondaryMatteG": 0.0,
       "vraySettings.cam_envtexSecondaryMatteR": 0.0,
@@ -356,7 +330,7 @@
       "vraySettings.fileName": "",
       "vraySettings.fileNameFormat": 1,
       "vraySettings.fileNamePadding": 4,
-      "vraySettings.fileNamePrefix": "",
+      "vraySettings.fileNamePrefix": "<Scene>/<Scene>",
       "vraySettings.fileNameRenderElementSeparator": ".",
       "vraySettings.filterSamples": 5,
       "vraySettings.filterSize": 0.05999999865889549,
@@ -683,7 +657,7 @@
       "vraySettings.sh_mode": 3,
       "vraySettings.sh_object_space": false,
       "vraySettings.sh_per_normal": true,
-      "vraySettings.sh_ray_bias": 9.999999747378752e-05,
+      "vraySettings.sh_ray_bias": 9.999999747378752e-5,
       "vraySettings.sh_save_obj": false,
       "vraySettings.sh_subdivs": 30,
       "vraySettings.showCalcPhase": true,
@@ -754,11 +728,7 @@
       "vraySettings.ui_check_for_updates": true,
       "vraySettings.ui_compute_heavy_textures": false,
       "vraySettings.ui_render_swatches": true,
-      "vraySettings.ui_swatch_bgtex": [
-        0.0,
-        0.0,
-        0.0
-      ],
+      "vraySettings.ui_swatch_bgtex": [0.0, 0.0, 0.0],
       "vraySettings.ui_swatch_bgtexB": 0.0,
       "vraySettings.ui_swatch_bgtexG": 0.0,
       "vraySettings.ui_swatch_bgtexR": 0.0,

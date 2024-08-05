@@ -1,6 +1,6 @@
-from PySide2.QtCore import QSize, Qt, Signal
-from PySide2.QtGui import QIcon, QPixmap, QPainter
-from PySide2.QtWidgets import (
+from Qt.QtCore import QSize, Qt, Signal
+from Qt.QtGui import QIcon
+from Qt.QtWidgets import (
     QHBoxLayout,
     QLabel,
     QPushButton,
@@ -20,14 +20,21 @@ class IconButton(QPushButton):
         self.setCheckable(checkable)
         self.setFixedSize(*size)
         self.clicked.connect(self.handle_shift)
-        self.pixmap = None
 
     def set_icon(self, icon_path: str, icon_size: tuple[int, int]) -> None:
+        width, height = icon_size
         self.icon_path = icon_path
-        self.pixmap = QPixmap(icon_path).scaled(
-            *icon_size, Qt.KeepAspectRatio, Qt.FastTransformation
-        )
-        self.setIconSize(QSize(*icon_size))
+        icon = QIcon(icon_path)
+        available_sizes = icon.availableSizes()
+        if available_sizes and available_sizes[0].width() < width:
+            pixmap = icon.pixmap(available_sizes[0])
+            scaled_pixmap = pixmap.scaled(
+                width, height, Qt.KeepAspectRatio, Qt.FastTransformation
+            )
+            icon = QIcon(scaled_pixmap)
+
+        self.setIcon(icon)
+        self.setIconSize(QSize(width, height))
 
     def set_tooltip(self, text: str) -> None:
         self.setToolTip(text)
@@ -36,26 +43,10 @@ class IconButton(QPushButton):
         modifiers = QApplication.keyboardModifiers()
         if modifiers == Qt.ShiftModifier and self.isCheckable():
             self.setChecked(True)
-            self.activated.emit((self,))
+            self.activated.emit(self)
+
         else:
             self.setChecked(False)
-
-    def paintEvent(self, event):
-        super().paintEvent(event)
-        if self.pixmap:
-            painter = QPainter(self)
-            icon_size = self.iconSize()
-            x = (self.width() - icon_size.width()) // 2
-            y = (self.height() - icon_size.height()) // 2
-            painter.drawPixmap(x, y, icon_size.width(), icon_size.height(), self.pixmap)
-
-    def sizeHint(self):
-        size = super().sizeHint()
-        if self.pixmap:
-            icon_size = self.iconSize()
-            size.setWidth(size.width() + icon_size.width())
-            size.setHeight(max(size.height(), icon_size.height()))
-        return size
 
 
 class SidebarButton(QPushButton):
@@ -96,8 +87,6 @@ class ViewportButton(QWidget):
         self.setMinimumSize(*button_size)
         self.setToolTip(name)
         self.setStyleSheet(viewport_button_style)
-        # self.style().unpolish(self)
-        # self.style().polish(self)
 
         self.init_widgets()
         self.init_layouts()

@@ -1,9 +1,11 @@
-import sys
 import pathlib
-from maya import mel, cmds
+import sys
 from abc import ABC, abstractmethod
-from render_vault.controller.logger import Logger
 from typing import Generator
+
+from maya import cmds, mel
+
+from render_vault.core import Logger
 
 
 class Renderer(ABC):
@@ -22,28 +24,22 @@ class Renderer(ABC):
         self.single_mode = single_mode
 
     @abstractmethod
-    def set_render_settings(self):
-        ...
+    def set_render_settings(self): ...
 
     @abstractmethod
-    def set_as_active_renderer(self):
-        ...
+    def set_as_active_renderer(self): ...
 
     @abstractmethod
-    def remove_render_elements(self):
-        ...
+    def remove_render_elements(self): ...
 
     @abstractmethod
-    def assign_material(self, mtl):
-        ...
+    def assign_material(self, mtl): ...
 
     @abstractmethod
-    def set_image_path(self, mtl):
-        ...
+    def set_image_path(self, mtl): ...
 
     @abstractmethod
-    def render(self, materials: Generator[str, None, None] | None):
-        ...
+    def render(self, materials: Generator[str, None, None] | None): ...
 
 
 class Arnold(Renderer):

@@ -1,7 +1,8 @@
-from pathlib import Path
 import json
-from PySide2.QtCore import Qt, Signal
-from PySide2.QtWidgets import (
+from pathlib import Path
+
+from Qt.QtCore import Qt, Signal
+from Qt.QtWidgets import (
     QAbstractItemView,
     QCheckBox,
     QComboBox,
@@ -20,7 +21,7 @@ from PySide2.QtWidgets import (
     QWidget,
 )
 
-from ...controller import DCCHandler, Logger, PoolHandler
+from ...controller import Logger, PoolHandler
 from .buttons import IconButton
 
 
@@ -131,7 +132,7 @@ class ExportModelDialog(QDialog):
     SAVE = "Save current Scene"
     EXPORT = "Export selected"
 
-    def __init__(self, dcc_handler: DCCHandler, path: Path, parent=None):
+    def __init__(self, dcc_handler, path: Path, parent=None):
         super().__init__(parent)
         self.dcc_handler = dcc_handler
         self.path = path
@@ -194,7 +195,7 @@ class ExportMaterialsDialog(QDialog):
     materials_exported = Signal()
     repath = Signal(list)
 
-    def __init__(self, dcc_handler: DCCHandler, export_path: Path, parent=None):
+    def __init__(self, dcc_handler, export_path: Path, parent=None):
         super().__init__(parent)
         self.dcc_handler = dcc_handler
         self.export_path = export_path
@@ -293,7 +294,7 @@ class ArchiveViewerDialog(QDialog):
     def __init__(
         self,
         pool_handler: PoolHandler,
-        dcc_handler: DCCHandler,
+        dcc_handler,
         archive_path: Path,
         parent=None,
     ):

@@ -1,22 +1,23 @@
-from pathlib import Path
 from functools import partial
-from PySide2.QtCore import Qt, Signal
-from PySide2.QtWidgets import (
+from pathlib import Path
+
+from Qt.QtCore import Qt, Signal
+from Qt.QtWidgets import (
     QFormLayout,
     QHBoxLayout,
     QLabel,
     QLineEdit,
     QPushButton,
+    QScrollArea,
     QTextEdit,
     QVBoxLayout,
     QWidget,
-    QScrollArea,
 )
 
-from ...controller import MetadataHandler, SettingsManager
-from . import IconButton
+from ...controller import MetadataHandler
+from ...core import Logger
+from .buttons import IconButton
 from .tags import TagCollection
-from ...controller import Logger
 
 
 class Asset:
@@ -100,8 +101,7 @@ class AttributeEditor(QWidget):
         super().__init__(parent)
 
         self.current_asset = Asset()
-        self.ui_scale = SettingsManager.window_settings.ui_scale
-        s = (150 - 10) * self.ui_scale
+        s = 150 - 10
         self.icon_size = (s, s)
 
         self.init_widgets()
@@ -119,7 +119,7 @@ class AttributeEditor(QWidget):
         self.banner = QWidget()
 
         self.label = QLabel("Metadata")
-        self.label.setFixedHeight(25 * self.ui_scale)
+        self.label.setFixedHeight(25)
         self.label.setStyleSheet(
             "background-color: rgb(50,50,50);font-size: 16pt; color: white;"
         )
@@ -176,10 +176,10 @@ class AttributeEditor(QWidget):
         self.scroll_layout = QVBoxLayout(self.scroll_widget)
         self.scroll_layout.addLayout(self.banner_layout)
         self.scroll_layout.addLayout(self.main_layout)
-        self.scroll_layout.setMargin(0)
+        self.scroll_layout.setContentsMargins(0, 0, 0, 0)
 
         self.another_layout.addWidget(self.scroll_area)
-        self.another_layout.setMargin(0)
+        self.another_layout.setContentsMargins(0, 0, 0, 0)
 
         self.setLayout(self.another_layout)
 
@@ -194,9 +194,7 @@ class AttributeEditor(QWidget):
     def save_asset(self):
         if self.current_asset:
             self.current_asset.renderer = self.asset_renderer.text()
-            self.current_asset.tags = tuple(
-                [k for k in self.asset_tags.tag_cache.keys()]
-            )
+            self.current_asset.tags = tuple(self.asset_tags.tag_cache.keys())
             self.current_asset.notes = self.asset_notes.toPlainText()
             self.current_asset.save()
 

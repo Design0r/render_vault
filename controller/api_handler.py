@@ -1,64 +1,24 @@
 from pathlib import Path
-from typing import Protocol
-
+from typing import Union
 
 from . import db
 
 
-class APIHandler(Protocol):
+class APIHandler:
     @staticmethod
-    def create(name: str, path: str) -> int: ...
+    def create(name: str, path: Union[str, Path], table: db.Tables) -> int:
+        if isinstance(path, str):
+            path = Path(path)
+        data = db.DBSchema(name, path)
+        db.insert(table, data)
 
     @staticmethod
-    def delete(name: str, path: str) -> int: ...
+    def delete(name: str, path: Union[str, Path], table: db.Tables) -> int:
+        if isinstance(path, str):
+            path = Path(path)
 
-
-class MaterialAPIHandler:
-    @staticmethod
-    def create(name: str, path: str):
         data = db.DBSchema(name, Path(path))
-        db.insert(db.Tables.MATERIALS, data)
-
-    @staticmethod
-    def delete(name: str, path: str):
-        data = db.DBSchema(name, Path(path))
-        db.delete(db.Tables.MATERIALS, data)
-
-
-class ModelAPIHandler:
-    @staticmethod
-    def create(name: str, path: str):
-        data = db.DBSchema(name, Path(path))
-        db.insert(db.Tables.MODELS, data)
-
-    @staticmethod
-    def delete(name: str, path: str):
-        data = db.DBSchema(name, Path(path))
-        db.delete(db.Tables.MODELS, data)
-
-
-class HDRIAPIHandler:
-    @staticmethod
-    def create(name: str, path: str):
-        data = db.DBSchema(name, Path(path))
-        db.insert(db.Tables.HDRIS, data)
-
-    @staticmethod
-    def delete(name: str, path: str):
-        data = db.DBSchema(name, Path(path))
-        db.delete(db.Tables.HDRIS, data)
-
-
-class LightsetAPIHandler:
-    @staticmethod
-    def create(name: str, path: str):
-        data = db.DBSchema(name, Path(path))
-        db.insert(db.Tables.LIGHTSETS, data)
-
-    @staticmethod
-    def delete(name: str, path: str):
-        data = db.DBSchema(name, Path(path))
-        db.delete(db.Tables.LIGHTSETS, data)
+        db.delete(table, data)
 
 
 def get_all_pools() -> tuple[dict, dict, dict, dict]:

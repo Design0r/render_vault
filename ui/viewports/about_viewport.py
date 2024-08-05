@@ -1,9 +1,9 @@
-from PySide2.QtCore import Qt, QUrl
-from PySide2.QtGui import QCursor, QDesktopServices
-from PySide2.QtWidgets import QFormLayout, QLabel
+from Qt.QtCore import Qt, QUrl
+from Qt.QtGui import QCursor, QDesktopServices
+from Qt.QtWidgets import QFormLayout, QLabel
 
-from ...qss import about_viewport
-from ...version import get_version
+from ...core import get_version
+from ..qss import about_viewport
 from .base_viewport import DataViewport
 
 

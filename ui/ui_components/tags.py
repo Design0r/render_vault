@@ -1,14 +1,16 @@
-from PySide2.QtWidgets import (
-    QWidget,
-    QPushButton,
-    QHBoxLayout,
-    QVBoxLayout,
-    QScrollArea,
-)
-from PySide2.QtCore import Qt, Signal
 from pathlib import Path
-from . import FlowLayout
+
+from Qt.QtCore import Qt, Signal
+from Qt.QtWidgets import (
+    QHBoxLayout,
+    QPushButton,
+    QScrollArea,
+    QVBoxLayout,
+    QWidget,
+)
+
 from .dialogs import CreateTagDialog
+from .flow_layout import FlowLayout
 
 
 class TagWidget(QWidget):
@@ -32,7 +34,7 @@ class TagWidget(QWidget):
     def init_layouts(self):
         self.main_layout = QHBoxLayout()
         self.main_layout.setSpacing(0)
-        self.main_layout.setMargin(0)
+        self.main_layout.setContentsMargins(0, 0, 0, 0)
 
         self.main_layout.addWidget(self.tag)
         self.main_layout.addWidget(self.delete)
@@ -72,7 +74,6 @@ class TagCollection(QWidget):
         self.scroll_widget.setLayout(self.flow_layout)
 
         self.main_layout = QVBoxLayout()
-        self.main_layout.setMargin(0)
         self.main_layout.setContentsMargins(0, 0, 0, 0)
         self.main_layout.addWidget(self.new_tag_btn)
         self.main_layout.addWidget(self.scroll_area)

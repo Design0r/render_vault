@@ -1,4 +1,4 @@
-from PySide2.QtWidgets import QLabel
+from Qt.QtWidgets import QLabel
 
 from .base_viewport import DataViewport
 

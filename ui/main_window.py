@@ -1,21 +1,20 @@
 from __future__ import annotations
 
-
-from PySide2.QtWidgets import QMainWindow, QHBoxLayout, QSplitter, QWidget
-from PySide2.QtGui import QIcon
 from maya import OpenMayaUI
-from shiboken2 import wrapInstance
-from PySide2.QtCore import Qt
+from Qt import QtCompat
+from Qt.QtCore import Qt
+from Qt.QtGui import QIcon
+from Qt.QtWidgets import QHBoxLayout, QMainWindow, QSplitter, QWidget
 
-from .ui_components import Sidebar, AttributeEditor
-from .viewport_container import ViewportContainer, ViewportMode
-from ..controller import Logger, SettingsManager
-from .version import get_version
+from ..controller import SettingsManager
+from ..core import Logger, get_version
+from .ui_components import AttributeEditor, Sidebar
+from .viewports.viewport_container import ViewportContainer, ViewportMode
 
 
 def get_maya_main_window():
     main_window_ptr = OpenMayaUI.MQtUtil.mainWindow()
-    return wrapInstance(int(main_window_ptr), QMainWindow)
+    return QtCompat.wrapInstance(int(main_window_ptr), QMainWindow)
 
 
 class MainWindow(QWidget):
@@ -57,7 +56,7 @@ class MainWindow(QWidget):
     def init_widgets(self):
         self.sidebar = Sidebar(self.settings)
         self.attribute = AttributeEditor()
-        self.vp_container = ViewportContainer(self.settings, self.attribute)
+        self.vp_container = ViewportContainer(self.attribute)
 
         self.splitter = QSplitter(Qt.Horizontal)
         self.splitter.setOpaqueResize(True)

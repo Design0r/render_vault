@@ -1,44 +1,8 @@
-import shutil
-from pathlib import Path
 import sys
 import time
+from pathlib import Path
 
-import rust_thumbnails
-from .logger import Logger
-
-
-def create_folder(path: Path) -> None:
-    if not path:
-        Logger.error(f"can't create folder, path: {path} is invalid")
-        return
-
-    if path.exists():
-        Logger.error(f"can't create folder, path: {path} already exists")
-        return
-
-    try:
-        path.mkdir()
-    except Exception as e:
-        Logger.exception(e)
-
-    return
-
-
-def remove_folder(path: Path) -> None:
-    if not path:
-        Logger.error(f"can't delete folder, path: {path} is invalid")
-        return
-
-    if not path.exists():
-        Logger.error(f"can't delete folder, path: {path} does not exist")
-        return
-
-    try:
-        shutil.rmtree(path)
-    except Exception as e:
-        Logger.exception(e)
-
-    return
+from . import Logger
 
 
 def take_screenshot(path: Path, geometry: tuple[int, int, int, int]) -> None:
@@ -67,6 +31,8 @@ def create_sdr_preview(hdri_path: Path, thumbnail_path: Path, size: int):
         return thumbnail_path
 
     try:
+        import rust_thumbnails
+
         if hdri_path.suffix == ".hdr":
             rust_thumbnails.hdr_to_jpg(
                 str(hdri_path), str(thumbnail_path), size, size // 2
@@ -80,9 +46,9 @@ def create_sdr_preview(hdri_path: Path, thumbnail_path: Path, size: int):
                 )
                 return
 
-            import numpy as np
             import cv2
             import imageio
+            import numpy as np
 
             imageio.plugins.freeimage.download()
             image = imageio.imread(hdri_path, format="EXR-FI")[:, :, :3]

@@ -2,11 +2,13 @@ import logging
 import socket
 import sys
 
+from .version import get_version
+
 
 class Logger:
     LOGGER_NAME = "render_vault"
 
-    FORMAT_DEFAULT = "[%(name)s][%(levelname)s] %(message)s"
+    FORMAT_DEFAULT = f"[%(name)s][{get_version()}][%(levelname)s] %(message)s"
 
     LEVEL_DEFAULT = logging.DEBUG
     PROPAGATE_DEFAULT = True
@@ -98,7 +100,10 @@ class Logger:
         file_handler.setLevel(level)
 
         hostname = socket.gethostname()
-        fmt = logging.Formatter(fmt=f"[%(asctime)s][{hostname}][%(levelname)s] %(message)s", datefmt='%Y-%m-%d %H:%M')
+        fmt = logging.Formatter(
+            fmt=f"[%(asctime)s][{hostname}][{get_version()}][%(levelname)s] %(message)s",
+            datefmt="%Y-%m-%d %H:%M",
+        )
         file_handler.setFormatter(fmt)
         lg.addHandler(file_handler)
 

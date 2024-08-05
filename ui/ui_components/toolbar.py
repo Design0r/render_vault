@@ -1,8 +1,8 @@
 from enum import Enum
 from typing import Union
 
-from PySide2.QtCore import Qt
-from PySide2.QtWidgets import QHBoxLayout, QVBoxLayout, QWidget
+from Qt.QtCore import Qt
+from Qt.QtWidgets import QHBoxLayout, QVBoxLayout, QWidget
 
 from ..qss import sidebar_style
 from .buttons import SidebarButton

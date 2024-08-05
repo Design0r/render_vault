@@ -1,4 +1,4 @@
-from PySide2.QtWidgets import QFrame
+from Qt.QtWidgets import QFrame
 
 
 class HLine(QFrame):

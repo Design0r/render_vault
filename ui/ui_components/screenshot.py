@@ -1,6 +1,6 @@
-from PySide2.QtCore import QPoint, Qt, Signal
-from PySide2.QtGui import QCursor
-from PySide2.QtWidgets import QDialog, QDialogButtonBox, QVBoxLayout
+from Qt.QtCore import QPoint, Qt, Signal
+from Qt.QtGui import QCursor
+from Qt.QtWidgets import QDialog, QDialogButtonBox, QVBoxLayout
 
 from ...controller import SettingsManager
 
