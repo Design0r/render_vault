@@ -175,10 +175,10 @@ class MaterialsViewport(AssetViewport):
             suffix = mtl_path.suffix
 
             btn = ViewportButton(mtl, btn_size, size, suffix, checkable=True)
-            btn.icon.set_icon(
-                thumb or ":icons/tabler-icon-photo.png",
-                (btn_width - 20, btn_width - 20),
-            )
+            # btn.icon.set_icon(
+            #     thumb or ":icons/tabler-icon-photo.png",
+            #     (btn_width - 20, btn_width - 20),
+            # )
             btn.setContextMenuPolicy(Qt.CustomContextMenu)
             btn.customContextMenuRequested.connect(
                 partial(self.on_context_menu, btn, mtl_path)

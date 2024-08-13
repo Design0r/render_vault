@@ -1,8 +1,13 @@
 import logging
 import socket
 import sys
+from typing import Callable
+
+from maya import cmds
 
 from .version import get_version
+
+LoggerCallback = Callable[[str], None]
 
 
 class Logger:
@@ -14,6 +19,8 @@ class Logger:
     PROPAGATE_DEFAULT = True
 
     _logger_obj = None
+
+    _callbacks = []
 
     @classmethod
     def logger_obj(cls):
@@ -33,6 +40,15 @@ class Logger:
                 cls._logger_obj.addHandler(stream_handler)
 
         return cls._logger_obj
+
+    @classmethod
+    def register_callback(cls, func: LoggerCallback) -> None:
+        cls._callbacks.append(func)
+
+    @classmethod
+    def exec_callbacks(cls, level: str, msg: str) -> None:
+        for c in cls._callbacks:
+            c(level, f"{level}: {msg}")
 
     @classmethod
     def logger_exists(cls):
@@ -57,21 +73,25 @@ class Logger:
     def info(cls, msg, *args, **kwargs):
         lg = cls.logger_obj()
         lg.info(msg, *args, **kwargs)
+        cls.exec_callbacks("Info", msg)
 
     @classmethod
     def warning(cls, msg, *args, **kwargs):
         lg = cls.logger_obj()
         lg.warning(msg, *args, **kwargs)
+        cls.exec_callbacks("Warning", msg)
 
     @classmethod
     def error(cls, msg, *args, **kwargs):
         lg = cls.logger_obj()
         lg.error(msg, *args, **kwargs)
+        cls.exec_callbacks("Error", msg)
 
     @classmethod
     def critical(cls, msg, *args, **kwargs):
         lg = cls.logger_obj()
         lg.critical(msg, *args, **kwargs)
+        cls.exec_callbacks("Critical Error", msg)
 
     @classmethod
     def log(cls, level, msg, *args, **kwargs):
@@ -100,8 +120,14 @@ class Logger:
         file_handler.setLevel(level)
 
         hostname = socket.gethostname()
+
+        try:
+            maya_version = cmds.about(version=True)
+        except AttributeError:
+            maya_version = "Batch"
+
         fmt = logging.Formatter(
-            fmt=f"[%(asctime)s][{hostname}][{get_version()}][%(levelname)s] %(message)s",
+            fmt=f"[%(asctime)s][{hostname}][{get_version()}][Maya{maya_version}][%(levelname)s] %(message)s",
             datefmt="%Y-%m-%d %H:%M",
         )
         file_handler.setFormatter(fmt)

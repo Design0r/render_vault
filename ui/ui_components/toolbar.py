@@ -1,10 +1,19 @@
-from enum import Enum
+from enum import Enum, StrEnum
 from typing import Union
 
 from Qt.QtCore import Qt
-from Qt.QtWidgets import QHBoxLayout, QVBoxLayout, QWidget
+from Qt.QtWidgets import (
+    QHBoxLayout,
+    QLabel,
+    QLineEdit,
+    QPushButton,
+    QVBoxLayout,
+    QWidget,
+)
 
-from ..qss import sidebar_style
+from ...controller import SettingsManager
+from ...core import Logger
+from ..qss import sidebar_style, statusbar_style
 from .buttons import SidebarButton
 
 
@@ -50,9 +59,9 @@ class Toolbar(QWidget):
 
 
 class Sidebar(Toolbar):
-    def __init__(self, settings, parent=None):
-        self.settings = settings
-        self.ui_scale = settings.window_settings.ui_scale
+    def __init__(self, parent=None):
+        self.settings = SettingsManager()
+        self.ui_scale = self.settings.window_settings.ui_scale
         self.thickness = 30 * self.ui_scale
         super().__init__(ToolbarDirection.Vertical, self.thickness, parent)
         self.setStyleSheet(sidebar_style)
@@ -136,3 +145,70 @@ class Sidebar(Toolbar):
             button.setChecked(True)
         else:
             self.buttons[button - 1].setChecked(True)
+
+
+class Status(StrEnum):
+    LoadingUI = "Loading UI"
+    LoadingAssets = "Loading Assets"
+    Idle = "Idle"
+
+
+class Statusbar(Toolbar):
+    def __init__(
+        self,
+        thickness: int,
+        direction: ToolbarDirection = ToolbarDirection.Horizontal,
+        parent=None,
+    ):
+        super().__init__(direction, thickness, parent)
+        self.settings = SettingsManager
+        self.ui_scale = self.settings.window_settings.ui_scale
+        self.thickness = 30 * self.ui_scale
+        self.setStyleSheet(statusbar_style)
+
+    def init_widgets(self):
+        super().init_widgets()
+        self.info = QLineEdit("")
+        self.info.setReadOnly(True)
+        self.info.setFocusPolicy(Qt.FocusPolicy.NoFocus)
+        self.info.setCursorPosition(0)
+        self.info.setMinimumWidth(20)
+
+        self.clear_btn = QPushButton("x")
+        self.clear_btn.setFixedWidth(15)
+        self.clear_btn.setStyleSheet(
+            "QPushButton{border: none;}QPushButton::hover{background-color: rgb(100,100,100);}"
+        )
+
+        self.status = QLabel(f"Status: {Status.LoadingUI}")
+
+    def init_layouts(self) -> None:
+        super().init_layouts()
+        self.main_layout.setAlignment(Qt.AlignHCenter)
+        self.main_layout.setContentsMargins(0, 0, 10, 0)
+
+        self.main_layout.addWidget(self.info)
+        self.main_layout.addWidget(self.clear_btn)
+        self.main_layout.addStretch()
+        self.main_layout.addWidget(self.status)
+
+    def init_signals(self) -> None:
+        Logger.register_callback(self.update_info)
+        self.clear_btn.clicked.connect(lambda: self.update_info("Clear", ""))
+
+    def update_info(self, level: str, text: str) -> None:
+        self.info.setText(text)
+
+        if level == "Info":
+            self.info.setStyleSheet("background-color: rgb(50,100,50)")
+        elif level == "Warning":
+            self.info.setStyleSheet("background-color: rgb(100,100,50)")
+        elif level == "Error":
+            self.info.setStyleSheet("background-color: rgb(100,50,50)")
+        elif level == "Clear":
+            self.info.setStyleSheet("background-color: rgb(50,50,50)")
+
+        self.info.setCursorPosition(0)
+
+    def update_status(self, status: Status):
+        self.status.setText(f"Status: {status}")

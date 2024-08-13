@@ -13,6 +13,7 @@ from ...controller import (
     SettingsManager,
 )
 from ...core import Logger, img, utils
+from ..ui_components import Status
 from ..ui_components.attribute_editor import AttributeEditor
 from ..ui_components.buttons import IconButton, ViewportButton
 from ..ui_components.dialogs import ArchiveViewerDialog, ExportModelDialog
@@ -138,6 +139,7 @@ class ModelsViewport(AssetViewport):
 
     @utils.benchmark
     def draw_objects(self, force=False):
+        self.statusbar.update_status(Status.LoadingAssets)
         _, path = self.get_current_project()
         if not path:
             return

@@ -3,6 +3,7 @@ from pathlib import Path
 from Qt.QtCore import Qt
 from Qt.QtWidgets import (
     QComboBox,
+    QHBoxLayout,
     QLabel,
     QScrollArea,
     QVBoxLayout,
@@ -15,6 +16,8 @@ from ..qss import toolbar_style
 from ..ui_components import (
     FlowLayout,
     IconButton,
+    Status,
+    Statusbar,
     Toolbar,
     ToolbarDirection,
     ViewportButton,
@@ -68,6 +71,8 @@ class AssetViewport(QWidget):
         self.scroll_area.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOn)
         self.scroll_area.setWidget(self.grid_widget)
 
+        self.statusbar = Statusbar(20)
+
     def init_layouts(self):
         self.main_layout = QVBoxLayout(self)
         self.main_layout.setContentsMargins(0, 0, 0, 0)
@@ -84,8 +89,11 @@ class AssetViewport(QWidget):
         self.flow_layout = FlowLayout(self.grid_widget)
         self.flow_layout.setSpacing(0)
 
+        self.infobar_layout = QHBoxLayout(self.statusbar)
+
         self.main_layout.addWidget(self.toolbar)
         self.main_layout.addWidget(self.scroll_area)
+        self.main_layout.addWidget(self.statusbar)
 
     def init_signals(self):
         self.add_project.clicked.connect(self.open_new_pool_dialog)
@@ -104,6 +112,7 @@ class AssetViewport(QWidget):
     def draw_objects(self, force=False):
         text = f"{'force ' if force else ''}reloaded {self.label.text()} pool: {self.pool_box.currentText()}"
         Logger.info(text)
+        self.statusbar.update_status(Status.Idle)
 
     def search(self, input):
         if not input:

@@ -14,7 +14,7 @@ from Qt.QtWidgets import (
     QWidget,
 )
 
-from ...controller import MetadataHandler
+from ...controller import MetadataHandler, SettingsManager
 from ...core import Logger
 from .buttons import IconButton
 from .tags import TagCollection
@@ -101,7 +101,9 @@ class AttributeEditor(QWidget):
         super().__init__(parent)
 
         self.current_asset = Asset()
-        s = 150 - 10
+        self.settings = SettingsManager()
+        self.ui_scale = self.settings.window_settings.ui_scale
+        s = (150 - 10) * self.ui_scale
         self.icon_size = (s, s)
 
         self.init_widgets()
@@ -119,7 +121,7 @@ class AttributeEditor(QWidget):
         self.banner = QWidget()
 
         self.label = QLabel("Metadata")
-        self.label.setFixedHeight(25)
+        self.label.setFixedHeight(25 * self.ui_scale)
         self.label.setStyleSheet(
             "background-color: rgb(50,50,50);font-size: 16pt; color: white;"
         )

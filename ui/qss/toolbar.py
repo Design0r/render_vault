@@ -55,3 +55,15 @@ QLabel{
     color: white;
 }
 """
+
+statusbar_style = """
+QWidget{
+    background-color: rgb(50,50,50);
+}
+
+
+QLabel{
+    font-size: 12pt;
+    color: white;
+}
+"""

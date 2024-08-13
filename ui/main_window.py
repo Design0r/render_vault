@@ -54,11 +54,11 @@ class MainWindow(QWidget):
         return cls.win_instance
 
     def init_widgets(self):
-        self.sidebar = Sidebar(self.settings)
+        self.sidebar = Sidebar()
         self.attribute = AttributeEditor()
         self.vp_container = ViewportContainer(self.attribute)
 
-        self.splitter = QSplitter(Qt.Horizontal)
+        self.splitter = QSplitter(Qt.Horizontal, handleWidth=10)
         self.splitter.setOpaqueResize(True)
         self.splitter.addWidget(self.vp_container)
         self.splitter.addWidget(self.attribute)
@@ -70,6 +70,7 @@ class MainWindow(QWidget):
 
         self.main_layout.addWidget(self.sidebar)
         self.main_layout.addWidget(self.splitter)
+        self.splitter.setSizes([1, 0])  # Adjust these values as needed
 
     def init_signals(self):
         s = self.sidebar

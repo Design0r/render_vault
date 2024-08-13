@@ -141,11 +141,12 @@ def import_material(path: Path, assign: bool = False) -> None:
 
     mtl_name = path.stem
 
-    if is_duplciate_material(mtl_name):
-        Logger.info(f"material {mtl_name} already exists in scene, skipping import.")
-        return
-
     geo = cmds.ls(selection=True)
+
+    if is_duplciate_material(mtl_name):
+        Logger.warning(f"material {mtl_name} already exists in scene, skipping import.")
+        assign_material_to_selection(mtl_name, geo)
+        return
 
     materials = cmds.file(path, i=True, returnNewNodes=True, ignoreVersion=True)
     material = next((mtl for mtl in materials if mtl_name == mtl), materials[0])

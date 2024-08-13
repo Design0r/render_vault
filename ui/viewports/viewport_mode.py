@@ -1,13 +1,13 @@
-from enum import Enum
+from enum import Enum, auto
 
 
 class ViewportMode(Enum):
-    Base = 0
-    Materials = 1
-    Models = 2
-    Lightsets = 3
-    Hdri = 4
-    Utility = 5
-    Help = 6
-    About = 7
-    Settings = 8
+    Base = auto()
+    Materials = auto()
+    Models = auto()
+    Lightsets = auto()
+    Hdri = auto()
+    Utility = auto()
+    Help = auto()
+    About = auto()
+    Settings = auto()
