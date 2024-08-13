@@ -3,5 +3,5 @@ imageio-freeimage==0.1.0
 mss==9.0.1
 numpy==1.26.2
 opencv-python==4.8.1.78
-pillow==10.2.0
+pillow==10.3.0
 Qt.py
