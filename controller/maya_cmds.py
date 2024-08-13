@@ -171,7 +171,9 @@ def reference_material(path: Path, assign: bool = False) -> None:
     mtl_name = path.stem
 
     if is_duplciate_material(mtl_name):
-        Logger.info(f"material {mtl_name} already exists in scene, skipping reference.")
+        Logger.warning(
+            f"material {mtl_name} already exists in scene, skipping reference."
+        )
         return
 
     geo = cmds.ls(selection=True)

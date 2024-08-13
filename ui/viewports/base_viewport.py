@@ -71,7 +71,7 @@ class AssetViewport(QWidget):
         self.scroll_area.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOn)
         self.scroll_area.setWidget(self.grid_widget)
 
-        self.statusbar = Statusbar(20)
+        self.statusbar = Statusbar(20 * self.ui_scale)
 
     def init_layouts(self):
         self.main_layout = QVBoxLayout(self)

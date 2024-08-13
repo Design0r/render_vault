@@ -1,4 +1,4 @@
-from enum import Enum, StrEnum
+from enum import Enum
 from typing import Union
 
 from Qt.QtCore import Qt
@@ -147,7 +147,7 @@ class Sidebar(Toolbar):
             self.buttons[button - 1].setChecked(True)
 
 
-class Status(StrEnum):
+class Status:
     LoadingUI = "Loading UI"
     LoadingAssets = "Loading Assets"
     Idle = "Idle"

@@ -51,7 +51,7 @@ QLineEdit{
 
 
 QLabel{
-    font-size: 16pt;
+    font-size: 12pt;
     color: white;
 }
 """
@@ -63,7 +63,7 @@ QWidget{
 
 
 QLabel{
-    font-size: 12pt;
+    font-size: 8pt;
     color: white;
 }
 """

@@ -2,7 +2,6 @@ from enum import Enum, auto
 
 
 class ViewportMode(Enum):
-    Base = auto()
     Materials = auto()
     Models = auto()
     Lightsets = auto()
