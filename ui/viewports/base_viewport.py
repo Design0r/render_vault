@@ -1,3 +1,4 @@
+import json
 from pathlib import Path
 
 from Qt.QtCore import Qt
@@ -5,6 +6,7 @@ from Qt.QtWidgets import (
     QComboBox,
     QHBoxLayout,
     QLabel,
+    QPushButton,
     QScrollArea,
     QVBoxLayout,
     QWidget,
@@ -27,13 +29,24 @@ from ..ui_components.separator import VLine
 
 
 class AssetViewport(QWidget):
-    def __init__(self, parent=None):
+    _register = []
+    metadata_path: Path
+
+    def __new__(cls, *args, **kwargs):
+        if cls not in cls._register:
+            cls._register.append(cls)
+
+        return super().__new__(cls, *args, **kwargs)
+
+    def __init__(self, attribute, parent=None):
         super().__init__(parent)
 
+        self.attribute = attribute
         self.ui_scale = SettingsManager().window_settings.ui_scale
         self.toolbar_btn_size = (20 * self.ui_scale, 20 * self.ui_scale)
         self.pools = {}
         self._button_cache: dict[Path, ViewportButton] = {}
+        self.settings = SettingsManager()
 
         self.init_widgets()
         self.init_layouts()
@@ -102,6 +115,7 @@ class AssetViewport(QWidget):
         self.pool_box.currentIndexChanged.connect(
             lambda: self.draw_objects(force=False)
         )
+        self.attribute.tag_selected.connect(self.filter_tags)
 
     def clear_layout(self):
         while self.flow_layout.count():
@@ -114,7 +128,7 @@ class AssetViewport(QWidget):
         Logger.info(text)
         self.statusbar.update_status(Status.Idle)
 
-    def search(self, input):
+    def search(self, input: str):
         if not input:
             self.draw_objects()
 
@@ -125,11 +139,43 @@ class AssetViewport(QWidget):
             if path not in str(k):
                 continue
             if input.lower() in k.stem.lower():
-                if not v.parent():
-                    self.flow_layout.addWidget(v)
-                continue
+                if v.parent():
+                    continue
+                self.flow_layout.addWidget(v)
 
             v.setParent(None)
+
+    def filter_tags(self, clicked_tag: QPushButton):
+        curr_vp_idx = self.settings.window_settings.current_viewport - 1
+
+        if not isinstance(self, self._register[curr_vp_idx]):
+            return
+
+        text, checked = clicked_tag.text(), clicked_tag.isChecked()
+        if not checked:
+            self.draw_objects()
+            return
+
+        _, path = self.get_current_project()
+        if not path:
+            return
+        metadata_path = Path(path) / self.metadata_path
+        print(metadata_path)
+        metadata_path.mkdir(exist_ok=True)
+
+        self.clear_layout()
+
+        for file in metadata_path.glob("*.json"):
+            with open(file, "r") as f:
+                data = json.load(f)
+
+            tags = data.get("tags", [])
+            file_path = Path(data.get("path", ""))
+
+            if text not in tags:
+                continue
+
+            self.flow_layout.addWidget(self._button_cache[file_path])
 
     def open_new_pool_dialog(self):
         create_pool_dialog = CreatePoolDialog()
@@ -203,9 +249,9 @@ class AssetViewport(QWidget):
         # self.pool_box.blockSignals(False)
 
     def delete_asset(self, path: Path, btn: ViewportButton):
-        btn.deleteLater()
         self.pool_handler.delete_asset(path)
         self._button_cache.pop(path)
+        btn.deleteLater()
 
 
 class DataViewport(QWidget):

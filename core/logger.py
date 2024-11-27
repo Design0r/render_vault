@@ -7,7 +7,7 @@ from maya import cmds
 
 from .version import get_version
 
-LoggerCallback = Callable[[str], None]
+LoggerCallback = Callable[[str, str], None]
 
 
 class Logger:

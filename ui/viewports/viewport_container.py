@@ -10,7 +10,7 @@ from .lightsets_viewport import LightsetsViewport
 from .material_viewport import MaterialsViewport
 from .model_viewport import ModelsViewport
 from .settings_viewport import SettingsViewport
-from .utility_viewport import UtilityVieport
+from .utility_viewport import UtilityViewport
 from .viewport_mode import ViewportMode
 
 
@@ -28,8 +28,8 @@ class ViewportContainer(QStackedWidget):
         self.model_vp = ModelsViewport(self.attribute)
         self.hdri_vp = HdriViewport(self.attribute)
         self.lightsets_vp = LightsetsViewport(self.attribute)
+        self.utility_vp = UtilityViewport(self.attribute)
 
-        self.utility_vp = UtilityVieport()
         self.help_vp = HelpViewport()
         self.about_vp = AboutViewport()
         self.settings_vp = SettingsViewport()
@@ -58,6 +58,10 @@ class ViewportContainer(QStackedWidget):
         self.settings.lightset_settings.current_pool = lightset_name
         self.settings_vp.write_to_settings_manager()
         Logger.debug("updated settings manager values.")
+
+    def update_current_viewport(self, mode: ViewportMode) -> None:
+        self.viewport_mode = mode
+        self.settings.window_settings.current_viewport = mode.value
 
     def read_from_settings_manager(self, initial=False):
         self.settings_vp.read_from_settings_manager()
@@ -112,4 +116,4 @@ class ViewportContainer(QStackedWidget):
         elif mode == ViewportMode.Settings:
             self.setCurrentWidget(self.settings_vp)
 
-        self.viewport_mode = mode
+        self.update_current_viewport(mode)

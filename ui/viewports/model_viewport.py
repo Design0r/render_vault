@@ -1,10 +1,9 @@
-import json
 import time
 from functools import partial
 from pathlib import Path
 
 from Qt.QtCore import QCoreApplication, Qt, QThread
-from Qt.QtWidgets import QAction, QLineEdit, QMenu, QPushButton
+from Qt.QtWidgets import QAction, QLineEdit, QMenu
 
 from ...controller import (
     MayaHandler,
@@ -23,16 +22,17 @@ from .base_viewport import AssetViewport
 
 
 class ModelsViewport(AssetViewport):
+    metadata_path = Path("ModelPool/Metadata")
+
     def __init__(
         self,
         attribute: AttributeEditor,
         parent=None,
     ):
+        super().__init__(attribute, parent)
         self.settings = SettingsManager()
-        self.attribute = attribute
         self.pool_handler = ModelPoolHandler()
         self.dcc_handler = MayaHandler()
-        super().__init__(parent)
 
     def init_widgets(self):
         super().init_widgets()
@@ -73,32 +73,6 @@ class ModelsViewport(AssetViewport):
         self.reload.clicked.connect(lambda: self.draw_objects(force=True))
         self.archive_viewer.clicked.connect(self.open_archive_viewer)
         self.search_bar.textChanged.connect(self.search)
-        self.attribute.tag_selected.connect(self.filter_tags)
-
-    def filter_tags(self, clicked_tag: QPushButton):
-        text, checked = clicked_tag.text(), clicked_tag.isChecked()
-        if not checked:
-            self.draw_objects()
-            return
-
-        _, path = self.get_current_project()
-        path = Path(path)
-        metadata_path = path / "ModelPool" / "Metadata"
-        if not metadata_path.exists():
-            metadata_path.mkdir()
-
-        tags = metadata_path.glob("*.json")
-
-        self.clear_layout()
-
-        for file in tags:
-            with open(file, "r") as f:
-                data = json.load(f)
-                tags = data.get("tags", [])
-                file_path = Path(data.get("path", ""))
-
-                if text in tags:
-                    self.flow_layout.addWidget(self._button_cache[file_path])
 
     def load_pools(self):
         self.pool_box.blockSignals(True)

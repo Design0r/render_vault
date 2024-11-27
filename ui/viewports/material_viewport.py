@@ -1,9 +1,8 @@
-import json
 from functools import partial
 from pathlib import Path
 
 from Qt.QtCore import Qt, QThread
-from Qt.QtWidgets import QAction, QLineEdit, QMenu, QPushButton
+from Qt.QtWidgets import QAction, QLineEdit, QMenu
 
 from ...controller import (
     Logger,
@@ -21,17 +20,18 @@ from .base_viewport import AssetViewport
 
 
 class MaterialsViewport(AssetViewport):
+    metadata_path = Path("MaterialPool/Metadata")
+
     def __init__(
         self,
         attribute: AttributeEditor,
         parent=None,
     ):
+        super().__init__(attribute=attribute, parent=parent)
         self.settings = SettingsManager()
-        self.attribute = attribute
         self.pool_handler = MaterialPoolHandler()
         self.dcc_handler = MayaHandler()
         self.tag_cache = {}
-        super().__init__(parent)
 
     def init_widgets(self):
         super().init_widgets()
@@ -91,33 +91,6 @@ class MaterialsViewport(AssetViewport):
         self.repath.clicked.connect(self.repath_material_textures)
         self.search_bar.textChanged.connect(self.search)
 
-        self.attribute.tag_selected.connect(self.filter_tags)
-
-    def filter_tags(self, clicked_tag: QPushButton):
-        text, checked = clicked_tag.text(), clicked_tag.isChecked()
-        if not checked:
-            self.draw_objects()
-            return
-
-        _, path = self.get_current_project()
-        path = Path(path)
-        metadata_path = path / "MaterialPool" / "Metadata"
-        if not metadata_path.exists():
-            metadata_path.mkdir()
-
-        tags = metadata_path.glob("*.json")
-
-        self.clear_layout()
-
-        for file in tags:
-            with open(file, "r") as f:
-                data = json.load(f)
-                tags = data.get("tags", [])
-                file_path = Path(data.get("path", ""))
-
-                if text in tags:
-                    self.flow_layout.addWidget(self._button_cache[file_path])
-
     def load_pools(self):
         self.pool_box.blockSignals(True)
 
@@ -163,6 +136,8 @@ class MaterialsViewport(AssetViewport):
             return
 
         btn_width = self.settings.window_settings.asset_button_size
+        btn_size = btn_width, btn_width
+        icon_size = btn_width - 20, btn_width - 20
         self.clear_layout()
 
         assets = self.pool_handler.get_assets_and_thumbnails(path)
@@ -171,13 +146,12 @@ class MaterialsViewport(AssetViewport):
                 self.flow_layout.addWidget(self._button_cache[mtl_path])
                 continue
 
-            btn_size = (btn_width, btn_width)
             suffix = mtl_path.suffix
 
             btn = ViewportButton(mtl, btn_size, size, suffix, checkable=True)
             btn.icon.set_icon(
                 thumb or ":icons/tabler-icon-photo.png",
-                (btn_width - 20, btn_width - 20),
+                icon_size,
             )
             btn.setContextMenuPolicy(Qt.CustomContextMenu)
             btn.customContextMenuRequested.connect(

@@ -6,11 +6,11 @@ from ..core import Logger, fs
 from . import db
 from .api_handler import APIHandler
 
-THUMBNAIL_EXTENSTIONS = ("*.png", "*.jpg", "*.jpeg")
-MODEL_EXTENSIONS = ("*.mb", "*.ma", "*.fbx", "*.obj")
-MATERIAL_EXTENSIONS = ("*.mb", "*.ma")
-HDRI_EXTENSIONS = ("*.hdr", "*.exr")
-UTILITY_EXTENSTIONS = ("*.mb", "*.mb", "*.py", "*.json")
+THUMBNAIL_EXTENSTIONS = (".png", ".jpg", ".jpeg")
+MODEL_EXTENSIONS = (".mb", ".ma", ".fbx", ".obj")
+MATERIAL_EXTENSIONS = (".mb", ".ma")
+HDRI_EXTENSIONS = (".hdr", ".exr")
+UTILITY_EXTENSTIONS = (".mb", ".mb", ".py", ".json")
 
 
 class PoolHandler(Protocol):
@@ -70,24 +70,30 @@ class MaterialPoolHandler:
         path: str,
     ) -> Generator[tuple[str, Path, Optional[str], int], None, None]:
         pool_path = Path(path, "MaterialPool")
-        asset_path = pool_path / "Materials"
+        materials_path = pool_path / "Materials"
         thumbnail_path = pool_path / "Thumbnails"
 
-        thumbnail_files = (
-            file for p in THUMBNAIL_EXTENSTIONS for file in thumbnail_path.glob(p)
+        thumbnail_files = {
+            file.stem: str(file)
+            for file in thumbnail_path.iterdir()
+            if file.suffix.lower() in THUMBNAIL_EXTENSTIONS
+        }
+        asset_files = sorted(
+            (
+                file
+                for file in materials_path.iterdir()
+                if file.suffix.lower() in MATERIAL_EXTENSIONS
+            ),
+            key=lambda x: x.name.lower(),
         )
-        thumbnail_files = sorted(thumbnail_files, key=lambda x: x.name.lower())
-        thumbnail_names = {p.stem: p for p in thumbnail_files}
-        asset_files = (file for p in MATERIAL_EXTENSIONS for file in asset_path.glob(p))
 
-        for asset_file in sorted(asset_files, key=lambda x: x.name.lower()):
+        for asset_file in asset_files:
             asset_name = asset_file.stem
-            file_path = asset_path / asset_file
-            asset_size = file_path.stat().st_size
-            thumbnail_path = thumbnail_names.get(asset_name)
-            thumbnail_path = str(thumbnail_path) if thumbnail_path else None
+            asset_path = materials_path / asset_file
+            asset_size = asset_path.stat().st_size
+            thumbnail_path = thumbnail_files.get(asset_name)
 
-            yield asset_name, file_path, thumbnail_path, asset_size
+            yield asset_name, asset_path, thumbnail_path, asset_size
 
     @staticmethod
     def delete_asset(path: Path):
@@ -213,24 +219,27 @@ class ModelPoolHandler:
         path: str,
     ) -> Generator[tuple[str, Path, Optional[str], int], None, None]:
         pool_path = Path(path, "ModelPool")
-        asset_path = pool_path / "Models"
+        model_path = pool_path / "Models"
         thumbnail_path = pool_path / "Thumbnails"
 
-        thumbnail_files = (
-            file for p in THUMBNAIL_EXTENSTIONS for file in thumbnail_path.glob(p)
+        thumbnail_files = {
+            file.stem: str(file)
+            for file in thumbnail_path.iterdir()
+            if file.suffix.lower() in THUMBNAIL_EXTENSTIONS
+        }
+        asset_files = (
+            file
+            for file in model_path.iterdir()
+            if file.suffix.lower() in MODEL_EXTENSIONS
         )
-        thumbnail_files = sorted(thumbnail_files, key=lambda x: x.name.lower())
-        thumbnail_names = {p.stem: p for p in thumbnail_files}
-        asset_files = (file for p in MODEL_EXTENSIONS for file in asset_path.glob(p))
 
         for asset_file in sorted(asset_files, key=lambda x: x.name.lower()):
             asset_name = asset_file.stem
-            file_path = asset_path / asset_file
-            asset_size = file_path.stat().st_size
-            thumbnail_path = thumbnail_names.get(asset_name)
-            thumbnail_path = str(thumbnail_path) if thumbnail_path else None
+            asset_path = model_path / asset_file
+            asset_size = asset_path.stat().st_size
+            thumbnail_path = thumbnail_files.get(asset_name)
 
-            yield asset_name, file_path, thumbnail_path, asset_size
+            yield asset_name, asset_path, thumbnail_path, asset_size
 
     @staticmethod
     def delete_asset(path: Path):
@@ -354,24 +363,27 @@ class HDRIPoolHandler:
         path: str,
     ) -> Generator[tuple[str, Path, Optional[str], int], None, None]:
         pool_path = Path(path, "HDRIPool")
-        asset_path = pool_path / "HDRIs"
+        hdri_path = pool_path / "HDRIs"
         thumbnail_path = pool_path / "Thumbnails"
 
-        thumbnail_files = (
-            file for p in THUMBNAIL_EXTENSTIONS for file in thumbnail_path.glob(p)
+        thumbnail_files = {
+            file.stem: str(file)
+            for file in thumbnail_path.iterdir()
+            if file.suffix.lower() in THUMBNAIL_EXTENSTIONS
+        }
+        asset_files = (
+            file
+            for file in hdri_path.iterdir()
+            if file.suffix.lower() in HDRI_EXTENSIONS
         )
-        thumbnail_files = sorted(thumbnail_files, key=lambda x: x.name.lower())
-        thumbnail_names = {p.stem: p for p in thumbnail_files}
-        asset_files = (file for p in HDRI_EXTENSIONS for file in asset_path.glob(p))
 
         for asset_file in sorted(asset_files, key=lambda x: x.name.lower()):
             asset_name: str = asset_file.stem
-            file_path: Path = asset_path / asset_file
-            asset_size: int = file_path.stat().st_size
-            thumbnail = thumbnail_names.get(asset_name)
-            thumbnail = str(thumbnail) if thumbnail else None
+            asset_path: Path = hdri_path / asset_file
+            asset_size: int = asset_path.stat().st_size
+            thumbnail = thumbnail_files.get(asset_name)
 
-            yield asset_name, file_path, thumbnail, asset_size
+            yield asset_name, asset_path, thumbnail, asset_size
 
     @staticmethod
     def delete_asset(path: Path):
@@ -454,24 +466,27 @@ class LightsetPoolHandler:
         path: str,
     ) -> Generator[tuple[str, Path, Optional[str], int], None, None]:
         pool_path = Path(path, "LightsetPool")
-        asset_path = pool_path / "Lightsets"
+        ls_path = pool_path / "Lightsets"
         thumbnail_path = pool_path / "Thumbnails"
 
-        thumbnail_files = (
-            file for p in THUMBNAIL_EXTENSTIONS for file in thumbnail_path.glob(p)
+        thumbnail_files = {
+            file.stem: str(file)
+            for file in thumbnail_path.iterdir()
+            if file.suffix.lower() in MODEL_EXTENSIONS
+        }
+        asset_files = (
+            file
+            for file in ls_path.iterdir()
+            if file.suffix.lower() in MODEL_EXTENSIONS
         )
-        thumbnail_files = sorted(thumbnail_files, key=lambda x: x.name.lower())
-        thumbnail_names = {p.stem: p for p in thumbnail_files}
-        asset_files = (file for p in MODEL_EXTENSIONS for file in asset_path.glob(p))
 
         for asset_file in sorted(asset_files, key=lambda x: x.name.lower()):
             asset_name = asset_file.stem
-            file_path = asset_path / asset_file
-            asset_size = file_path.stat().st_size
-            thumbnail_path = thumbnail_names.get(asset_name)
-            thumbnail_path = str(thumbnail_path) if thumbnail_path else None
+            asset_path = ls_path / asset_file
+            asset_size = asset_path.stat().st_size
+            thumbnail_path = thumbnail_files.get(asset_name)
 
-            yield asset_name, file_path, thumbnail_path, asset_size
+            yield asset_name, asset_path, thumbnail_path, asset_size
 
     @staticmethod
     def delete_asset(path: Path):
@@ -569,15 +584,17 @@ class UtilityPoolHandler:
     ) -> Generator[tuple[str, Path, Optional[str], int], None, None]:
         util_folder = Path(__file__).parent.parent / "settings" / "utility_settings"
         asset_files = (
-            file for p in UTILITY_EXTENSTIONS for file in util_folder.glob(p)
+            file
+            for file in util_folder.iterdir()
+            if file.suffix.lower() in UTILITY_EXTENSTIONS
         )
 
         for asset_file in asset_files:
             asset_name = asset_file.stem
-            file_path = util_folder / asset_file
-            asset_size = file_path.stat().st_size
+            asset_path = util_folder / asset_file
+            asset_size = asset_path.stat().st_size
 
-            yield asset_name, file_path, None, asset_size
+            yield asset_name, asset_path, None, asset_size
 
     @staticmethod
     def delete_asset(path: Path):

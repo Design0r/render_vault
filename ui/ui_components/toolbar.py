@@ -4,7 +4,6 @@ from typing import Union
 from Qt.QtCore import Qt
 from Qt.QtWidgets import (
     QHBoxLayout,
-    QLabel,
     QLineEdit,
     QPushButton,
     QVBoxLayout,
@@ -180,8 +179,6 @@ class Statusbar(Toolbar):
             "QPushButton{border: none;}QPushButton::hover{background-color: rgb(100,100,100);}"
         )
 
-        self.status = QLabel(f"Status: {Status.LoadingUI}")
-
     def init_layouts(self) -> None:
         super().init_layouts()
         self.main_layout.setAlignment(Qt.AlignHCenter)
@@ -189,8 +186,6 @@ class Statusbar(Toolbar):
 
         self.main_layout.addWidget(self.info)
         self.main_layout.addWidget(self.clear_btn)
-        self.main_layout.addStretch()
-        self.main_layout.addWidget(self.status)
 
     def init_signals(self) -> None:
         Logger.register_callback(self.update_info)
@@ -211,4 +206,4 @@ class Statusbar(Toolbar):
         self.info.setCursorPosition(0)
 
     def update_status(self, status: Status):
-        self.status.setText(f"Status: {status}")
+        pass

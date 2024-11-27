@@ -10,12 +10,13 @@ from ..ui_components.separator import VLine
 from .base_viewport import AssetViewport
 
 
-class UtilityVieport(AssetViewport):
+class UtilityViewport(AssetViewport):
     def __init__(
         self,
+        attribute,
         parent=None,
     ):
-        super().__init__(parent)
+        super().__init__(attribute, parent)
         self.settings = SettingsManager()
         self.pool_handler = UtilityPoolHandler()
         self.dcc_handler = MayaHandler()

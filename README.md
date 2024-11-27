@@ -16,7 +16,7 @@ Render Vault is A Maya Asset Browser for Materials, Models, Lightsets, HDRIs and
 
 1. Clone the Render Vault repository or download the zip and extract it in your ../documents/maya/scripts directory
 
-2. Open the install.bat file in a Text Editor and change the mayapy_path to the mayapy.exe of your Maya installation
+2. Open the install.bat file in a Text Editor and change the mayapy_path to the mayapy.exe of your Maya installation (Replace "Maya2024" with your Version)
 
 ```shell
 set mayapy_path="C:\Program Files\Autodesk\Maya2024\bin\mayapy.exe"
