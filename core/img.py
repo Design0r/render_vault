@@ -31,36 +31,32 @@ def create_sdr_preview(hdri_path: Path, thumbnail_path: Path, size: int):
         return thumbnail_path
 
     try:
-        import rust_thumbnails
+        import cv2
+        import imageio
+        import numpy as np
 
         if hdri_path.suffix == ".hdr":
-            rust_thumbnails.hdr_to_jpg(
-                str(hdri_path), str(thumbnail_path), size, size // 2
-            )
-            time.sleep(0.1)
+            image = cv2.imread(hdri_path, -1)
+            jpg_image = process_img(image, size)
+            cv2.imwrite(thumbnail_path, jpg_image)
             return
+
         elif hdri_path.suffix == ".exr":
             if sys.platform == "darwin":
-                rust_thumbnails.exr_to_jpg(
+                import rust_thumbnails as rs
+                rs.exr_to_jpg(
                     str(hdri_path), str(thumbnail_path), size, size // 2
                 )
                 return
 
-            import cv2
-            import imageio
-            import numpy as np
-
             imageio.plugins.freeimage.download()
             image = imageio.imread(hdri_path, format="EXR-FI")[:, :, :3]
+            jpg_image = process_img(image, size)
+            imageio.imwrite(thumbnail_path, jpg_image, format="jpg")  # type: ignore
         else:
+            Logger.error(f"unsupported filetype: {hdri_path.suffix}")
             return
 
-        res_img = cv2.resize(image, (size, size // 2), interpolation=cv2.INTER_LINEAR)
-        tonemapped_image = reinhard_tonemap(res_img)
-        gamma_corrected = np.power(tonemapped_image, 1.0 / 2.2)
-        jpg_image = np.clip(gamma_corrected * 255, 0, 255).astype(np.uint8)
-
-        imageio.imwrite(thumbnail_path, jpg_image, format="jpg")  # type: ignore
 
     except Exception as e:
         Logger.exception(e)
@@ -68,3 +64,15 @@ def create_sdr_preview(hdri_path: Path, thumbnail_path: Path, size: int):
 
 def reinhard_tonemap(img, exposure=1.0, white=1.0):
     return img * (1.0 + (img / (white**2))) / (1.0 + img)
+
+def process_img(image, size: int):
+    import cv2
+    import imageio
+    import numpy as np
+
+    res_img = cv2.resize(image, (size, size // 2), interpolation=cv2.INTER_LINEAR)
+    tonemapped_image = reinhard_tonemap(res_img)
+    gamma_corrected = np.power(tonemapped_image, 1.0 / 2.2)
+    jpg_image = np.clip(gamma_corrected * 255, 0, 255).astype(np.uint8)
+    return jpg_image
+    
